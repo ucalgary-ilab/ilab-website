@@ -1,0 +1,34 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && echo ryosuzuki.org > out/CNAME && touch out/.nojekyll && mv out/static/publications out/ && mv out/static/cv/cv.pdf out/ && cp -rf out/* ../gh-pages && cd ../gh-pages && git add . && git commit -m 'Update' && git push origin master && cd ../homepage",
+    "push": "git subtree push --prefix out origin gh-pages",
+    "force": "git push origin `git subtree split --prefix out master`:gh-pages --force",
+    "build:content": "processmd \"content/**/*.{yaml,md}\" --outputDir content/output --summaryOutput content/output/summary.json",
+    "watch": "processmd \"content/**/*.{yaml,md}\" --outputDir content/output --summaryOutput content/output/summary.json --watch --markdownOptions.html true"
+  },
+  "author": "Ryo Suzuki <ryosuzk@googlemail.com> (http://ryosuzuki.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "compress-images": "^1.5.8",
+    "jquery": "^3.4.1",
+    "next": "^8.1.0",
+    "next-routes": "^1.4.2",
+    "png-to-jpeg": "^1.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.8",
+    "sharp": "^0.22.1"
+  },
+  "devDependencies": {
+    "processmd": "^4.2.1"
+  }
+}

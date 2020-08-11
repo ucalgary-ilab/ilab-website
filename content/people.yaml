@@ -1,0 +1,50 @@
+- name: Ehud Sharlin
+  type: faculty
+  title: Professor
+  url: http://contacts.ucalgary.ca/info/cpsc/profiles/102-3264
+
+- name: Wesley Willett
+  type: faculty
+  title: Assistant Professor
+  url: http://www.wjwillett.net
+
+- name: Lora Oehlberg
+  type: faculty
+  title: Assistant Professor
+  url: https://pages.cpsc.ucalgary.ca/~lora.oehlberg/
+
+- name: Ryo Suzuki
+  type: faculty
+  title: Assistant Professor
+  url: https://ryosuzuki.org
+  scholar: https://scholar.google.com/citations?user=klWjaQIAAAAJ
+  twitter: https://twitter.com/ryosuzk
+  facebook: https://www.facebook.com/ryosuzk
+
+- name: Søren Knudsen
+  type: postdoc
+  title: Postdoctoral Fellow
+  url: http://sorenknudsen.com/
+
+- name: Carmen Hull
+  type: phd
+  title: PhD Student
+  url: https://www.carmenhull.com/
+
+- name: Kurtis Danyluk
+  type: phd
+  title: PhD Student
+
+- name: Kendra Wannamaker
+  type: master
+  title: MSc Student
+
+- name: Sasha Ivanov
+  type: master
+  title: MSc Student
+
+- name: Nathalie Bressa
+  type: visiting
+  title: Visiting Researcher
+
+
