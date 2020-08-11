@@ -13,10 +13,10 @@
   prof: Wesley Willet
   url: https://dataexperience.cpsc.ucalgary.ca/
 
-- id: ''
+- id: 'suzuki'
   description: Tangible and Shape-changing Interfaces
   prof: Ryo Suzuki
-  url:
+  url: https://ryosuzuki.org/
 
 - id: grouplab
   description: Research in HCI, CSCW, and UbiComp

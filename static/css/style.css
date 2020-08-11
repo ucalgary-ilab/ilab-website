@@ -41,6 +41,10 @@ a {
   transition: 0.1s;
 }
 
+.ui.breadcrumb a {
+  color: #00716C;
+}
+
 a:hover {
   color: brown;
   /*color: #E03997;*/
@@ -93,14 +97,35 @@ a:hover {
   background: teal;
   opacity: 0.6;
   display: block;
-  height: 120px;
+  max-height: 120px;
   padding: 20px;
   width: 100%;
+  max-width: 490px;
   transition: 0.8s;
+  object-fit: cover;
 }
 
 #labs .img:hover {
   opacity: 1;
+}
+
+.large-profile {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover;
+}
+
+.medium-profile {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover;
+}
+
+.mini-profile {
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: cover;
+  margin-left: 0 !important;
 }
 
 

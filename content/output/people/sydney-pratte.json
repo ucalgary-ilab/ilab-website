@@ -1,0 +1,10 @@
+{
+  "name": "Sydney Pratte",
+  "type": "phd",
+  "url": "https://www.sydneypratte.ca/",
+  "dir": "content/output/people",
+  "base": "sydney-pratte.json",
+  "ext": ".json",
+  "sourceBase": "sydney-pratte.yaml",
+  "sourceExt": ".yaml"
+}

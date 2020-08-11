@@ -16,8 +16,8 @@ class Labs extends React.Component {
           { labs.map((lab) => {
             return (
               <div class="column">
-                <div class="ui segment">
-                  <a href={ lab.url } target="_blank" className="img">
+                <a href={ lab.url } target="_blank" class="ui segment">
+                  <div className="img">
                   { lab.id !== '' &&
                     <img src={ `/static/images/labs/${lab.id}.png` } />
                   }
@@ -25,10 +25,10 @@ class Labs extends React.Component {
                     lab.id === '' &&
                     <img />
                   }
-                  </a>
+                  </div>
                   <h3>{ lab.description }</h3>
                   <p class="header">Prof. { lab.prof }</p>
-                </div>
+                </a>
               </div>
             )
           })}

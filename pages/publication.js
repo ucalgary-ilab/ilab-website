@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
+import summary from '../content/output/summary.json'
 
 import Header from './header'
 import Publications from './publications'

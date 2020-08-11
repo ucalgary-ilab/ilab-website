@@ -1,0 +1,12 @@
+{
+  "name": "Sheelagh Carpendale",
+  "type": "faculty",
+  "title": "Adjunct Professor",
+  "url": "https://www.cs.sfu.ca/~sheelagh/",
+  "scholar": "https://scholar.google.com/citations?user=43LLX2kAAAAJ",
+  "dir": "content/output/people",
+  "base": "sheelagh-carpendale.json",
+  "ext": ".json",
+  "sourceBase": "sheelagh-carpendale.yaml",
+  "sourceExt": ".yaml"
+}

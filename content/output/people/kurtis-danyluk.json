@@ -1,7 +1,6 @@
 {
   "name": "Kurtis Danyluk",
   "type": "phd",
-  "title": "PhD Student",
   "dir": "content/output/people",
   "base": "kurtis-danyluk.json",
   "ext": ".json",

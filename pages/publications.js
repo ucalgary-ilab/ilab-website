@@ -23,7 +23,9 @@ keys = fileNames.filter((fileName) => {
 
 let people = []
 for (let key of keys) {
-  people.push(summary.fileMap[key])
+  let id = key.split('/')[3].replace('.json', '')
+  let person = Object.assign(summary.fileMap[key], { id: id })
+  people.push(person)
 }
 
 
@@ -33,6 +35,10 @@ class Publications extends React.Component {
 
   render() {
     const names = people.map((person) => person.name )
+    const namesId = {}
+    for (let person of people) {
+      namesId[person.name] = person.id
+    }
 
     if (this.props.short) {
       publications = publications.slice(0, 20)
@@ -67,11 +73,10 @@ class Publications extends React.Component {
                   </p>
                   <p>
                     { publication.authors.map((author) => {
-                        let id = author.replace(' ', '-').toLowerCase()
                         return (
                           names.includes(author) ?
-                          <a href={ `/people/${id}` }>
-                            <img src={ `/static/images/people/${ id }.jpg`} className="ui mini circular spaced image" style={{ width: '24px', marginLeft: 0 }} />
+                          <a href={ `/people/${ namesId[author] }` }>
+                            <img src={ `/static/images/people/${ namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
                             <span>{author}</span>
                           </a>
                           :

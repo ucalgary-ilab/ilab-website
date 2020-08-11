@@ -16,35 +16,30 @@ class Person extends React.Component {
       return ''
     }
 
-    let title = key
-    if (key === 'scholar') {
-      title = 'Google Scholar'
-    } else {
-      title = person[key].split('/')[3]
-    }
+    let title = person[key].split('/')[3]
+
 
     let href
     let icon
     switch(key) {
-      case 'scholar':
-        icon = 'fas fa-graduation-cap fa-fw'
-        break
       case 'twitter':
         icon = 'fab fa-twitter fa-fw'
         break
       case 'facebook':
         icon = 'fab fa-facebook-square fa-fw'
         break
-      case 'cv':
-        icon = 'far fa-file fa-fw'
-        break
       case 'github':
         icon = 'fab fa-github-alt fa-fw'
         break
+      case 'cv':
+        icon = 'far fa-file fa-fw'
+        break
       case 'email':
+        title = person[key]
         icon = 'far fa-envelope fa-fw'
         break
       case 'linkedin':
+        title = 'LinkedIn'
         icon = 'fab fa-linkedin-in fa-fw'
         break
     }
@@ -61,9 +56,6 @@ class Person extends React.Component {
 
   render() {
     const person = require(`../content/output/people/${this.props.id}.json`)
-    // const person = people.filter((person) => {
-    //   return person.name.replace(' ', '-').toLowerCase() === this.props.id
-    // })[0]
 
     return (
       <div>
@@ -75,16 +67,26 @@ class Person extends React.Component {
           <div className="one wide column"></div>
           <div className="eleven wide column centered">
             <div id="person" className="category" style={{ textAlign: 'center' }}>
-              <img className="ui small circular image" src={ `/static/images/people/${this.props.id}.jpg`} style={{ margin: 'auto' }} />
+              <img className="ui circular image large-profile" src={ `/static/images/people/${this.props.id}.jpg`} style={{ margin: 'auto' }} />
               <h1>{ person.name }</h1>
               <p>{ person.title }</p>
-              <p>
-                <a href={ person.url} target="_blank">
-                <i className="fas fa-link fa-fw"/>{ person.url }
-                </a>
-              </p>
+              { person.url &&
+                <p>
+                  <a href={ person.url} target="_blank">
+                  <i className="fas fa-link fa-fw"/>{ person.url }
+                  </a>
+                </p>
+              }
+              { person.scholar &&
+                <p>
+                  <a href={ person.scholar} target="_blank">
+                    <i className="fas fa-graduation-cap fa-fw"/>
+                    Google Scholar
+                  </a>
+                </p>
+              }
               <div class="ui horizontal small divided link list">
-                { ['scholar', 'cv', 'email', 'facebook', 'twitter', 'github', 'linkedin'].map((key) => {
+                { ['cv', 'facebook', 'twitter', 'github', 'linkedin', 'email'].map((key) => {
                   return this.renderLink(person, key)
                 }) }
               </div>

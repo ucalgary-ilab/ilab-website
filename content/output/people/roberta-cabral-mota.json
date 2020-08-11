@@ -1,0 +1,10 @@
+{
+  "name": "Roberta Cabral Mota",
+  "type": "phd",
+  "url": "https://www.robertacrmota.com/",
+  "dir": "content/output/people",
+  "base": "roberta-cabral-mota.json",
+  "ext": ".json",
+  "sourceBase": "roberta-cabral-mota.yaml",
+  "sourceExt": ".yaml"
+}

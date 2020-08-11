@@ -1,0 +1,12 @@
+{
+  "name": "Martin Feick",
+  "type": "phd",
+  "url": "http://martinfeick.com/",
+  "scholar": "https://scholar.google.de/citations?user=az0GkfQAAAAJ",
+  "github": "https://github.com/MartinFk",
+  "dir": "content/output/people",
+  "base": "martin-feick.json",
+  "ext": ".json",
+  "sourceBase": "martin-feick.yaml",
+  "sourceExt": ".yaml"
+}
