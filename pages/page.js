@@ -11,7 +11,7 @@ import Courses from './courses'
 import Facility from './facility'
 import Footer from './footer'
 
-class Index extends React.Component {
+class Page extends React.Component {
   static async getInitialProps(req) {
     const id = req.query.id
     const title = id.charAt(0).toUpperCase() + id.slice(1).toLowerCase()
@@ -54,4 +54,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index
+export default Page

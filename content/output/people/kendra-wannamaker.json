@@ -1,0 +1,10 @@
+{
+  "name": "Kendra Wannamaker",
+  "type": "master",
+  "title": "MSc Student",
+  "dir": "content/output/people",
+  "base": "kendra-wannamaker.json",
+  "ext": ".json",
+  "sourceBase": "kendra-wannamaker.yaml",
+  "sourceExt": ".yaml"
+}

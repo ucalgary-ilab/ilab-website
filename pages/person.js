@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import people from '../content/output/people.json'
 
 import Header from './header'
 import Publications from './publications'
@@ -61,9 +60,10 @@ class Person extends React.Component {
   }
 
   render() {
-    const person = people.filter((person) => {
-      return person.name.replace(' ', '-').toLowerCase() === this.props.id
-    })[0]
+    const person = require(`../content/output/people/${this.props.id}.json`)
+    // const person = people.filter((person) => {
+    //   return person.name.replace(' ', '-').toLowerCase() === this.props.id
+    // })[0]
 
     return (
       <div>

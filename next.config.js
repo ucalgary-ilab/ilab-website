@@ -21,10 +21,9 @@ module.exports = withCSS({
     }
 
     const summary = require('./content/output/summary.json')
-    const fileNames = Object.keys(summary.fileMap).filter((fileName) => {
-      return fileName.includes('publications')
-    })
-    const publications = fileNames.filter((fileName) => {
+
+    const publications = Object.keys(summary.fileMap)
+    .filter((fileName) => {
       return fileName.includes('publications')
     })
     for (let publication of publications) {
@@ -36,9 +35,12 @@ module.exports = withCSS({
       }
     }
 
-    const people = require('./content/output/people.json')
+    const people = Object.keys(summary.fileMap)
+    .filter((fileName) => {
+      return fileName.includes('people')
+    })
     for (let person of people) {
-      let id = person.name.replace(' ', '-').toLowerCase()
+      let id = person.split('/')[3].replace('.json', '')
       let href = `/people/${id}`
       pages[href] = {
         page: '/person',

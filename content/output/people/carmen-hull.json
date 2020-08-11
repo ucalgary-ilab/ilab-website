@@ -1,0 +1,11 @@
+{
+  "name": "Carmen Hull",
+  "type": "phd",
+  "title": "PhD Student",
+  "url": "https://www.carmenhull.com/",
+  "dir": "content/output/people",
+  "base": "carmen-hull.json",
+  "ext": ".json",
+  "sourceBase": "carmen-hull.yaml",
+  "sourceExt": ".yaml"
+}

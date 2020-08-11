@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
-import people from '../content/output/people.json'
 
-const fileNames = Object.keys(summary.fileMap)
+let fileNames = Object.keys(summary.fileMap)
 let keys = fileNames.filter((fileName) => {
   return fileName.includes('publications')
 })
@@ -15,6 +14,18 @@ for (let key of keys) {
 publications = publications.sort((a, b) => {
   return new Date(b.date) - new Date(a.date)
 })
+
+
+fileNames = Object.keys(summary.fileMap)
+keys = fileNames.filter((fileName) => {
+  return fileName.includes('people')
+})
+
+let people = []
+for (let key of keys) {
+  people.push(summary.fileMap[key])
+}
+
 
 class Publications extends React.Component {
   componentDidMount() {

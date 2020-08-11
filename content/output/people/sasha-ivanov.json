@@ -1,0 +1,10 @@
+{
+  "name": "Sasha Ivanov",
+  "type": "master",
+  "title": "MSc Student",
+  "dir": "content/output/people",
+  "base": "sasha-ivanov.json",
+  "ext": ".json",
+  "sourceBase": "sasha-ivanov.yaml",
+  "sourceExt": ".yaml"
+}

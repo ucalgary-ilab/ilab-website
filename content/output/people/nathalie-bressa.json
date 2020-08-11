@@ -1,0 +1,10 @@
+{
+  "name": "nathalie-bressa",
+  "type": "visiting",
+  "title": "Visiting Researcher",
+  "dir": "content/output/people",
+  "base": "nathalie-bressa.json",
+  "ext": ".json",
+  "sourceBase": "nathalie-bressa.yaml",
+  "sourceExt": ".yaml"
+}

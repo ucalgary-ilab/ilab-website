@@ -1,10 +1,19 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import people from '../content/output/people.json'
 
 import Header from './header'
 import Publications from './publications'
 import Footer from './footer'
+
+let fileNames = Object.keys(summary.fileMap)
+let keys = fileNames.filter((fileName) => {
+  return fileName.includes('people')
+})
+
+let people = []
+for (let key of keys) {
+  people.push(summary.fileMap[key])
+}
 
 class Publication extends React.Component {
   static async getInitialProps(req) {

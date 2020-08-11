@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import people from '../content/output/people.json'
+import summary from '../content/output/summary.json'
 
 let types = [
   { key: 'faculty', title: 'Faculty' },
@@ -11,6 +11,19 @@ let types = [
   { key: 'visiting', title: 'Visiting Researchers' },
   { key: 'alumni', title: 'Alumni' }
 ]
+
+let fileNames = Object.keys(summary.fileMap)
+let keys = fileNames.filter((fileName) => {
+  return fileName.includes('people')
+})
+
+let people = []
+for (let key of keys) {
+  let id = key.split('/')[3].replace('.json', '')
+  let person = Object.assign(summary.fileMap[key], { id: id })
+  people.push(person)
+}
+
 
 class People extends React.Component {
   componentDidMount() {
@@ -37,8 +50,8 @@ class People extends React.Component {
                   }) // filter
                   .map((person) => {
                     return (
-                      <a className="four wide column person" href={ `/people/${ person.name.replace(' ', '-').toLowerCase() }` }>
-                        <img className="ui tiny circular image" src={ `/static/images/people/${ person.name.replace(' ', '-').toLowerCase() }.jpg`}/>
+                      <a className="four wide column person" href={ `/people/${ person.id }` }>
+                        <img className="ui tiny circular image" src={ `/static/images/people/${ person.id }.jpg`}/>
                         <p><b>{ person.name }</b></p>
                         <p>{ person.title }</p>
                       </a>
