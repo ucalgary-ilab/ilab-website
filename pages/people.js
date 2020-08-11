@@ -37,11 +37,11 @@ class People extends React.Component {
                   }) // filter
                   .map((person) => {
                     return (
-                      <div className="four wide column person">
+                      <a className="four wide column person" href={ `/people/${ person.name.replace(' ', '-').toLowerCase() }` }>
                         <img className="ui tiny circular image" src={ `/static/images/people/${ person.name.replace(' ', '-').toLowerCase() }.jpg`}/>
                         <p><b>{ person.name }</b></p>
                         <p>{ person.title }</p>
-                      </div>
+                      </a>
                     ) // return
                   }) // map
                 }

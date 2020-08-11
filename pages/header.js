@@ -19,7 +19,7 @@ class Header extends React.Component {
           <div className="right menu">
             { items.map((item) => {
               return (
-                <a className={ this.props.current == item ? 'item active' : 'item' } href={ item === 'Home' ? '/' : item.toLowerCase() }>
+                <a className={ this.props.current == item ? 'item active' : 'item' } href={ item === 'Home' ? '/' : `/${item.toLowerCase()}` }>
                   { item }
                 </a>
               )

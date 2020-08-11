@@ -34,15 +34,23 @@ img {
 
 a {
   text-decoration: none;
-  color: #269;
+  /*color: #269;*/
+  color: #00716C;
   line-height: 1.2em;
   display: inline-block;
+  transition: 0.1s;
 }
 
 a:hover {
-  color: #1d5884;
-  text-decoration: underline;
+  color: brown;
+  /*color: #E03997;*/
+  /*text-decoration: underline;*/
 }
+
+/*#people a, #person a {
+  color: #269;
+}
+*/
 
 
 #top-video-container {
@@ -82,7 +90,8 @@ a:hover {
 }
 
 #labs .img {
-  background: #555;
+  background: teal;
+  opacity: 0.6;
   display: block;
   height: 120px;
   padding: 20px;
@@ -91,8 +100,7 @@ a:hover {
 }
 
 #labs .img:hover {
-  background: teal;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 

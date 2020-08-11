@@ -18,7 +18,7 @@ class Index extends React.Component {
 
     return (
       <div>
-        <title>Interactions Lab - University of Calgary HCI Group</title>
+        <title>Interactions Lab | University of Calgary HCI Group</title>
 
         <Header />
 

@@ -37,7 +37,7 @@ class Index extends React.Component {
 
     return (
       <div>
-        <title>{ `${this.props.title } - iLab University of Calgary` }</title>
+        <title>{ `${this.props.title } | Interactions Lab | University of Calgary` }</title>
 
         <Header current={ this.props.title } />
 

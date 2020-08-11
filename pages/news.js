@@ -34,6 +34,13 @@ class News extends React.Component {
             })}
           </div>
         </div>
+       { this.props.short &&
+          <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
+            <a className="ui button" href="/news">
+              { `+ see more updates` }
+            </a>
+          </div>
+       }
       </div>
     )
   }
