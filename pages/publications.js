@@ -62,7 +62,9 @@ class Publications extends React.Component {
             return (
               <div className="publication ui vertical segment stackable grid" data-id={ id } >
                 <div className="three wide column" style={{ margin: 'auto' }}>
-                  <img className="cover" src={ `/static/images/publications/${ id }.jpg` } />
+                  <a href={ `/publications/${id}` }>
+                    <img className="cover" src={ `/static/images/publications/${ id }.jpg` } />
+                  </a>
                 </div>
                 <div className="thirteen wide column">
                   <p><span className="ui big inverted teal label">{ publication.series }</span></p>
