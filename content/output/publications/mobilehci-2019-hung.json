@@ -1,0 +1,18 @@
+{
+  "date": "2019-04",
+  "title": "WatchPen: Using Cross-Device Interaction Concepts to Augment Pen-Based Interaction",
+  "authors": [
+    "Michael Hung",
+    "David Ledo",
+    "Lora Oehlberg"
+  ],
+  "year": 2019,
+  "series": "MobileHCI 2019",
+  "bodyContent": "",
+  "bodyHtml": "",
+  "dir": "content/output/publications",
+  "base": "mobilehci-2019-hung.json",
+  "ext": ".json",
+  "sourceBase": "mobilehci-2019-hung.md",
+  "sourceExt": ".md"
+}

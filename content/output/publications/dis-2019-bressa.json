@@ -1,0 +1,20 @@
+{
+  "date": "2019-06",
+  "title": "Sketching and Ideation Activities for Situated Visualization Design",
+  "authors": [
+    "Nathalie Bressa",
+    "Kendra Wannamaker",
+    "Henrik Korsgaard",
+    "Wesley Willett",
+    "Jo Vermeulen"
+  ],
+  "year": 2019,
+  "series": "DIS 2019",
+  "bodyContent": "",
+  "bodyHtml": "",
+  "dir": "content/output/publications",
+  "base": "dis-2019-bressa.json",
+  "ext": ".json",
+  "sourceBase": "dis-2019-bressa.md",
+  "sourceExt": ".md"
+}

@@ -122,6 +122,12 @@ a:hover {
   margin: 20px auto;
 }
 
+#publications img.cover {
+  width: 260px;
+  height: 120px;
+  object-fit: cover;
+}
+
 
 #breadcrumb {
   padding: 0;

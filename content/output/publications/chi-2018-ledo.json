@@ -1,0 +1,21 @@
+{
+  "date": "2018-04",
+  "title": "Evaluation Strategies for HCI Toolkit Research",
+  "authors": [
+    "David Ledo",
+    "Steven Houben",
+    "Jo Vermeulen",
+    "Nicolai Marquardt",
+    "Lora Oehlberg",
+    "Saul Greenberg"
+  ],
+  "year": 2018,
+  "series": "CHI 2018",
+  "bodyContent": "",
+  "bodyHtml": "",
+  "dir": "content/output/publications",
+  "base": "chi-2018-ledo.json",
+  "ext": ".json",
+  "sourceBase": "chi-2018-ledo.md",
+  "sourceExt": ".md"
+}

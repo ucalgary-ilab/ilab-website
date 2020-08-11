@@ -43,10 +43,11 @@ class Publications extends React.Component {
          { publications.map((publication, i) => {
             const id = publication.base.split('.json')[0]
             return (
-              <div className="project ui vertical segment stackable grid" data-id={ id } >
-                <div className="four wide column">
+              <div className="publication ui vertical segment stackable grid" data-id={ id } >
+                <div className="three wide column" style={{ margin: 'auto' }}>
+                  <img className="cover" src={ `/static/images/publications/${ id }.jpg` } />
                 </div>
-                <div className="twelve wide column">
+                <div className="thirteen wide column">
                   <p><span className="ui big inverted teal label">{ publication.series }</span></p>
                   <p>
                     <a href={ `/publications/${id}` } style={{ fontSize: '1.3em' }}>

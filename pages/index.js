@@ -24,7 +24,7 @@ class Index extends React.Component {
 
         <div id="top-video-container">
           <video id="top-video" poster="/static/posters/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-            <source src="/static/video/shapebots.mp4" type="video/mp4"></source>
+            <source src="/static/videos/top.mp4" type="video/mp4"></source>
           </video>
         </div>
 
