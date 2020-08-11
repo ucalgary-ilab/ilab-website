@@ -2,6 +2,7 @@ import React from 'react'
 
 import ReactMarkdown from 'react-markdown'
 
+import Labs from './labs'
 import News from './news'
 import Publications from './publications'
 import People from './people'
@@ -73,72 +74,8 @@ Human-Computer Interaction and Information Visualization Group
 </p>
 </div>
 
-<div id="labs" class="category ui stackable four column grid" style={{ textAlign: 'center' }}>
-  <div class="column">
-    <div class="ui segment">
-      <div className="img">
-      <img src="/static/images/labs/utouch.png" />
-      </div>
-      <h3>Physical Interaction and Human-Robot Interaction</h3>
-      <p class="header">Prof. Ehud Sharlin</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <div className="img">
-      <img src="/static/images/labs/curiosity.png" />
-      </div>
-      <h3>Human-Centered Design for Creativity & Curiosity</h3>
-      <p class="header">Prof. Lora Oehlberg</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <div className="img">
-      <img src="/static/images/labs/dataexperience.png" />
-      </div>
-      <h3>Visual Data-driven Tools and Experiences</h3>
-      <p class="header">Prof. Wesley Willet</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <div className="img">
-      <img />
-      </div>
-      <h3>Tangible and Shape-changing Interfaces</h3>
-      <p class="header">Prof. Ryo Suzuki</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <div className="img">
-      <img src="/static/images/labs/grouplab.png" />
-      </div>
-      <h3>Research in HCI, CSCW, and UbiComp</h3>
-      <p class="header">Prof. Saul Greenberg (Emeritus)</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <div className="img">
-      <img src="/static/images/labs/ricelab.png" />
-      </div>
-      <h3>Rethinking Interaction, Collaboration, & Engagement</h3>
-      <p class="header">Prof. Anthony Tang (Adjunct - University of Toronto</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
 
-      <div className="img">
-      <img src="/static/images/labs/innovis.png" />
-      </div>
-      <h3>Innovations in Visualization Laboratory</h3>
-      <p class="header">Prof. Sheelagh Carpendale (Adjunct - Simon Fraser University)</p>
-    </div>
-  </div>
-</div>
+<Labs />
 
 <News />
 <Publications />

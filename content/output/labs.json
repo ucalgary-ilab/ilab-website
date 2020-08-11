@@ -1,0 +1,43 @@
+[
+  {
+    "id": "utouch",
+    "description": "Physical Interaction and Human-Robot Interaction",
+    "prof": "Ehud Sharlin",
+    "url": "https://utouch.cpsc.ucalgary.ca/"
+  },
+  {
+    "id": "curiosity",
+    "description": "Human-Centered Design for Creativity & Curiosity",
+    "prof": "Lora Oehlberg",
+    "url": "http://pages.cpsc.ucalgary.ca/~lora.oehlberg/"
+  },
+  {
+    "id": "dataexperience",
+    "description": "Visual Data-driven Tools and Experiences",
+    "prof": "Wesley Willet",
+    "url": "https://dataexperience.cpsc.ucalgary.ca/"
+  },
+  {
+    "id": "",
+    "description": "Tangible and Shape-changing Interfaces",
+    "prof": "Ryo Suzuki",
+    "url": null
+  },
+  {
+    "id": "grouplab",
+    "description": "Research in HCI, CSCW, and UbiComp",
+    "prof": "Saul Greenberg (Emeritus)",
+    "url": "http://grouplab.cpsc.ucalgary.ca/"
+  },
+  {
+    "id": "ricelab",
+    "description": "Rethinking Interaction, Collaboration, & Engagement",
+    "prof": "Anthony Tang (Adjunct - University of Toronto)",
+    "url": "https://ricelab.github.io/"
+  },
+  {
+    "id": "innovis",
+    "description": "Innovations in Visualization Laboratory",
+    "prof": "Sheelagh Carpendale (Adjunct - Simon Fraser University)"
+  }
+]

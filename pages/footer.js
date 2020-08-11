@@ -10,7 +10,7 @@ class Footer extends React.Component {
             <a href="/">
             <img style={{ maxWidth: '60px', margin: '30px auto' }} src="/static/images/logo-3.png"  />
             <div className="content">
-              <h1 style={{ fontSize: '1.5rem' }}>Interactions Lab</h1>
+              <h1 style={{ fontSize: '2.2rem' }}>Interactions Lab</h1>
               <div className="sub header">
                 University of Calgary<br/>Department of Computer Science
               </div>

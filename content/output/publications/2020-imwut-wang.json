@@ -1,0 +1,21 @@
+{
+  "date": "2020-06",
+  "title": "AssessBlocks: Exploring Toy Block Play Features for Assessing Stress in Young Children after Natural Disasters",
+  "authors": [
+    "Xiyue Wang",
+    "Kazuki Takashima",
+    "Tomoaki Adachi",
+    "Patrick Finn",
+    "Ehud Sharlin",
+    "Yoshifumi Kitamura"
+  ],
+  "year": 2020,
+  "series": "IMWUT 2020",
+  "bodyContent": "",
+  "bodyHtml": "",
+  "dir": "content/output/publications",
+  "base": "2020-imwut-wang.json",
+  "ext": ".json",
+  "sourceBase": "2020-imwut-wang.md",
+  "sourceExt": ".md"
+}

@@ -15,8 +15,8 @@
   "bodyContent": "",
   "bodyHtml": "",
   "dir": "content/output/publications",
-  "base": "iros-2020-hedayati.json",
+  "base": "2020-iros-hedayati.json",
   "ext": ".json",
-  "sourceBase": "iros-2020-hedayati.md",
+  "sourceBase": "2020-iros-hedayati.md",
   "sourceExt": ".md"
 }

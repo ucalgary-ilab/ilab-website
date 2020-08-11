@@ -87,7 +87,14 @@ a:hover {
   height: 120px;
   padding: 20px;
   width: 100%;
+  transition: 0.8s;
 }
+
+#labs .img:hover {
+  background: teal;
+  opacity: 0.6;
+}
+
 
 .category {
   margin-top: 100px;

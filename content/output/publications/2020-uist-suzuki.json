@@ -17,8 +17,8 @@
   "bodyContent": "",
   "bodyHtml": "",
   "dir": "content/output/publications",
-  "base": "uist-2020-suzuki.json",
+  "base": "2020-uist-suzuki.json",
   "ext": ".json",
-  "sourceBase": "uist-2020-suzuki.md",
+  "sourceBase": "2020-uist-suzuki.md",
   "sourceExt": ".md"
 }

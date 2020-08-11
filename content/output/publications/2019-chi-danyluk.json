@@ -1,0 +1,18 @@
+{
+  "date": "2019-04",
+  "title": "Look-From Camera Control for 3D Terrain Maps",
+  "authors": [
+    "Kurtis Thorvald Danyluk",
+    "Bernhard Jenny",
+    "Wesley Willett"
+  ],
+  "year": 2019,
+  "series": "CHI 2019",
+  "bodyContent": "",
+  "bodyHtml": "",
+  "dir": "content/output/publications",
+  "base": "2019-chi-danyluk.json",
+  "ext": ".json",
+  "sourceBase": "2019-chi-danyluk.md",
+  "sourceExt": ".md"
+}
