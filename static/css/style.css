@@ -50,7 +50,7 @@ a:hover {
   height: 300px;
   overflow:hidden;
   position: absolute;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 #top-video {

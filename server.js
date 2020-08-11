@@ -2,7 +2,7 @@ const next = require('next')
 const routes = require('next-routes')()
 const app = next({dev: process.env.NODE_ENV !== 'production'})
 
-routes.add('/:id', 'project')
+routes.add('/:id', 'page')
 const handler = routes.getRequestHandler(app)
 
 const {createServer} = require('http')

@@ -17,15 +17,15 @@ class People extends React.Component {
   }
 
   render() {
-    if (this.props.show) {
-      types = types.filter((type) => type.key === 'faculty' )
+    if (this.props.short) {
+      types = types.slice(0, 4)
     }
     return (
       <div id="people" className="category">
-<h1 class="ui horizontal divider header">
-  <i class="child icon"></i>
-  People
-</h1>
+        <h1 class="ui horizontal divider header">
+          <i class="child icon"></i>
+          People
+        </h1>
         { types.map((type) => {
           return (
             <div className="people-category">
@@ -49,6 +49,13 @@ class People extends React.Component {
             </div>
           )
         })}
+       { this.props.short &&
+          <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
+            <a className="ui button" href="/people">
+              + see more members
+            </a>
+          </div>
+       }
       </div>
     )
   }

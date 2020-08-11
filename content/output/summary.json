@@ -1,67 +1,17 @@
 {
   "fileMap": {
-    "content/output/labs.json": [
+    "content/output/news.json": [
       {
-        "id": "utouch",
-        "description": "Physical Interaction and Human-Robot Interaction",
-        "prof": "Ehud Sharlin",
-        "url": "https://utouch.cpsc.ucalgary.ca/"
+        "date": "2020-08-10",
+        "text": "One paper accepted to UIST 2020",
+        "image": "uist-2020.jpg"
       },
       {
-        "id": "curiosity",
-        "description": "Human-Centered Design for Creativity & Curiosity",
-        "prof": "Lora Oehlberg",
-        "url": "http://pages.cpsc.ucalgary.ca/~lora.oehlberg/"
-      },
-      {
-        "id": "dataexperience",
-        "description": "Visual Data-driven Tools and Experiences",
-        "prof": "Wesley Willet",
-        "url": "https://dataexperience.cpsc.ucalgary.ca/"
-      },
-      {
-        "id": "",
-        "description": "Tangible and Shape-changing Interfaces",
-        "prof": "Ryo Suzuki",
-        "url": null
-      },
-      {
-        "id": "grouplab",
-        "description": "Research in HCI, CSCW, and UbiComp",
-        "prof": "Saul Greenberg (Emeritus)",
-        "url": "http://grouplab.cpsc.ucalgary.ca/"
-      },
-      {
-        "id": "ricelab",
-        "description": "Rethinking Interaction, Collaboration, & Engagement",
-        "prof": "Anthony Tang (Adjunct - University of Toronto)",
-        "url": "https://ricelab.github.io/"
-      },
-      {
-        "id": "innovis",
-        "description": "Innovations in Visualization Laboratory",
-        "prof": "Sheelagh Carpendale (Adjunct - Simon Fraser University)"
+        "date": "2020-05-05",
+        "text": "Five papers accepted to CHI 2020",
+        "image": "chi-2020.jpg"
       }
     ],
-    "content/output/publications/2018-chi-ledo.json": {
-      "date": "2018-04",
-      "title": "Evaluation Strategies for HCI Toolkit Research",
-      "authors": [
-        "David Ledo",
-        "Steven Houben",
-        "Jo Vermeulen",
-        "Nicolai Marquardt",
-        "Lora Oehlberg",
-        "Saul Greenberg"
-      ],
-      "year": 2018,
-      "series": "CHI 2018",
-      "dir": "content/output/publications",
-      "base": "2018-chi-ledo.json",
-      "ext": ".json",
-      "sourceBase": "2018-chi-ledo.md",
-      "sourceExt": ".md"
-    },
     "content/output/publications/2018-chi-feick.json": {
       "date": "2018-04",
       "title": "Perspective on and Re-orientation of Physical Proxies in Object-Focused Remote Collaboration",
@@ -80,24 +30,6 @@
       "sourceBase": "2018-chi-feick.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2018-hri-feick.json": {
-      "date": "2018-04",
-      "title": "The Way You Move: The Effect of a Robot Surrogate Movement in Remote Collaboration",
-      "authors": [
-        "Martin Feick",
-        "Lora Oehlberg",
-        "Anthony Tang",
-        "André Miede",
-        "Ehud Sharlin"
-      ],
-      "year": 2018,
-      "series": "HRI 2018",
-      "dir": "content/output/publications",
-      "base": "2018-hri-feick.json",
-      "ext": ".json",
-      "sourceBase": "2018-hri-feick.md",
-      "sourceExt": ".md"
-    },
     "content/output/publications/2019-chi-danyluk.json": {
       "date": "2019-04",
       "title": "Look-From Camera Control for 3D Terrain Maps",
@@ -114,41 +46,40 @@
       "sourceBase": "2019-chi-danyluk.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2019-cnc-hammad.json": {
-      "date": "2019-06",
-      "title": "Mutation: Leveraging Performing Arts Practices in Cyborg Transitioning",
+    "content/output/publications/2018-chi-dillman.json": {
+      "date": "2018-04",
+      "title": "A Visual Interaction Cue Framework from Video Game Environments for Augmented Reality",
       "authors": [
-        "Nour Hammad",
-        "Elaheh Sanoubari",
-        "Patrick Finn",
-        "Sowmya Somanath",
-        "James E. Young",
-        "Ehud Sharlin"
+        "Kody R. Dillman",
+        "Terrance Tin Hoi Mok",
+        "Anthony Tang",
+        "Lora Oehlberg",
+        "Alex Mitchell"
       ],
-      "year": 2019,
-      "series": "C&C 2019",
+      "year": 2018,
+      "series": "CHI 2018",
       "dir": "content/output/publications",
-      "base": "2019-cnc-hammad.json",
+      "base": "2018-chi-dillman.json",
       "ext": ".json",
-      "sourceBase": "2019-cnc-hammad.md",
+      "sourceBase": "2018-chi-dillman.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2019-dis-bressa.json": {
-      "date": "2019-06",
-      "title": "Sketching and Ideation Activities for Situated Visualization Design",
+    "content/output/publications/2018-hri-feick.json": {
+      "date": "2018-04",
+      "title": "The Way You Move: The Effect of a Robot Surrogate Movement in Remote Collaboration",
       "authors": [
-        "Nathalie Bressa",
-        "Kendra Wannamaker",
-        "Henrik Korsgaard",
-        "Wesley Willett",
-        "Jo Vermeulen"
+        "Martin Feick",
+        "Lora Oehlberg",
+        "Anthony Tang",
+        "André Miede",
+        "Ehud Sharlin"
       ],
-      "year": 2019,
-      "series": "DIS 2019",
+      "year": 2018,
+      "series": "HRI 2018",
       "dir": "content/output/publications",
-      "base": "2019-dis-bressa.json",
+      "base": "2018-hri-feick.json",
       "ext": ".json",
-      "sourceBase": "2019-dis-bressa.md",
+      "sourceBase": "2018-hri-feick.md",
       "sourceExt": ".md"
     },
     "content/output/publications/2019-dis-ledo.json": {
@@ -170,24 +101,6 @@
       "sourceBase": "2019-dis-ledo.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2019-dis-mahadevan.json": {
-      "date": "2019-06",
-      "title": "AV-Pedestrian Interaction Design Using a Pedestrian Mixed Traffic Simulator",
-      "authors": [
-        "Karthik Mahadevan",
-        "Elaheh Sanoubari",
-        "Sowmya Somanath",
-        "James E. Young",
-        "Ehud Sharlin"
-      ],
-      "year": 2019,
-      "series": "DIS 2019",
-      "dir": "content/output/publications",
-      "base": "2019-dis-mahadevan.json",
-      "ext": ".json",
-      "sourceBase": "2019-dis-mahadevan.md",
-      "sourceExt": ".md"
-    },
     "content/output/publications/2019-mobilehci-hung.json": {
       "date": "2019-04",
       "title": "WatchPen: Using Cross-Device Interaction Concepts to Augment Pen-Based Interaction",
@@ -204,20 +117,61 @@
       "sourceBase": "2019-mobilehci-hung.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2019-tei-mikalauskas.json": {
-      "date": "2019-02",
-      "title": "Beyond the Bare Stage: Exploring Props as Potential Improviser-Controlled Technology",
+    "content/output/publications/2019-cnc-hammad.json": {
+      "date": "2019-06",
+      "title": "Mutation: Leveraging Performing Arts Practices in Cyborg Transitioning",
       "authors": [
-        "Claire Mikalauskas",
-        "April Viczko",
-        "Lora Oehlberg"
+        "Nour Hammad",
+        "Elaheh Sanoubari",
+        "Patrick Finn",
+        "Sowmya Somanath",
+        "James E. Young",
+        "Ehud Sharlin"
       ],
       "year": 2019,
-      "series": "TEI 2019",
+      "series": "C&C 2019",
       "dir": "content/output/publications",
-      "base": "2019-tei-mikalauskas.json",
+      "base": "2019-cnc-hammad.json",
       "ext": ".json",
-      "sourceBase": "2019-tei-mikalauskas.md",
+      "sourceBase": "2019-cnc-hammad.md",
+      "sourceExt": ".md"
+    },
+    "content/output/publications/2019-tvcg-blascheck.json": {
+      "date": "2019-06",
+      "title": "Exploration Strategies for Discovery of Interactivity in Visualizations",
+      "authors": [
+        "Tanja Blascheck",
+        "Lindsay MacDonald Vermeulen",
+        "Jo Vermeulen",
+        "Charles Perin",
+        "Wesley Willett",
+        "Thomas Ertl",
+        "Sheelagh Carpendale"
+      ],
+      "year": 2019,
+      "series": "TVCG 2019",
+      "dir": "content/output/publications",
+      "base": "2019-tvcg-blascheck.json",
+      "ext": ".json",
+      "sourceBase": "2019-tvcg-blascheck.md",
+      "sourceExt": ".md"
+    },
+    "content/output/publications/2019-dis-mahadevan.json": {
+      "date": "2019-06",
+      "title": "AV-Pedestrian Interaction Design Using a Pedestrian Mixed Traffic Simulator",
+      "authors": [
+        "Karthik Mahadevan",
+        "Elaheh Sanoubari",
+        "Sowmya Somanath",
+        "James E. Young",
+        "Ehud Sharlin"
+      ],
+      "year": 2019,
+      "series": "DIS 2019",
+      "dir": "content/output/publications",
+      "base": "2019-dis-mahadevan.json",
+      "ext": ".json",
+      "sourceBase": "2019-dis-mahadevan.md",
       "sourceExt": ".md"
     },
     "content/output/publications/2019-vr-satriadi.json": {
@@ -239,22 +193,37 @@
       "sourceBase": "2019-vr-satriadi.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2020-chi-anjani.json": {
-      "date": "2020-04",
-      "title": "Why do people watch others eat food? An Empirical Study on the Motivations and Practices of Mukbang Viewers",
+    "content/output/publications/2019-tei-mikalauskas.json": {
+      "date": "2019-02",
+      "title": "Beyond the Bare Stage: Exploring Props as Potential Improviser-Controlled Technology",
       "authors": [
-        "Laurensia Anjani",
-        "Terrance Tin Hoi Mok",
-        "Anthony Tang",
-        "Lora Oehlberg",
-        "Wooi Boon Goh"
+        "Claire Mikalauskas",
+        "April Viczko",
+        "Lora Oehlberg"
+      ],
+      "year": 2019,
+      "series": "TEI 2019",
+      "dir": "content/output/publications",
+      "base": "2019-tei-mikalauskas.json",
+      "ext": ".json",
+      "sourceBase": "2019-tei-mikalauskas.md",
+      "sourceExt": ".md"
+    },
+    "content/output/publications/2020-chi-goffin.json": {
+      "date": "2020-04",
+      "title": "Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations",
+      "authors": [
+        "Pascal Goffin",
+        "Tanja Blascheck",
+        "Petra Isenberg",
+        "Wesley Willett"
       ],
       "year": 2020,
       "series": "CHI 2020",
       "dir": "content/output/publications",
-      "base": "2020-chi-anjani.json",
+      "base": "2020-chi-goffin.json",
       "ext": ".json",
-      "sourceBase": "2020-chi-anjani.md",
+      "sourceBase": "2020-chi-goffin.md",
       "sourceExt": ".md"
     },
     "content/output/publications/2020-chi-hou.json": {
@@ -275,24 +244,22 @@
       "sourceBase": "2020-chi-hou.md",
       "sourceExt": ".md"
     },
-    "content/output/publications/2019-tvcg-blascheck.json": {
-      "date": "2019-06",
-      "title": "Exploration Strategies for Discovery of Interactivity in Visualizations",
+    "content/output/publications/2020-chi-anjani.json": {
+      "date": "2020-04",
+      "title": "Why do people watch others eat food? An Empirical Study on the Motivations and Practices of Mukbang Viewers",
       "authors": [
-        "Tanja Blascheck",
-        "Lindsay MacDonald Vermeulen",
-        "Jo Vermeulen",
-        "Charles Perin",
-        "Wesley Willett",
-        "Thomas Ertl",
-        "Sheelagh Carpendale"
+        "Laurensia Anjani",
+        "Terrance Tin Hoi Mok",
+        "Anthony Tang",
+        "Lora Oehlberg",
+        "Wooi Boon Goh"
       ],
-      "year": 2019,
-      "series": "TVCG 2019",
+      "year": 2020,
+      "series": "CHI 2020",
       "dir": "content/output/publications",
-      "base": "2019-tvcg-blascheck.json",
+      "base": "2020-chi-anjani.json",
       "ext": ".json",
-      "sourceBase": "2019-tvcg-blascheck.md",
+      "sourceBase": "2020-chi-anjani.md",
       "sourceExt": ".md"
     },
     "content/output/publications/2020-chi-mahadevan.json": {
@@ -328,6 +295,26 @@
       "base": "2020-imwut-wang.json",
       "ext": ".json",
       "sourceBase": "2020-imwut-wang.md",
+      "sourceExt": ".md"
+    },
+    "content/output/publications/2020-iros-hedayati.json": {
+      "date": "2020-09",
+      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
+      "authors": [
+        "Hooman Hedayati",
+        "Ryo Suzuki",
+        "Daniel Leithinger",
+        "Daniel Szafir"
+      ],
+      "year": 2020,
+      "series": "IROS 2020",
+      "booktitle": "In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '20)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "1-7",
+      "dir": "content/output/publications",
+      "base": "2020-iros-hedayati.json",
+      "ext": ".json",
+      "sourceBase": "2020-iros-hedayati.md",
       "sourceExt": ".md"
     },
     "content/output/people.json": [
@@ -391,22 +378,22 @@
         "title": "Visiting Researcher"
       }
     ],
-    "content/output/publications/2018-chi-dillman.json": {
-      "date": "2018-04",
-      "title": "A Visual Interaction Cue Framework from Video Game Environments for Augmented Reality",
+    "content/output/publications/2019-dis-bressa.json": {
+      "date": "2019-06",
+      "title": "Sketching and Ideation Activities for Situated Visualization Design",
       "authors": [
-        "Kody R. Dillman",
-        "Terrance Tin Hoi Mok",
-        "Anthony Tang",
-        "Lora Oehlberg",
-        "Alex Mitchell"
+        "Nathalie Bressa",
+        "Kendra Wannamaker",
+        "Henrik Korsgaard",
+        "Wesley Willett",
+        "Jo Vermeulen"
       ],
-      "year": 2018,
-      "series": "CHI 2018",
+      "year": 2019,
+      "series": "DIS 2019",
       "dir": "content/output/publications",
-      "base": "2018-chi-dillman.json",
+      "base": "2019-dis-bressa.json",
       "ext": ".json",
-      "sourceBase": "2018-chi-dillman.md",
+      "sourceBase": "2019-dis-bressa.md",
       "sourceExt": ".md"
     },
     "content/output/publications/2020-tvcg-walny.json": {
@@ -427,26 +414,6 @@
       "base": "2020-tvcg-walny.json",
       "ext": ".json",
       "sourceBase": "2020-tvcg-walny.md",
-      "sourceExt": ".md"
-    },
-    "content/output/publications/2020-iros-hedayati.json": {
-      "date": "2020-09",
-      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
-      "authors": [
-        "Hooman Hedayati",
-        "Ryo Suzuki",
-        "Daniel Leithinger",
-        "Daniel Szafir"
-      ],
-      "year": 2020,
-      "series": "IROS 2020",
-      "booktitle": "In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '20)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "1-7",
-      "dir": "content/output/publications",
-      "base": "2020-iros-hedayati.json",
-      "ext": ".json",
-      "sourceBase": "2020-iros-hedayati.md",
       "sourceExt": ".md"
     },
     "content/output/publications/2020-uist-suzuki.json": {
@@ -471,35 +438,69 @@
       "sourceBase": "2020-uist-suzuki.md",
       "sourceExt": ".md"
     },
-    "content/output/news.json": [
+    "content/output/publications/2018-chi-ledo.json": {
+      "date": "2018-04",
+      "title": "Evaluation Strategies for HCI Toolkit Research",
+      "authors": [
+        "David Ledo",
+        "Steven Houben",
+        "Jo Vermeulen",
+        "Nicolai Marquardt",
+        "Lora Oehlberg",
+        "Saul Greenberg"
+      ],
+      "year": 2018,
+      "series": "CHI 2018",
+      "dir": "content/output/publications",
+      "base": "2018-chi-ledo.json",
+      "ext": ".json",
+      "sourceBase": "2018-chi-ledo.md",
+      "sourceExt": ".md"
+    },
+    "content/output/labs.json": [
       {
-        "date": "2020-08-10",
-        "text": "One paper accepted to UIST 2020",
-        "image": "uist-2020.jpg"
+        "id": "utouch",
+        "description": "Physical Interaction and Human-Robot Interaction",
+        "prof": "Ehud Sharlin",
+        "url": "https://utouch.cpsc.ucalgary.ca/"
       },
       {
-        "date": "2020-05-05",
-        "text": "Five papers accepted to CHI 2020",
-        "image": "chi-2020.jpg"
+        "id": "curiosity",
+        "description": "Human-Centered Design for Creativity & Curiosity",
+        "prof": "Lora Oehlberg",
+        "url": "http://pages.cpsc.ucalgary.ca/~lora.oehlberg/"
+      },
+      {
+        "id": "dataexperience",
+        "description": "Visual Data-driven Tools and Experiences",
+        "prof": "Wesley Willet",
+        "url": "https://dataexperience.cpsc.ucalgary.ca/"
+      },
+      {
+        "id": "",
+        "description": "Tangible and Shape-changing Interfaces",
+        "prof": "Ryo Suzuki",
+        "url": null
+      },
+      {
+        "id": "grouplab",
+        "description": "Research in HCI, CSCW, and UbiComp",
+        "prof": "Saul Greenberg (Emeritus)",
+        "url": "http://grouplab.cpsc.ucalgary.ca/"
+      },
+      {
+        "id": "ricelab",
+        "description": "Rethinking Interaction, Collaboration, & Engagement",
+        "prof": "Anthony Tang (Adjunct - University of Toronto)",
+        "url": "https://ricelab.github.io/"
+      },
+      {
+        "id": "innovis",
+        "description": "Innovations in Visualization Laboratory",
+        "prof": "Sheelagh Carpendale (Adjunct - Simon Fraser University)",
+        "url": "http://sheelaghcarpendale.ca/"
       }
-    ],
-    "content/output/publications/2020-chi-goffin.json": {
-      "date": "2020-04",
-      "title": "Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations",
-      "authors": [
-        "Pascal Goffin",
-        "Tanja Blascheck",
-        "Petra Isenberg",
-        "Wesley Willett"
-      ],
-      "year": 2020,
-      "series": "CHI 2020",
-      "dir": "content/output/publications",
-      "base": "2020-chi-goffin.json",
-      "ext": ".json",
-      "sourceBase": "2020-chi-goffin.md",
-      "sourceExt": ".md"
-    }
+    ]
   },
   "sourceFileArray": [
     "content/labs.yaml",

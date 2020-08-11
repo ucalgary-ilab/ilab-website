@@ -7,7 +7,6 @@ class Footer extends React.Component {
       <footer>
         <div class="ui center aligned container">
           <div class="ui section divider"></div>
-            <a href="/">
             <img style={{ maxWidth: '60px', margin: '30px auto' }} src="/static/images/logo-3.png"  />
             <div className="content">
               <h1 style={{ fontSize: '2.2rem' }}>Interactions Lab</h1>
@@ -16,8 +15,6 @@ class Footer extends React.Component {
               </div>
             </div>
             <img style={{ maxWidth: '200px', margin: '0px auto' }} src="/static/images/logo-1.png"  />
-            <br/>
-            </a>
           </div>
           {/*
           <div class="ui horizontal small divided link list">

@@ -8,26 +8,31 @@ class Labs extends React.Component {
 
   render() {
     return (
-      <div id="labs" className="category ui stackable four column grid" style={{ textAlign: 'center' }}>
-        { labs.map((lab) => {
-          return (
-            <div class="column">
-              <div class="ui segment">
-                <a href={ lab.url } target="_blank" className="img">
-                { lab.id !== '' &&
-                  <img src={ `/static/images/labs/${lab.id}.png` } />
-                }
-                {
-                  lab.id === '' &&
-                  <img />
-                }
-                </a>
-                <h3>{ lab.description }</h3>
-                <p class="header">Prof. { lab.prof }</p>
+      <div>
+        <h1 class="ui horizontal divider header">
+          Labs
+        </h1>
+        <div id="labs" className="ui stackable four column grid" style={{ textAlign: 'center' }}>
+          { labs.map((lab) => {
+            return (
+              <div class="column">
+                <div class="ui segment">
+                  <a href={ lab.url } target="_blank" className="img">
+                  { lab.id !== '' &&
+                    <img src={ `/static/images/labs/${lab.id}.png` } />
+                  }
+                  {
+                    lab.id === '' &&
+                    <img />
+                  }
+                  </a>
+                  <h3>{ lab.description }</h3>
+                  <p class="header">Prof. { lab.prof }</p>
+                </div>
               </div>
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     )
   }
