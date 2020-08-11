@@ -3,7 +3,7 @@ const withCSS = require('@zeit/next-css')
 
 module.exports = withCSS({
   exportPathMap: function () {
-    const menus = [
+    const ids = [
       'publications',
       'people',
       'courses',
@@ -12,11 +12,11 @@ module.exports = withCSS({
     ]
 
     let pages = {}
-    for (let menu of menus) {
-      let href = menu
+    for (let id of ids) {
+      let href = id
       pages[href] = {
-        page: `/${href}`,
-        query: { id: '' }
+        page: '/page',
+        query: { id: id }
       }
     }
 
