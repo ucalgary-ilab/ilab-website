@@ -1,5 +1,60 @@
 {
   "fileMap": {
+    "content/output/booktitles.json": {
+      "CHI": {
+        "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "CHI EA": {
+        "booktitle": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "UIST": {
+        "booktitle": "Proceedings of the Annual ACM Symposium on User Interface Software and Technology",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "IMWUT": {
+        "booktitle": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "DIS": {
+        "booktitle": "Proceedings of the ACM on Designing Interactive Systems Conference",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "MobileHCI": {
+        "booktitle": "Proceedings of the International Conference on Human-Computer Interaction with Mobile Devices and Services",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "TEI": {
+        "booktitle": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "HRI": {
+        "booktitle": "Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "VR": {
+        "booktitle": "Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces",
+        "publisher": "IEEE, New York, NY, USA"
+      },
+      "TVCG": {
+        "booktitle": "IEEE Transactions on Visualization and Computer Graphics",
+        "publisher": "IEEE, New York, NY, USA"
+      },
+      "IROS": {
+        "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "publisher": "IEEE, New York, NY, USA"
+      },
+      "C&C": {
+        "booktitle": "Proceedings of the ACM on Creativity and Cognition",
+        "publisher": "ACM, New York, NY, USA"
+      },
+      "dir": "content/output",
+      "base": "booktitles.json",
+      "ext": ".json",
+      "sourceBase": "booktitles.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/labs.json": [
       {
         "id": "utouch",
@@ -55,20 +110,6 @@
       "sourceBase": "ashratuz-zavin-asha.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/bon-adriel-aseniero.json": {
-      "name": "Bon Adriel Aseniero",
-      "type": "phd",
-      "url": "http://bonadriel.com/",
-      "scholar": "https://scholar.google.com/citations?user=V4nRMoMAAAAJ",
-      "twitter": "https://twitter.com/HexenKoenig",
-      "facebook": "https://www.facebook.com/bonadriel",
-      "linkedin": "https://www.linkedin.com/in/bon-adriel-aseniero-47140560/",
-      "dir": "content/output/people",
-      "base": "bon-adriel-aseniero.json",
-      "ext": ".json",
-      "sourceBase": "bon-adriel-aseniero.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/people/carmen-hull.json": {
       "name": "Carmen Hull",
       "type": "phd",
@@ -77,6 +118,28 @@
       "base": "carmen-hull.json",
       "ext": ".json",
       "sourceBase": "carmen-hull.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/brennan-jones.json": {
+      "name": "Brennan Jones",
+      "type": "phd",
+      "url": "https://brennanjones.com/",
+      "scholar": "https://scholar.google.ca/citations?user=yzxiadIAAAAJ",
+      "dir": "content/output/people",
+      "base": "brennan-jones.json",
+      "ext": ".json",
+      "sourceBase": "brennan-jones.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/darcy-norman.json": {
+      "name": "D'Arcy Norman",
+      "type": "phd",
+      "url": "https://darcynorman.net/",
+      "twitter": "https://twitter.com/realdlnorman",
+      "dir": "content/output/people",
+      "base": "darcy-norman.json",
+      "ext": ".json",
+      "sourceBase": "darcy-norman.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/christopher-smith.json": {
@@ -90,15 +153,18 @@
       "sourceBase": "christopher-smith.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/darcy-norman.json": {
-      "name": "D'Arcy Norman",
+    "content/output/people/bon-adriel-aseniero.json": {
+      "name": "Bon Adriel Aseniero",
       "type": "phd",
-      "url": "https://darcynorman.net/",
-      "twitter": "https://twitter.com/realdlnorman",
+      "url": "http://bonadriel.com/",
+      "scholar": "https://scholar.google.com/citations?user=V4nRMoMAAAAJ",
+      "twitter": "https://twitter.com/HexenKoenig",
+      "facebook": "https://www.facebook.com/bonadriel",
+      "linkedin": "https://www.linkedin.com/in/bon-adriel-aseniero-47140560/",
       "dir": "content/output/people",
-      "base": "darcy-norman.json",
+      "base": "bon-adriel-aseniero.json",
       "ext": ".json",
-      "sourceBase": "darcy-norman.yaml",
+      "sourceBase": "bon-adriel-aseniero.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/david-ledo.json": {
@@ -114,6 +180,18 @@
       "sourceBase": "david-ledo.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/news.json": [
+      {
+        "date": "2020-08-10",
+        "text": "One paper accepted to UIST 2020",
+        "image": "uist-2020.jpg"
+      },
+      {
+        "date": "2020-05-05",
+        "text": "Five papers accepted to CHI 2020",
+        "image": "chi-2020.jpg"
+      }
+    ],
     "content/output/people/kendra-wannamaker.json": {
       "name": "Kendra Wannamaker",
       "type": "master",
@@ -123,30 +201,16 @@
       "sourceBase": "kendra-wannamaker.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/ehud-sharlin.json": {
-      "name": "Ehud Sharlin",
+    "content/output/people/lora-oehlberg.json": {
+      "name": "Lora Oehlberg",
       "type": "faculty",
-      "title": "Professor",
-      "url": "http://contacts.ucalgary.ca/info/cpsc/profiles/102-3264",
-      "scholar": "https://scholar.google.ca/citations?hl=en&user=eAFxlZIAAAAJ",
+      "title": "Assistant Professor",
+      "url": "https://pages.cpsc.ucalgary.ca/~lora.oehlberg/",
+      "scholar": "https://scholar.google.ca/citations?hl=en&user=8GzaBdwAAAAJ",
       "dir": "content/output/people",
-      "base": "ehud-sharlin.json",
+      "base": "lora-oehlberg.json",
       "ext": ".json",
-      "sourceBase": "ehud-sharlin.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/jessi-stark.json": {
-      "name": "Jessi Stark",
-      "type": "alumni",
-      "past": "master",
-      "now": "University of Toronto",
-      "url": "https://jtstark.com/",
-      "scholar": "https://scholar.google.com/citations?user=aRkKN5UAAAAJ",
-      "twitter": "https://twitter.com/_jessistark",
-      "dir": "content/output/people",
-      "base": "jessi-stark.json",
-      "ext": ".json",
-      "sourceBase": "jessi-stark.yaml",
+      "sourceBase": "lora-oehlberg.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/karthik-mahadevan.json": {
@@ -160,18 +224,6 @@
       "base": "karthik-mahadevan.json",
       "ext": ".json",
       "sourceBase": "karthik-mahadevan.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/lora-oehlberg.json": {
-      "name": "Lora Oehlberg",
-      "type": "faculty",
-      "title": "Assistant Professor",
-      "url": "https://pages.cpsc.ucalgary.ca/~lora.oehlberg/",
-      "scholar": "https://scholar.google.ca/citations?hl=en&user=8GzaBdwAAAAJ",
-      "dir": "content/output/people",
-      "base": "lora-oehlberg.json",
-      "ext": ".json",
-      "sourceBase": "lora-oehlberg.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/kurtis-danyluk.json": {
@@ -213,6 +265,19 @@
       "sourceBase": "martin-feick.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/nicolai-marquardt.json": {
+      "name": "Nicolai Marquardt",
+      "type": "alumni",
+      "past": "phd",
+      "now": "University College London",
+      "url": "http://www.nicolaimarquardt.com/",
+      "scholar": "https://scholar.google.com/citations?user=PXeN0RsAAAAJ",
+      "dir": "content/output/people",
+      "base": "nicolai-marquardt.json",
+      "ext": ".json",
+      "sourceBase": "nicolai-marquardt.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/roberta-cabral-mota.json": {
       "name": "Roberta Cabral Mota",
       "type": "phd",
@@ -221,6 +286,18 @@
       "base": "roberta-cabral-mota.json",
       "ext": ".json",
       "sourceBase": "roberta-cabral-mota.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/saul-greenberg.json": {
+      "name": "Saul Greenberg",
+      "type": "faculty",
+      "title": "Emeritus Professor",
+      "url": "http://saul.cpsc.ucalgary.ca/",
+      "scholar": "https://scholar.google.com/citations?user=TthhUuoAAAAJ",
+      "dir": "content/output/people",
+      "base": "saul-greenberg.json",
+      "ext": ".json",
+      "sourceBase": "saul-greenberg.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/ryo-suzuki.json": {
@@ -249,29 +326,16 @@
       "sourceBase": "sasha-ivanov.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/nicolai-marquardt.json": {
-      "name": "Nicolai Marquardt",
-      "type": "alumni",
-      "past": "phd",
-      "now": "University College London",
-      "url": "http://www.nicolaimarquardt.com/",
-      "scholar": "https://scholar.google.com/citations?user=PXeN0RsAAAAJ",
-      "dir": "content/output/people",
-      "base": "nicolai-marquardt.json",
-      "ext": ".json",
-      "sourceBase": "nicolai-marquardt.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/saul-greenberg.json": {
-      "name": "Saul Greenberg",
+    "content/output/people/sheelagh-carpendale.json": {
+      "name": "Sheelagh Carpendale",
       "type": "faculty",
-      "title": "Emeritus Professor",
-      "url": "http://saul.cpsc.ucalgary.ca/",
-      "scholar": "https://scholar.google.com/citations?user=TthhUuoAAAAJ",
+      "title": "Adjunct Professor",
+      "url": "https://www.cs.sfu.ca/~sheelagh/",
+      "scholar": "https://scholar.google.com/citations?user=43LLX2kAAAAJ",
       "dir": "content/output/people",
-      "base": "saul-greenberg.json",
+      "base": "sheelagh-carpendale.json",
       "ext": ".json",
-      "sourceBase": "saul-greenberg.yaml",
+      "sourceBase": "sheelagh-carpendale.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/soren-knudsen.json": {
@@ -298,18 +362,6 @@
       "sourceBase": "sowmya-somanath.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/sheelagh-carpendale.json": {
-      "name": "Sheelagh Carpendale",
-      "type": "faculty",
-      "title": "Adjunct Professor",
-      "url": "https://www.cs.sfu.ca/~sheelagh/",
-      "scholar": "https://scholar.google.com/citations?user=43LLX2kAAAAJ",
-      "dir": "content/output/people",
-      "base": "sheelagh-carpendale.json",
-      "ext": ".json",
-      "sourceBase": "sheelagh-carpendale.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/people/sydney-pratte.json": {
       "name": "Sydney Pratte",
       "type": "phd",
@@ -318,19 +370,6 @@
       "base": "sydney-pratte.json",
       "ext": ".json",
       "sourceBase": "sydney-pratte.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/teddy-seyed.json": {
-      "name": "Teddy Seyed",
-      "type": "alumni",
-      "past": "phd",
-      "now": "Microsoft Research",
-      "url": "https://www.microsoft.com/en-us/research/people/teddy/",
-      "scholar": "https://scholar.google.com/citations?user=A8VSir8AAAAJ",
-      "dir": "content/output/people",
-      "base": "teddy-seyed.json",
-      "ext": ".json",
-      "sourceBase": "teddy-seyed.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/terrance-mok.json": {
@@ -346,16 +385,17 @@
       "sourceBase": "terrance-mok.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/wesley-willett.json": {
-      "name": "Wesley Willett",
-      "type": "faculty",
-      "title": "Assistant Professor",
-      "url": "http://www.wjwillett.net",
-      "scholar": "https://scholar.google.ca/citations?user=Q17-rckAAAAJ",
+    "content/output/people/teddy-seyed.json": {
+      "name": "Teddy Seyed",
+      "type": "alumni",
+      "past": "phd",
+      "now": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/people/teddy/",
+      "scholar": "https://scholar.google.com/citations?user=A8VSir8AAAAJ",
       "dir": "content/output/people",
-      "base": "wesley-willett.json",
+      "base": "teddy-seyed.json",
       "ext": ".json",
-      "sourceBase": "wesley-willett.yaml",
+      "sourceBase": "teddy-seyed.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/tim-au-yeung.json": {
@@ -368,29 +408,111 @@
       "sourceBase": "tim-au-yeung.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/william-wright.json": {
-      "name": "William Wright",
-      "type": "masters",
-      "url": "http://pages.cpsc.ucalgary.ca/~wwright/",
-      "scholar": "https://scholar.google.com/citations?user=V4nRMoMAAAAJ",
-      "twitter": "https://twitter.com/HexenKoenig",
-      "facebook": "https://www.facebook.com/bonadriel",
-      "linkedin": "https://www.linkedin.com/in/bon-adriel-aseniero-47140560/",
+    "content/output/people/anthony-tang.json": {
+      "name": "Anthony Tang",
+      "type": "faculty",
+      "title": "Adjunct Associate Professor",
+      "url": "https://hcitang.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=RG1EQowAAAAJ",
+      "twitter": "https://twitter.com/proclubboy",
+      "github": "http://github.com/hcitang",
       "dir": "content/output/people",
-      "base": "william-wright.json",
+      "base": "anthony-tang.json",
       "ext": ".json",
-      "sourceBase": "william-wright.yaml",
+      "sourceBase": "anthony-tang.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/zachary-mckendrick.json": {
-      "name": "Zachary McKendrick",
-      "type": "phd",
-      "url": "https://scpa.ucalgary.ca/manageprofile/profiles/zachary-mckendrick",
-      "linkedin": "https://www.linkedin.com/in/zach-mckendrick-7a24bb3b",
+    "content/output/people/jessi-stark.json": {
+      "name": "Jessi Stark",
+      "type": "alumni",
+      "past": "master",
+      "now": "University of Toronto",
+      "url": "https://jtstark.com/",
+      "scholar": "https://scholar.google.com/citations?user=aRkKN5UAAAAJ",
+      "twitter": "https://twitter.com/_jessistark",
       "dir": "content/output/people",
-      "base": "zachary-mckendrick.json",
+      "base": "jessi-stark.json",
       "ext": ".json",
-      "sourceBase": "zachary-mckendrick.yaml",
+      "sourceBase": "jessi-stark.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/wesley-willett.json": {
+      "name": "Wesley Willett",
+      "type": "faculty",
+      "title": "Assistant Professor",
+      "url": "http://www.wjwillett.net",
+      "scholar": "https://scholar.google.ca/citations?user=Q17-rckAAAAJ",
+      "dir": "content/output/people",
+      "base": "wesley-willett.json",
+      "ext": ".json",
+      "sourceBase": "wesley-willett.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2018-dillman.json": {
+      "date": "2018-04",
+      "title": "A Visual Interaction Cue Framework from Video Game Environments for Augmented Reality",
+      "authors": [
+        "Kody R. Dillman",
+        "Terrance Tin Hoi Mok",
+        "Anthony Tang",
+        "Lora Oehlberg",
+        "Alex Mitchell"
+      ],
+      "series": "CHI 2018",
+      "doi": "https://doi.org/10.1145/3173574.3173714",
+      "keywords": "game design, guidance, interaction cues, augmented reality",
+      "pages": 12,
+      "talk": "https://www.youtube.com/watch?v=3FoZStToALQ",
+      "abstract": "Based on an analysis of 49 popular contemporary video games, we develop a descriptive framework of visual interaction cues in video games. These cues are used to inform players what can be interacted with, where to look, and where to go within the game world. These cues vary along three dimensions: the purpose of the cue, the visual design of the cue, and the circumstances under which the cue is shown. We demonstrate that this framework can also be used to describe interaction cues for augmented reality applications. Beyond this, we show how the framework can be used to generatively derive new design ideas for visual interaction cues in augmented reality experiences.",
+      "dir": "content/output/publications",
+      "base": "chi-2018-dillman.json",
+      "ext": ".json",
+      "sourceBase": "chi-2018-dillman.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2018-feick.json": {
+      "date": "2018-04",
+      "title": "Perspective on and Re-orientation of Physical Proxies in Object-Focused Remote Collaboration",
+      "authors": [
+        "Martin Feick",
+        "Terrance Tin Hoi Mok",
+        "Anthony Tang",
+        "Lora Oehlberg",
+        "Ehud Sharlin"
+      ],
+      "series": "CHI 2018",
+      "doi": "https://doi.org/10.1145/3173574.3173855",
+      "keywords": "cscw, remote collaboration, object-focused collaboration, physical telepresence, collaborative physical tasks",
+      "pages": 13,
+      "award": "Honorable Mention",
+      "video": "https://www.youtube.com/watch?v=sfxTHsPJWHY",
+      "abstract": "Remote collaborators working together on physical objects have difficulty building a shared understanding of what each person is talking about. Conventional video chat systems are insufficient for many situations because they present a single view of the object in a flattened image. To understand how this limited perspective affects collaboration, we designed the Remote Manipulator (ReMa), which can reproduce orientation manipulations on a proxy object at a remote site. We conducted two studies with ReMa, with two main findings. First, a shared perspective is more effective and preferred compared to the opposing perspective offered by conventional video chat systems. Second, the physical proxy and video chat complement one another in a combined system: people used the physical proxy to understand objects, and used video chat to perform gestures and confirm remote actions.",
+      "dir": "content/output/publications",
+      "base": "chi-2018-feick.json",
+      "ext": ".json",
+      "sourceBase": "chi-2018-feick.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2020-anjani.json": {
+      "date": "2020-04",
+      "title": "Why do people watch others eat food? An Empirical Study on the Motivations and Practices of Mukbang Viewers",
+      "authors": [
+        "Laurensia Anjani",
+        "Terrance Tin Hoi Mok",
+        "Anthony Tang",
+        "Lora Oehlberg",
+        "Wooi Boon Goh"
+      ],
+      "series": "CHI 2020",
+      "doi": "https://doi.org/10.1145/3313831.3376567",
+      "keywords": "video streams, mukbang",
+      "pages": 13,
+      "talk": "https://www.youtube.com/watch?v=Dkp8A_em90M",
+      "abstract": "We present a mixed-methods study of viewers on their practices and motivations around watching mukbang — video streams of people eating large quantities of food. Viewers' experiences provide insight on future technologies for multisensorial video streams and technology-supported commensality (eating with others). We surveyed 104 viewers and interviewed 15 of them about their attitudes and reflections on their mukbang viewing habits, their physiological aspects of watching someone eat, and their perceived social relationship with mukbangers. Based on our findings, we propose design implications for remote commensality, and for synchronized multisensorial video streaming content.",
+      "dir": "content/output/publications",
+      "base": "chi-2020-anjani.json",
+      "ext": ".json",
+      "sourceBase": "chi-2020-anjani.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/chi-2018-ledo.json": {
@@ -417,51 +539,6 @@
       "sourceBase": "chi-2018-ledo.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/chi-2018-feick.json": {
-      "date": "2018-04",
-      "title": "Perspective on and Re-orientation of Physical Proxies in Object-Focused Remote Collaboration",
-      "authors": [
-        "Martin Feick",
-        "Terrance Tin Hoi Mok",
-        "Anthony Tang",
-        "Lora Oehlberg",
-        "Ehud Sharlin"
-      ],
-      "series": "CHI 2018",
-      "doi": "https://doi.org/10.1145/3173574.3173855",
-      "keywords": "cscw, remote collaboration, object-focused collaboration, physical telepresence, collaborative physical tasks",
-      "pages": 13,
-      "award": "Honorable Mention",
-      "video": "https://www.youtube.com/watch?v=sfxTHsPJWHY",
-      "abstract": "Remote collaborators working together on physical objects have difficulty building a shared understanding of what each person is talking about. Conventional video chat systems are insufficient for many situations because they present a single view of the object in a flattened image. To understand how this limited perspective affects collaboration, we designed the Remote Manipulator (ReMa), which can reproduce orientation manipulations on a proxy object at a remote site. We conducted two studies with ReMa, with two main findings. First, a shared perspective is more effective and preferred compared to the opposing perspective offered by conventional video chat systems. Second, the physical proxy and video chat complement one another in a combined system: people used the physical proxy to understand objects, and used video chat to perform gestures and confirm remote actions.",
-      "dir": "content/output/publications",
-      "base": "chi-2018-feick.json",
-      "ext": ".json",
-      "sourceBase": "chi-2018-feick.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/chi-2018-dillman.json": {
-      "date": "2018-04",
-      "title": "A Visual Interaction Cue Framework from Video Game Environments for Augmented Reality",
-      "authors": [
-        "Kody R. Dillman",
-        "Terrance Tin Hoi Mok",
-        "Anthony Tang",
-        "Lora Oehlberg",
-        "Alex Mitchell"
-      ],
-      "series": "CHI 2018",
-      "doi": "https://doi.org/10.1145/3173574.3173714",
-      "keywords": "game design, guidance, interaction cues, augmented reality",
-      "pages": 12,
-      "talk": "https://www.youtube.com/watch?v=3FoZStToALQ",
-      "abstract": "Based on an analysis of 49 popular contemporary video games, we develop a descriptive framework of visual interaction cues in video games. These cues are used to inform players what can be interacted with, where to look, and where to go within the game world. These cues vary along three dimensions: the purpose of the cue, the visual design of the cue, and the circumstances under which the cue is shown. We demonstrate that this framework can also be used to describe interaction cues for augmented reality applications. Beyond this, we show how the framework can be used to generatively derive new design ideas for visual interaction cues in augmented reality experiences.",
-      "dir": "content/output/publications",
-      "base": "chi-2018-dillman.json",
-      "ext": ".json",
-      "sourceBase": "chi-2018-dillman.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/publications/chi-2018-mahadevan.json": {
       "date": "2018-04",
       "title": "Communicating Awareness and Intent in Autonomous Vehicle-Pedestrian Interaction",
@@ -483,47 +560,35 @@
       "sourceBase": "chi-2018-mahadevan.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/chi-2020-goffin.json": {
+    "content/output/publications/chi-2020-hou.json": {
       "date": "2020-04",
-      "title": "Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations",
+      "title": "Autonomous Vehicle-Cyclist Interaction: Peril and Promise",
       "authors": [
-        "Pascal Goffin",
-        "Tanja Blascheck",
-        "Petra Isenberg",
-        "Wesley Willett"
+        "Ming Hou",
+        "Karthik Mahadevan",
+        "Sowmya Somanath",
+        "Ehud Sharlin",
+        "Lora Oehlberg"
       ],
       "series": "CHI 2020",
-      "doi": "https://doi.org/10.1145/3313831.3376842",
-      "keywords": "glyphs, word-scale visualization, information visualization, interaction techniques, text visualization",
-      "pages": 13,
-      "video": "https://www.youtube.com/watch?v=wPaVdSWM8hU",
-      "abstract": "We describe a design space of view manipulation interactions for small data-driven contextual visualizations (word-scale visualizations). These interaction techniques support an active reading experience and engage readers through exploration of embedded visualizations whose placement and content connect them to specific terms in a document. A reader could, for example, use our proposed interaction techniques to explore word-scale visualizations of stock market trends for companies listed in a market overview article. When readers wish to engage more deeply with the data, they can collect, arrange, compare, and navigate the document using the embedded word-scale visualizations, permitting more visualization-centric analyses. We support our design space with a concrete implementation, illustrate it with examples from three application domains, and report results from two experiments. The experiments show how view manipulation interactions helped readers examine embedded visualizations more quickly and with less scrolling and yielded qualitative feedback on usability and future opportunities.",
       "dir": "content/output/publications",
-      "base": "chi-2020-goffin.json",
+      "base": "chi-2020-hou.json",
       "ext": ".json",
-      "sourceBase": "chi-2020-goffin.yaml",
+      "sourceBase": "chi-2020-hou.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/chi-2020-anjani.json": {
-      "date": "2020-04",
-      "title": "Why do people watch others eat food? An Empirical Study on the Motivations and Practices of Mukbang Viewers",
-      "authors": [
-        "Laurensia Anjani",
-        "Terrance Tin Hoi Mok",
-        "Anthony Tang",
-        "Lora Oehlberg",
-        "Wooi Boon Goh"
-      ],
-      "series": "CHI 2020",
-      "doi": "https://doi.org/10.1145/3313831.3376567",
-      "keywords": "video streams, mukbang",
-      "pages": 13,
-      "talk": "https://www.youtube.com/watch?v=Dkp8A_em90M",
-      "abstract": "We present a mixed-methods study of viewers on their practices and motivations around watching mukbang — video streams of people eating large quantities of food. Viewers' experiences provide insight on future technologies for multisensorial video streams and technology-supported commensality (eating with others). We surveyed 104 viewers and interviewed 15 of them about their attitudes and reflections on their mukbang viewing habits, their physiological aspects of watching someone eat, and their perceived social relationship with mukbangers. Based on our findings, we propose design implications for remote commensality, and for synchronized multisensorial video streaming content.",
-      "dir": "content/output/publications",
-      "base": "chi-2020-anjani.json",
+    "content/output/people/william-wright.json": {
+      "name": "William Wright",
+      "type": "masters",
+      "url": "http://pages.cpsc.ucalgary.ca/~wwright/",
+      "scholar": "https://scholar.google.com/citations?user=V4nRMoMAAAAJ",
+      "twitter": "https://twitter.com/HexenKoenig",
+      "facebook": "https://www.facebook.com/bonadriel",
+      "linkedin": "https://www.linkedin.com/in/bon-adriel-aseniero-47140560/",
+      "dir": "content/output/people",
+      "base": "william-wright.json",
       "ext": ".json",
-      "sourceBase": "chi-2020-anjani.yaml",
+      "sourceBase": "william-wright.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/chi-2019-danyluk.json": {
@@ -545,6 +610,25 @@
       "sourceBase": "chi-2019-danyluk.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/cnc-2019-hammad.json": {
+      "date": "2019-06",
+      "title": "Mutation: Leveraging Performing Arts Practices in Cyborg Transitioning",
+      "authors": [
+        "Nour Hammad",
+        "Elaheh Sanoubari",
+        "Patrick Finn",
+        "Sowmya Somanath",
+        "James E. Young",
+        "Ehud Sharlin"
+      ],
+      "year": 2019,
+      "series": "C&C 2019",
+      "dir": "content/output/publications",
+      "base": "cnc-2019-hammad.json",
+      "ext": ".json",
+      "sourceBase": "cnc-2019-hammad.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/dis-2019-bressa.json": {
       "date": "2019-06",
       "title": "Sketching and Ideation Activities for Situated Visualization Design",
@@ -560,76 +644,6 @@
       "base": "dis-2019-bressa.json",
       "ext": ".json",
       "sourceBase": "dis-2019-bressa.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/dis-2019-mahadevan.json": {
-      "date": "2019-06",
-      "title": "AV-Pedestrian Interaction Design Using a Pedestrian Mixed Traffic Simulator",
-      "authors": [
-        "Karthik Mahadevan",
-        "Elaheh Sanoubari",
-        "Sowmya Somanath",
-        "James E. Young",
-        "Ehud Sharlin"
-      ],
-      "series": "DIS 2019",
-      "doi": "https://doi.org/10.1145/3322276.3322328",
-      "keywords": "mixed traffic, pedestrian simulator, autonomous vehicle-pedestrian interaction",
-      "pages": 12,
-      "abstract": "AV-pedestrian interaction will impact pedestrian safety, etiquette, and overall acceptance of AV technology. Evaluating AV-pedestrian interaction is challenging given limited availability of AVs and safety concerns. These challenges are compounded by \"mixed traffic\" conditions: studying AV-pedestrian interaction will be difficult in traffic consisting of vehicles varying in autonomy level. We propose immersive pedestrian simulators as design tools to study AV-pedestrian interaction, allowing rapid prototyping and evaluation of future AV-pedestrian interfaces. We present OnFoot: a VR-based simulator that immerses participants in mixed traffic conditions and allows examination of their behavior while controlling vehicles' autonomy-level, traffic and street characteristics, behavior of other virtual pedestrians, and integration of novel AV-pedestrian interfaces. We validated OnFoot against prior simulators and Wizard-of-Oz studies, and conducted a user study, manipulating vehicles' autonomy level, interfaces, and pedestrian group behavior. Our findings highlight the potential to use VR simulators as powerful tools for AV-pedestrian interaction design in mixed traffic.",
-      "dir": "content/output/publications",
-      "base": "dis-2019-mahadevan.json",
-      "ext": ".json",
-      "sourceBase": "dis-2019-mahadevan.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/chi-2020-hou.json": {
-      "date": "2020-04",
-      "title": "Autonomous Vehicle-Cyclist Interaction: Peril and Promise",
-      "authors": [
-        "Ming Hou",
-        "Karthik Mahadevan",
-        "Sowmya Somanath",
-        "Ehud Sharlin",
-        "Lora Oehlberg"
-      ],
-      "series": "CHI 2020",
-      "dir": "content/output/publications",
-      "base": "chi-2020-hou.json",
-      "ext": ".json",
-      "sourceBase": "chi-2020-hou.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/brennan-jones.json": {
-      "name": "Brennan Jones",
-      "type": "phd",
-      "url": "https://brennanjones.com/",
-      "scholar": "https://scholar.google.ca/citations?user=yzxiadIAAAAJ",
-      "dir": "content/output/people",
-      "base": "brennan-jones.json",
-      "ext": ".json",
-      "sourceBase": "brennan-jones.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/hri-2018-feick.json": {
-      "date": "2018-04",
-      "title": "The Way You Move: The Effect of a Robot Surrogate Movement in Remote Collaboration",
-      "authors": [
-        "Martin Feick",
-        "Lora Oehlberg",
-        "Anthony Tang",
-        "André Miede",
-        "Ehud Sharlin"
-      ],
-      "series": "HRI 2018",
-      "doi": "https://doi.org/10.1145/3173386.3176959",
-      "pages": 2,
-      "keywords": "movement trajectory & velocity, remote collaboration, robot surrogate",
-      "abstract": "In this paper, we discuss the role of the movement trajectory and velocity enabled by our tele-robotic system (ReMa) for remote collaboration on physical tasks. Our system reproduces changes in object orientation and position at a remote location using a humanoid robotic arm. However, even minor kinematics differences between robot and human arm can result in awkward or exaggerated robot movements. As a result, user communication with the robotic system can become less efficient, less fluent and more time intensive.",
-      "dir": "content/output/publications",
-      "base": "hri-2018-feick.json",
-      "ext": ".json",
-      "sourceBase": "hri-2018-feick.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/dis-2019-ledo.json": {
@@ -654,41 +668,46 @@
       "sourceBase": "dis-2019-ledo.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/iros-2020-hedayati.json": {
-      "date": "2020-09",
-      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
+    "content/output/publications/dis-2019-mahadevan.json": {
+      "date": "2019-06",
+      "title": "AV-Pedestrian Interaction Design Using a Pedestrian Mixed Traffic Simulator",
       "authors": [
-        "Hooman Hedayati",
-        "Ryo Suzuki",
-        "Daniel Leithinger",
-        "Daniel Szafir"
+        "Karthik Mahadevan",
+        "Elaheh Sanoubari",
+        "Sowmya Somanath",
+        "James E. Young",
+        "Ehud Sharlin"
       ],
-      "series": "IROS 2020",
-      "pages": 6,
-      "abstract": "We present PufferBot, an aerial robot with an expandable structure that may expand to protect a drone’s propellers when the robot is close to obstacles or collocated humans. PufferBot is made of a custom 3D printed expandable scissor structure, which utilizes a one degree of freedom actuator with rack and pinion mechanism. We propose four designs for the expandable structure, each with unique charac- terizations which may be useful in different situations. Finally, we present three motivating scenarios in which PufferBot might be useful beyond existing static propeller guard structures.",
+      "series": "DIS 2019",
+      "doi": "https://doi.org/10.1145/3322276.3322328",
+      "keywords": "mixed traffic, pedestrian simulator, autonomous vehicle-pedestrian interaction",
+      "pages": 12,
+      "abstract": "AV-pedestrian interaction will impact pedestrian safety, etiquette, and overall acceptance of AV technology. Evaluating AV-pedestrian interaction is challenging given limited availability of AVs and safety concerns. These challenges are compounded by \"mixed traffic\" conditions: studying AV-pedestrian interaction will be difficult in traffic consisting of vehicles varying in autonomy level. We propose immersive pedestrian simulators as design tools to study AV-pedestrian interaction, allowing rapid prototyping and evaluation of future AV-pedestrian interfaces. We present OnFoot: a VR-based simulator that immerses participants in mixed traffic conditions and allows examination of their behavior while controlling vehicles' autonomy-level, traffic and street characteristics, behavior of other virtual pedestrians, and integration of novel AV-pedestrian interfaces. We validated OnFoot against prior simulators and Wizard-of-Oz studies, and conducted a user study, manipulating vehicles' autonomy level, interfaces, and pedestrian group behavior. Our findings highlight the potential to use VR simulators as powerful tools for AV-pedestrian interaction design in mixed traffic.",
       "dir": "content/output/publications",
-      "base": "iros-2020-hedayati.json",
+      "base": "dis-2019-mahadevan.json",
       "ext": ".json",
-      "sourceBase": "iros-2020-hedayati.yaml",
+      "sourceBase": "dis-2019-mahadevan.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/mobilehci-2019-hung.json": {
-      "date": "2019-10",
-      "title": "WatchPen: Using Cross-Device Interaction Concepts to Augment Pen-Based Interaction",
+    "content/output/publications/hri-2018-feick.json": {
+      "date": "2018-04",
+      "title": "The Way You Move: The Effect of a Robot Surrogate Movement in Remote Collaboration",
       "authors": [
-        "Michael Hung",
-        "David Ledo",
-        "Lora Oehlberg"
+        "Martin Feick",
+        "Lora Oehlberg",
+        "Anthony Tang",
+        "André Miede",
+        "Ehud Sharlin"
       ],
-      "series": "MobileHCI 2019",
-      "doi": "https://doi.org/10.1145/3338286.3340122",
-      "keywords": "smartwatch, cross-device interaction, pen interaction, interaction techniques",
-      "pages": 8,
-      "abstract": "Pen-based input is often treated as auxiliary to mobile devices. We posit that cross-device interactions can inspire and extend the design space of pen-based interactions into new, expressive directions. We realize this through WatchPen, a smartwatch mounted on a passive, capacitive stylus that: (1) senses the usage context and leverages it for expression (e.g., changing colour), (2) contains tools and parameters within the display, and (3) acts as an on-demand output. As a result, it provides users with a dynamic relationship between inputs and outputs, awareness of current tool selection and parameters, and increased expressive match (e.g., added ability to mimic physical tools, showing clipboard contents). We discuss and reflect upon a series of interaction techniques that demonstrate WatchPen within a drawing application. We highlight the expressive power of leveraging multiple sensing and output capabilities across both the watch-augmented stylus and the tablet surface.",
+      "series": "HRI 2018",
+      "doi": "https://doi.org/10.1145/3173386.3176959",
+      "pages": 2,
+      "keywords": "movement trajectory & velocity, remote collaboration, robot surrogate",
+      "abstract": "In this paper, we discuss the role of the movement trajectory and velocity enabled by our tele-robotic system (ReMa) for remote collaboration on physical tasks. Our system reproduces changes in object orientation and position at a remote location using a humanoid robotic arm. However, even minor kinematics differences between robot and human arm can result in awkward or exaggerated robot movements. As a result, user communication with the robotic system can become less efficient, less fluent and more time intensive.",
       "dir": "content/output/publications",
-      "base": "mobilehci-2019-hung.json",
+      "base": "hri-2018-feick.json",
       "ext": ".json",
-      "sourceBase": "mobilehci-2019-hung.yaml",
+      "sourceBase": "hri-2018-feick.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/imwut-2020-wang.json": {
@@ -737,18 +756,83 @@
       "sourceBase": "tvcg-2019-blascheck.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/news.json": [
-      {
-        "date": "2020-08-10",
-        "text": "One paper accepted to UIST 2020",
-        "image": "uist-2020.jpg"
-      },
-      {
-        "date": "2020-05-05",
-        "text": "Five papers accepted to CHI 2020",
-        "image": "chi-2020.jpg"
-      }
-    ],
+    "content/output/publications/tei-2019-mikalauskas.json": {
+      "date": "2019-03",
+      "title": "Beyond the Bare Stage: Exploring Props as Potential Improviser-Controlled Technology",
+      "authors": [
+        "Claire Mikalauskas",
+        "April Viczko",
+        "Lora Oehlberg"
+      ],
+      "series": "TEI 2019",
+      "doi": "https://doi.org/10.1145/3294109.3295631",
+      "pages": 9,
+      "keywords": "props, performer-controlled technology, improvisational theatre",
+      "abstract": "While improvised theatre (improv) is often performed on a bare stage, improvisers sometimes incorporate physical props to inspire new directions for a scene and to enrich their performance. A tech booth can improvise light and sound technical elements, but coordinating with improvisers' actions on-stage is challenging. Our goal is to inform the design of an augmented prop that lets improvisers tangibly control light and sound technical elements while performing. We interviewed five professional improvisers about their use of physical props in improv, and their expectations of a possible augmented prop that controls technical theatre elements. We propose a set of guidelines for the design of an augmented prop that fits with the existing world of unpredictable improvised performance.",
+      "dir": "content/output/publications",
+      "base": "tei-2019-mikalauskas.json",
+      "ext": ".json",
+      "sourceBase": "tei-2019-mikalauskas.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/mobilehci-2019-hung.json": {
+      "date": "2019-10",
+      "title": "WatchPen: Using Cross-Device Interaction Concepts to Augment Pen-Based Interaction",
+      "authors": [
+        "Michael Hung",
+        "David Ledo",
+        "Lora Oehlberg"
+      ],
+      "series": "MobileHCI 2019",
+      "doi": "https://doi.org/10.1145/3338286.3340122",
+      "keywords": "smartwatch, cross-device interaction, pen interaction, interaction techniques",
+      "pages": 8,
+      "abstract": "Pen-based input is often treated as auxiliary to mobile devices. We posit that cross-device interactions can inspire and extend the design space of pen-based interactions into new, expressive directions. We realize this through WatchPen, a smartwatch mounted on a passive, capacitive stylus that: (1) senses the usage context and leverages it for expression (e.g., changing colour), (2) contains tools and parameters within the display, and (3) acts as an on-demand output. As a result, it provides users with a dynamic relationship between inputs and outputs, awareness of current tool selection and parameters, and increased expressive match (e.g., added ability to mimic physical tools, showing clipboard contents). We discuss and reflect upon a series of interaction techniques that demonstrate WatchPen within a drawing application. We highlight the expressive power of leveraging multiple sensing and output capabilities across both the watch-augmented stylus and the tablet surface.",
+      "dir": "content/output/publications",
+      "base": "mobilehci-2019-hung.json",
+      "ext": ".json",
+      "sourceBase": "mobilehci-2019-hung.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/iros-2020-hedayati.json": {
+      "date": "2020-09",
+      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
+      "authors": [
+        "Hooman Hedayati",
+        "Ryo Suzuki",
+        "Daniel Leithinger",
+        "Daniel Szafir"
+      ],
+      "series": "IROS 2020",
+      "pages": 6,
+      "abstract": "We present PufferBot, an aerial robot with an expandable structure that may expand to protect a drone’s propellers when the robot is close to obstacles or collocated humans. PufferBot is made of a custom 3D printed expandable scissor structure, which utilizes a one degree of freedom actuator with rack and pinion mechanism. We propose four designs for the expandable structure, each with unique charac- terizations which may be useful in different situations. Finally, we present three motivating scenarios in which PufferBot might be useful beyond existing static propeller guard structures.",
+      "dir": "content/output/publications",
+      "base": "iros-2020-hedayati.json",
+      "ext": ".json",
+      "sourceBase": "iros-2020-hedayati.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2020-goffin.json": {
+      "date": "2020-04",
+      "title": "Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations",
+      "authors": [
+        "Pascal Goffin",
+        "Tanja Blascheck",
+        "Petra Isenberg",
+        "Wesley Willett"
+      ],
+      "series": "CHI 2020",
+      "doi": "https://doi.org/10.1145/3313831.3376842",
+      "keywords": "glyphs, word-scale visualization, information visualization, interaction techniques, text visualization",
+      "pages": 13,
+      "video": "https://www.youtube.com/watch?v=wPaVdSWM8hU",
+      "abstract": "We describe a design space of view manipulation interactions for small data-driven contextual visualizations (word-scale visualizations). These interaction techniques support an active reading experience and engage readers through exploration of embedded visualizations whose placement and content connect them to specific terms in a document. A reader could, for example, use our proposed interaction techniques to explore word-scale visualizations of stock market trends for companies listed in a market overview article. When readers wish to engage more deeply with the data, they can collect, arrange, compare, and navigate the document using the embedded word-scale visualizations, permitting more visualization-centric analyses. We support our design space with a concrete implementation, illustrate it with examples from three application domains, and report results from two experiments. The experiments show how view manipulation interactions helped readers examine embedded visualizations more quickly and with less scrolling and yielded qualitative feedback on usability and future opportunities.",
+      "dir": "content/output/publications",
+      "base": "chi-2020-goffin.json",
+      "ext": ".json",
+      "sourceBase": "chi-2020-goffin.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/tvcg-2020-walny.json": {
       "date": "2020-06",
       "title": "Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff",
@@ -774,46 +858,6 @@
       "sourceBase": "tvcg-2020-walny.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/cnc-2019-hammad.json": {
-      "date": "2019-06",
-      "title": "Mutation: Leveraging Performing Arts Practices in Cyborg Transitioning",
-      "authors": [
-        "Nour Hammad",
-        "Elaheh Sanoubari",
-        "Patrick Finn",
-        "Sowmya Somanath",
-        "James E. Young",
-        "Ehud Sharlin"
-      ],
-      "year": 2019,
-      "series": "C&C 2019",
-      "dir": "content/output/publications",
-      "base": "cnc-2019-hammad.json",
-      "ext": ".json",
-      "sourceBase": "cnc-2019-hammad.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/uist-2020-suzuki.json": {
-      "date": "2020-10",
-      "title": "RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
-      "authors": [
-        "Ryo Suzuki",
-        "Rubaiat Habib Kazi",
-        "Li-Yi Wei",
-        "Stephen DiVerdi",
-        "Wilmot Li",
-        "Daniel Leithinger"
-      ],
-      "series": "UIST 2020",
-      "keywords": "augmented reality, embedded data visualization, real-time authoring, sketching interfaces, tangible interaction",
-      "pages": 16,
-      "abstract": "We present RealitySketch, an augmented reality interface for sketching interactive graphics and visualizations. In recent years, an increasing number of AR sketching tools enable users to draw and embed sketches in the real world. However, with the current tools, sketched contents are inherently static, floating in mid air without responding to the real world. This paper introduces a new way to embed dynamic and responsive graphics in the real world. In RealitySketch, the user draws graphical elements on a mobile AR screen and binds them with physical objects in real-time and improvisational ways, so that the sketched elements dynamically move with the corresponding physical motion. The user can also quickly visualize and analyze real-world phenomena through responsive graph plots or interactive visualizations. This paper contributes to a set of interaction techniques that enable capturing, parameterizing, and visualizing real-world motion without pre-defined programs and configurations. Finally, we demonstrate our tool with several application scenarios, including physics education, sports training, and in-situ tangible interfaces.",
-      "dir": "content/output/publications",
-      "base": "uist-2020-suzuki.json",
-      "ext": ".json",
-      "sourceBase": "uist-2020-suzuki.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/publications/vr-2019-satriadi.json": {
       "date": "2019-03",
       "title": "Augmented Reality Map Navigation with Freehand Gestures",
@@ -836,92 +880,48 @@
       "sourceBase": "vr-2019-satriadi.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/tei-2019-mikalauskas.json": {
-      "date": "2019-03",
-      "title": "Beyond the Bare Stage: Exploring Props as Potential Improviser-Controlled Technology",
-      "authors": [
-        "Claire Mikalauskas",
-        "April Viczko",
-        "Lora Oehlberg"
-      ],
-      "series": "TEI 2019",
-      "doi": "https://doi.org/10.1145/3294109.3295631",
-      "pages": 9,
-      "keywords": "props, performer-controlled technology, improvisational theatre",
-      "abstract": "While improvised theatre (improv) is often performed on a bare stage, improvisers sometimes incorporate physical props to inspire new directions for a scene and to enrich their performance. A tech booth can improvise light and sound technical elements, but coordinating with improvisers' actions on-stage is challenging. Our goal is to inform the design of an augmented prop that lets improvisers tangibly control light and sound technical elements while performing. We interviewed five professional improvisers about their use of physical props in improv, and their expectations of a possible augmented prop that controls technical theatre elements. We propose a set of guidelines for the design of an augmented prop that fits with the existing world of unpredictable improvised performance.",
-      "dir": "content/output/publications",
-      "base": "tei-2019-mikalauskas.json",
-      "ext": ".json",
-      "sourceBase": "tei-2019-mikalauskas.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/anthony-tang.json": {
-      "name": "Anthony Tang",
-      "type": "faculty",
-      "title": "Adjunct Associate Professor",
-      "url": "https://hcitang.github.io/",
-      "scholar": "https://scholar.google.com/citations?user=RG1EQowAAAAJ",
-      "twitter": "https://twitter.com/proclubboy",
-      "github": "http://github.com/hcitang",
+    "content/output/people/zachary-mckendrick.json": {
+      "name": "Zachary McKendrick",
+      "type": "phd",
+      "url": "https://scpa.ucalgary.ca/manageprofile/profiles/zachary-mckendrick",
+      "linkedin": "https://www.linkedin.com/in/zach-mckendrick-7a24bb3b",
       "dir": "content/output/people",
-      "base": "anthony-tang.json",
+      "base": "zachary-mckendrick.json",
       "ext": ".json",
-      "sourceBase": "anthony-tang.yaml",
+      "sourceBase": "zachary-mckendrick.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/booktitles.json": {
-      "CHI": {
-        "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "CHI EA": {
-        "booktitle": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "UIST": {
-        "booktitle": "Proceedings of the Annual ACM Symposium on User Interface Software and Technology",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "IMWUT": {
-        "booktitle": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "DIS": {
-        "booktitle": "Proceedings of the ACM on Designing Interactive Systems Conference",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "MobileHCI": {
-        "booktitle": "Proceedings of the International Conference on Human-Computer Interaction with Mobile Devices and Services",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "TEI": {
-        "booktitle": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "HRI": {
-        "booktitle": "Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "VR": {
-        "booktitle": "Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces",
-        "publisher": "IEEE, New York, NY, USA"
-      },
-      "TVCG": {
-        "booktitle": "IEEE Transactions on Visualization and Computer Graphics",
-        "publisher": "IEEE, New York, NY, USA"
-      },
-      "IROS": {
-        "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems",
-        "publisher": "IEEE, New York, NY, USA"
-      },
-      "C&C": {
-        "booktitle": "Proceedings of the ACM on Creativity and Cognition",
-        "publisher": "ACM, New York, NY, USA"
-      },
-      "dir": "content/output",
-      "base": "booktitles.json",
+    "content/output/people/ehud-sharlin.json": {
+      "name": "Ehud Sharlin",
+      "type": "faculty",
+      "title": "Professor",
+      "url": "http://contacts.ucalgary.ca/info/cpsc/profiles/102-3264",
+      "scholar": "https://scholar.google.ca/citations?hl=en&user=eAFxlZIAAAAJ",
+      "dir": "content/output/people",
+      "base": "ehud-sharlin.json",
       "ext": ".json",
-      "sourceBase": "booktitles.yaml",
+      "sourceBase": "ehud-sharlin.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2020-suzuki.json": {
+      "date": "2020-10",
+      "title": "RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
+      "authors": [
+        "Ryo Suzuki",
+        "Rubaiat Habib Kazi",
+        "Li-Yi Wei",
+        "Stephen DiVerdi",
+        "Wilmot Li",
+        "Daniel Leithinger"
+      ],
+      "series": "UIST 2020",
+      "keywords": "augmented reality, embedded data visualization, real-time authoring, sketching interfaces, tangible interaction",
+      "pages": 16,
+      "abstract": "We present RealitySketch, an augmented reality interface for sketching interactive graphics and visualizations. In recent years, an increasing number of AR sketching tools enable users to draw and embed sketches in the real world. However, with the current tools, sketched contents are inherently static, floating in mid air without responding to the real world. This paper introduces a new way to embed dynamic and responsive graphics in the real world. In RealitySketch, the user draws graphical elements on a mobile AR screen and binds them with physical objects in real-time and improvisational ways, so that the sketched elements dynamically move with the corresponding physical motion. The user can also quickly visualize and analyze real-world phenomena through responsive graph plots or interactive visualizations. This paper contributes to a set of interaction techniques that enable capturing, parameterizing, and visualizing real-world motion without pre-defined programs and configurations. Finally, we demonstrate our tool with several application scenarios, including physics education, sports training, and in-situ tangible interfaces.",
+      "dir": "content/output/publications",
+      "base": "uist-2020-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "uist-2020-suzuki.yaml",
       "sourceExt": ".yaml"
     }
   },
