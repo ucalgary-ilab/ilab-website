@@ -9,6 +9,11 @@
     "Wooi Boon Goh"
   ],
   "series": "CHI 2020",
+  "doi": "https://doi.org/10.1145/3313831.3376567",
+  "keywords": "video streams, mukbang",
+  "pages": 13,
+  "talk": "https://www.youtube.com/watch?v=Dkp8A_em90M",
+  "abstract": "We present a mixed-methods study of viewers on their practices and motivations around watching mukbang — video streams of people eating large quantities of food. Viewers' experiences provide insight on future technologies for multisensorial video streams and technology-supported commensality (eating with others). We surveyed 104 viewers and interviewed 15 of them about their attitudes and reflections on their mukbang viewing habits, their physiological aspects of watching someone eat, and their perceived social relationship with mukbangers. Based on our findings, we propose design implications for remote commensality, and for synchronized multisensorial video streaming content.",
   "dir": "content/output/publications",
   "base": "chi-2020-anjani.json",
   "ext": ".json",

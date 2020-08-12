@@ -1,5 +1,5 @@
 {
-  "date": "2019-04",
+  "date": "2019-03",
   "title": "Augmented Reality Map Navigation with Freehand Gestures",
   "authors": [
     "Kadek Ananta Satriadi",
@@ -10,6 +10,10 @@
     "Wesley Willett"
   ],
   "series": "IEEE VR 2019",
+  "doi": "https://doi.org/10.1109/VR.2019.8798340",
+  "keywords": "augmented reality, gesture recognition, human computer interaction, interactive devices",
+  "pages": 11,
+  "abstract": "Freehand gesture interaction has long been proposed as a `natural' input method for Augmented Reality (AR) applications, yet has been little explored for intensive applications like multiscale navigation. In multiscale navigation, such as digital map navigation, pan and zoom are the predominant interactions. A position-based input mapping (e.g. grabbing metaphor) is intuitive for such interactions, but is prone to arm fatigue. This work focuses on improving digital map navigation in AR with mid-air hand gestures, using a horizontal intangible map display. First, we conducted a user study to explore the effects of handedness (unimanual and bimanual) and input mapping (position-based and rate-based). From these findings we designed DiveZoom and TerraceZoom, two novel hybrid techniques that smoothly transition between position- and rate-based mappings. A second user study evaluated these designs. Our results indicate that the introduced input-mapping transitions can reduce perceived arm fatigue with limited impact on performance.",
   "dir": "content/output/publications",
   "base": "vr-2019-satriadi.json",
   "ext": ".json",

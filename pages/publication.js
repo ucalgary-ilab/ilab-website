@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
+import booktitles from '../content/output/booktitles.json'
 
 import Header from './header'
 import Publications from './publications'
@@ -15,6 +16,11 @@ let people = []
 for (let key of keys) {
   people.push(summary.fileMap[key])
 }
+const namesId = {}
+for (let person of people) {
+  namesId[person.name] = person.id
+}
+
 
 class Publication extends React.Component {
   static async getInitialProps(req) {
@@ -25,6 +31,26 @@ class Publication extends React.Component {
   render() {
     const publication = require(`../content/output/publications/${ this.props.id }.json`)
     const names = people.map((person) => person.name )
+    const conference = publication.series.slice(0, -5)
+    const year = publication.series.slice(-2)
+    let proceeding = booktitles[conference]
+    proceeding.series = `${ conference } '${year}`
+
+    if (publication.pages < 4) {
+      proceeding.booktitle = 'Adjunct ' + proceeding.booktitle
+    }
+
+
+    if (publication.video) {
+      if (publication.video.includes('youtube')) {
+        let id = publication.video.split('?v=')[1]
+        publication.embed = `https://www.youtube.com/embed/${id}`
+      }
+      if (publication.video.includes('vimeo')) {
+        let id = publication.video.split('/')[3]
+        publication.embed = `https://player.vimeo.com/video/${id}`
+      }
+    }
 
     return (
       <div>
@@ -44,11 +70,10 @@ class Publication extends React.Component {
               <h1>{ publication.title }</h1>
               <p className="meta">
                 { publication.authors.map((author) => {
-                    let id = author.replace(' ', '-').toLowerCase()
                     return (
                       names.includes(author) ?
-                      <a href={ `/people/${id}` }>
-                        <img src={ `/static/images/people/${ id }.jpg`} className="ui circular spaced image mini-profile" />
+                      <a href={ `/people/${ namesId[author] }` }>
+                        <img src={ `/static/images/people/${ namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
                         <strong>{author}</strong>
                       </a>
                       :
@@ -74,11 +99,40 @@ class Publication extends React.Component {
               ></iframe>
             </div>
 
+            <div style={{ margin: '50px 0px', fontSize: '1.1em' }}>
+              <h1>Abstract</h1>
+              <p>{ publication.abstract }</p>
+
+              { publication.keywords &&
+              <p>
+                <div class="ui labels">
+                  Keywords: &nbsp;
+                  { publication.keywords.split(', ').map((keyword) => {
+                    return <span className="ui large blue label">{ keyword }</span>
+                  }) }
+                </div>
+              </p>
+              }
+
+              <div class="ui segment">
+                <p style={{ lineHeight: "160%" }}>
+                  { publication.authors.reduce((prev, current) => [prev, ', ', current]) }.&nbsp;
+                  <b>{ publication.title }</b>.&nbsp;
+                  <i>{ `In ${proceeding.booktitle} (${ proceeding.series })`  }</i>.&nbsp;
+                  { proceeding.publisher }&nbsp;
+                  Page: 1-{ publication.pages }.&nbsp;
+                  DOI: <a href={ publication.doi} target="_blank">{ publication.doi }</a>
+                </p>
+              </div>
+            </div>
+
+            {/*
             <ReactMarkdown
               source={publication.bodyContent}
               escapeHtml={false}
               linkTarget="_blank"
             />
+            */}
 
           </div>
           <div className="one wide column"></div>

@@ -1,0 +1,47 @@
+CHI:
+  booktitle: Proceedings of the CHI Conference on Human Factors in Computing Systems
+  publisher: ACM, New York, NY, USA
+
+CHI EA:
+  booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems
+  publisher: ACM, New York, NY, USA
+
+UIST:
+  booktitle: Proceedings of the Annual ACM Symposium on User Interface Software and Technology
+  publisher: ACM, New York, NY, USA
+
+IMWUT:
+  booktitle: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+  publisher: ACM, New York, NY, USA
+
+DIS:
+  booktitle: Proceedings of the ACM on Designing Interactive Systems Conference
+  publisher: ACM, New York, NY, USA
+
+MobileHCI:
+  booktitle: Proceedings of the International Conference on Human-Computer Interaction with Mobile Devices and Services
+  publisher: ACM, New York, NY, USA
+
+TEI:
+  booktitle: Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction
+  publisher: ACM, New York, NY, USA
+
+HRI:
+  booktitle: Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction
+  publisher: ACM, New York, NY, USA
+
+VR:
+  booktitle: Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces
+  publisher: IEEE, New York, NY, USA
+
+TVCG:
+  booktitle: IEEE Transactions on Visualization and Computer Graphics
+  publisher: IEEE, New York, NY, USA
+
+IROS:
+  booktitle: Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems
+  publisher: IEEE, New York, NY, USA
+
+C&C:
+  booktitle: Proceedings of the ACM on Creativity and Cognition
+  publisher: ACM, New York, NY, USA
