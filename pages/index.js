@@ -7,7 +7,7 @@ import Labs from './labs'
 import News from './news'
 import Publications from './publications'
 import People from './people'
-import Location from './location'
+import Space from './space'
 import Footer from './footer'
 
 class Index extends React.Component {
@@ -55,7 +55,7 @@ class Index extends React.Component {
             <News short="true" />
             <Publications short="true" />
             <People short="true" />
-            <Location short="true" />
+            <Space short="true" />
           </div>
           <div className="one wide column"></div>
         </div>
