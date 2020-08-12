@@ -153,6 +153,14 @@ a:hover {
   object-fit: cover;
 }
 
+#publications .publication {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#publications .publication:hover {
+  background: #efefef;
+}
 
 #breadcrumb {
   padding: 0;

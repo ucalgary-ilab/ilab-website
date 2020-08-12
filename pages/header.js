@@ -14,7 +14,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <div className="ui stackable secondary pointing container menu" style={{ 'border-bottom': 'none', marginRight: '15%', fontSize: '1.1em' }}>
+        <div className="ui stackable secondary pointing container menu" style={{ borderBottom: 'none', marginRight: '15%', fontSize: '1.1em' }}>
           <div className="left menu">
             <a className='item' href='/'>
               <b style={{ color: '#00716C' }}>UCalgary iLab</b>
@@ -23,7 +23,7 @@ class Header extends React.Component {
           <div className="right menu">
             { items.map((item) => {
               return (
-                <a className={ this.props.current == item ? 'item active' : 'item' } href={ item === 'Home' ? '/' : `/${item.toLowerCase()}` }>
+                <a className={ this.props.current == item ? 'item active' : 'item' } href={ item === 'Home' ? '/' : `/${item.toLowerCase()}` } key={ item }>
                   { item }
                 </a>
               )

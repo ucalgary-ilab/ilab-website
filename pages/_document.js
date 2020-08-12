@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html>
-        <Head>
+        <head>
 
           <link href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
           `}}
           />
 
-        </Head>
+        </head>
         <body>
           <Main />
           <NextScript />

@@ -15,6 +15,10 @@ class Detail extends React.Component {
     const people = this.props.people
     const namesId = this.props.namesId
 
+    if (!publication) {
+      return <div></div>
+    }
+
     const names = people.map((person) => person.name )
     const conference = publication.series.slice(0, -5)
     const year = publication.series.slice(-2)
@@ -51,12 +55,12 @@ class Detail extends React.Component {
             { publication.authors.map((author) => {
                 return (
                   names.includes(author) ?
-                  <a href={ `/people/${ namesId[author] }` }>
+                  <a href={ `/people/${ namesId[author] }` } key={ author }>
                     <img src={ `/static/images/people/${ namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
                     <strong>{author}</strong>
                   </a>
                   :
-                  <span>{author}</span>
+                  <span key={ author }>{author}</span>
                 )
               }).reduce((prev, current) => [prev, ' , ', current])
             }
@@ -68,13 +72,13 @@ class Detail extends React.Component {
             width="100%"
             height="315"
             src={`${publication.embed}?`}
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen={true}
-            mozAllowFullScreen={true}
-            msAllowFullScreen={true}
-            oAllowFullScreen={true}
-            webkitAllowFullScreen={true}
+            mozallowfullscreen="true"
+            msallowfullscreen="true"
+            oallowfullscreen="true"
+            webkitallowfullscreen="true"
           ></iframe>
         </div>
 
@@ -83,17 +87,15 @@ class Detail extends React.Component {
           <p>{ publication.abstract }</p>
 
           { publication.keywords &&
-          <p>
-            <div class="ui labels">
+            <div className="ui labels">
               Keywords: &nbsp;
               { publication.keywords.split(', ').map((keyword) => {
-                return <span className="ui large blue label">{ keyword }</span>
+                return <span className="ui large blue label" key={ keyword }>{ keyword }</span>
               }) }
             </div>
-          </p>
           }
 
-          <div class="ui segment">
+          <div className="ui segment">
             <p style={{ lineHeight: "160%" }}>
               { publication.authors.reduce((prev, current) => [prev, ', ', current]) }.&nbsp;
               <b>{ publication.title }</b>.&nbsp;

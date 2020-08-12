@@ -9,23 +9,23 @@ class News extends React.Component {
   render() {
     return (
       <div id="news" className="category">
-        <h1 class="ui horizontal divider header">
-          <i class="paper plane outline icon"></i>
+        <h1 className="ui horizontal divider header">
+          <i className="paper plane outline icon"></i>
           News
         </h1>
         <div className="ui segment">
-          <div class="ui divided items">
+          <div className="ui divided items">
             { news.map((item) => {
               return (
-                <div class="item">
-                  <div class="ui tiny image">
+                <div className="item" key={ item.date }>
+                  <div className="ui tiny image">
                     <img src={ `/static/images/news/${ item.image}` } style={{ padding: '5px' }} />
                   </div>
-                  <div class="content">
-                    <div class="meta">
+                  <div className="content">
+                    <div className="meta">
                       { item.date }
                     </div>
-                    <div class="middle aligned content">
+                    <div className="middle aligned content">
                       { item.text }
                     </div>
                   </div>

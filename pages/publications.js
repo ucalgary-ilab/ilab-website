@@ -31,7 +31,21 @@ for (let key of keys) {
 
 
 class Publications extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      publication: publications[0]
+    }
+  }
+
   componentDidMount() {
+  }
+
+  onClick(publication) {
+    console.log(publication)
+    this.setState({ publication: publication })
+    $('.ui.modal').modal('show')
   }
 
   render() {
@@ -53,19 +67,17 @@ class Publications extends React.Component {
 
     return (
       <div id="publications" className="category">
-        <h1 class="ui horizontal divider header">
-          <i class="file alternate outline icon"></i>
+        <h1 className="ui horizontal divider header">
+          <i className="file alternate outline icon"></i>
           { this.props.short ? 'Recent Publications' : 'Publications' }
         </h1>
         <div className="ui segment" style={{ marginTop: '50px' }}>
          { publications.map((publication, i) => {
             const id = publication.base.split('.json')[0]
             return (
-              <div className="publication ui vertical segment stackable grid" data-id={ id } >
+              <div className="publication ui vertical segment stackable grid" data-id={ id } onClick={ this.onClick.bind(this, publication) } key={ i }>
                 <div className="three wide column" style={{ margin: 'auto' }}>
-                  <a href={ `/publications/${id}` }>
-                    <img className="cover" src={ `/static/images/publications/${ id }.jpg` } />
-                  </a>
+                  <img className="cover" src={ `/static/images/publications/${ id }.jpg` } />
                 </div>
                 <div className="thirteen wide column">
                   <p>
@@ -73,31 +85,29 @@ class Publications extends React.Component {
                     { publication.award &&
                       <span className="ui big label">
                       { publication.award === 'Honorable Mention' &&
-                        <b><i class="fas fa-award"></i> Honorable Mention</b>
+                        <b><i className="fas fa-award"></i> Honorable Mention</b>
                       }
                       { publication.award === 'Best Paper' &&
-                        <b><i class="fas fa-trophy"></i> Best Paper</b>
+                        <b><i className="fas fa-trophy"></i> Best Paper</b>
                       }
                       </span>
                     }
                   </p>
-                  <p>
-                    <a href={ `/publications/${id}` } style={{ fontSize: '1.3em' }}>
+                  <p style={{ fontSize: '1.3em', color: '#00716C' }}>
                       <b>
                         { publication.title }
                       </b>
-                    </a>
                   </p>
                   <p>
                     { publication.authors.map((author) => {
                         return (
                           names.includes(author) ?
-                          <a href={ `/people/${ namesId[author] }` }>
+                          <a href={ `/people/${ namesId[author] }` } key={ author }>
                             <img src={ `/static/images/people/${ namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
                             <span>{author}</span>
                           </a>
                           :
-                          <span>{author}</span>
+                          <span key={ author }>{author}</span>
                         )
                       }).reduce((prev, current) => [prev, ' , ', current])
                     }
@@ -107,11 +117,13 @@ class Publications extends React.Component {
             )
          })}
         </div>
-        <Detail
-          publication={ publications[0] }
-          namesId={ namesId }
-          people={ people }
-        />
+        <div className="ui modal">
+          <Detail
+            publication={ this.state.publication }
+            namesId={ namesId }
+            people={ people }
+          />
+        </div>
 
 
        { this.props.short &&

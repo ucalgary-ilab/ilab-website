@@ -5,8 +5,8 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div class="ui center aligned container">
-          <div class="ui section divider"></div>
+        <div className="ui center aligned container">
+          <div className="ui section divider"></div>
             <img style={{ maxWidth: '60px', margin: '30px auto' }} src="/static/images/logo-3.png"  />
             <div className="content">
               <h1 style={{ fontSize: '2.2rem' }}>Interactions Lab</h1>
@@ -17,7 +17,7 @@ class Footer extends React.Component {
             <img style={{ maxWidth: '200px', margin: '0px auto' }} src="/static/images/logo-1.png"  />
           </div>
           {/*
-          <div class="ui horizontal small divided link list">
+          <div className="ui horizontal small divided link list">
             <div className="item">
               <a href="https://scholar.google.com/citations?user=klWjaQIAAAAJ" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fas fa-graduation-cap fa-fw" />

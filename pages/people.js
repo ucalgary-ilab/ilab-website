@@ -76,13 +76,13 @@ class People extends React.Component {
     }
     return (
       <div id="people" className="category">
-        <h1 class="ui horizontal divider header">
-          <i class="child icon"></i>
+        <h1 className="ui horizontal divider header">
+          <i className="child icon"></i>
           People
         </h1>
         { types.map((type) => {
           return (
-            <div className="people-category">
+            <div className="people-category" key={ type.title }>
               <h2>{ type.title }</h2>
               <div className="ui grid">
                 { people
@@ -92,7 +92,7 @@ class People extends React.Component {
                   .map((person) => {
                     person = this.getTitle(person)
                     return (
-                      <a className="four wide column person" href={ `/people/${ person.id }` }>
+                      <a className="four wide column person" href={ `/people/${ person.id }` } key={ person.id }>
                         <img className="ui circular image medium-profile" src={ `/static/images/people/${ person.id }.jpg`}/>
                         <p><b>{ person.name }</b></p>
                         <p>
