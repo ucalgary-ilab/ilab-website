@@ -7,7 +7,7 @@ const items = [
   'Courses',
   'Facility',
   'News',
-  'Access'
+  'Location'
 ]
 
 class Header extends React.Component {

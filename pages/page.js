@@ -9,6 +9,7 @@ import Publications from './publications'
 import People from './people'
 import Courses from './courses'
 import Facility from './facility'
+import Location from './location'
 import Footer from './footer'
 
 class Page extends React.Component {
@@ -30,6 +31,8 @@ class Page extends React.Component {
         return <Facility />
       case 'news':
         return <News />
+      case 'location':
+        return <Location />
     }
   }
 

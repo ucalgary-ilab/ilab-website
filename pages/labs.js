@@ -10,7 +10,7 @@ class Labs extends React.Component {
     return (
       <div>
         <h1 className="ui horizontal divider header">
-          Labs
+          Research Labs
         </h1>
         <div id="labs" className="ui stackable four column grid" style={{ textAlign: 'center' }}>
           { labs.map((lab) => {

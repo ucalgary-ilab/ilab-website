@@ -48,8 +48,7 @@ module.exports = withCSS({
       }
     }
 
-    console.log(pages)
-
+    // console.log(pages)
     return Object.assign({}, pages, {
       '/': { page: '/' }
     })
@@ -59,7 +58,8 @@ module.exports = withCSS({
     config.plugins.push(
       new webpack.ProvidePlugin({
         $: 'jquery',
-        jQuery: 'jquery'
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
       })
     )
     return config

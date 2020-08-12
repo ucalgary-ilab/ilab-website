@@ -1,12 +1,27 @@
 [
   {
-    "date": "2020-08-10",
+    "date": "2020-08-07",
+    "text": "David Ledo defended his PhD dissertation",
+    "icon": "fas fa-graduation-cap"
+  },
+  {
+    "date": "2020-07-10",
     "text": "One paper accepted to UIST 2020",
     "image": "uist-2020.jpg"
   },
   {
-    "date": "2020-05-05",
-    "text": "Five papers accepted to CHI 2020",
+    "date": "2020-06-07",
+    "text": "One paper accepted to IROS 2020",
+    "image": "iros-2020.jpg"
+  },
+  {
+    "date": "2020-03-07",
+    "text": "One paper accepted to IMWUT 2020",
+    "image": "imwut.jpg"
+  },
+  {
+    "date": "2020-02-05",
+    "text": "Four papers accepted to CHI 2020",
     "image": "chi-2020.jpg"
   }
 ]

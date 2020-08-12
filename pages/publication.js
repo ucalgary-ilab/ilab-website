@@ -39,7 +39,7 @@ class Publication extends React.Component {
 
         <div className="ui stackable grid">
           <div className="one wide column"></div>
-          <div className="ten wide column centered">
+          <div className="ten wide column centered" style={{ marginTop: '30px' }}>
             <Detail
               publication={ publication}
               namesId={ namesId }

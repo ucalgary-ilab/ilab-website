@@ -109,13 +109,13 @@ class People extends React.Component {
             </div>
           )
         })}
-       { this.props.short &&
+        { this.props.short &&
           <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
             <a className="ui button" href="/people">
               + see more members
             </a>
           </div>
-       }
+        }
       </div>
     )
   }

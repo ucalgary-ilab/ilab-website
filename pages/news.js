@@ -18,9 +18,16 @@ class News extends React.Component {
             { news.map((item) => {
               return (
                 <div className="item" key={ item.date }>
-                  <div className="ui tiny image">
-                    <img src={ `/static/images/news/${ item.image}` } style={{ padding: '5px' }} />
-                  </div>
+                  { item.image &&
+                    <div className="ui tiny image">
+                      <img src={ `/static/images/news/${ item.image}` } style={{ padding: '5px' }} />
+                    </div>
+                  }
+                  { item.icon &&
+                    <div className="ui tiny image" style={{ margin: 'auto', textAlign: 'center', fontSize: '2.2em', background: '#eee', height: '80px', paddingTop: '20px' }}>
+                      <i className={ `${item.icon} fa-fw` } />
+                    </div>
+                  }
                   <div className="content">
                     <div className="meta">
                       { item.date }

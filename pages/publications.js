@@ -2,6 +2,10 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
+// const jQuery = require('jquery')
+// window.$ = window.jQuery = jQuery
+// require('semantic-ui-modal/modal.js')
+
 import Detail from './detail'
 
 let fileNames = Object.keys(summary.fileMap)
@@ -43,9 +47,10 @@ class Publications extends React.Component {
   }
 
   onClick(publication) {
-    console.log(publication)
     this.setState({ publication: publication })
-    $('.ui.modal').modal('show')
+    // $('.ui.modal').modal('show')
+    console.log($('.ui.modal').modal)
+    // $('.ui.modal').modal('show')
   }
 
   render() {
@@ -77,7 +82,7 @@ class Publications extends React.Component {
             return (
               <div className="publication ui vertical segment stackable grid" data-id={ id } onClick={ this.onClick.bind(this, publication) } key={ i }>
                 <div className="three wide column" style={{ margin: 'auto' }}>
-                  <img className="cover" src={ `/static/images/publications/${ id }.jpg` } />
+                  <img className="cover" src={ `/static/images/publications/cover/${ id }.jpg` } />
                 </div>
                 <div className="thirteen wide column">
                   <p>
@@ -104,7 +109,7 @@ class Publications extends React.Component {
                           names.includes(author) ?
                           <a href={ `/people/${ namesId[author] }` } key={ author }>
                             <img src={ `/static/images/people/${ namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
-                            <span>{author}</span>
+                            <span className="author-link">{author}</span>
                           </a>
                           :
                           <span key={ author }>{author}</span>
@@ -117,22 +122,32 @@ class Publications extends React.Component {
             )
          })}
         </div>
-        <div className="ui modal">
-          <Detail
-            publication={ this.state.publication }
-            namesId={ namesId }
-            people={ people }
-          />
+        <div className="ui large modal">
+          <div className="header">
+            <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }.pdf` } target="_blank">
+              <i className="far fa-file-pdf fa-fw"></i> PDF
+            </a>
+            &nbsp;&nbsp;
+            <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }` } target="_blank" style={{ float: 'right' }}>
+              <i className="fas fa-external-link-alt fa-fw"></i> Link
+            </a>
+          </div>
+          <div className="content">
+            <Detail
+              publication={ this.state.publication }
+              namesId={ namesId }
+              people={ people }
+            />
+          </div>
         </div>
 
-
-       { this.props.short &&
+        { this.props.short &&
           <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
             <a className="ui button" href="/publications">
               { `+ ${publications.length} more publications` }
             </a>
           </div>
-       }
+        }
       </div>
     )
   }
