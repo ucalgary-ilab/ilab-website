@@ -2,6 +2,8 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
+import Detail from './detail'
+
 let fileNames = Object.keys(summary.fileMap)
 let keys = fileNames.filter((fileName) => {
   return fileName.includes('publications')
@@ -14,7 +16,6 @@ for (let key of keys) {
 publications = publications.sort((a, b) => {
   return new Date(b.date) - new Date(a.date)
 })
-
 
 fileNames = Object.keys(summary.fileMap)
 keys = fileNames.filter((fileName) => {
@@ -101,23 +102,18 @@ class Publications extends React.Component {
                       }).reduce((prev, current) => [prev, ' , ', current])
                     }
                   </p>
-
-                  { /*
-                  publication.keywords &&
-                  <p>
-                    <div class="ui labels">
-                      { publication.keywords.split(', ').map((keyword) => {
-                        return <span className="ui label">{ keyword }</span>
-                      }) }
-                    </div>
-                  </p>
-                  */ }
-
                 </div>
               </div>
             )
          })}
         </div>
+        <Detail
+          publication={ publications[0] }
+          namesId={ namesId }
+          people={ people }
+        />
+
+
        { this.props.short &&
           <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
             <a className="ui button" href="/publications">
