@@ -6,13 +6,14 @@
     "April Viczko",
     "Lora Oehlberg"
   ],
-  "year": 2019,
   "series": "TEI 2019",
-  "bodyContent": "",
-  "bodyHtml": "",
+  "doi": "https://doi.org/10.1145/3294109.3295631",
+  "pages": 9,
+  "keywords": "props, performer-controlled technology, improvisational theatre",
+  "abstract": "While improvised theatre (improv) is often performed on a bare stage, improvisers sometimes incorporate physical props to inspire new directions for a scene and to enrich their performance. A tech booth can improvise light and sound technical elements, but coordinating with improvisers' actions on-stage is challenging. Our goal is to inform the design of an augmented prop that lets improvisers tangibly control light and sound technical elements while performing. We interviewed five professional improvisers about their use of physical props in improv, and their expectations of a possible augmented prop that controls technical theatre elements. We propose a set of guidelines for the design of an augmented prop that fits with the existing world of unpredictable improvised performance.",
   "dir": "content/output/publications",
   "base": "tei-2019-mikalauskas.json",
   "ext": ".json",
-  "sourceBase": "tei-2019-mikalauskas.md",
-  "sourceExt": ".md"
+  "sourceBase": "tei-2019-mikalauskas.yaml",
+  "sourceExt": ".yaml"
 }

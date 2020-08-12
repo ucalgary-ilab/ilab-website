@@ -9,16 +9,10 @@
     "Wilmot Li",
     "Daniel Leithinger"
   ],
-  "year": 2020,
   "series": "UIST 2020",
-  "booktitle": "In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20)",
-  "publisher": "ACM, New York, NY, USA",
-  "pages": "1-16",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "uist-2020-suzuki.json",
   "ext": ".json",
-  "sourceBase": "uist-2020-suzuki.md",
-  "sourceExt": ".md"
+  "sourceBase": "uist-2020-suzuki.yaml",
+  "sourceExt": ".yaml"
 }

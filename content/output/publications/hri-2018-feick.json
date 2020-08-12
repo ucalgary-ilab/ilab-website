@@ -8,13 +8,14 @@
     "André Miede",
     "Ehud Sharlin"
   ],
-  "year": 2018,
   "series": "HRI 2018",
-  "bodyContent": "",
-  "bodyHtml": "",
+  "doi": "https://doi.org/10.1145/3173386.3176959",
+  "pages": 2,
+  "keywords": "movement trajectory & velocity, remote collaboration, robot surrogate",
+  "abstract": "In this paper, we discuss the role of the movement trajectory and velocity enabled by our tele-robotic system (ReMa) for remote collaboration on physical tasks. Our system reproduces changes in object orientation and position at a remote location using a humanoid robotic arm. However, even minor kinematics differences between robot and human arm can result in awkward or exaggerated robot movements. As a result, user communication with the robotic system can become less efficient, less fluent and more time intensive.",
   "dir": "content/output/publications",
   "base": "hri-2018-feick.json",
   "ext": ".json",
-  "sourceBase": "hri-2018-feick.md",
-  "sourceExt": ".md"
+  "sourceBase": "hri-2018-feick.yaml",
+  "sourceExt": ".yaml"
 }

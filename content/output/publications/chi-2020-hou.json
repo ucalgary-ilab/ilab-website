@@ -8,13 +8,10 @@
     "Ehud Sharlin",
     "Lora Oehlberg"
   ],
-  "year": 2020,
   "series": "CHI 2020",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "chi-2020-hou.json",
   "ext": ".json",
-  "sourceBase": "chi-2020-hou.md",
-  "sourceExt": ".md"
+  "sourceBase": "chi-2020-hou.yaml",
+  "sourceExt": ".yaml"
 }

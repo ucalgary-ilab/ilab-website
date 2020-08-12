@@ -1,0 +1,13 @@
+date: 2019-06
+title: "AV-Pedestrian Interaction Design Using a Pedestrian Mixed Traffic Simulator"
+authors:
+  - Karthik Mahadevan
+  - Elaheh Sanoubari
+  - Sowmya Somanath
+  - James E. Young
+  - Ehud Sharlin
+series: DIS 2019
+doi: https://doi.org/10.1145/3322276.3322328
+keywords: mixed traffic, pedestrian simulator, autonomous vehicle-pedestrian interaction
+pages: 12
+abstract: "AV-pedestrian interaction will impact pedestrian safety, etiquette, and overall acceptance of AV technology. Evaluating AV-pedestrian interaction is challenging given limited availability of AVs and safety concerns. These challenges are compounded by \"mixed traffic\" conditions: studying AV-pedestrian interaction will be difficult in traffic consisting of vehicles varying in autonomy level. We propose immersive pedestrian simulators as design tools to study AV-pedestrian interaction, allowing rapid prototyping and evaluation of future AV-pedestrian interfaces. We present OnFoot: a VR-based simulator that immerses participants in mixed traffic conditions and allows examination of their behavior while controlling vehicles' autonomy-level, traffic and street characteristics, behavior of other virtual pedestrians, and integration of novel AV-pedestrian interfaces. We validated OnFoot against prior simulators and Wizard-of-Oz studies, and conducted a user study, manipulating vehicles' autonomy level, interfaces, and pedestrian group behavior. Our findings highlight the potential to use VR simulators as powerful tools for AV-pedestrian interaction design in mixed traffic."

@@ -11,11 +11,9 @@
   ],
   "year": 2018,
   "series": "CHI 2018",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "chi-2018-ledo.json",
   "ext": ".json",
-  "sourceBase": "chi-2018-ledo.md",
-  "sourceExt": ".md"
+  "sourceBase": "chi-2018-ledo.yaml",
+  "sourceExt": ".yaml"
 }

@@ -11,11 +11,9 @@
   ],
   "year": 2019,
   "series": "C&C 2019",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "cnc-2019-hammad.json",
   "ext": ".json",
-  "sourceBase": "cnc-2019-hammad.md",
-  "sourceExt": ".md"
+  "sourceBase": "cnc-2019-hammad.yaml",
+  "sourceExt": ".yaml"
 }

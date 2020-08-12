@@ -8,13 +8,16 @@
     "Lora Oehlberg",
     "Ehud Sharlin"
   ],
-  "year": 2018,
   "series": "CHI 2018",
-  "bodyContent": "",
-  "bodyHtml": "",
+  "doi": "https://doi.org/10.1145/3173574.3173855",
+  "keywords": "cscw, remote collaboration, object-focused collaboration, physical telepresence, collaborative physical tasks",
+  "pages": 13,
+  "award": "Honorable Mention",
+  "video": "https://www.youtube.com/watch?v=sfxTHsPJWHY",
+  "abstract": "Remote collaborators working together on physical objects have difficulty building a shared understanding of what each person is talking about. Conventional video chat systems are insufficient for many situations because they present a single view of the object in a flattened image. To understand how this limited perspective affects collaboration, we designed the Remote Manipulator (ReMa), which can reproduce orientation manipulations on a proxy object at a remote site. We conducted two studies with ReMa, with two main findings. First, a shared perspective is more effective and preferred compared to the opposing perspective offered by conventional video chat systems. Second, the physical proxy and video chat complement one another in a combined system: people used the physical proxy to understand objects, and used video chat to perform gestures and confirm remote actions.",
   "dir": "content/output/publications",
   "base": "chi-2018-feick.json",
   "ext": ".json",
-  "sourceBase": "chi-2018-feick.md",
-  "sourceExt": ".md"
+  "sourceBase": "chi-2018-feick.yaml",
+  "sourceExt": ".yaml"
 }

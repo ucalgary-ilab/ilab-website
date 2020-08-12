@@ -7,13 +7,10 @@
     "Petra Isenberg",
     "Wesley Willett"
   ],
-  "year": 2020,
   "series": "CHI 2020",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "chi-2020-goffin.json",
   "ext": ".json",
-  "sourceBase": "chi-2020-goffin.md",
-  "sourceExt": ".md"
+  "sourceBase": "chi-2020-goffin.yaml",
+  "sourceExt": ".yaml"
 }

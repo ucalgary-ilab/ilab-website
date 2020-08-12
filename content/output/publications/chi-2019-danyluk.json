@@ -6,13 +6,10 @@
     "Bernhard Jenny",
     "Wesley Willett"
   ],
-  "year": 2019,
   "series": "CHI 2019",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "chi-2019-danyluk.json",
   "ext": ".json",
-  "sourceBase": "chi-2019-danyluk.md",
-  "sourceExt": ".md"
+  "sourceBase": "chi-2019-danyluk.yaml",
+  "sourceExt": ".yaml"
 }

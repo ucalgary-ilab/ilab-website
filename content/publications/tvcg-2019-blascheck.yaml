@@ -1,0 +1,15 @@
+date: 2019-06
+title: "Exploration Strategies for Discovery of Interactivity in Visualizations"
+authors:
+  - Tanja Blascheck
+  - Lindsay MacDonald Vermeulen
+  - Jo Vermeulen
+  - Charles Perin
+  - Wesley Willett
+  - Thomas Ertl
+  - Sheelagh Carpendale
+series: TVCG 2019
+doi: https://doi.org/10.1109/TVCG.2018.2802520
+keywords: discovery, visualization, open data, evaluation, eye tracking, interaction logs, think-aloud
+pages: 13
+abstract: "We investigate how people discover the functionality of an interactive visualization that was designed for the general public. While interactive visualizations are increasingly available for public use, we still know little about how the general public discovers what they can do with these visualizations and what interactions are available. Developing a better understanding of this discovery process can help inform the design of visualizations for the general public, which in turn can help make data more accessible. To unpack this problem, we conducted a lab study in which participants were free to use their own methods to discover the functionality of a connected set of interactive visualizations of public energy data. We collected eye movement data and interaction logs as well as video and audio recordings. By analyzing this combined data, we extract exploration strategies that the participants employed to discover the functionality in these interactive visualizations. These exploration strategies illuminate possible design directions for improving the discoverability of a visualization's functionality."

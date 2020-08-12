@@ -8,13 +8,10 @@
     "Lora Oehlberg",
     "Wooi Boon Goh"
   ],
-  "year": 2020,
   "series": "CHI 2020",
-  "bodyContent": "",
-  "bodyHtml": "",
   "dir": "content/output/publications",
   "base": "chi-2020-anjani.json",
   "ext": ".json",
-  "sourceBase": "chi-2020-anjani.md",
-  "sourceExt": ".md"
+  "sourceBase": "chi-2020-anjani.yaml",
+  "sourceExt": ".yaml"
 }
