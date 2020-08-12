@@ -48,7 +48,7 @@ class Publication extends React.Component {
                     return (
                       names.includes(author) ?
                       <a href={ `/people/${id}` }>
-                        <img src={ `/static/images/people/${ id }.jpg`} className="ui mini circular spaced image" style={{ width: '24px', marginLeft: 0 }} />
+                        <img src={ `/static/images/people/${ id }.jpg`} className="ui circular spaced image mini-profile" />
                         <strong>{author}</strong>
                       </a>
                       :
