@@ -67,10 +67,24 @@ class Publications extends React.Component {
                   </a>
                 </div>
                 <div className="thirteen wide column">
-                  <p><span className="ui big inverted teal label">{ publication.series }</span></p>
+                  <p>
+                    <span className="ui big inverted teal label">{ publication.series }</span>
+                    { publication.award &&
+                      <span className="ui big label">
+                      { publication.award === 'Honorable Mention' &&
+                        <b><i class="fas fa-award"></i> Honorable Mention</b>
+                      }
+                      { publication.award === 'Best Paper' &&
+                        <b><i class="fas fa-trophy"></i> Best Paper</b>
+                      }
+                      </span>
+                    }
+                  </p>
                   <p>
                     <a href={ `/publications/${id}` } style={{ fontSize: '1.3em' }}>
-                      <b>{ publication.title }</b>
+                      <b>
+                        { publication.title }
+                      </b>
                     </a>
                   </p>
                   <p>
@@ -87,6 +101,18 @@ class Publications extends React.Component {
                       }).reduce((prev, current) => [prev, ' , ', current])
                     }
                   </p>
+
+                  { /*
+                  publication.keywords &&
+                  <p>
+                    <div class="ui labels">
+                      { publication.keywords.split(', ').map((keyword) => {
+                        return <span className="ui label">{ keyword }</span>
+                      }) }
+                    </div>
+                  </p>
+                  */ }
+
                 </div>
               </div>
             )
