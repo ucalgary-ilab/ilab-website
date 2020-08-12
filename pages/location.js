@@ -9,7 +9,7 @@ files.children
 .filter(dir => dir.name === 'space')[0].children
 .map(file => file.path)
 
-class Space extends React.Component {
+class Location extends React.Component {
   componentDidMount() {
   }
 
@@ -70,4 +70,4 @@ class Space extends React.Component {
   }
 }
 
-export default Space
+export default Location

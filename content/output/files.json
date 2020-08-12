@@ -148,14 +148,14 @@
             {
               "path": "static/images/people/anthony-tang.jpg",
               "name": "anthony-tang.jpg",
-              "size": 39068,
+              "size": 31082,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/ashratuz-zavin-asha.jpg",
               "name": "ashratuz-zavin-asha.jpg",
-              "size": 11217,
+              "size": 10611,
               "extension": ".jpg",
               "type": "file"
             },
@@ -169,91 +169,84 @@
             {
               "path": "static/images/people/brennan-jones.jpg",
               "name": "brennan-jones.jpg",
-              "size": 1534889,
+              "size": 791500,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/carmen-hull.jpg",
               "name": "carmen-hull.jpg",
-              "size": 4978,
+              "size": 4063,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/christopher-smith.jpg",
               "name": "christopher-smith.jpg",
-              "size": 45504,
+              "size": 23212,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/darcy-norman.jpg",
               "name": "darcy-norman.jpg",
-              "size": 13065,
+              "size": 9520,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/david-ledo.jpg",
               "name": "david-ledo.jpg",
-              "size": 93981,
+              "size": 434237,
               "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/people/david-ledo.png",
-              "name": "david-ledo.png",
-              "size": 2948189,
-              "extension": ".png",
               "type": "file"
             },
             {
               "path": "static/images/people/ehud-sharlin.jpg",
               "name": "ehud-sharlin.jpg",
-              "size": 17996,
+              "size": 13398,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/jessi-stark.jpg",
               "name": "jessi-stark.jpg",
-              "size": 96534,
+              "size": 65755,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/karthik-mahadevan.jpg",
               "name": "karthik-mahadevan.jpg",
-              "size": 9696,
+              "size": 8045,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/kendra-wannamaker.jpg",
               "name": "kendra-wannamaker.jpg",
-              "size": 134026,
+              "size": 93930,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/kurtis-danyluk.jpg",
               "name": "kurtis-danyluk.jpg",
-              "size": 44185,
+              "size": 20604,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/lora-oehlberg.jpg",
               "name": "lora-oehlberg.jpg",
-              "size": 12750,
+              "size": 9123,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/martin-feick.jpg",
               "name": "martin-feick.jpg",
-              "size": 58047,
+              "size": 55078,
               "extension": ".jpg",
               "type": "file"
             },
@@ -267,49 +260,49 @@
             {
               "path": "static/images/people/nicolai-marquardt.jpg",
               "name": "nicolai-marquardt.jpg",
-              "size": 11280,
+              "size": 6739,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/nour-hammad.jpg",
               "name": "nour-hammad.jpg",
-              "size": 106904,
+              "size": 70047,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/roberta-cabral-mota.jpg",
               "name": "roberta-cabral-mota.jpg",
-              "size": 83718,
+              "size": 81517,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/ryo-suzuki.jpg",
               "name": "ryo-suzuki.jpg",
-              "size": 115895,
+              "size": 59005,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/sasha-ivanov.jpg",
               "name": "sasha-ivanov.jpg",
-              "size": 10494,
+              "size": 9585,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/saul-greenberg.jpg",
               "name": "saul-greenberg.jpg",
-              "size": 33535,
+              "size": 22868,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/sheelagh-carpendale.jpg",
               "name": "sheelagh-carpendale.jpg",
-              "size": 263926,
+              "size": 173802,
               "extension": ".jpg",
               "type": "file"
             },
@@ -323,14 +316,14 @@
             {
               "path": "static/images/people/sowmya-somanath.jpg",
               "name": "sowmya-somanath.jpg",
-              "size": 98920,
+              "size": 43231,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/sydney-pratte.jpg",
               "name": "sydney-pratte.jpg",
-              "size": 33045,
+              "size": 24127,
               "extension": ".jpg",
               "type": "file"
             },
@@ -344,33 +337,33 @@
             {
               "path": "static/images/people/terrance-mok.jpg",
               "name": "terrance-mok.jpg",
-              "size": 30943,
+              "size": 25613,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/tim-au-yeung.jpg",
               "name": "tim-au-yeung.jpg",
-              "size": 93145,
+              "size": 63006,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/wesley-willett.jpg",
               "name": "wesley-willett.jpg",
-              "size": 14209,
+              "size": 6466,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/people/zachary-mckendrick.jpg",
               "name": "zachary-mckendrick.jpg",
-              "size": 24087,
+              "size": 19509,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 6842164,
+          "size": 3033611,
           "type": "directory"
         },
         {
@@ -384,7 +377,7 @@
                 {
                   "path": "static/images/publications/cover/chi-2018-dillman.jpg",
                   "name": "chi-2018-dillman.jpg",
-                  "size": 55155,
+                  "size": 46867,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -405,42 +398,42 @@
                 {
                   "path": "static/images/publications/cover/chi-2018-mahadevan.jpg",
                   "name": "chi-2018-mahadevan.jpg",
-                  "size": 378716,
+                  "size": 149679,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
                   "path": "static/images/publications/cover/chi-2019-danyluk.jpg",
                   "name": "chi-2019-danyluk.jpg",
-                  "size": 76507,
+                  "size": 65671,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
                   "path": "static/images/publications/cover/chi-2020-anjani.jpg",
                   "name": "chi-2020-anjani.jpg",
-                  "size": 482981,
+                  "size": 132575,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
                   "path": "static/images/publications/cover/chi-2020-goffin.jpg",
                   "name": "chi-2020-goffin.jpg",
-                  "size": 131552,
+                  "size": 54945,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
                   "path": "static/images/publications/cover/chi-2020-hou.jpg",
                   "name": "chi-2020-hou.jpg",
-                  "size": 133225,
+                  "size": 61276,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
                   "path": "static/images/publications/cover/cnc-2019-hammad.jpg",
                   "name": "cnc-2019-hammad.jpg",
-                  "size": 452957,
+                  "size": 435009,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -461,7 +454,7 @@
                 {
                   "path": "static/images/publications/cover/dis-2019-mahadevan.jpg",
                   "name": "dis-2019-mahadevan.jpg",
-                  "size": 1555469,
+                  "size": 1093698,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -475,14 +468,14 @@
                 {
                   "path": "static/images/publications/cover/imwut-2020-wang.jpg",
                   "name": "imwut-2020-wang.jpg",
-                  "size": 135074,
+                  "size": 100584,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
                   "path": "static/images/publications/cover/iros-2020-hedayati.jpg",
                   "name": "iros-2020-hedayati.jpg",
-                  "size": 587338,
+                  "size": 201132,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -510,7 +503,7 @@
                 {
                   "path": "static/images/publications/cover/tvcg-2019-walny.jpg",
                   "name": "tvcg-2019-walny.jpg",
-                  "size": 107623,
+                  "size": 98163,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -529,7 +522,7 @@
                   "type": "file"
                 }
               ],
-              "size": 5799873,
+              "size": 4142875,
               "type": "directory"
             },
             {
@@ -541,84 +534,91 @@
                   "name": "iros-2020-hedayati",
                   "children": [
                     {
-                      "path": "static/images/publications/figures/iros-2020-hedayati/assembly.png",
-                      "name": "assembly.png",
-                      "size": 274748,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/iros-2020-hedayati/assembly.jpg",
+                      "name": "assembly.jpg",
+                      "size": 547418,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/cover-1-2.jpg",
                       "name": "cover-1-2.jpg",
-                      "size": 3465576,
+                      "size": 652051,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/cover-2-2.jpg",
                       "name": "cover-2-2.jpg",
-                      "size": 3289597,
+                      "size": 645294,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/cover-5.jpg",
                       "name": "cover-5.jpg",
-                      "size": 1133340,
+                      "size": 414199,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/iros-2020-hedayati/drone.png",
-                      "name": "drone.png",
-                      "size": 620029,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/iros-2020-hedayati/design-space.jpg",
+                      "name": "design-space.jpg",
+                      "size": 2747263,
+                      "extension": ".jpg",
+                      "type": "file"
+                    },
+                    {
+                      "path": "static/images/publications/figures/iros-2020-hedayati/drone.jpg",
+                      "name": "drone.jpg",
+                      "size": 631516,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/expand-1.jpg",
                       "name": "expand-1.jpg",
-                      "size": 3733878,
+                      "size": 850378,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/expand-2.jpg",
                       "name": "expand-2.jpg",
-                      "size": 4135346,
+                      "size": 1046583,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/expand-perspective.jpg",
                       "name": "expand-perspective.jpg",
-                      "size": 662852,
+                      "size": 267486,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/expand-top-v3.jpg",
                       "name": "expand-top-v3.jpg",
-                      "size": 557778,
+                      "size": 230433,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/iros-2020-hedayati/mechanical.jpg",
                       "name": "mechanical.jpg",
-                      "size": 587161,
+                      "size": 190470,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/iros-2020-hedayati/use-cases.png",
-                      "name": "use-cases.png",
-                      "size": 379758,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/iros-2020-hedayati/use-cases.jpg",
+                      "name": "use-cases.jpg",
+                      "size": 330902,
+                      "extension": ".jpg",
                       "type": "file"
                     }
                   ],
-                  "size": 18840063,
+                  "size": 8553993,
                   "type": "directory"
                 },
                 {
@@ -628,195 +628,202 @@
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/RealitySketch-1.jpg",
                       "name": "RealitySketch-1.jpg",
-                      "size": 2297830,
+                      "size": 171605,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/RealitySketch-2-2.jpg",
                       "name": "RealitySketch-2-2.jpg",
-                      "size": 2637059,
+                      "size": 224100,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-cycloid.png",
-                      "name": "applications-cycloid.png",
-                      "size": 1040183,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-cycloid.jpg",
+                      "name": "applications-cycloid.jpg",
+                      "size": 89887,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-dino-2.png",
-                      "name": "applications-dino-2.png",
-                      "size": 1088907,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-dino-2.jpg",
+                      "name": "applications-dino-2.jpg",
+                      "size": 89989,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-dino.png",
-                      "name": "applications-dino.png",
-                      "size": 1074011,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-dino.jpg",
+                      "name": "applications-dino.jpg",
+                      "size": 103552,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-elephant.png",
-                      "name": "applications-elephant.png",
-                      "size": 1063071,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-elephant.jpg",
+                      "name": "applications-elephant.jpg",
+                      "size": 80521,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-exercise.png",
-                      "name": "applications-exercise.png",
-                      "size": 1188376,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-exercise.jpg",
+                      "name": "applications-exercise.jpg",
+                      "size": 134628,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-gear.png",
-                      "name": "applications-gear.png",
-                      "size": 1239331,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-gear.jpg",
+                      "name": "applications-gear.jpg",
+                      "size": 148625,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-gravity.png",
-                      "name": "applications-gravity.png",
-                      "size": 1045244,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-gravity.jpg",
+                      "name": "applications-gravity.jpg",
+                      "size": 96270,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-pulley.png",
-                      "name": "applications-pulley.png",
-                      "size": 1213580,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-pulley.jpg",
+                      "name": "applications-pulley.jpg",
+                      "size": 115208,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-rehab.png",
-                      "name": "applications-rehab.png",
-                      "size": 1185776,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-rehab.jpg",
+                      "name": "applications-rehab.jpg",
+                      "size": 165410,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-shark.png",
-                      "name": "applications-shark.png",
-                      "size": 1110212,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-shark.jpg",
+                      "name": "applications-shark.jpg",
+                      "size": 102931,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-stretch.png",
-                      "name": "applications-stretch.png",
-                      "size": 1164361,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-stretch.jpg",
+                      "name": "applications-stretch.jpg",
+                      "size": 158933,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-tree.png",
-                      "name": "applications-tree.png",
-                      "size": 1053585,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/applications-tree.jpg",
+                      "name": "applications-tree.jpg",
+                      "size": 102073,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/cover-2.jpg",
                       "name": "cover-2.jpg",
-                      "size": 1871747,
+                      "size": 217496,
+                      "extension": ".jpg",
+                      "type": "file"
+                    },
+                    {
+                      "path": "static/images/publications/figures/uist-2020-suzuki/design-space copy 2.jpg",
+                      "name": "design-space copy 2.jpg",
+                      "size": 438498,
+                      "extension": ".jpg",
+                      "type": "file"
+                    },
+                    {
+                      "path": "static/images/publications/figures/uist-2020-suzuki/future-sketch.jpg",
+                      "name": "future-sketch.jpg",
+                      "size": 987133,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/reality-sketch-applications.jpg",
                       "name": "reality-sketch-applications.jpg",
-                      "size": 493824,
+                      "size": 525146,
                       "extension": ".jpg",
-                      "type": "file"
-                    },
-                    {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/reality-sketch-applications.png",
-                      "name": "reality-sketch-applications.png",
-                      "size": 438549,
-                      "extension": ".png",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/sketches.jpg",
                       "name": "sketches.jpg",
-                      "size": 646980,
+                      "size": 169142,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/system-2d-to-3d.png",
-                      "name": "system-2d-to-3d.png",
-                      "size": 1465054,
-                      "extension": ".png",
+                      "path": "static/images/publications/figures/uist-2020-suzuki/system-2d-to-3d.jpg",
+                      "name": "system-2d-to-3d.jpg",
+                      "size": 134914,
+                      "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-angle.jpg",
                       "name": "system-angle.jpg",
-                      "size": 660917,
+                      "size": 120029,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-bind.jpg",
                       "name": "system-bind.jpg",
-                      "size": 681863,
+                      "size": 126703,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-function.jpg",
                       "name": "system-function.jpg",
-                      "size": 673114,
+                      "size": 117431,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-line.jpg",
                       "name": "system-line.jpg",
-                      "size": 657006,
+                      "size": 124436,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-naming.jpg",
                       "name": "system-naming.jpg",
-                      "size": 613765,
+                      "size": 128322,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-plot.jpg",
                       "name": "system-plot.jpg",
-                      "size": 648676,
+                      "size": 122300,
                       "extension": ".jpg",
                       "type": "file"
                     },
                     {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-tracking.jpg",
                       "name": "system-tracking.jpg",
-                      "size": 661325,
+                      "size": 115087,
                       "extension": ".jpg",
                       "type": "file"
                     }
                   ],
-                  "size": 27914346,
+                  "size": 5110369,
                   "type": "directory"
                 }
               ],
-              "size": 46754409,
+              "size": 13664362,
               "type": "directory"
             }
           ],
-          "size": 52554282,
+          "size": 17807237,
           "type": "directory"
         },
         {
@@ -824,501 +831,305 @@
           "name": "space",
           "children": [
             {
-              "path": "static/images/space/IMG_20200531_173605.jpg",
-              "name": "IMG_20200531_173605.jpg",
-              "size": 5699364,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173610.jpg",
-              "name": "IMG_20200531_173610.jpg",
-              "size": 8143940,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173650.jpg",
-              "name": "IMG_20200531_173650.jpg",
-              "size": 4366368,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173714.jpg",
-              "name": "IMG_20200531_173714.jpg",
-              "size": 5195372,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173720.jpg",
-              "name": "IMG_20200531_173720.jpg",
-              "size": 6273533,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
               "path": "static/images/space/IMG_20200531_173724.jpg",
               "name": "IMG_20200531_173724.jpg",
-              "size": 5755885,
+              "size": 3490655,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173728.jpg",
               "name": "IMG_20200531_173728.jpg",
-              "size": 5227022,
+              "size": 2718808,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173734.jpg",
               "name": "IMG_20200531_173734.jpg",
-              "size": 3418396,
+              "size": 1807069,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173738.jpg",
               "name": "IMG_20200531_173738.jpg",
-              "size": 4426515,
+              "size": 1928568,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173741.jpg",
               "name": "IMG_20200531_173741.jpg",
-              "size": 4357393,
+              "size": 2442440,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173745.jpg",
               "name": "IMG_20200531_173745.jpg",
-              "size": 5438107,
+              "size": 3654807,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173750.jpg",
               "name": "IMG_20200531_173750.jpg",
-              "size": 5149861,
+              "size": 2423065,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173753.jpg",
               "name": "IMG_20200531_173753.jpg",
-              "size": 5843247,
+              "size": 3058877,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173759.jpg",
               "name": "IMG_20200531_173759.jpg",
-              "size": 4410692,
+              "size": 2129394,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173802.jpg",
               "name": "IMG_20200531_173802.jpg",
-              "size": 5201824,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173832.jpg",
-              "name": "IMG_20200531_173832.jpg",
-              "size": 16397201,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173847.jpg",
-              "name": "IMG_20200531_173847.jpg",
-              "size": 6300874,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173850.jpg",
-              "name": "IMG_20200531_173850.jpg",
-              "size": 5677066,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173853.jpg",
-              "name": "IMG_20200531_173853.jpg",
-              "size": 4874090,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173856.jpg",
-              "name": "IMG_20200531_173856.jpg",
-              "size": 5114296,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173858.jpg",
-              "name": "IMG_20200531_173858.jpg",
-              "size": 5235969,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173901.jpg",
-              "name": "IMG_20200531_173901.jpg",
-              "size": 3925982,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173903.jpg",
-              "name": "IMG_20200531_173903.jpg",
-              "size": 4872365,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173906.jpg",
-              "name": "IMG_20200531_173906.jpg",
-              "size": 5241721,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173908.jpg",
-              "name": "IMG_20200531_173908.jpg",
-              "size": 4552835,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173912.jpg",
-              "name": "IMG_20200531_173912.jpg",
-              "size": 4308102,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173916.jpg",
-              "name": "IMG_20200531_173916.jpg",
-              "size": 4226362,
+              "size": 2554711,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173921.jpg",
               "name": "IMG_20200531_173921.jpg",
-              "size": 4564862,
+              "size": 1970602,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173927.jpg",
               "name": "IMG_20200531_173927.jpg",
-              "size": 5212394,
+              "size": 2658911,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173932.jpg",
               "name": "IMG_20200531_173932.jpg",
-              "size": 5504518,
+              "size": 3121013,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173935.jpg",
               "name": "IMG_20200531_173935.jpg",
-              "size": 4647998,
+              "size": 1820243,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173937.jpg",
               "name": "IMG_20200531_173937.jpg",
-              "size": 5471769,
+              "size": 3093007,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173942.jpg",
               "name": "IMG_20200531_173942.jpg",
-              "size": 4532507,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_173946.jpg",
-              "name": "IMG_20200531_173946.jpg",
-              "size": 4729138,
+              "size": 2515950,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173951.jpg",
               "name": "IMG_20200531_173951.jpg",
-              "size": 4898523,
+              "size": 2762329,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173954.jpg",
               "name": "IMG_20200531_173954.jpg",
-              "size": 5583765,
+              "size": 3724994,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_173956.jpg",
               "name": "IMG_20200531_173956.jpg",
-              "size": 5429959,
+              "size": 2872319,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174140.jpg",
               "name": "IMG_20200531_174140.jpg",
-              "size": 4446244,
+              "size": 1731462,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174142.jpg",
               "name": "IMG_20200531_174142.jpg",
-              "size": 5025644,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_174145.jpg",
-              "name": "IMG_20200531_174145.jpg",
-              "size": 4895761,
+              "size": 2443107,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174618.jpg",
               "name": "IMG_20200531_174618.jpg",
-              "size": 4713082,
+              "size": 2166548,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174622.jpg",
               "name": "IMG_20200531_174622.jpg",
-              "size": 6408537,
+              "size": 3363471,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174626.jpg",
               "name": "IMG_20200531_174626.jpg",
-              "size": 4612622,
+              "size": 2109145,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174631.jpg",
               "name": "IMG_20200531_174631.jpg",
-              "size": 4865383,
+              "size": 2395454,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174635.jpg",
               "name": "IMG_20200531_174635.jpg",
-              "size": 4727150,
+              "size": 2327560,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_174651.jpg",
               "name": "IMG_20200531_174651.jpg",
-              "size": 3957015,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175022.jpg",
-              "name": "IMG_20200531_175022.jpg",
-              "size": 4454327,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175024.jpg",
-              "name": "IMG_20200531_175024.jpg",
-              "size": 3594293,
+              "size": 1680719,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175054.jpg",
               "name": "IMG_20200531_175054.jpg",
-              "size": 4314332,
+              "size": 1596386,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175057.jpg",
               "name": "IMG_20200531_175057.jpg",
-              "size": 3198208,
+              "size": 1151555,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175329.jpg",
               "name": "IMG_20200531_175329.jpg",
-              "size": 5254559,
+              "size": 3079164,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175331.jpg",
               "name": "IMG_20200531_175331.jpg",
-              "size": 4914736,
+              "size": 2839218,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175337.jpg",
               "name": "IMG_20200531_175337.jpg",
-              "size": 4212991,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175350.jpg",
-              "name": "IMG_20200531_175350.jpg",
-              "size": 4405843,
+              "size": 1950319,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175353.jpg",
               "name": "IMG_20200531_175353.jpg",
-              "size": 5048336,
+              "size": 3122576,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175354.jpg",
               "name": "IMG_20200531_175354.jpg",
-              "size": 5647026,
+              "size": 3337387,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175356.jpg",
               "name": "IMG_20200531_175356.jpg",
-              "size": 5886499,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175358.jpg",
-              "name": "IMG_20200531_175358.jpg",
-              "size": 5720039,
+              "size": 3736858,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175400.jpg",
               "name": "IMG_20200531_175400.jpg",
-              "size": 4714455,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175404.jpg",
-              "name": "IMG_20200531_175404.jpg",
-              "size": 4684507,
+              "size": 2333401,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175408.jpg",
               "name": "IMG_20200531_175408.jpg",
-              "size": 4349328,
+              "size": 1580819,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175410.jpg",
               "name": "IMG_20200531_175410.jpg",
-              "size": 3459862,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175518.jpg",
-              "name": "IMG_20200531_175518.jpg",
-              "size": 4969729,
+              "size": 1142668,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175544.jpg",
               "name": "IMG_20200531_175544.jpg",
-              "size": 4880878,
+              "size": 2162183,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175643.jpg",
               "name": "IMG_20200531_175643.jpg",
-              "size": 5030785,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175646.jpg",
-              "name": "IMG_20200531_175646.jpg",
-              "size": 5933266,
+              "size": 2908598,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175648.jpg",
               "name": "IMG_20200531_175648.jpg",
-              "size": 4271589,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175710.jpg",
-              "name": "IMG_20200531_175710.jpg",
-              "size": 14210594,
+              "size": 1751027,
               "extension": ".jpg",
               "type": "file"
             },
             {
               "path": "static/images/space/IMG_20200531_175936.jpg",
               "name": "IMG_20200531_175936.jpg",
-              "size": 4465056,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/space/IMG_20200531_175939.jpg",
-              "name": "IMG_20200531_175939.jpg",
-              "size": 3821897,
+              "size": 1745890,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 365304388,
+          "size": 103403277,
           "type": "directory"
         }
       ],
-      "size": 425049525,
+      "size": 124592816,
       "type": "directory"
     },
     {
@@ -1336,6 +1147,6 @@
       "type": "directory"
     }
   ],
-  "size": 425049525,
+  "size": 124592816,
   "type": "directory"
 }
