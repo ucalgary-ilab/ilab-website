@@ -1,0 +1,10 @@
+{
+  "name": "April Zhang",
+  "type": "master",
+  "url": "https://aprilzhang.design/",
+  "dir": "content/output/people",
+  "base": "april-zhang.json",
+  "ext": ".json",
+  "sourceBase": "april-zhang.yaml",
+  "sourceExt": ".yaml"
+}

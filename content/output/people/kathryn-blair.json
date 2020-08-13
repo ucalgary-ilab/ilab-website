@@ -1,0 +1,10 @@
+{
+  "name": "Kathryn Blair",
+  "type": "phd",
+  "url": "http://kathrynblair.com/",
+  "dir": "content/output/people",
+  "base": "kathryn-blair.json",
+  "ext": ".json",
+  "sourceBase": "kathryn-blair.yaml",
+  "sourceExt": ".yaml"
+}
