@@ -59,7 +59,7 @@ class Person extends React.Component {
 
     return (
       <div>
-        <title>{ `${person.name} | Interactions Lab | University of Calgary` }</title>
+        <title>{ `${person.name} - Interactions Lab | University of Calgary HCI Group` }</title>
 
         <Header current="People" />
 

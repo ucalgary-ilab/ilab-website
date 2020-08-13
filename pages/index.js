@@ -12,7 +12,6 @@ import Footer from './footer'
 
 class Index extends React.Component {
   componentDidMount() {
-    // $('a').attr('target', 'blank');
   }
 
   render() {

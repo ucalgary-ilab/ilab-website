@@ -8,7 +8,8 @@ module.exports = withCSS({
       'people',
       'courses',
       'news',
-      'facility'
+      'facility',
+      'location',
     ]
 
     let pages = {}

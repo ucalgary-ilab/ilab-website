@@ -28,7 +28,7 @@ class Facility extends React.Component {
                           <img src={ `/static/images/facility/${item.img}.jpg` } />
                         </div>
                         <div class="content">
-                          <a class="header">{ item.name }</a>
+                          <p class="header">{ item.name }</p>
                         </div>
                       </a>
                     )
