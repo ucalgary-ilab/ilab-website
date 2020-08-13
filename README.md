@@ -212,6 +212,7 @@ You can basically all of the information from ACM Digital Library or IEEE Xplore
 
 6. The publication page is automatically generated and styled based on the information above.
 
+7. Don't forget to add the PDF in `static/pdf/[conf-year-last].pdf` as well
 
 
 ## How to add/modify a cover figure
@@ -260,7 +261,9 @@ git push origin master
 
 
 
-# How to Check and Run the Server in Local
+# How to Check by Running the Server in Local
+
+You don't need to do this process, but if you're interested, here is the process.
 
 ```shell
 git clone git@github.com:ucalgary-ilab/ilab-website.git
@@ -277,7 +280,9 @@ npm run watch
 
 
 
-# How to Deploy
+# How to Deploy and Reflect the Change in the Website
+
+You don't need to do this process, but if you're interested, here is the process. Usually, please let me know, so that I can deploy and reflect.
 
 Clone the web-build repo from https://github.com/ucalgary-ilab/ucalgary-ilab.github.io in the same directory
 
