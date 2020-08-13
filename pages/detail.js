@@ -17,7 +17,6 @@ for (let dir of dirs) {
   let files = dir.children.map(file => file.path )
   figures[id] = files
 }
-console.log(figures)
 
 class Detail extends React.Component {
 

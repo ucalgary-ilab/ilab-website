@@ -752,20 +752,6 @@
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/sketches.jpg",
-                      "name": "sketches.jpg",
-                      "size": 169142,
-                      "extension": ".jpg",
-                      "type": "file"
-                    },
-                    {
-                      "path": "static/images/publications/figures/uist-2020-suzuki/system-2d-to-3d.jpg",
-                      "name": "system-2d-to-3d.jpg",
-                      "size": 134914,
-                      "extension": ".jpg",
-                      "type": "file"
-                    },
-                    {
                       "path": "static/images/publications/figures/uist-2020-suzuki/system-angle.jpg",
                       "name": "system-angle.jpg",
                       "size": 120029,
@@ -815,15 +801,15 @@
                       "type": "file"
                     }
                   ],
-                  "size": 5110369,
+                  "size": 4806313,
                   "type": "directory"
                 }
               ],
-              "size": 13664362,
+              "size": 13360306,
               "type": "directory"
             }
           ],
-          "size": 17807237,
+          "size": 17503181,
           "type": "directory"
         },
         {
@@ -1129,7 +1115,7 @@
           "type": "directory"
         }
       ],
-      "size": 124592816,
+      "size": 124288760,
       "type": "directory"
     },
     {
@@ -1147,6 +1133,6 @@
       "type": "directory"
     }
   ],
-  "size": 124592816,
+  "size": 124288760,
   "type": "directory"
 }

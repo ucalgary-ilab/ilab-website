@@ -229,6 +229,23 @@ a:hover {
   object-fit: cover;
 }
 
+#facility .card {
+  text-align: center;
+}
+
+#facility .image {
+  background: white;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+}
+
+#facility img {
+  height: 100%;
+  width: auto;
+  margin: auto;
+  object-fit: cover;
+}
 
 
 
