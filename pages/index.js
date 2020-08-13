@@ -30,7 +30,6 @@ class Index extends React.Component {
 
 
         <div className="ui stackable grid">
-          <div className="one wide column"></div>
           <div className="eleven wide column centered">
             <div id="header-logo">
               <div>
@@ -56,7 +55,6 @@ class Index extends React.Component {
             <People short="true" />
             <Location short="true" />
           </div>
-          <div className="one wide column"></div>
         </div>
         <Footer />
       </div>

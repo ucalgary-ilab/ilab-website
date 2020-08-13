@@ -199,6 +199,12 @@ a:hover {
 }
 
 
+#news .image {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+
 #location #map {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -246,6 +252,84 @@ a:hover {
   margin: auto;
   object-fit: cover;
 }
+
+
+
+@media only screen and (max-width: 1500px) {
+.ui.grid > .centered.column, .ui.grid > .row > .centered.column {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  width: 100% !important;
+}
+
+}
+
+
+.hidden.menu {
+  display: none;
+}
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0;
+}
+
+.quote.stripe.segment {
+  padding: 0;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer.segment {
+  padding: 5em 0;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+}
+
+
+
+
+
+
 
 
 

@@ -83,7 +83,7 @@ class Detail extends React.Component {
             <i className="right angle icon divider"></i>
             <a className="active section">{ this.publication.series }</a>
           </div>
-          <div className="ui grid" style={{ marginTop: '10px' }}>
+          <div className="ui stackable grid" style={{ marginTop: '10px' }}>
             <div className="three wide column" style={{ margin: 'auto' }}>
               <img className="cover" src={ `/static/images/publications/cover/${ this.publication.id }.jpg` } />
             </div>
@@ -163,7 +163,7 @@ class Detail extends React.Component {
           <div className="block">
             <h1>Figures</h1>
             <div id="figure">
-              <div className="ui three cards" style={{ marginTop: '30px' }}>
+              <div className="ui stackable three cards" style={{ marginTop: '30px' }}>
                 { this.figures[this.publication.id].map((src) => {
                   return (
                     <a className="card" href={ `/${src}` } target="_blank" >

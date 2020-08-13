@@ -33,17 +33,19 @@ export default class MyDocument extends Document {
           <script dangerouslySetInnerHTML={{
           __html: `
             $(window).ready(function() {
+              $('.ui.sidebar')
+                .sidebar('attach events', '.sidebar.icon')
+
               $('.publication').on('click', function(event) {
-                if (event.target.className !== 'author-link') {
-                  const id = this.dataset.id
-                  $('#'+id).modal({
-                    onHidden: function() {
-                      const html = $(this).html()
-                      $(this).html(html)
-                    }
-                  })
-                  .modal('show')
-                }
+                if (event.target.className === 'author-link') return
+                const id = this.dataset.id
+                $('#'+id).modal({
+                  onHidden: function() {
+                    const html = $(this).html()
+                    $(this).html(html)
+                  }
+                })
+                .modal('show')
               })
             })
           `}}

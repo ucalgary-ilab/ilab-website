@@ -44,7 +44,7 @@ class Location extends React.Component {
               Space
             </h1>
             test with example photos
-            <div className="ui four cards" style={{ marginTop: '30px' }}>
+            <div className="ui stackable four cards" style={{ marginTop: '30px' }}>
               { this.images.map((src) => {
                 return (
                   <a className="card" href={ `/${src}` } target="_blank">

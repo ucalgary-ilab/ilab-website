@@ -10,11 +10,11 @@ class Labs extends React.Component {
         <h1 className="ui horizontal divider header">
           Research Labs
         </h1>
-        <div id="labs" className="ui stackable four column grid" style={{ textAlign: 'center' }}>
+        <div id="labs" className="ui stackable four cards" style={{ textAlign: 'center', marginTop: '15px' }}>
           { labs.map((lab) => {
             return (
-              <div className="column" key={ lab.id }>
-                <a href={ lab.url } target="_blank" className="ui segment">
+              <div className="card" key={ lab.id } style={{ padding: '15px' }}>
+                <a href={ lab.url } target="_blank" className="ui ">
                   <div className="img">
                   { lab.id !== '' &&
                     <img src={ `/static/images/labs/${lab.id}.png` } />

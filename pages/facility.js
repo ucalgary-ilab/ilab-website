@@ -16,11 +16,11 @@ class Facility extends React.Component {
           Facility
         </h1>
         <div class="ui divided items">
-          { categories.map((category) => {
+          { categories.map((category, i) => {
             return (
-              <div className="category">
+              <div className={ i === 0 ? '' : 'category' }>
                 <h1>{ category }</h1>
-                <div className="ui four cards" style={{ marginTop: '30px' }}>
+                <div className="ui stackable four cards" style={{ marginTop: '30px' }}>
                   { facility[category].map((item) => {
                     return (
                       <a className="card" href={ item.url } target="_blank" >

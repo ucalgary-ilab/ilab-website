@@ -18,6 +18,17 @@ class Header extends React.Component {
   render() {
     return (
       <div>
+        <div className="ui right vertical sidebar menu">
+          <a className="item" href="/">Home</a>
+          { this.items.map((item) => {
+            return (
+              <a className={ this.props.current == item ? 'item active' : 'item' } href={ `/${item.toLowerCase()}` } key={ item }>
+                { item }
+              </a>
+            )
+          })}
+        </div>
+
         <div className="ui stackable secondary pointing container menu" style={{ borderBottom: 'none', marginRight: '15%', fontSize: '1.1em' }}>
           <div className="left menu">
             <a className='item' href='/'>
@@ -27,11 +38,15 @@ class Header extends React.Component {
           <div className="right menu">
             { this.items.map((item) => {
               return (
-                <a className={ this.props.current == item ? 'item active' : 'item' } href={ item === 'Home' ? '/' : `/${item.toLowerCase()}` } key={ item }>
+                <a className={ this.props.current == item ? 'item active' : 'item' } href={ `/${item.toLowerCase()}` } key={ item }>
                   { item }
                 </a>
               )
             })}
+            <div className="toc item">
+              <a href="/"><b>UCalgary iLab</b></a>
+              <i style={{ float: 'right' }} className="sidebar icon"></i>
+            </div>
           </div>
         </div>
       </div>

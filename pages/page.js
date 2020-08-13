@@ -45,11 +45,9 @@ class Page extends React.Component {
         <Header current={ this.props.title } />
 
         <div className="ui stackable grid">
-          <div className="one wide column"></div>
           <div className="eleven wide column centered">
             { this.renderSwitch(this.props.id) }
           </div>
-          <div className="one wide column"></div>
         </div>
         <Footer />
       </div>
