@@ -44,9 +44,6 @@ class Publications extends React.Component {
 
   onClick(publication) {
     this.setState({ publication: publication })
-    // $('.ui.modal').modal('show')
-    console.log($('.ui.modal').modal)
-    // $('.ui.modal').modal('show')
   }
 
   render() {
