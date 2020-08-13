@@ -490,9 +490,16 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/david-ledo-2.jpg",
+              "name": "david-ledo-2.jpg",
+              "size": 434237,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/david-ledo.jpg",
               "name": "david-ledo.jpg",
-              "size": 434237,
+              "size": 12664,
               "extension": ".jpg",
               "type": "file"
             },
@@ -658,7 +665,7 @@
               "type": "file"
             }
           ],
-          "size": 3033611,
+          "size": 3046275,
           "type": "directory"
         },
         {
@@ -1410,14 +1417,7 @@
           "type": "directory"
         }
       ],
-      "size": 127651054,
-      "type": "directory"
-    },
-    {
-      "path": "static/pdf",
-      "name": "pdf",
-      "children": [],
-      "size": 0,
+      "size": 127663718,
       "type": "directory"
     },
     {
@@ -1435,6 +1435,6 @@
       "type": "directory"
     }
   ],
-  "size": 127651054,
+  "size": 127663718,
   "type": "directory"
 }
