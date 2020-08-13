@@ -88,7 +88,14 @@ class Detail extends React.Component {
               <img className="cover" src={ `/static/images/publications/cover/${ this.publication.id }.jpg` } />
             </div>
             <div className="thirteen wide column">
-              <h1>{ this.publication.title }</h1>
+              { this.props.short &&
+                <h1>
+                  <a href={ `/publications/${this.publication.id}` } target="_blank">{ this.publication.title }</a>
+                </h1>
+              }
+              { !this.props.short &&
+                <h1>{ this.publication.title }</h1>
+              }
               <p className="meta">
                 { this.publication.authors.map((author) => {
                     return (
@@ -113,7 +120,7 @@ class Detail extends React.Component {
                 className="embed"
                 width="100%"
                 height="315"
-                src={`${this.publication.embed}?`}
+                src={`${this.publication.embed}`}
                 srcDoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=${this.publication.embed}?autoplay=1><img src=${this.publication.embedThumbnail}><span>▶</span></a>`}
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

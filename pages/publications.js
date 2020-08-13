@@ -128,6 +128,10 @@ class Publications extends React.Component {
                   <a href={ `/publications/${publication.id}.pdf` } target="_blank">
                     <i className="far fa-file-pdf fa-fw"></i> pdf
                   </a>
+                  <div className="actions" style={{ float: 'right', cursor: 'pointer', color: 'grey' }}>
+                    <i className="ui right cancel close icon">
+                    </i>
+                  </div>
                 </div>
                 <div className="content">
                   <Detail
@@ -139,6 +143,11 @@ class Publications extends React.Component {
                     vimeo={ vimeo }
                     short="true"
                   />
+                </div>
+                <div className="actions">
+                  <div className="ui right cancel button">
+                    Close
+                  </div>
                 </div>
               </div>
             )
