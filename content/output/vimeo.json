@@ -1,0 +1,9 @@
+{
+  "360483702": "https://i.vimeocdn.com/video/814665539_640.webp",
+  "368703151": "https://i.vimeocdn.com/video/825448765_640.webp",
+  "dir": "content/output",
+  "base": "vimeo.json",
+  "ext": ".json",
+  "sourceBase": "vimeo.yaml",
+  "sourceExt": ".yaml"
+}

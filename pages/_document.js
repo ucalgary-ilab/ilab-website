@@ -35,7 +35,8 @@ export default class MyDocument extends Document {
             $(window).ready(function() {
               $('.publication').on('click', function(event) {
                 if (event.target.className !== 'author-link') {
-                  $('.ui.modal').modal('show')
+                  const id = this.dataset.id
+                  $('#'+id).modal('show')
                 }
               })
             })

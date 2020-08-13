@@ -1,9 +1,9 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
-import summary from '../content/output/summary.json'
-
 import Detail from './detail'
-
+import summary from '../content/output/summary.json'
+import booktitles from '../content/output/booktitles.json'
+import files from '../content/output/files.json'
+import vimeo from '../content/output/vimeo.json'
 
 class Publications extends React.Component {
   constructor(props) {
@@ -61,10 +61,6 @@ class Publications extends React.Component {
     }
   }
 
-  onClick(publication) {
-    this.setState({ publication: publication })
-  }
-
   render() {
     return (
       <div id="publications" className="category">
@@ -74,11 +70,11 @@ class Publications extends React.Component {
         </h1>
         <div className="ui segment" style={{ marginTop: '50px' }}>
          { this.publications.map((publication, i) => {
-            const id = publication.base.split('.json')[0]
+            publication.id = publication.base.split('.json')[0]
             return (
-              <div className="publication ui vertical segment stackable grid" data-id={ id } onClick={ this.onClick.bind(this, publication) } key={ i }>
+              <div className="publication ui vertical segment stackable grid" data-id={ publication.id } key={ i }>
                 <div className="three wide column" style={{ margin: 'auto' }}>
-                  <img className="cover" src={ `/static/images/publications/cover/${ id }.jpg` } />
+                  <img className="cover" src={ `/static/images/publications/cover/${publication.id}.jpg` } />
                 </div>
                 <div className="thirteen wide column">
                   <p>
@@ -115,29 +111,40 @@ class Publications extends React.Component {
                   </p>
                 </div>
               </div>
-            )
+            ) // publications
          })}
         </div>
-        <div className="ui large modal">
-          { this.state.publication &&
-            <div className="header">
-              <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }.pdf` } target="_blank">
-                <i className="far fa-file-pdf fa-fw"></i> PDF
-              </a>
-              &nbsp;&nbsp;
-              <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }` } target="_blank" style={{ float: 'right' }}>
-                <i className="fas fa-external-link-alt fa-fw"></i> Link
-              </a>
-            </div>
-          }
-          <div className="content">
-            <Detail
-              publication={ this.state.publication }
-              namesId={ this.namesId }
-              people={ this.people }
-            />
-          </div>
+
+        <div id="publications-modal">
+         { this.publications.map((publication, i) => {
+            publication.id = publication.base.split('.json')[0]
+            return (
+              <div id={publication.id} className="ui large modal" key={ publication.id }>
+                <div className="header">
+                  <a href={ `/publications/${publication.id}` } target="_blank">
+                    <i className="fas fa-link fa-fw"></i>{`${publication.id}`}
+                  </a>
+                  &nbsp;&nbsp;-&nbsp;&nbsp;
+                  <a href={ `/publications/${publication.id}.pdf` } target="_blank">
+                    <i className="far fa-file-pdf fa-fw"></i> pdf
+                  </a>
+                </div>
+                <div className="content">
+                  <Detail
+                    publication={ publication }
+                    namesId={ this.namesId }
+                    people={ this.people }
+                    booktitles={ booktitles }
+                    files={ files }
+                    vimeo={ vimeo }
+                    short="true"
+                  />
+                </div>
+              </div>
+            )
+          })}
         </div>
+
 
         { this.props.short &&
           <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>

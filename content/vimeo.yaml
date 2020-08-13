@@ -1,0 +1,19 @@
+# const vimeos = []
+# const summary = require('./content/output/summary.json')
+# for (let key of Object.keys(summary.fileMap)) {
+#   const item = summary.fileMap[key]
+#   if (item.video && item.video.includes('vimeo')) vimeos.push(item.video)
+#   if (item.talk && item.talk.includes('vimeo')) vimeos.push(item.talk)
+# }
+# for (let vimeo of vimeos) {
+#   const id = vimeo.split('/')[3]
+#   const url = `http://vimeo.com/api/v2/video/${id}.json`
+#   console.log(url)
+# }
+
+# `http://vimeo.com/api/v2/video/${id}.json`
+
+360483702:
+  https://i.vimeocdn.com/video/814665539_640.webp
+368703151:
+  https://i.vimeocdn.com/video/825448765_640.webp

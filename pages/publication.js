@@ -2,6 +2,8 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 import booktitles from '../content/output/booktitles.json'
+import files from '../content/output/files.json'
+import vimeo from '../content/output/vimeo.json'
 
 import Header from './header'
 import Detail from './detail'
@@ -49,6 +51,9 @@ class Publication extends React.Component {
               publication={ this.publication}
               namesId={ this.namesId }
               people={ this.people }
+              booktitles={ booktitles }
+              files={ files }
+              vimeo={ vimeo }
             />
           </div>
           <div className="one wide column"></div>
