@@ -1,16 +1,20 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-const items = [
-  'Publications',
-  'People',
-  'Courses',
-  'Facility',
-  'News',
-  'Location'
-]
-
 class Header extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.items = [
+      'Publications',
+      'People',
+      'Courses',
+      'Facility',
+      'News',
+      'Location'
+    ]
+  }
+
   render() {
     return (
       <div>
@@ -21,7 +25,7 @@ class Header extends React.Component {
             </a>
           </div>
           <div className="right menu">
-            { items.map((item) => {
+            { this.items.map((item) => {
               return (
                 <a className={ this.props.current == item ? 'item active' : 'item' } href={ item === 'Home' ? '/' : `/${item.toLowerCase()}` } key={ item }>
                   { item }

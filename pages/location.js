@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-
 import files from '../content/output/files.json'
 
-const images =
-files.children
-.filter(dir => dir.name === 'images')[0].children
-.filter(dir => dir.name === 'space')[0].children
-.map(file => file.path)
-
 class Location extends React.Component {
-  componentDidMount() {
+  constructor(props) {
+    super(props)
+
+    this.images =
+      files.children
+      .filter(dir => dir.name === 'images')[0].children
+      .filter(dir => dir.name === 'space')[0].children
+      .map(file => file.path)
   }
 
   render() {
@@ -45,7 +45,7 @@ class Location extends React.Component {
             </h1>
             test with example photos
             <div className="ui four cards" style={{ marginTop: '30px' }}>
-              { images.map((src) => {
+              { this.images.map((src) => {
                 return (
                   <a className="card" href={ `/${src}` } target="_blank">
                     <div className="image">

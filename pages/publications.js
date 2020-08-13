@@ -4,42 +4,61 @@ import summary from '../content/output/summary.json'
 
 import Detail from './detail'
 
-let fileNames = Object.keys(summary.fileMap)
-let keys = fileNames.filter((fileName) => {
-  return fileName.includes('publications')
-})
-
-let publications = []
-for (let key of keys) {
-  publications.push(summary.fileMap[key])
-}
-publications = publications.sort((a, b) => {
-  return new Date(b.date) - new Date(a.date)
-})
-
-fileNames = Object.keys(summary.fileMap)
-keys = fileNames.filter((fileName) => {
-  return fileName.includes('people')
-})
-
-let people = []
-for (let key of keys) {
-  let id = key.split('/')[3].replace('.json', '')
-  let person = Object.assign(summary.fileMap[key], { id: id })
-  people.push(person)
-}
-
 
 class Publications extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
-      publication: publications[0]
+      publication: null
+    }
+
+    this.getPublications()
+    this.getPeople()
+
+    if (this.props.short) {
+      this.publications = this.publications.slice(0, 20)
+    }
+    if (this.props.author) {
+      this.publications = this.publications.filter((publication) => {
+        return publication.authors.includes(this.props.author)
+      })
     }
   }
 
-  componentDidMount() {
+  getPublications() {
+    const fileNames = Object.keys(summary.fileMap)
+    const keys = fileNames.filter((fileName) => {
+      return fileName.includes('publications')
+    })
+
+    this.publications = []
+    for (let key of keys) {
+      this.publications.push(summary.fileMap[key])
+    }
+    this.publications = this.publications.sort((a, b) => {
+      return new Date(b.date) - new Date(a.date)
+    })
+  }
+
+  getPeople() {
+    const fileNames = Object.keys(summary.fileMap)
+    const keys = fileNames.filter((fileName) => {
+      return fileName.includes('people')
+    })
+
+    this.people = []
+    for (let key of keys) {
+      let id = key.split('/')[3].replace('.json', '')
+      let person = Object.assign(summary.fileMap[key], { id: id })
+      this.people.push(person)
+    }
+
+    this.names = this.people.map((person) => person.name )
+    this.namesId = {}
+    for (let person of this.people) {
+      this.namesId[person.name] = person.id
+    }
   }
 
   onClick(publication) {
@@ -47,22 +66,6 @@ class Publications extends React.Component {
   }
 
   render() {
-    const names = people.map((person) => person.name )
-    const namesId = {}
-    for (let person of people) {
-      namesId[person.name] = person.id
-    }
-
-    if (this.props.short) {
-      publications = publications.slice(0, 20)
-    }
-
-    if (this.props.author) {
-      publications = publications.filter((publication) => {
-        return publication.authors.includes(this.props.author)
-      })
-    }
-
     return (
       <div id="publications" className="category">
         <h1 className="ui horizontal divider header">
@@ -70,7 +73,7 @@ class Publications extends React.Component {
           { this.props.short ? 'Recent Publications' : 'Publications' }
         </h1>
         <div className="ui segment" style={{ marginTop: '50px' }}>
-         { publications.map((publication, i) => {
+         { this.publications.map((publication, i) => {
             const id = publication.base.split('.json')[0]
             return (
               <div className="publication ui vertical segment stackable grid" data-id={ id } onClick={ this.onClick.bind(this, publication) } key={ i }>
@@ -99,9 +102,9 @@ class Publications extends React.Component {
                   <p>
                     { publication.authors.map((author) => {
                         return (
-                          names.includes(author) ?
-                          <a href={ `/people/${ namesId[author] }` } key={ author }>
-                            <img src={ `/static/images/people/${ namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
+                          this.names.includes(author) ?
+                          <a href={ `/people/${ this.namesId[author] }` } key={ author }>
+                            <img src={ `/static/images/people/${ this.namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
                             <span className="author-link">{author}</span>
                           </a>
                           :
@@ -130,8 +133,8 @@ class Publications extends React.Component {
           <div className="content">
             <Detail
               publication={ this.state.publication }
-              namesId={ namesId }
-              people={ people }
+              namesId={ this.namesId }
+              people={ this.people }
             />
           </div>
         </div>
@@ -139,7 +142,7 @@ class Publications extends React.Component {
         { this.props.short &&
           <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
             <a className="ui button" href="/publications">
-              { `+ ${publications.length} more publications` }
+              { `+ ${this.publications.length} more publications` }
             </a>
           </div>
         }

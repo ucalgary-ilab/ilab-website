@@ -2,30 +2,35 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
-let types = [
-  { key: 'faculty', title: 'Faculty' },
-  { key: 'postdoc', title: 'Post Docs' },
-  { key: 'phd', title: 'PhD Students' },
-  { key: 'master', title: 'Masters Students' },
-  { key: 'undergrad', title: 'Undergrad Students'},
-  { key: 'visiting', title: 'Visiting Researchers' },
-  { key: 'alumni', title: 'Alumni' }
-]
-
-let fileNames = Object.keys(summary.fileMap)
-let keys = fileNames.filter((fileName) => {
-  return fileName.includes('people')
-})
-
-let people = []
-for (let key of keys) {
-  let id = key.split('/')[3].replace('.json', '')
-  let person = Object.assign(summary.fileMap[key], { id: id })
-  people.push(person)
-}
-
 class People extends React.Component {
-  componentDidMount() {
+  constructor(props) {
+    super(props)
+
+    this.types = [
+      { key: 'faculty', title: 'Faculty' },
+      { key: 'postdoc', title: 'Post Docs' },
+      { key: 'phd', title: 'PhD Students' },
+      { key: 'master', title: 'Masters Students' },
+      { key: 'undergrad', title: 'Undergrad Students'},
+      { key: 'visiting', title: 'Visiting Researchers' },
+      { key: 'alumni', title: 'Alumni' }
+    ]
+    if (this.props.short) {
+      this.types = this.types.slice(0, 4)
+      // this.types.splice(4, 2)
+    }
+
+    let fileNames = Object.keys(summary.fileMap)
+    let keys = fileNames.filter((fileName) => {
+      return fileName.includes('people')
+    })
+
+    this.people = []
+    for (let key of keys) {
+      let id = key.split('/')[3].replace('.json', '')
+      let person = Object.assign(summary.fileMap[key], { id: id })
+      this.people.push(person)
+    }
   }
 
   getTitle(person) {
@@ -70,22 +75,18 @@ class People extends React.Component {
   }
 
   render() {
-    if (this.props.short) {
-      types = types.slice(0, 4)
-      // types.splice(4, 2)
-    }
     return (
       <div id="people" className="category">
         <h1 className="ui horizontal divider header">
           <i className="child icon"></i>
           People
         </h1>
-        { types.map((type) => {
+        { this.types.map((type) => {
           return (
             <div className="people-category" key={ type.title }>
               <h2>{ type.title }</h2>
               <div className="ui grid">
-                { people
+                { this.people
                   .filter((person) => {
                     return person.type === type.key
                   }) // filter

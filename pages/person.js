@@ -11,14 +11,18 @@ class Person extends React.Component {
     return { id: id }
   }
 
+  constructor(props) {
+    super(props)
+
+    this.person = require(`../content/output/people/${this.props.id}.json`)
+  }
+
   renderLink(person, key) {
     if (!person[key]) {
       return ''
     }
 
     let title = person[key].split('/')[3]
-
-
     let href
     let icon
     switch(key) {
@@ -55,11 +59,9 @@ class Person extends React.Component {
   }
 
   render() {
-    const person = require(`../content/output/people/${this.props.id}.json`)
-
     return (
       <div>
-        <title>{ `${person.name} - Interactions Lab | University of Calgary HCI Group` }</title>
+        <title>{ `${this.person.name} - Interactions Lab | University of Calgary HCI Group` }</title>
 
         <Header current="People" />
 
@@ -68,18 +70,18 @@ class Person extends React.Component {
           <div className="eleven wide column centered">
             <div id="person" className="category" style={{ textAlign: 'center' }}>
               <img className="ui circular image large-profile" src={ `/static/images/people/${this.props.id}.jpg`} style={{ margin: 'auto' }} />
-              <h1>{ person.name }</h1>
-              <p>{ person.title }</p>
-              { person.url &&
+              <h1>{ this.person.name }</h1>
+              <p>{ this.person.title }</p>
+              { this.person.url &&
                 <p>
-                  <a href={ person.url} target="_blank">
-                  <i className="fas fa-link fa-fw"/>{ person.url }
+                  <a href={ this.person.url} target="_blank">
+                  <i className="fas fa-link fa-fw"/>{ this.person.url }
                   </a>
                 </p>
               }
-              { person.scholar &&
+              { this.person.scholar &&
                 <p>
-                  <a href={ person.scholar} target="_blank">
+                  <a href={ this.person.scholar} target="_blank">
                     <i className="fas fa-graduation-cap fa-fw"/>
                     Google Scholar
                   </a>
@@ -87,11 +89,11 @@ class Person extends React.Component {
               }
               <div class="ui horizontal small divided link list">
                 { ['cv', 'facebook', 'twitter', 'github', 'linkedin', 'email'].map((key) => {
-                  return this.renderLink(person, key)
+                  return this.renderLink(this.person, key)
                 }) }
               </div>
             </div>
-            <Publications author={ person.name } />
+            <Publications author={ this.person.name } />
           </div>
           <div className="one wide column"></div>
         </div>

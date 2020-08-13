@@ -3,8 +3,6 @@ import ReactMarkdown from 'react-markdown'
 import labs from '../content/output/labs.json'
 
 class Labs extends React.Component {
-  componentDidMount() {
-  }
 
   render() {
     return (

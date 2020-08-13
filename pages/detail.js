@@ -19,10 +19,8 @@ for (let dir of dirs) {
 }
 
 class Detail extends React.Component {
-
-  componentDidUpdate(prev) {
-    console.log('update')
-    console.log(prev)
+  constructor(props) {
+    super(props)
   }
 
   render() {

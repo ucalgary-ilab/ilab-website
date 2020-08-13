@@ -1414,6 +1414,13 @@
       "type": "directory"
     },
     {
+      "path": "static/pdf",
+      "name": "pdf",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    },
+    {
       "path": "static/videos",
       "name": "videos",
       "children": [],

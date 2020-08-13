@@ -3,8 +3,6 @@ import ReactMarkdown from 'react-markdown'
 import news from '../content/output/news.json'
 
 class News extends React.Component {
-  componentDidMount() {
-  }
 
   render() {
     return (
