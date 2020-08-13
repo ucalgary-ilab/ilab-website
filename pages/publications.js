@@ -2,10 +2,6 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
-// const jQuery = require('jquery')
-// window.$ = window.jQuery = jQuery
-// require('semantic-ui-modal/modal.js')
-
 import Detail from './detail'
 
 let fileNames = Object.keys(summary.fileMap)
@@ -123,15 +119,17 @@ class Publications extends React.Component {
          })}
         </div>
         <div className="ui large modal">
-          <div className="header">
-            <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }.pdf` } target="_blank">
-              <i className="far fa-file-pdf fa-fw"></i> PDF
-            </a>
-            &nbsp;&nbsp;
-            <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }` } target="_blank" style={{ float: 'right' }}>
-              <i className="fas fa-external-link-alt fa-fw"></i> Link
-            </a>
-          </div>
+          { this.state.publication &&
+            <div className="header">
+              <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }.pdf` } target="_blank">
+                <i className="far fa-file-pdf fa-fw"></i> PDF
+              </a>
+              &nbsp;&nbsp;
+              <a href={ `/publications/${ this.state.publication.base.split('.json')[0] }` } target="_blank" style={{ float: 'right' }}>
+                <i className="fas fa-external-link-alt fa-fw"></i> Link
+              </a>
+            </div>
+          }
           <div className="content">
             <Detail
               publication={ this.state.publication }
