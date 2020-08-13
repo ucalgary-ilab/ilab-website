@@ -57,7 +57,9 @@ class Detail extends React.Component {
       }
     }
 
-    publication.id = publication.base.split('.json')[0]
+    if (publication.base) {
+      publication.id = publication.base.split('.json')[0]
+    }
 
     return (
       <div id="publication">
