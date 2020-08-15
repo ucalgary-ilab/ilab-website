@@ -43,7 +43,6 @@ class Location extends React.Component {
               <i className="map outline icon"></i>
               Space
             </h1>
-            test with example photos
             <div className="ui stackable four cards" style={{ marginTop: '30px' }}>
               { this.images.map((src) => {
                 return (
