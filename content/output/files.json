@@ -553,6 +553,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/michael-hung.jpg",
+              "name": "michael-hung.jpg",
+              "size": 202447,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/nathalie-bressa.jpg",
               "name": "nathalie-bressa.jpg",
               "size": 436534,
@@ -665,7 +672,7 @@
               "type": "file"
             }
           ],
-          "size": 3046275,
+          "size": 3248722,
           "type": "directory"
         },
         {
@@ -1459,7 +1466,7 @@
           "type": "directory"
         }
       ],
-      "size": 39469156,
+      "size": 39671603,
       "type": "directory"
     },
     {
@@ -1484,6 +1491,6 @@
       "type": "directory"
     }
   ],
-  "size": 39469156,
+  "size": 39671603,
   "type": "directory"
 }
