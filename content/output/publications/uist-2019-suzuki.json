@@ -1,0 +1,22 @@
+{
+  "date": "2019-10",
+  "title": "ShapeBots: Shape-changing Swarm Robots",
+  "authors": [
+    "Ryo Suzuki",
+    "Clement Zheng",
+    "Yasuaki Kakehi",
+    "Tom Yeh",
+    "Ellen Yi-Luen Do",
+    "Mark D. Gross",
+    "Daniel Leithinger"
+  ],
+  "series": "UIST 2019",
+  "keywords": "swarm user interfaces, shape-changing user interfaces",
+  "pages": 13,
+  "abstract": "We introduce shape-changing swarm robots. A swarm of self-transformable robots can both individually and collectively change their configuration to display information, actuate objects, act as tangible controllers, visualize data, and provide physical affordances. ShapeBots is a concept prototype of shape-changing swarm robots. Each robot can change its shape by leveraging small linear actuators that are thin (2.5 cm) and highly extendable (up to 20cm) in both horizontal and vertical directions. The modular design of each actuator enables various shapes and geometries of self-transformation. We illustrate potential application scenarios and discuss how this type of interface opens up possibilities for the future of ubiquitous and distributed shape-changing interfaces.",
+  "dir": "content/output/publications",
+  "base": "uist-2019-suzuki.json",
+  "ext": ".json",
+  "sourceBase": "uist-2019-suzuki.yaml",
+  "sourceExt": ".yaml"
+}

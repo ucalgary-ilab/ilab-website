@@ -1,0 +1,21 @@
+{
+  "date": "2017-10",
+  "title": "FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers",
+  "authors": [
+    "Ryo Suzuki",
+    "Abigale Stangl",
+    "Mark D. Gross",
+    "Tom Yeh"
+  ],
+  "series": "ASSETS 2020",
+  "doi": "https://doi.org/10.1145/3132525.3132548",
+  "keywords": "visual impairment, dynamic tactile markers, tangible interfaces, interactive tactile graphics",
+  "video": "https://www.youtube.com/watch?v=VbwIZ9V6i_g",
+  "pages": 10,
+  "abstract": "For people with visual impairments, tactile graphics are an important means to learn and explore information. However, raised line tactile graphics created with traditional materials such as embossing are static. While available refreshable displays can dynamically change the content, they are still too expensive for many users, and are limited in size. These factors limit wide-spread adoption and the representation of large graphics or data sets. In this paper, we present FluxMaker, an inexpensive scalable system that renders dynamic information on top of static tactile graphics with movable tactile markers. These dynamic tactile markers can be easily reconfigured and used to annotate static raised line tactile graphics, including maps, graphs, and diagrams. We developed a hardware prototype that actuates magnetic tactile markers driven by low-cost and scalable electromagnetic coil arrays, which can be fabricated with standard printed circuit board manufacturing. We evaluate our prototype with six participants with visual impairments and found positive results across four application areas: location finding or navigating on tactile maps, data analysis, and physicalization, feature identification for tactile graphics, and drawing support. The user study confirms advantages in application domains such as education and data exploration.",
+  "dir": "content/output/publications",
+  "base": "assets-2017-suzuki.json",
+  "ext": ".json",
+  "sourceBase": "assets-2017-suzuki.yaml",
+  "sourceExt": ".yaml"
+}

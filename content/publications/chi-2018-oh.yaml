@@ -1,0 +1,15 @@
+date: 2018-05
+title: "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-Based Electronic Devices"
+authors:
+  - Hyunjoo Oh
+  - Tung D. Ta
+  - Ryo Suzuki
+  - Mark D. Gross
+  - Yoshihiro Kawahara
+  - Lining Yao
+series: CHI 2018
+doi: https://doi.org/10.1145/3173574.3174015
+keywords: paper electronics, 3d sculpting, paper craft, fabrication techniques, prototyping
+video: https://www.youtube.com/watch?v=DTd863suDN0
+pages: 12
+abstract: "We present PEP (Printed Electronic Papercrafts), a set of design and fabrication techniques to integrate electronic based interactivities into printed papercrafts via 3D sculpting. We explore the design space of PEP, integrating four functions into 3D paper products: actuation, sensing, display, and communication, leveraging the expressive and technical opportunities enabled by paper-like functional layers with a stack of paper. We outline a seven-step workflow, introduce a design tool we developed as an add-on to an existing CAD environment, and demonstrate example applications that combine the electronic enabled functionality, the capability of 3D sculpting, and the unique creative affordances by the materiality of paper."

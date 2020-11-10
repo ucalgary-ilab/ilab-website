@@ -1,0 +1,14 @@
+date: 2019-03
+title: "WindyWall: Exploring Creative Wind Simulations"
+authors:
+  - David Tolley
+  - Thi Ngoc Tram Nguyen
+  - Anthony Tang
+  - Nimesha Ranasinghe
+  - Kensaku Kawauchi
+  - Ching-Chiuan Yen
+series: TEI 2019
+doi: https://doi.org/10.1145/3294109.3295624
+keywords: tactile/haptic interaction, multimodal interaction, novel actuators/displays
+pages: 10
+abstract: "Wind simulations are typically one-off implementations for specific applications. We introduce WindyWall, a platform for creative design and exploration of wind simulations. WindyWall is a three-panel 90-fan array that encapsulates users with 270? of wind coverage. We describe the design and implementation of the array panels, discussing how the panels can be re-arranged, where various wind simulations can be realized as simple effects. To understand how people perceive \"wind\" generated from WindyWall, we conducted a pilot study of wind magnitude perception using different wind activation patterns from WindyWall. Our findings suggest that: horizontal wind activations are perceived more readily than vertical ones, and that people's perceptions of wind are highly variable-most individuals will rate airflow differently in subsequent exposures. Based on our findings, we discuss the importance of developing a method for characterizing wind simulations, and provide design directions for others using fan arrays to simulate wind."

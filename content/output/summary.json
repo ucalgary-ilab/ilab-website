@@ -1,5 +1,15 @@
 {
   "fileMap": {
+    "content/output/people/april-zhang.json": {
+      "name": "April Zhang",
+      "type": "master",
+      "url": "https://aprilzhang.design/",
+      "dir": "content/output/people",
+      "base": "april-zhang.json",
+      "ext": ".json",
+      "sourceBase": "april-zhang.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/booktitles.json": {
       "CHI": {
         "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
@@ -53,20 +63,6 @@
       "base": "booktitles.json",
       "ext": ".json",
       "sourceBase": "booktitles.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/anthony-tang.json": {
-      "name": "Anthony Tang",
-      "type": "faculty",
-      "title": "Adjunct Associate Professor",
-      "url": "https://hcitang.github.io/",
-      "scholar": "https://scholar.google.com/citations?user=RG1EQowAAAAJ",
-      "twitter": "https://twitter.com/proclubboy",
-      "github": "http://github.com/hcitang",
-      "dir": "content/output/people",
-      "base": "anthony-tang.json",
-      "ext": ".json",
-      "sourceBase": "anthony-tang.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/labs.json": [
@@ -124,38 +120,6 @@
       "sourceBase": "ashratuz-zavin-asha.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/brennan-jones.json": {
-      "name": "Brennan Jones",
-      "type": "phd",
-      "url": "https://brennanjones.com/",
-      "scholar": "https://scholar.google.ca/citations?user=yzxiadIAAAAJ",
-      "dir": "content/output/people",
-      "base": "brennan-jones.json",
-      "ext": ".json",
-      "sourceBase": "brennan-jones.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/christopher-smith.json": {
-      "name": "Christopher Smith",
-      "type": "master",
-      "url": "https://sites.google.com/cse.uiu.ac.bd/ashratuzzavinasha",
-      "linkedin": "https://www.linkedin.com/in/christopher-smith-uofc/",
-      "dir": "content/output/people",
-      "base": "christopher-smith.json",
-      "ext": ".json",
-      "sourceBase": "christopher-smith.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/carmen-hull.json": {
-      "name": "Carmen Hull",
-      "type": "phd",
-      "url": "https://www.carmenhull.com/",
-      "dir": "content/output/people",
-      "base": "carmen-hull.json",
-      "ext": ".json",
-      "sourceBase": "carmen-hull.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/people/bon-adriel-aseniero.json": {
       "name": "Bon Adriel Aseniero",
       "type": "alumni",
@@ -172,18 +136,49 @@
       "sourceBase": "bon-adriel-aseniero.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/jessi-stark.json": {
-      "name": "Jessi Stark",
-      "type": "alumni",
-      "past": "master",
-      "now": "University of Toronto",
-      "url": "https://jtstark.com/",
-      "scholar": "https://scholar.google.com/citations?user=aRkKN5UAAAAJ",
-      "twitter": "https://twitter.com/_jessistark",
+    "content/output/people/carmen-hull.json": {
+      "name": "Carmen Hull",
+      "type": "phd",
+      "url": "https://www.carmenhull.com/",
       "dir": "content/output/people",
-      "base": "jessi-stark.json",
+      "base": "carmen-hull.json",
       "ext": ".json",
-      "sourceBase": "jessi-stark.yaml",
+      "sourceBase": "carmen-hull.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/christopher-smith.json": {
+      "name": "Christopher Smith",
+      "type": "master",
+      "url": "https://sites.google.com/cse.uiu.ac.bd/ashratuzzavinasha",
+      "linkedin": "https://www.linkedin.com/in/christopher-smith-uofc/",
+      "dir": "content/output/people",
+      "base": "christopher-smith.json",
+      "ext": ".json",
+      "sourceBase": "christopher-smith.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/brennan-jones.json": {
+      "name": "Brennan Jones",
+      "type": "phd",
+      "url": "https://brennanjones.com/",
+      "scholar": "https://scholar.google.ca/citations?user=yzxiadIAAAAJ",
+      "dir": "content/output/people",
+      "base": "brennan-jones.json",
+      "ext": ".json",
+      "sourceBase": "brennan-jones.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/david-ledo.json": {
+      "name": "David Ledo",
+      "type": "alumni",
+      "past": "phd",
+      "now": "Autodesk Research",
+      "url": "https://www.davidledo.com/",
+      "scholar": "https://scholar.google.com/citations?user=V_2BZDoAAAAJ",
+      "dir": "content/output/people",
+      "base": "david-ledo.json",
+      "ext": ".json",
+      "sourceBase": "david-ledo.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/ehud-sharlin.json": {
@@ -209,6 +204,20 @@
       "sourceBase": "darcy-norman.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/jessi-stark.json": {
+      "name": "Jessi Stark",
+      "type": "alumni",
+      "past": "master",
+      "now": "University of Toronto",
+      "url": "https://jtstark.com/",
+      "scholar": "https://scholar.google.com/citations?user=aRkKN5UAAAAJ",
+      "twitter": "https://twitter.com/_jessistark",
+      "dir": "content/output/people",
+      "base": "jessi-stark.json",
+      "ext": ".json",
+      "sourceBase": "jessi-stark.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/kathryn-blair.json": {
       "name": "Kathryn Blair",
       "type": "phd",
@@ -219,17 +228,13 @@
       "sourceBase": "kathryn-blair.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/david-ledo.json": {
-      "name": "David Ledo",
-      "type": "alumni",
-      "past": "phd",
-      "now": "Autodesk Research",
-      "url": "https://www.davidledo.com/",
-      "scholar": "https://scholar.google.com/citations?user=V_2BZDoAAAAJ",
+    "content/output/people/kendra-wannamaker.json": {
+      "name": "Kendra Wannamaker",
+      "type": "master",
       "dir": "content/output/people",
-      "base": "david-ledo.json",
+      "base": "kendra-wannamaker.json",
       "ext": ".json",
-      "sourceBase": "david-ledo.yaml",
+      "sourceBase": "kendra-wannamaker.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/karthik-mahadevan.json": {
@@ -245,6 +250,18 @@
       "sourceBase": "karthik-mahadevan.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/martin-feick.json": {
+      "name": "Martin Feick",
+      "type": "phd",
+      "url": "http://martinfeick.com/",
+      "scholar": "https://scholar.google.de/citations?user=az0GkfQAAAAJ",
+      "github": "https://github.com/MartinFk",
+      "dir": "content/output/people",
+      "base": "martin-feick.json",
+      "ext": ".json",
+      "sourceBase": "martin-feick.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/lora-oehlberg.json": {
       "name": "Lora Oehlberg",
       "type": "faculty",
@@ -257,13 +274,31 @@
       "sourceBase": "lora-oehlberg.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/kendra-wannamaker.json": {
-      "name": "Kendra Wannamaker",
-      "type": "master",
+    "content/output/people/kurtis-danyluk.json": {
+      "name": "Kurtis Danyluk",
+      "type": "phd",
       "dir": "content/output/people",
-      "base": "kendra-wannamaker.json",
+      "base": "kurtis-danyluk.json",
       "ext": ".json",
-      "sourceBase": "kendra-wannamaker.yaml",
+      "sourceBase": "kurtis-danyluk.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/nathalie-bressa.json": {
+      "name": "Nathalie Bressa",
+      "type": "visiting",
+      "dir": "content/output/people",
+      "base": "nathalie-bressa.json",
+      "ext": ".json",
+      "sourceBase": "nathalie-bressa.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/nour-hammad.json": {
+      "name": "Nour Hammad",
+      "type": "undergrad",
+      "dir": "content/output/people",
+      "base": "nour-hammad.json",
+      "ext": ".json",
+      "sourceBase": "nour-hammad.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/michael-hung.json": {
@@ -277,49 +312,6 @@
       "base": "michael-hung.json",
       "ext": ".json",
       "sourceBase": "michael-hung.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/martin-feick.json": {
-      "name": "Martin Feick",
-      "type": "phd",
-      "url": "http://martinfeick.com/",
-      "scholar": "https://scholar.google.de/citations?user=az0GkfQAAAAJ",
-      "github": "https://github.com/MartinFk",
-      "dir": "content/output/people",
-      "base": "martin-feick.json",
-      "ext": ".json",
-      "sourceBase": "martin-feick.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/nathalie-bressa.json": {
-      "name": "Nathalie Bressa",
-      "type": "visiting",
-      "dir": "content/output/people",
-      "base": "nathalie-bressa.json",
-      "ext": ".json",
-      "sourceBase": "nathalie-bressa.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/nicolai-marquardt.json": {
-      "name": "Nicolai Marquardt",
-      "type": "alumni",
-      "past": "phd",
-      "now": "University College London",
-      "url": "http://www.nicolaimarquardt.com/",
-      "scholar": "https://scholar.google.com/citations?user=PXeN0RsAAAAJ",
-      "dir": "content/output/people",
-      "base": "nicolai-marquardt.json",
-      "ext": ".json",
-      "sourceBase": "nicolai-marquardt.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/kurtis-danyluk.json": {
-      "name": "Kurtis Danyluk",
-      "type": "phd",
-      "dir": "content/output/people",
-      "base": "kurtis-danyluk.json",
-      "ext": ".json",
-      "sourceBase": "kurtis-danyluk.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/ryo-suzuki.json": {
@@ -339,23 +331,26 @@
       "sourceBase": "ryo-suzuki.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/roberta-cabral-mota.json": {
-      "name": "Roberta Cabral Mota",
-      "type": "phd",
-      "url": "https://www.robertacrmota.com/",
+    "content/output/people/nicolai-marquardt.json": {
+      "name": "Nicolai Marquardt",
+      "type": "alumni",
+      "past": "phd",
+      "now": "University College London",
+      "url": "http://www.nicolaimarquardt.com/",
+      "scholar": "https://scholar.google.com/citations?user=PXeN0RsAAAAJ",
       "dir": "content/output/people",
-      "base": "roberta-cabral-mota.json",
+      "base": "nicolai-marquardt.json",
       "ext": ".json",
-      "sourceBase": "roberta-cabral-mota.yaml",
+      "sourceBase": "nicolai-marquardt.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/nour-hammad.json": {
-      "name": "Nour Hammad",
-      "type": "undergrad",
+    "content/output/people/sasha-ivanov.json": {
+      "name": "Sasha Ivanov",
+      "type": "master",
       "dir": "content/output/people",
-      "base": "nour-hammad.json",
+      "base": "sasha-ivanov.json",
       "ext": ".json",
-      "sourceBase": "nour-hammad.yaml",
+      "sourceBase": "sasha-ivanov.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/saul-greenberg.json": {
@@ -370,13 +365,26 @@
       "sourceBase": "saul-greenberg.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/sasha-ivanov.json": {
-      "name": "Sasha Ivanov",
-      "type": "master",
+    "content/output/people/roberta-cabral-mota.json": {
+      "name": "Roberta Cabral Mota",
+      "type": "phd",
+      "url": "https://www.robertacrmota.com/",
       "dir": "content/output/people",
-      "base": "sasha-ivanov.json",
+      "base": "roberta-cabral-mota.json",
       "ext": ".json",
-      "sourceBase": "sasha-ivanov.yaml",
+      "sourceBase": "roberta-cabral-mota.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/sheelagh-carpendale.json": {
+      "name": "Sheelagh Carpendale",
+      "type": "faculty",
+      "title": "Adjunct Professor",
+      "url": "https://www.cs.sfu.ca/~sheelagh/",
+      "scholar": "https://scholar.google.com/citations?user=43LLX2kAAAAJ",
+      "dir": "content/output/people",
+      "base": "sheelagh-carpendale.json",
+      "ext": ".json",
+      "sourceBase": "sheelagh-carpendale.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/soren-knudsen.json": {
@@ -389,6 +397,28 @@
       "base": "soren-knudsen.json",
       "ext": ".json",
       "sourceBase": "soren-knudsen.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/sydney-pratte.json": {
+      "name": "Sydney Pratte",
+      "type": "phd",
+      "url": "https://www.sydneypratte.ca/",
+      "dir": "content/output/people",
+      "base": "sydney-pratte.json",
+      "ext": ".json",
+      "sourceBase": "sydney-pratte.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/wesley-willett.json": {
+      "name": "Wesley Willett",
+      "type": "faculty",
+      "title": "Associate Professor",
+      "url": "http://www.wjwillett.net",
+      "scholar": "https://scholar.google.ca/citations?user=Q17-rckAAAAJ",
+      "dir": "content/output/people",
+      "base": "wesley-willett.json",
+      "ext": ".json",
+      "sourceBase": "wesley-willett.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/sowmya-somanath.json": {
@@ -405,26 +435,31 @@
       "sourceBase": "sowmya-somanath.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/sydney-pratte.json": {
-      "name": "Sydney Pratte",
-      "type": "phd",
-      "url": "https://www.sydneypratte.ca/",
+    "content/output/people/william-wright.json": {
+      "name": "William Wright",
+      "type": "masters",
+      "url": "http://pages.cpsc.ucalgary.ca/~wwright/",
+      "scholar": "https://scholar.google.com/citations?user=V4nRMoMAAAAJ",
+      "twitter": "https://twitter.com/HexenKoenig",
+      "facebook": "https://www.facebook.com/bonadriel",
+      "linkedin": "https://www.linkedin.com/in/bon-adriel-aseniero-47140560/",
       "dir": "content/output/people",
-      "base": "sydney-pratte.json",
+      "base": "william-wright.json",
       "ext": ".json",
-      "sourceBase": "sydney-pratte.yaml",
+      "sourceBase": "william-wright.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/sheelagh-carpendale.json": {
-      "name": "Sheelagh Carpendale",
-      "type": "faculty",
-      "title": "Adjunct Professor",
-      "url": "https://www.cs.sfu.ca/~sheelagh/",
-      "scholar": "https://scholar.google.com/citations?user=43LLX2kAAAAJ",
+    "content/output/people/teddy-seyed.json": {
+      "name": "Teddy Seyed",
+      "type": "alumni",
+      "past": "phd",
+      "now": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/people/teddy/",
+      "scholar": "https://scholar.google.com/citations?user=A8VSir8AAAAJ",
       "dir": "content/output/people",
-      "base": "sheelagh-carpendale.json",
+      "base": "teddy-seyed.json",
       "ext": ".json",
-      "sourceBase": "sheelagh-carpendale.yaml",
+      "sourceBase": "teddy-seyed.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/terrance-mok.json": {
@@ -450,31 +485,6 @@
       "sourceBase": "tim-au-yeung.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/teddy-seyed.json": {
-      "name": "Teddy Seyed",
-      "type": "alumni",
-      "past": "phd",
-      "now": "Microsoft Research",
-      "url": "https://www.microsoft.com/en-us/research/people/teddy/",
-      "scholar": "https://scholar.google.com/citations?user=A8VSir8AAAAJ",
-      "dir": "content/output/people",
-      "base": "teddy-seyed.json",
-      "ext": ".json",
-      "sourceBase": "teddy-seyed.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/wesley-willett.json": {
-      "name": "Wesley Willett",
-      "type": "faculty",
-      "title": "Associate Professor",
-      "url": "http://www.wjwillett.net",
-      "scholar": "https://scholar.google.ca/citations?user=Q17-rckAAAAJ",
-      "dir": "content/output/people",
-      "base": "wesley-willett.json",
-      "ext": ".json",
-      "sourceBase": "wesley-willett.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/people/zachary-mckendrick.json": {
       "name": "Zachary McKendrick",
       "type": "phd",
@@ -484,20 +494,6 @@
       "base": "zachary-mckendrick.json",
       "ext": ".json",
       "sourceBase": "zachary-mckendrick.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/william-wright.json": {
-      "name": "William Wright",
-      "type": "masters",
-      "url": "http://pages.cpsc.ucalgary.ca/~wwright/",
-      "scholar": "https://scholar.google.com/citations?user=V4nRMoMAAAAJ",
-      "twitter": "https://twitter.com/HexenKoenig",
-      "facebook": "https://www.facebook.com/bonadriel",
-      "linkedin": "https://www.linkedin.com/in/bon-adriel-aseniero-47140560/",
-      "dir": "content/output/people",
-      "base": "william-wright.json",
-      "ext": ".json",
-      "sourceBase": "william-wright.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/chi-2017-ledo.json": {
@@ -528,7 +524,7 @@
       "title": "A Visual Interaction Cue Framework from Video Game Environments for Augmented Reality",
       "authors": [
         "Kody R. Dillman",
-        "Terrance Tin Hoi Mok",
+        "Terrance Mok",
         "Anthony Tang",
         "Lora Oehlberg",
         "Alex Mitchell"
@@ -545,27 +541,25 @@
       "sourceBase": "chi-2018-dillman.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/chi-2018-feick.json": {
-      "date": "2018-04",
-      "title": "Perspective on and Re-orientation of Physical Proxies in Object-Focused Remote Collaboration",
+    "content/output/publications/assets-2017-suzuki.json": {
+      "date": "2017-10",
+      "title": "FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers",
       "authors": [
-        "Martin Feick",
-        "Terrance Tin Hoi Mok",
-        "Anthony Tang",
-        "Lora Oehlberg",
-        "Ehud Sharlin"
+        "Ryo Suzuki",
+        "Abigale Stangl",
+        "Mark D. Gross",
+        "Tom Yeh"
       ],
-      "series": "CHI 2018",
-      "doi": "https://doi.org/10.1145/3173574.3173855",
-      "keywords": "cscw, remote collaboration, object-focused collaboration, physical telepresence, collaborative physical tasks",
-      "pages": 13,
-      "award": "Honorable Mention",
-      "video": "https://www.youtube.com/watch?v=sfxTHsPJWHY",
-      "abstract": "Remote collaborators working together on physical objects have difficulty building a shared understanding of what each person is talking about. Conventional video chat systems are insufficient for many situations because they present a single view of the object in a flattened image. To understand how this limited perspective affects collaboration, we designed the Remote Manipulator (ReMa), which can reproduce orientation manipulations on a proxy object at a remote site. We conducted two studies with ReMa, with two main findings. First, a shared perspective is more effective and preferred compared to the opposing perspective offered by conventional video chat systems. Second, the physical proxy and video chat complement one another in a combined system: people used the physical proxy to understand objects, and used video chat to perform gestures and confirm remote actions.",
+      "series": "ASSETS 2020",
+      "doi": "https://doi.org/10.1145/3132525.3132548",
+      "keywords": "visual impairment, dynamic tactile markers, tangible interfaces, interactive tactile graphics",
+      "video": "https://www.youtube.com/watch?v=VbwIZ9V6i_g",
+      "pages": 10,
+      "abstract": "For people with visual impairments, tactile graphics are an important means to learn and explore information. However, raised line tactile graphics created with traditional materials such as embossing are static. While available refreshable displays can dynamically change the content, they are still too expensive for many users, and are limited in size. These factors limit wide-spread adoption and the representation of large graphics or data sets. In this paper, we present FluxMaker, an inexpensive scalable system that renders dynamic information on top of static tactile graphics with movable tactile markers. These dynamic tactile markers can be easily reconfigured and used to annotate static raised line tactile graphics, including maps, graphs, and diagrams. We developed a hardware prototype that actuates magnetic tactile markers driven by low-cost and scalable electromagnetic coil arrays, which can be fabricated with standard printed circuit board manufacturing. We evaluate our prototype with six participants with visual impairments and found positive results across four application areas: location finding or navigating on tactile maps, data analysis, and physicalization, feature identification for tactile graphics, and drawing support. The user study confirms advantages in application domains such as education and data exploration.",
       "dir": "content/output/publications",
-      "base": "chi-2018-feick.json",
+      "base": "assets-2017-suzuki.json",
       "ext": ".json",
-      "sourceBase": "chi-2018-feick.yaml",
+      "sourceBase": "assets-2017-suzuki.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/chi-2018-ledo.json": {
@@ -613,12 +607,82 @@
       "sourceBase": "chi-2018-mahadevan.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/chi-2018-feick.json": {
+      "date": "2018-04",
+      "title": "Perspective on and Re-orientation of Physical Proxies in Object-Focused Remote Collaboration",
+      "authors": [
+        "Martin Feick",
+        "Terrance Tin Hoi Mok",
+        "Anthony Tang",
+        "Lora Oehlberg",
+        "Ehud Sharlin"
+      ],
+      "series": "CHI 2018",
+      "doi": "https://doi.org/10.1145/3173574.3173855",
+      "keywords": "cscw, remote collaboration, object-focused collaboration, physical telepresence, collaborative physical tasks",
+      "pages": 13,
+      "award": "Honorable Mention",
+      "video": "https://www.youtube.com/watch?v=sfxTHsPJWHY",
+      "abstract": "Remote collaborators working together on physical objects have difficulty building a shared understanding of what each person is talking about. Conventional video chat systems are insufficient for many situations because they present a single view of the object in a flattened image. To understand how this limited perspective affects collaboration, we designed the Remote Manipulator (ReMa), which can reproduce orientation manipulations on a proxy object at a remote site. We conducted two studies with ReMa, with two main findings. First, a shared perspective is more effective and preferred compared to the opposing perspective offered by conventional video chat systems. Second, the physical proxy and video chat complement one another in a combined system: people used the physical proxy to understand objects, and used video chat to perform gestures and confirm remote actions.",
+      "dir": "content/output/publications",
+      "base": "chi-2018-feick.json",
+      "ext": ".json",
+      "sourceBase": "chi-2018-feick.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2018-oh.json": {
+      "date": "2018-05",
+      "title": "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-Based Electronic Devices",
+      "authors": [
+        "Hyunjoo Oh",
+        "Tung D. Ta",
+        "Ryo Suzuki",
+        "Mark D. Gross",
+        "Yoshihiro Kawahara",
+        "Lining Yao"
+      ],
+      "series": "CHI 2018",
+      "doi": "https://doi.org/10.1145/3173574.3174015",
+      "keywords": "paper electronics, 3d sculpting, paper craft, fabrication techniques, prototyping",
+      "video": "https://www.youtube.com/watch?v=DTd863suDN0",
+      "pages": 12,
+      "abstract": "We present PEP (Printed Electronic Papercrafts), a set of design and fabrication techniques to integrate electronic based interactivities into printed papercrafts via 3D sculpting. We explore the design space of PEP, integrating four functions into 3D paper products: actuation, sensing, display, and communication, leveraging the expressive and technical opportunities enabled by paper-like functional layers with a stack of paper. We outline a seven-step workflow, introduce a design tool we developed as an add-on to an existing CAD environment, and demonstrate example applications that combine the electronic enabled functionality, the capability of 3D sculpting, and the unique creative affordances by the materiality of paper.",
+      "dir": "content/output/publications",
+      "base": "chi-2018-oh.json",
+      "ext": ".json",
+      "sourceBase": "chi-2018-oh.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2018-wuertz.json": {
+      "date": "2018-04",
+      "title": "A Design Framework for Awareness Cues in Distributed Multiplayer Games",
+      "authors": [
+        "Jason Wuertz",
+        "Sultan A. Alharthi",
+        "William A. Hamilton",
+        "Scott Bateman",
+        "Carl Gutwin",
+        "Anthony Tang",
+        "Zachary O. Toups",
+        "Jessica Hammer"
+      ],
+      "series": "CHI 2018",
+      "doi": "https://doi.org/10.1145/3173574.3173817",
+      "keywords": "workspace awareness, situation awareness, game design, distributed multiplayer games, awareness cues",
+      "pages": 14,
+      "abstract": "In the physical world, teammates develop situation awareness about each other's location, status, and actions through cues such as gaze direction and ambient noise. To support situation awareness, distributed multiplayer games provide awareness cues - information that games automatically make available to players to support cooperative gameplay. The design of awareness cues can be extremely complex, impacting how players experience games and work with teammates. Despite the importance of awareness cues, designers have little beyond experiential knowledge to guide their design. In this work, we describe a design framework for awareness cues, providing insight into what information they provide, how they communicate this information, and how design choices can impact play experience. Our research, based on a grounded theory analysis of current games, is the first to provide a characterization of awareness cues, providing a palette for game designers to improve design practice and a starting point for deeper research into collaborative play.",
+      "dir": "content/output/publications",
+      "base": "chi-2018-wuertz.json",
+      "ext": ".json",
+      "sourceBase": "chi-2018-wuertz.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/chi-2020-anjani.json": {
       "date": "2020-04",
       "title": "Why do people watch others eat food? An Empirical Study on the Motivations and Practices of Mukbang Viewers",
       "authors": [
         "Laurensia Anjani",
-        "Terrance Tin Hoi Mok",
+        "Terrance Mok",
         "Anthony Tang",
         "Lora Oehlberg",
         "Wooi Boon Goh"
@@ -633,6 +697,48 @@
       "base": "chi-2020-anjani.json",
       "ext": ".json",
       "sourceBase": "chi-2020-anjani.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2018-suzuki.json": {
+      "date": "2018-05",
+      "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
+      "authors": [
+        "Ryo Suzuki",
+        "Jun Kato",
+        "Mark D. Gross",
+        "Tom Yeh"
+      ],
+      "series": "CHI 2018",
+      "doi": "https://doi.org/10.1145/3173574.3173773",
+      "keywords": "direct manipulation, tangible programming, swarm user interfaces, programming by demonstration",
+      "video": "https://www.youtube.com/watch?v=Gb7brajKCVE",
+      "pages": 13,
+      "abstract": "We explore a new approach to programming swarm user interfaces (Swarm UI) by leveraging direct physical manipulation. Existing Swarm UI applications are written using a robot programming framework: users work on a computer screen and think in terms of low-level controls. In contrast, our approach allows programmers to work in physical space by directly manipulating objects and think in terms of high-level interface design. Inspired by current UI programming practices, we introduce a four-step workflow-create elements, abstract attributes, specify behaviors, and propagate changes-for Swarm UI programming. We propose a set of direct physical manipulation techniques to support each step in this workflow. To demonstrate these concepts, we developed Reactile, a Swarm UI programming environment that actuates a swarm of small magnets and displays spatial information of program states using a DLP projector. Two user studies-an in-class survey with 148 students and a lab interview with eight participants-confirm that our approach is intuitive and understandable for programming Swarm UIs.",
+      "dir": "content/output/publications",
+      "base": "chi-2018-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "chi-2018-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2020-goffin.json": {
+      "date": "2020-04",
+      "title": "Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations",
+      "authors": [
+        "Pascal Goffin",
+        "Tanja Blascheck",
+        "Petra Isenberg",
+        "Wesley Willett"
+      ],
+      "series": "CHI 2020",
+      "doi": "https://doi.org/10.1145/3313831.3376842",
+      "keywords": "glyphs, word-scale visualization, information visualization, interaction techniques, text visualization",
+      "pages": 13,
+      "video": "https://www.youtube.com/watch?v=wPaVdSWM8hU",
+      "abstract": "We describe a design space of view manipulation interactions for small data-driven contextual visualizations (word-scale visualizations). These interaction techniques support an active reading experience and engage readers through exploration of embedded visualizations whose placement and content connect them to specific terms in a document. A reader could, for example, use our proposed interaction techniques to explore word-scale visualizations of stock market trends for companies listed in a market overview article. When readers wish to engage more deeply with the data, they can collect, arrange, compare, and navigate the document using the embedded word-scale visualizations, permitting more visualization-centric analyses. We support our design space with a concrete implementation, illustrate it with examples from three application domains, and report results from two experiments. The experiments show how view manipulation interactions helped readers examine embedded visualizations more quickly and with less scrolling and yielded qualitative feedback on usability and future opportunities.",
+      "dir": "content/output/publications",
+      "base": "chi-2020-goffin.json",
+      "ext": ".json",
+      "sourceBase": "chi-2020-goffin.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/chi-2019-danyluk.json": {
@@ -671,23 +777,24 @@
       "sourceBase": "chi-2020-hou.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/cnc-2019-hammad.json": {
-      "date": "2019-06",
-      "title": "Mutation: Leveraging Performing Arts Practices in Cyborg Transitioning",
+    "content/output/publications/dis-2018-pham.json": {
+      "date": "2018-06",
+      "title": "Scale Impacts Elicited Gestures for Manipulating Holograms: Implications for AR Gesture Design",
       "authors": [
-        "Nour Hammad",
-        "Elaheh Sanoubari",
-        "Patrick Finn",
-        "Sowmya Somanath",
-        "James E. Young",
-        "Ehud Sharlin"
+        "Tran Pham",
+        "Jo Vermeulen",
+        "Anthony Tang",
+        "Lindsay MacDonald Vermeulen"
       ],
-      "year": 2019,
-      "series": "C&C 2019",
+      "series": "DIS 2018",
+      "doi": "https://doi.org/10.1145/3196709.3196719",
+      "keywords": "augmented reality, gestures, gesture elicitation, hololens",
+      "pages": 14,
+      "abstract": "Because gesture design for augmented reality (AR) remains idiosyncratic, people cannot necessarily use gestures learned in one AR application in another. To design discoverable gestures, we need to understand what gestures people expect to use. We explore how the scale of AR affects the gestures people expect to use to interact with 3D holograms. Using an elicitation study, we asked participants to generate gestures in response to holographic task referents, where we varied the scale of holograms from desktop-scale to room-scale objects. We found that the scale of objects and scenes in the AR experience moderates the generated gestures. Most gestures were informed by physical interaction, and when people interacted from a distance, they sought a good perspective on the target object before and during the interaction. These results suggest that gesture designers need to account for scale, and should not simply reuse gestures across different hologram sizes.",
       "dir": "content/output/publications",
-      "base": "cnc-2019-hammad.json",
+      "base": "dis-2018-pham.json",
       "ext": ".json",
-      "sourceBase": "cnc-2019-hammad.yaml",
+      "sourceBase": "dis-2018-pham.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/dis-2019-bressa.json": {
@@ -707,25 +814,23 @@
       "sourceBase": "dis-2019-bressa.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/chi-2020-goffin.json": {
-      "date": "2020-04",
-      "title": "Interaction Techniques for Visual Exploration Using Embedded Word-Scale Visualizations",
+    "content/output/publications/cnc-2019-hammad.json": {
+      "date": "2019-06",
+      "title": "Mutation: Leveraging Performing Arts Practices in Cyborg Transitioning",
       "authors": [
-        "Pascal Goffin",
-        "Tanja Blascheck",
-        "Petra Isenberg",
-        "Wesley Willett"
+        "Nour Hammad",
+        "Elaheh Sanoubari",
+        "Patrick Finn",
+        "Sowmya Somanath",
+        "James E. Young",
+        "Ehud Sharlin"
       ],
-      "series": "CHI 2020",
-      "doi": "https://doi.org/10.1145/3313831.3376842",
-      "keywords": "glyphs, word-scale visualization, information visualization, interaction techniques, text visualization",
-      "pages": 13,
-      "video": "https://www.youtube.com/watch?v=wPaVdSWM8hU",
-      "abstract": "We describe a design space of view manipulation interactions for small data-driven contextual visualizations (word-scale visualizations). These interaction techniques support an active reading experience and engage readers through exploration of embedded visualizations whose placement and content connect them to specific terms in a document. A reader could, for example, use our proposed interaction techniques to explore word-scale visualizations of stock market trends for companies listed in a market overview article. When readers wish to engage more deeply with the data, they can collect, arrange, compare, and navigate the document using the embedded word-scale visualizations, permitting more visualization-centric analyses. We support our design space with a concrete implementation, illustrate it with examples from three application domains, and report results from two experiments. The experiments show how view manipulation interactions helped readers examine embedded visualizations more quickly and with less scrolling and yielded qualitative feedback on usability and future opportunities.",
+      "year": 2019,
+      "series": "C&C 2019",
       "dir": "content/output/publications",
-      "base": "chi-2020-goffin.json",
+      "base": "cnc-2019-hammad.json",
       "ext": ".json",
-      "sourceBase": "chi-2020-goffin.yaml",
+      "sourceBase": "cnc-2019-hammad.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/dis-2019-ledo.json": {
@@ -750,25 +855,45 @@
       "sourceBase": "dis-2019-ledo.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/hri-2018-feick.json": {
-      "date": "2018-04",
-      "title": "The Way You Move: The Effect of a Robot Surrogate Movement in Remote Collaboration",
+    "content/output/publications/dis-2019-seyed.json": {
+      "date": "2019-06",
+      "title": "Mannequette: Understanding and Enabling Collaboration and Creativity on Avant-Garde Fashion-Tech Runways",
       "authors": [
-        "Martin Feick",
-        "Lora Oehlberg",
-        "Anthony Tang",
-        "André Miede",
-        "Ehud Sharlin"
+        "Teddy Seyed",
+        "Anthony Tang"
       ],
-      "series": "HRI 2018",
-      "doi": "https://doi.org/10.1145/3173386.3176959",
-      "pages": 2,
-      "keywords": "movement trajectory & velocity, remote collaboration, robot surrogate",
-      "abstract": "In this paper, we discuss the role of the movement trajectory and velocity enabled by our tele-robotic system (ReMa) for remote collaboration on physical tasks. Our system reproduces changes in object orientation and position at a remote location using a humanoid robotic arm. However, even minor kinematics differences between robot and human arm can result in awkward or exaggerated robot movements. As a result, user communication with the robotic system can become less efficient, less fluent and more time intensive.",
+      "series": "DIS 2019",
+      "doi": "https://doi.org/10.1145/3322276.3322305",
+      "keywords": "fashion, haute couture, e-textiles, maker culture, fashion-tech, wearables, avant-garde, haute-tech couture, modular",
+      "award": "Honorable Mention",
+      "pages": 13,
+      "abstract": "Drawing upon multiple disciplines, avant-garde fashion-tech teams push the boundaries between fashion and technology. Many are well trained in envisioning aesthetic qualities of garments, but few have formal training on designing and fabricating technologies themselves. We introduce Mannequette, a prototyping tool for fashion-tech garments that enables teams to experiment with interactive technologies at early stages of their design processes. Mannequette provides an abstraction of light-based outputs and sensor-based inputs for garments through a DJ mixer-like interface that allows for dynamic changes and recording/playback of visual effects. The base of Mannequette can also be incorporated into the final garment, where it is then connected to the final components. We conducted an 8-week deployment study with eight design teams who created new garments for a runway show. Our results revealed Mannequette allowed teams to repeatedly consider new design and technical options early in their creative processes, and to communicate more effectively across disciplinary backgrounds.",
       "dir": "content/output/publications",
-      "base": "hri-2018-feick.json",
+      "base": "dis-2019-seyed.json",
       "ext": ".json",
-      "sourceBase": "hri-2018-feick.yaml",
+      "sourceBase": "dis-2019-seyed.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/dis-2019-nakayama.json": {
+      "date": "2019-06",
+      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+      "authors": [
+        "Ryosuke Nakayama",
+        "Ryo Suzuki",
+        "Satoshi Nakamaru",
+        "Ryuma Niiyama",
+        "Yoshihiro Kawahara",
+        "Yasuaki Kakehi"
+      ],
+      "series": "DIS 2019",
+      "keywords": "shape-changing interfaces, programming by demonstration, soft robots, pneumatic actuation, tangible interactions",
+      "video": "https://www.youtube.com/watch?v=ZkCcazfFD-M",
+      "pages": 11,
+      "abstract": "We introduce MorphIO, entirely soft sensing and actuation modules for programming by demonstration of soft robots and shape-changing interfaces.MorphIO's hardware consists of a soft pneumatic actuator containing a conductive sponge sensor.This allows both input and output of three-dimensional deformation of a soft material.Leveraging this capability, MorphIO enables a user to record and later playback physical motion of programmable shape-changing materials.In addition, the modular design of MorphIO's unit allows the user to construct various shapes and topologies through magnetic connection.We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects.Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.",
+      "dir": "content/output/publications",
+      "base": "dis-2019-nakayama.json",
+      "ext": ".json",
+      "sourceBase": "dis-2019-nakayama.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/dis-2019-mahadevan.json": {
@@ -790,6 +915,49 @@
       "base": "dis-2019-mahadevan.json",
       "ext": ".json",
       "sourceBase": "dis-2019-mahadevan.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2020-suzuki.json": {
+      "date": "2020-05",
+      "title": "RoomShift: Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
+      "authors": [
+        "Ryo Suzuki",
+        "Hooman Hedayati",
+        "Clement Zheng",
+        "James Bohn",
+        "Daniel Szafir",
+        "Ellen Yi-Luen Do",
+        "Mark D Gross",
+        "Daniel Leithinger"
+      ],
+      "series": "CHI 2020",
+      "doi": "https://doi.org/10.1145/3374920.3374941",
+      "keywords": "virtual reality, room-scale haptics, haptic interfaces, swarm robots",
+      "video": "https://www.youtube.com/watch?v=0LHeTkOMR84",
+      "pages": 11,
+      "abstract": "RoomShift is a room-scale dynamic haptic environment for virtual reality, using a small swarm of robots that can move furniture. RoomShift consists of nine shape-changing robots: Roombas with mechanical scissor lifts. These robots drive beneath a piece of furniture to lift, move and place it. By augmenting virtual scenes with physical objects, users can sit on, lean against, place and otherwise interact with furniture with their whole body; just as in the real world. When the virtual scene changes or users navigate within it, the swarm of robots dynamically reconfigures the physical environment to match the virtual content. We describe the hardware and software implementation, applications in virtual tours and architectural design and interaction techniques.",
+      "dir": "content/output/publications",
+      "base": "chi-2020-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "chi-2020-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/iros-2020-hedayati.json": {
+      "date": "2020-09",
+      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
+      "authors": [
+        "Hooman Hedayati",
+        "Ryo Suzuki",
+        "Daniel Leithinger",
+        "Daniel Szafir"
+      ],
+      "series": "IROS 2020",
+      "pages": 6,
+      "abstract": "We present PufferBot, an aerial robot with an expandable structure that may expand to protect a drone’s propellers when the robot is close to obstacles or collocated humans. PufferBot is made of a custom 3D printed expandable scissor structure, which utilizes a one degree of freedom actuator with rack and pinion mechanism. We propose four designs for the expandable structure, each with unique charac- terizations which may be useful in different situations. Finally, we present three motivating scenarios in which PufferBot might be useful beyond existing static propeller guard structures.",
+      "dir": "content/output/publications",
+      "base": "iros-2020-hedayati.json",
+      "ext": ".json",
+      "sourceBase": "iros-2020-hedayati.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/imwut-2020-wang.json": {
@@ -834,47 +1002,6 @@
       "sourceBase": "tei-2019-mikalauskas.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/publications/tvcg-2019-blascheck.json": {
-      "date": "2019-06",
-      "title": "Exploration Strategies for Discovery of Interactivity in Visualizations",
-      "authors": [
-        "Tanja Blascheck",
-        "Lindsay MacDonald Vermeulen",
-        "Jo Vermeulen",
-        "Charles Perin",
-        "Wesley Willett",
-        "Thomas Ertl",
-        "Sheelagh Carpendale"
-      ],
-      "series": "TVCG 2019",
-      "doi": "https://doi.org/10.1109/TVCG.2018.2802520",
-      "keywords": "discovery, visualization, open data, evaluation, eye tracking, interaction logs, think-aloud",
-      "pages": 13,
-      "abstract": "We investigate how people discover the functionality of an interactive visualization that was designed for the general public. While interactive visualizations are increasingly available for public use, we still know little about how the general public discovers what they can do with these visualizations and what interactions are available. Developing a better understanding of this discovery process can help inform the design of visualizations for the general public, which in turn can help make data more accessible. To unpack this problem, we conducted a lab study in which participants were free to use their own methods to discover the functionality of a connected set of interactive visualizations of public energy data. We collected eye movement data and interaction logs as well as video and audio recordings. By analyzing this combined data, we extract exploration strategies that the participants employed to discover the functionality in these interactive visualizations. These exploration strategies illuminate possible design directions for improving the discoverability of a visualization's functionality.",
-      "dir": "content/output/publications",
-      "base": "tvcg-2019-blascheck.json",
-      "ext": ".json",
-      "sourceBase": "tvcg-2019-blascheck.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/iros-2020-hedayati.json": {
-      "date": "2020-09",
-      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
-      "authors": [
-        "Hooman Hedayati",
-        "Ryo Suzuki",
-        "Daniel Leithinger",
-        "Daniel Szafir"
-      ],
-      "series": "IROS 2020",
-      "pages": 6,
-      "abstract": "We present PufferBot, an aerial robot with an expandable structure that may expand to protect a drone’s propellers when the robot is close to obstacles or collocated humans. PufferBot is made of a custom 3D printed expandable scissor structure, which utilizes a one degree of freedom actuator with rack and pinion mechanism. We propose four designs for the expandable structure, each with unique charac- terizations which may be useful in different situations. Finally, we present three motivating scenarios in which PufferBot might be useful beyond existing static propeller guard structures.",
-      "dir": "content/output/publications",
-      "base": "iros-2020-hedayati.json",
-      "ext": ".json",
-      "sourceBase": "iros-2020-hedayati.yaml",
-      "sourceExt": ".yaml"
-    },
     "content/output/publications/mobilehci-2019-hung.json": {
       "date": "2019-10",
       "title": "WatchPen: Using Cross-Device Interaction Concepts to Augment Pen-Based Interaction",
@@ -892,6 +1019,49 @@
       "base": "mobilehci-2019-hung.json",
       "ext": ".json",
       "sourceBase": "mobilehci-2019-hung.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/tei-2020-suzuki.json": {
+      "date": "2020-02",
+      "title": "LiftTiles: Constructive Building Blocks for Prototyping Room-scale Shape-changing Interfaces",
+      "authors": [
+        "Ryo Suzuki",
+        "Ryosuke Nakayama",
+        "Dan Liu",
+        "Yasuaki Kakehi",
+        "Mark D. Gross",
+        "Daniel Leithinger"
+      ],
+      "series": "TEI 2020",
+      "keywords": "shape-changing interfaces, inflatables, large-scale interactions",
+      "pages": 9,
+      "video": "https://www.youtube.com/watch?v=0LHeTkOMR84",
+      "abstract": "Large-scale shape-changing interfaces have great potential, but creating such systems requires substantial time, cost, space, and efforts, which hinders the research community to explore interactions beyond the scale of human hands. We introduce modular inflatable actuators as building blocks for prototyping room-scale shape-changing interfaces. Each actuator can change its height from 15cm to 150cm, actuated and controlled by air pressure. Each unit is low-cost (8 USD), lightweight (10 kg), compact (15 cm), and robust, making it well-suited for prototyping room-scale shape transformations. Moreover, our modular and reconfigurable design allows researchers and designers to quickly construct different geometries and to explore various applications. This paper contributes to the design and implementation of highly extendable inflatable actuators, and demonstrates a range of scenarios that can leverage this modular building block.",
+      "dir": "content/output/publications",
+      "base": "tei-2020-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "tei-2020-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/hri-2018-feick.json": {
+      "date": "2018-04",
+      "title": "The Way You Move: The Effect of a Robot Surrogate Movement in Remote Collaboration",
+      "authors": [
+        "Martin Feick",
+        "Lora Oehlberg",
+        "Anthony Tang",
+        "André Miede",
+        "Ehud Sharlin"
+      ],
+      "series": "HRI 2018",
+      "doi": "https://doi.org/10.1145/3173386.3176959",
+      "pages": 2,
+      "keywords": "movement trajectory & velocity, remote collaboration, robot surrogate",
+      "abstract": "In this paper, we discuss the role of the movement trajectory and velocity enabled by our tele-robotic system (ReMa) for remote collaboration on physical tasks. Our system reproduces changes in object orientation and position at a remote location using a humanoid robotic arm. However, even minor kinematics differences between robot and human arm can result in awkward or exaggerated robot movements. As a result, user communication with the robotic system can become less efficient, less fluent and more time intensive.",
+      "dir": "content/output/publications",
+      "base": "hri-2018-feick.json",
+      "ext": ".json",
+      "sourceBase": "hri-2018-feick.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/tvcg-2019-walny.json": {
@@ -919,14 +1089,128 @@
       "sourceBase": "tvcg-2019-walny.yaml",
       "sourceExt": ".yaml"
     },
-    "content/output/people/april-zhang.json": {
-      "name": "April Zhang",
-      "type": "master",
-      "url": "https://aprilzhang.design/",
-      "dir": "content/output/people",
-      "base": "april-zhang.json",
+    "content/output/publications/tvcg-2019-blascheck.json": {
+      "date": "2019-06",
+      "title": "Exploration Strategies for Discovery of Interactivity in Visualizations",
+      "authors": [
+        "Tanja Blascheck",
+        "Lindsay MacDonald Vermeulen",
+        "Jo Vermeulen",
+        "Charles Perin",
+        "Wesley Willett",
+        "Thomas Ertl",
+        "Sheelagh Carpendale"
+      ],
+      "series": "TVCG 2019",
+      "doi": "https://doi.org/10.1109/TVCG.2018.2802520",
+      "keywords": "discovery, visualization, open data, evaluation, eye tracking, interaction logs, think-aloud",
+      "pages": 13,
+      "abstract": "We investigate how people discover the functionality of an interactive visualization that was designed for the general public. While interactive visualizations are increasingly available for public use, we still know little about how the general public discovers what they can do with these visualizations and what interactions are available. Developing a better understanding of this discovery process can help inform the design of visualizations for the general public, which in turn can help make data more accessible. To unpack this problem, we conducted a lab study in which participants were free to use their own methods to discover the functionality of a connected set of interactive visualizations of public energy data. We collected eye movement data and interaction logs as well as video and audio recordings. By analyzing this combined data, we extract exploration strategies that the participants employed to discover the functionality in these interactive visualizations. These exploration strategies illuminate possible design directions for improving the discoverability of a visualization's functionality.",
+      "dir": "content/output/publications",
+      "base": "tvcg-2019-blascheck.json",
       "ext": ".json",
-      "sourceBase": "april-zhang.yaml",
+      "sourceBase": "tvcg-2019-blascheck.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2018-suzuki.json": {
+      "date": "2018-10",
+      "title": "Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
+      "authors": [
+        "Ryo Suzuki",
+        "Junichi Yamaoka",
+        "Daniel Leithinger",
+        "Tom Yeh",
+        "Mark D. Gross",
+        "Yoshihiro Kawahara",
+        "Yasuaki Kakehi"
+      ],
+      "series": "UIST 2018",
+      "doi": "https://doi.org/10.1145/3242587.3242659",
+      "keywords": "digital materials, dynamic 3D printing, shape displays",
+      "video": "https://www.youtube.com/watch?v=7nPlr3O9xu8",
+      "pages": 16,
+      "abstract": "This paper introduces Dynamic 3D Printing, a fast and reconstructable shape formation system. Dynamic 3D Printing can assemble an arbitrary three-dimensional shape from a large number of small physical elements. Also, it can disassemble the shape back to elements and reconstruct a new shape. Dynamic 3D Printing combines the capabilities of 3D printers and shape displays: Like conventional 3D printing, it can generate arbitrary and graspable three-dimensional shapes, while allowing shapes to be rapidly formed and reformed as in a shape display. To demonstrate the idea, we describe the design and implementation of Dynablock, a working prototype of a dynamic 3D printer. Dynablock can form a three-dimensional shape in seconds by assembling 3,000 9 mm blocks, leveraging a 24 x 16 pin-based shape display as a parallel assembler. Dynamic 3D printing is a step toward achieving our long-term vision in which 3D printing becomes an interactive medium, rather than the means for fabrication that it is today. In this paper, we explore possibilities for this vision by illustrating application scenarios that are difficult to achieve with conventional 3D printing or shape display systems.",
+      "dir": "content/output/publications",
+      "base": "uist-2018-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "uist-2018-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/vimeo.json": {
+      "360483702": "https://i.vimeocdn.com/video/814665539_640.webp",
+      "368703151": "https://i.vimeocdn.com/video/825448765_640.webp",
+      "dir": "content/output",
+      "base": "vimeo.json",
+      "ext": ".json",
+      "sourceBase": "vimeo.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/tei-2019-tolley.json": {
+      "date": "2019-03",
+      "title": "WindyWall: Exploring Creative Wind Simulations",
+      "authors": [
+        "David Tolley",
+        "Thi Ngoc Tram Nguyen",
+        "Anthony Tang",
+        "Nimesha Ranasinghe",
+        "Kensaku Kawauchi",
+        "Ching-Chiuan Yen"
+      ],
+      "series": "TEI 2019",
+      "doi": "https://doi.org/10.1145/3294109.3295624",
+      "keywords": "tactile/haptic interaction, multimodal interaction, novel actuators/displays",
+      "pages": 10,
+      "abstract": "Wind simulations are typically one-off implementations for specific applications. We introduce WindyWall, a platform for creative design and exploration of wind simulations. WindyWall is a three-panel 90-fan array that encapsulates users with 270? of wind coverage. We describe the design and implementation of the array panels, discussing how the panels can be re-arranged, where various wind simulations can be realized as simple effects. To understand how people perceive \"wind\" generated from WindyWall, we conducted a pilot study of wind magnitude perception using different wind activation patterns from WindyWall. Our findings suggest that: horizontal wind activations are perceived more readily than vertical ones, and that people's perceptions of wind are highly variable-most individuals will rate airflow differently in subsequent exposures. Based on our findings, we discuss the importance of developing a method for characterizing wind simulations, and provide design directions for others using fan arrays to simulate wind.",
+      "dir": "content/output/publications",
+      "base": "tei-2019-tolley.json",
+      "ext": ".json",
+      "sourceBase": "tei-2019-tolley.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2019-suzuki.json": {
+      "date": "2019-10",
+      "title": "ShapeBots: Shape-changing Swarm Robots",
+      "authors": [
+        "Ryo Suzuki",
+        "Clement Zheng",
+        "Yasuaki Kakehi",
+        "Tom Yeh",
+        "Ellen Yi-Luen Do",
+        "Mark D. Gross",
+        "Daniel Leithinger"
+      ],
+      "series": "UIST 2019",
+      "keywords": "swarm user interfaces, shape-changing user interfaces",
+      "pages": 13,
+      "abstract": "We introduce shape-changing swarm robots. A swarm of self-transformable robots can both individually and collectively change their configuration to display information, actuate objects, act as tangible controllers, visualize data, and provide physical affordances. ShapeBots is a concept prototype of shape-changing swarm robots. Each robot can change its shape by leveraging small linear actuators that are thin (2.5 cm) and highly extendable (up to 20cm) in both horizontal and vertical directions. The modular design of each actuator enables various shapes and geometries of self-transformation. We illustrate potential application scenarios and discuss how this type of interface opens up possibilities for the future of ubiquitous and distributed shape-changing interfaces.",
+      "dir": "content/output/publications",
+      "base": "uist-2019-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "uist-2019-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2020-suzuki.json": {
+      "date": "2020-10",
+      "title": "RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
+      "authors": [
+        "Ryo Suzuki",
+        "Rubaiat Habib Kazi",
+        "Li-Yi Wei",
+        "Stephen DiVerdi",
+        "Wilmot Li",
+        "Daniel Leithinger"
+      ],
+      "series": "UIST 2020",
+      "doi": "https://doi.org/10.1145/3379337.3415892",
+      "keywords": "augmented reality, embedded data visualization, real-time authoring, sketching interfaces, tangible interaction",
+      "award": "Honorable Mention",
+      "video": "https://www.youtube.com/watch?v=L0p-BNU9rXU",
+      "pages": 16,
+      "abstract": "We present RealitySketch, an augmented reality interface for sketching interactive graphics and visualizations. In recent years, an increasing number of AR sketching tools enable users to draw and embed sketches in the real world. However, with the current tools, sketched contents are inherently static, floating in mid air without responding to the real world. This paper introduces a new way to embed dynamic and responsive graphics in the real world. In RealitySketch, the user draws graphical elements on a mobile AR screen and binds them with physical objects in real-time and improvisational ways, so that the sketched elements dynamically move with the corresponding physical motion. The user can also quickly visualize and analyze real-world phenomena through responsive graph plots or interactive visualizations. This paper contributes to a set of interaction techniques that enable capturing, parameterizing, and visualizing real-world motion without pre-defined programs and configurations. Finally, we demonstrate our tool with several application scenarios, including physics education, sports training, and in-situ tangible interfaces.",
+      "dir": "content/output/publications",
+      "base": "uist-2020-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "uist-2020-suzuki.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/news.json": [
@@ -956,6 +1240,65 @@
         "image": "chi-2020.jpg"
       }
     ],
+    "content/output/publications/uist-2020-yixian.json": {
+      "date": "2020-10",
+      "title": "ZoomWalls: Dynamic Walls that Simulate Haptic Infrastructure for Room-scale VR World",
+      "authors": [
+        "Yan Yixian",
+        "Kazuki Takashima",
+        "Anthony Tang",
+        "Takayuki Tanno",
+        "Kazuyuki Fujita",
+        "Yoshifumi Kitamura"
+      ],
+      "series": "UIST 2020",
+      "doi": "https://doi.org/10.1145/3379337.3415859",
+      "keywords": "encountered-type haptic devices, immersive experience",
+      "video": "https://www.youtube.com/watch?v=j2iSNDkBxAY",
+      "pages": 13,
+      "abstract": "We focus on the problem of simulating the haptic infrastructure of a virtual environment (i.e. walls, doors). Our approach relies on multiple ZoomWalls---autonomous robotic encounter-type haptic wall-shaped props---that coordinate to provide haptic feedback for room-scale virtual reality. Based on a user's movement through the physical space, ZoomWall props are coordinated through a predict-and-dispatch architecture to provide just-in-time haptic feedback for objects the user is about to touch. To refine our system, we conducted simulation studies of different prediction algorithms, which helped us to refine our algorithmic approach to realize the physical ZoomWall prototype. Finally, we evaluated our system through a user experience study, which showed that participants found that ZoomWalls increased their sense of presence in the VR environment. ZoomWalls represents an instance of autonomous mobile reusable props, which we view as an important design direction for haptics in VR.",
+      "dir": "content/output/publications",
+      "base": "uist-2020-yixian.json",
+      "ext": ".json",
+      "sourceBase": "uist-2020-yixian.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/anthony-tang.json": {
+      "name": "Anthony Tang",
+      "type": "faculty",
+      "title": "Adjunct Associate Professor",
+      "url": "https://hcitang.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=RG1EQowAAAAJ",
+      "twitter": "https://twitter.com/proclubboy",
+      "github": "http://github.com/hcitang",
+      "dir": "content/output/people",
+      "base": "anthony-tang.json",
+      "ext": ".json",
+      "sourceBase": "anthony-tang.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/vr-2019-satriadi.json": {
+      "date": "2019-03",
+      "title": "Augmented Reality Map Navigation with Freehand Gestures",
+      "authors": [
+        "Kadek Ananta Satriadi",
+        "Barrett Ens",
+        "Maxime Cordeil",
+        "Bernhard Jenny",
+        "Tobias Czauderna",
+        "Wesley Willett"
+      ],
+      "series": "IEEE VR 2019",
+      "doi": "https://doi.org/10.1109/VR.2019.8798340",
+      "keywords": "augmented reality, gesture recognition, human computer interaction, interactive devices",
+      "pages": 11,
+      "abstract": "Freehand gesture interaction has long been proposed as a `natural' input method for Augmented Reality (AR) applications, yet has been little explored for intensive applications like multiscale navigation. In multiscale navigation, such as digital map navigation, pan and zoom are the predominant interactions. A position-based input mapping (e.g. grabbing metaphor) is intuitive for such interactions, but is prone to arm fatigue. This work focuses on improving digital map navigation in AR with mid-air hand gestures, using a horizontal intangible map display. First, we conducted a user study to explore the effects of handedness (unimanual and bimanual) and input mapping (position-based and rate-based). From these findings we designed DiveZoom and TerraceZoom, two novel hybrid techniques that smoothly transition between position- and rate-based mappings. A second user study evaluated these designs. Our results indicate that the introduced input-mapping transitions can reduce perceived arm fatigue with limited impact on performance.",
+      "dir": "content/output/publications",
+      "base": "vr-2019-satriadi.json",
+      "ext": ".json",
+      "sourceBase": "vr-2019-satriadi.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/facility.json": {
       "Prototyping Tools": [
         {
@@ -1160,58 +1503,6 @@
       "ext": ".json",
       "sourceBase": "facility.yaml",
       "sourceExt": ".yaml"
-    },
-    "content/output/publications/vr-2019-satriadi.json": {
-      "date": "2019-03",
-      "title": "Augmented Reality Map Navigation with Freehand Gestures",
-      "authors": [
-        "Kadek Ananta Satriadi",
-        "Barrett Ens",
-        "Maxime Cordeil",
-        "Bernhard Jenny",
-        "Tobias Czauderna",
-        "Wesley Willett"
-      ],
-      "series": "IEEE VR 2019",
-      "doi": "https://doi.org/10.1109/VR.2019.8798340",
-      "keywords": "augmented reality, gesture recognition, human computer interaction, interactive devices",
-      "pages": 11,
-      "abstract": "Freehand gesture interaction has long been proposed as a `natural' input method for Augmented Reality (AR) applications, yet has been little explored for intensive applications like multiscale navigation. In multiscale navigation, such as digital map navigation, pan and zoom are the predominant interactions. A position-based input mapping (e.g. grabbing metaphor) is intuitive for such interactions, but is prone to arm fatigue. This work focuses on improving digital map navigation in AR with mid-air hand gestures, using a horizontal intangible map display. First, we conducted a user study to explore the effects of handedness (unimanual and bimanual) and input mapping (position-based and rate-based). From these findings we designed DiveZoom and TerraceZoom, two novel hybrid techniques that smoothly transition between position- and rate-based mappings. A second user study evaluated these designs. Our results indicate that the introduced input-mapping transitions can reduce perceived arm fatigue with limited impact on performance.",
-      "dir": "content/output/publications",
-      "base": "vr-2019-satriadi.json",
-      "ext": ".json",
-      "sourceBase": "vr-2019-satriadi.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/vimeo.json": {
-      "360483702": "https://i.vimeocdn.com/video/814665539_640.webp",
-      "368703151": "https://i.vimeocdn.com/video/825448765_640.webp",
-      "dir": "content/output",
-      "base": "vimeo.json",
-      "ext": ".json",
-      "sourceBase": "vimeo.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/publications/uist-2020-suzuki.json": {
-      "date": "2020-10",
-      "title": "RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
-      "authors": [
-        "Ryo Suzuki",
-        "Rubaiat Habib Kazi",
-        "Li-Yi Wei",
-        "Stephen DiVerdi",
-        "Wilmot Li",
-        "Daniel Leithinger"
-      ],
-      "series": "UIST 2020",
-      "keywords": "augmented reality, embedded data visualization, real-time authoring, sketching interfaces, tangible interaction",
-      "pages": 16,
-      "abstract": "We present RealitySketch, an augmented reality interface for sketching interactive graphics and visualizations. In recent years, an increasing number of AR sketching tools enable users to draw and embed sketches in the real world. However, with the current tools, sketched contents are inherently static, floating in mid air without responding to the real world. This paper introduces a new way to embed dynamic and responsive graphics in the real world. In RealitySketch, the user draws graphical elements on a mobile AR screen and binds them with physical objects in real-time and improvisational ways, so that the sketched elements dynamically move with the corresponding physical motion. The user can also quickly visualize and analyze real-world phenomena through responsive graph plots or interactive visualizations. This paper contributes to a set of interaction techniques that enable capturing, parameterizing, and visualizing real-world motion without pre-defined programs and configurations. Finally, we demonstrate our tool with several application scenarios, including physics education, sports training, and in-situ tangible interfaces.",
-      "dir": "content/output/publications",
-      "base": "uist-2020-suzuki.json",
-      "ext": ".json",
-      "sourceBase": "uist-2020-suzuki.yaml",
-      "sourceExt": ".yaml"
     }
   },
   "sourceFileArray": [
@@ -1254,27 +1545,40 @@
     "content/people/wesley-willett.yaml",
     "content/people/william-wright.yaml",
     "content/people/zachary-mckendrick.yaml",
+    "content/publications/assets-2017-suzuki.yaml",
     "content/publications/chi-2017-ledo.yaml",
     "content/publications/chi-2018-dillman.yaml",
     "content/publications/chi-2018-feick.yaml",
     "content/publications/chi-2018-ledo.yaml",
     "content/publications/chi-2018-mahadevan.yaml",
+    "content/publications/chi-2018-oh.yaml",
+    "content/publications/chi-2018-suzuki.yaml",
+    "content/publications/chi-2018-wuertz.yaml",
     "content/publications/chi-2019-danyluk.yaml",
     "content/publications/chi-2020-anjani.yaml",
     "content/publications/chi-2020-goffin.yaml",
     "content/publications/chi-2020-hou.yaml",
+    "content/publications/chi-2020-suzuki.yaml",
     "content/publications/cnc-2019-hammad.yaml",
+    "content/publications/dis-2018-pham.yaml",
     "content/publications/dis-2019-bressa.yaml",
     "content/publications/dis-2019-ledo.yaml",
     "content/publications/dis-2019-mahadevan.yaml",
+    "content/publications/dis-2019-nakayama.yaml",
+    "content/publications/dis-2019-seyed.yaml",
     "content/publications/hri-2018-feick.yaml",
     "content/publications/imwut-2020-wang.yaml",
     "content/publications/iros-2020-hedayati.yaml",
     "content/publications/mobilehci-2019-hung.yaml",
     "content/publications/tei-2019-mikalauskas.yaml",
+    "content/publications/tei-2019-tolley.yaml",
+    "content/publications/tei-2020-suzuki.yaml",
     "content/publications/tvcg-2019-blascheck.yaml",
     "content/publications/tvcg-2019-walny.yaml",
+    "content/publications/uist-2018-suzuki.yaml",
+    "content/publications/uist-2019-suzuki.yaml",
     "content/publications/uist-2020-suzuki.yaml",
+    "content/publications/uist-2020-yixian.yaml",
     "content/publications/vr-2019-satriadi.yaml",
     "content/vimeo.yaml"
   ]

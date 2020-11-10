@@ -1,0 +1,22 @@
+{
+  "date": "2019-06",
+  "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+  "authors": [
+    "Ryosuke Nakayama",
+    "Ryo Suzuki",
+    "Satoshi Nakamaru",
+    "Ryuma Niiyama",
+    "Yoshihiro Kawahara",
+    "Yasuaki Kakehi"
+  ],
+  "series": "DIS 2019",
+  "keywords": "shape-changing interfaces, programming by demonstration, soft robots, pneumatic actuation, tangible interactions",
+  "video": "https://www.youtube.com/watch?v=ZkCcazfFD-M",
+  "pages": 11,
+  "abstract": "We introduce MorphIO, entirely soft sensing and actuation modules for programming by demonstration of soft robots and shape-changing interfaces.MorphIO's hardware consists of a soft pneumatic actuator containing a conductive sponge sensor.This allows both input and output of three-dimensional deformation of a soft material.Leveraging this capability, MorphIO enables a user to record and later playback physical motion of programmable shape-changing materials.In addition, the modular design of MorphIO's unit allows the user to construct various shapes and topologies through magnetic connection.We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects.Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.",
+  "dir": "content/output/publications",
+  "base": "dis-2019-nakayama.json",
+  "ext": ".json",
+  "sourceBase": "dis-2019-nakayama.yaml",
+  "sourceExt": ".yaml"
+}

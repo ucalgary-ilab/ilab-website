@@ -1,0 +1,23 @@
+{
+  "date": "2020-10",
+  "title": "ZoomWalls: Dynamic Walls that Simulate Haptic Infrastructure for Room-scale VR World",
+  "authors": [
+    "Yan Yixian",
+    "Kazuki Takashima",
+    "Anthony Tang",
+    "Takayuki Tanno",
+    "Kazuyuki Fujita",
+    "Yoshifumi Kitamura"
+  ],
+  "series": "UIST 2020",
+  "doi": "https://doi.org/10.1145/3379337.3415859",
+  "keywords": "encountered-type haptic devices, immersive experience",
+  "video": "https://www.youtube.com/watch?v=j2iSNDkBxAY",
+  "pages": 13,
+  "abstract": "We focus on the problem of simulating the haptic infrastructure of a virtual environment (i.e. walls, doors). Our approach relies on multiple ZoomWalls---autonomous robotic encounter-type haptic wall-shaped props---that coordinate to provide haptic feedback for room-scale virtual reality. Based on a user's movement through the physical space, ZoomWall props are coordinated through a predict-and-dispatch architecture to provide just-in-time haptic feedback for objects the user is about to touch. To refine our system, we conducted simulation studies of different prediction algorithms, which helped us to refine our algorithmic approach to realize the physical ZoomWall prototype. Finally, we evaluated our system through a user experience study, which showed that participants found that ZoomWalls increased their sense of presence in the VR environment. ZoomWalls represents an instance of autonomous mobile reusable props, which we view as an important design direction for haptics in VR.",
+  "dir": "content/output/publications",
+  "base": "uist-2020-yixian.json",
+  "ext": ".json",
+  "sourceBase": "uist-2020-yixian.yaml",
+  "sourceExt": ".yaml"
+}

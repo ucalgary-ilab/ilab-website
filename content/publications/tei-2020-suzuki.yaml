@@ -1,0 +1,14 @@
+date: 2020-02
+title: "LiftTiles: Constructive Building Blocks for Prototyping Room-scale Shape-changing Interfaces"
+authors:
+  - Ryo Suzuki
+  - Ryosuke Nakayama
+  - Dan Liu
+  - Yasuaki Kakehi
+  - Mark D. Gross
+  - Daniel Leithinger
+series: TEI 2020
+keywords: shape-changing interfaces, inflatables, large-scale interactions
+pages: 9
+video: https://www.youtube.com/watch?v=0LHeTkOMR84
+abstract: "Large-scale shape-changing interfaces have great potential, but creating such systems requires substantial time, cost, space, and efforts, which hinders the research community to explore interactions beyond the scale of human hands. We introduce modular inflatable actuators as building blocks for prototyping room-scale shape-changing interfaces. Each actuator can change its height from 15cm to 150cm, actuated and controlled by air pressure. Each unit is low-cost (8 USD), lightweight (10 kg), compact (15 cm), and robust, making it well-suited for prototyping room-scale shape transformations. Moreover, our modular and reconfigurable design allows researchers and designers to quickly construct different geometries and to explore various applications. This paper contributes to the design and implementation of highly extendable inflatable actuators, and demonstrates a range of scenarios that can leverage this modular building block."
