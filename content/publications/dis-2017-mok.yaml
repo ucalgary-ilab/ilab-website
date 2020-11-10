@@ -1,0 +1,11 @@
+date: 2017-06
+title: "Critiquing Physical Prototypes for a Remote Audience"
+authors:
+  - Terrance Mok
+  - Lora Oehlberg
+series: DIS 2017
+doi: https://doi.org/10.1145/3064663.3064722
+pages: 13
+keywords: design review, prototype critique, remote collaboration, material experience, open hardware, video conferencing
+video: https://youtu.be/ORN9jljPncc
+abstract: "We present an observational study of physical prototype critique that highlights some of the challenges of communicating physical behaviors and materiality at a distance. Geographically distributed open hardware communities often conduct user feedback and peer critique sessions via video conference. However, people have difficulty using current video conferencing tools to demonstrate and critique physical designs. To examine the challenges of remote critique, we conducted an observational lab study in which participants critiqued pairs of physical prototypes (prosthetic hands) for a face-to-face or remote collaborator. In both conditions, participants' material experiences were an important part of their critique, however their attention was divided between interacting with the prototype and finding strategies to communicate `invisible' features. Based on our findings, we propose design implications for remote collaboration tools that support the sharing of material experiences and prototype critique."

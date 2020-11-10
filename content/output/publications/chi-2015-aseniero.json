@@ -1,0 +1,23 @@
+{
+  "date": "2015-04",
+  "title": "Stratos: Using Visualization to Support Decisions in Strategic Software Release Planning",
+  "authors": [
+    "Bon Adriel Aseniero",
+    "Tiffany Wun",
+    "David Ledo",
+    "Guenther Ruhe",
+    "Anthony Tang",
+    "Sheelagh Carpendale"
+  ],
+  "series": "CHI 2015",
+  "doi": "https://doi.org/10.1145/2702123.2702426",
+  "keywords": "software engineering, information visualization, release planning",
+  "video": "https://www.youtube.com/watch?v=qm57aHjTAYc",
+  "pages": 10,
+  "abstract": "Software is typically developed incrementally and released in stages. Planning these releases involves deciding which features of the system should be implemented for each release. This is a complex planning process involving numerous trade-offs-constraints and factors that often make decisions difficult. Since the success of a product depends on this plan, it is important to understand the trade-offs between different release plans in order to make an informed choice. We present STRATOS, a tool that simultaneously visualizes several software release plans. The visualization shows several attributes about each plan that are important to planners. Multiple plans are shown in a single layout to help planners find and understand the trade-offs between alternative plans. We evaluated our tool via a qualitative study and found that STRATOS enables a range of decision-making processes, helping participants decide on which plan is most optimal.",
+  "dir": "content/output/publications",
+  "base": "chi-2015-aseniero.json",
+  "ext": ".json",
+  "sourceBase": "chi-2015-aseniero.yaml",
+  "sourceExt": ".yaml"
+}

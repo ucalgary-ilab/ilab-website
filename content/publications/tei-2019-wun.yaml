@@ -1,0 +1,13 @@
+date: 2019-03
+title: "You say Potato, I say Po-Data: Physical Template Tools for Authoring Visualizations"
+authors:
+  - Tiffany Wun
+  - Lora Oehlberg
+  - Miriam Sturdee
+  - Sheelagh Carpendale
+series: TEI 2019
+doi: https://doi.org/10.1145/3294109.3295627
+keywords: potato, tangible tools, authoring visualizations, block-printing, physical template tools, information visualization
+pages: 10
+talk: https://www.youtube.com/watch?v=ZS7lU60xChI
+abstract: "Providing data visualization authoring tools for the general public remains an ongoing challenge. Inspired by block-printing, we explore how visualization stamps as a physical visualization authoring tool could leverage both visual freedom and ease of repetition. We conducted a workshop with two groups---visualization experts and non-experts---where participants authored visualizations on paper using hand-carved stamps made from potatoes and sponges. The low-fidelity medium freed participants to test new stamp patterns and accept mistakes. From the created visualizations, we observed several unique traits and uses of block-printing tools for visualization authoring, including: modularity of patterns, annotation guides, creation of multiple patterns from one stamp, and various techniques to apply data onto paper. We discuss the issues around expressivity and effectiveness of block-printed stamps in visualization authoring, and identify implications for the design and assembly of primitives in potential visualization stamp kits, as well as applications for future use in non-digital environments."

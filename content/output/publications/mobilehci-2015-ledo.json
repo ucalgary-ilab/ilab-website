@@ -1,0 +1,21 @@
+{
+  "date": "2015-08",
+  "title": "Proxemic-Aware Controls: Designing Remote Controls for Ubiquitous Computing Ecologies",
+  "authors": [
+    "David Ledo",
+    "Saul Greenberg",
+    "Nicolai Marquardt",
+    "Sebastian Boring"
+  ],
+  "series": "MobileHCI 2015",
+  "doi": "https://doi.org/10.1145/2785830.2785871",
+  "keywords": "ubiquitous computing, proxemic-interaction, mobile interaction, control of appliances",
+  "video": "https://www.youtube.com/watch?v=1AlMUmD6E3U",
+  "pages": 10,
+  "abstract": "Remote controls facilitate interactions at-a-distance with appliances. However, the complexity, diversity, and increasing number of digital appliances in ubiquitous computing ecologies make it increasingly difficult to: (1) discover which appliances are controllable; (2) select a particular appliance from the large number available; (3) view information about its status; and (4) control the appliance in a pertinent manner. To mitigate these problems we contribute proxemic-aware controls, which exploit the spatial relationships between a person's handheld device and all surrounding appliances to create a dynamic appliance control interface. Specifically, a person can discover and select an appliance by the way one orients a mobile device around the room, and then progressively view the appliance's status and control its features in increasing detail by simply moving towards it. We illustrate proxemic-aware controls of assorted appliances through various scenarios. We then provide a generalized conceptual framework that informs future designs of proxemic-aware controls.",
+  "dir": "content/output/publications",
+  "base": "mobilehci-2015-ledo.json",
+  "ext": ".json",
+  "sourceBase": "mobilehci-2015-ledo.yaml",
+  "sourceExt": ".yaml"
+}
