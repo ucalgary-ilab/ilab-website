@@ -141,7 +141,7 @@ class Detail extends React.Component {
             <div className="ui labels">
               Keywords: &nbsp;
               { this.publication.keywords.split(', ').map((keyword) => {
-                return <span className="ui large grey label" key={ keyword }>{ keyword }</span>
+                return <span className="ui large inverted label label-color" key={ keyword }>{ keyword }</span>
               }) }
             </div>
           }

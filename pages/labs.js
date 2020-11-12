@@ -10,12 +10,12 @@ class Labs extends React.Component {
         <h1 className="ui horizontal divider header">
           Research Labs
         </h1>
-        <div id="labs" className="ui stackable four cards" style={{ textAlign: 'center', marginTop: '15px' }}>
-          { labs.map((lab) => {
+        <div id="labs" className="ui four cards" style={{ textAlign: 'center', marginTop: '15px' }}>
+          { labs.map((lab, i) => {
             return (
               <div className="card" key={ lab.id } style={{ padding: '15px' }}>
                 <a href={ lab.url } target="_blank" className="ui ">
-                  <div className="img">
+                  <div className={ `img card-color-${i}`}>
                   { lab.id !== '' &&
                     <img src={ `/static/images/labs/${lab.id}.png` } />
                   }

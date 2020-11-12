@@ -2,6 +2,11 @@
   "name": "Sheelagh Carpendale",
   "type": "faculty",
   "title": "Adjunct Professor",
+  "keywords": [
+    "Data Viz",
+    "Data Phyz"
+  ],
+  "order": 8,
   "url": "https://www.cs.sfu.ca/~sheelagh/",
   "scholar": "https://scholar.google.com/citations?user=43LLX2kAAAAJ",
   "dir": "content/output/people",

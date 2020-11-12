@@ -32,17 +32,70 @@ img {
   border: none;
 }
 
+/*
+yellow: #f1c40b;
+red: #dd2725;
+brown: #5c472d;
+pastel-red: #db847c;
+*/
+
 a {
-  text-decoration: none;
-  /*color: #269;*/
-  color: #00716C;
-  line-height: 1.2em;
-  display: inline-block;
-  transition: 0.1s;
+  color: #5c472d;
+}
+
+.color {
+  color: #5c472d;
+}
+
+.red-color {
+  color: #dd2725;
+}
+
+.label-color {
+  background: #dd2725 !important;
+}
+
+.label-brown-color {
+  background: #5c472d !important;
+}
+
+.highlight-color {
+  background: #dd2725 !important;
+}
+
+.card-color {
+  background: #c12e27;
 }
 
 .ui.breadcrumb a {
-  color: #00716C;
+  color: #5c472d;
+}
+
+#publication a {
+  color: #dd2725;
+}
+
+#publication a:hover {
+  color: brown;
+}
+
+
+.card-color-0, .card-color-1, .card-color-2, .card-color-3{
+  background: #dd2725;
+}
+
+.card-color-4, .card-color-5, .card-color-6, .card-color-7{
+  background: #f1c40b;
+}
+
+
+a {
+  text-decoration: none;
+  /*color: #269;*/
+  /*color: #00716C;*/
+  line-height: 1.2em;
+  display: inline-block;
+  transition: 0.1s;
 }
 
 a:hover {
@@ -94,8 +147,7 @@ a:hover {
 }
 
 #labs .img {
-  background: teal;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
   display: block;
   max-height: 120px;
   padding: 20px;
@@ -106,7 +158,7 @@ a:hover {
 }
 
 #labs .img:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .large-profile {
@@ -116,8 +168,8 @@ a:hover {
 }
 
 .medium-profile {
-  width: 80px !important;
-  height: 80px !important;
+  width: 100px !important;
+  height: 100px !important;
   object-fit: cover;
 }
 

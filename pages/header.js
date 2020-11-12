@@ -32,7 +32,7 @@ class Header extends React.Component {
         <div className="ui stackable secondary pointing container menu" style={{ borderBottom: 'none', marginRight: '15%', fontSize: '1.1em' }}>
           <div className="left menu">
             <a className='item' href='/'>
-              <b style={{ color: '#00716C' }}>UCalgary iLab</b>
+              <b>UCalgary iLab</b>
             </a>
           </div>
           <div className="right menu">

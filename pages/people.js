@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
+import _ from 'lodash'
 
 class People extends React.Component {
   constructor(props) {
@@ -15,8 +16,19 @@ class People extends React.Component {
       { key: 'visiting', title: 'Visiting Researchers' },
       { key: 'alumni', title: 'Alumni' }
     ]
-    if (this.props.short) {
-      this.types = this.types.slice(0, 4)
+
+
+    this.title = 'People'
+
+    if (this.props.faculty) {
+      this.types = this.types.slice(0, 1)
+      this.title = 'Faculty'
+      // this.types.splice(4, 2)
+    }
+    if (this.props.students) {
+      this.types = this.types.slice(2, 4)
+      this.title = 'Students'
+      this.short = true
       // this.types.splice(4, 2)
     }
 
@@ -31,6 +43,7 @@ class People extends React.Component {
       let person = Object.assign(summary.fileMap[key], { id: id })
       this.people.push(person)
     }
+    this.people = _.sortBy(this.people, ['order'])
   }
 
   getTitle(person) {
@@ -79,12 +92,12 @@ class People extends React.Component {
       <div id="people" className="category">
         <h1 className="ui horizontal divider header">
           <i className="child icon"></i>
-          People
+          { this.title }
         </h1>
         { this.types.map((type) => {
           return (
             <div className="people-category" key={ type.title }>
-              <h2>{ type.title }</h2>
+              <h2>{ ['faculty', 'postdoc'].includes(type.key) ? '' : type.title }</h2>
               <div className="ui grid">
                 { this.people
                   .filter((person) => {
@@ -102,6 +115,14 @@ class People extends React.Component {
                             <span><br/>{ person.now }</span>
                           }
                         </p>
+                        { type.key === 'faculty' &&
+                          <p>
+                            { person.keywords.map((keyword) => {
+                              return <span className="ui large inverted label label-brown-color">{ keyword }</span>
+                              })
+                            }
+                          </p>
+                        }
                       </a>
                     ) // return
                   }) // map
@@ -110,7 +131,7 @@ class People extends React.Component {
             </div>
           )
         })}
-        { this.props.short &&
+        { this.short &&
           <div className="ui vertical segment stackable" style={{ textAlign: 'center' }}>
             <a className="ui button" href="/people">
               + see more members

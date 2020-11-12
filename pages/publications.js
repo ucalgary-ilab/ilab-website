@@ -78,7 +78,7 @@ class Publications extends React.Component {
                 </div>
                 <div className="thirteen wide column">
                   <p>
-                    <span className="ui big inverted teal label">{ publication.series }</span>
+                    <span className="ui big inverted label label-color">{ publication.series }</span>
                     { publication.award &&
                       <span className="ui big label">
                       { publication.award === 'Honorable Mention' &&
@@ -90,7 +90,7 @@ class Publications extends React.Component {
                       </span>
                     }
                   </p>
-                  <p style={{ fontSize: '1.3em', color: '#00716C' }}>
+                  <p className="color" style={{ fontSize: '1.3em' }}>
                       <b>
                         { publication.title }
                       </b>

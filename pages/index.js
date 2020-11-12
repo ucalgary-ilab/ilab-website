@@ -33,16 +33,14 @@ class Index extends React.Component {
           <div className="eleven wide column centered">
             <div id="header-logo">
               <div>
-                <img src="/static/images/logo-3.png" style={{ height: '100px' }}/>
-              </div>
-              <div>
-                <img src="/static/images/logo-1.png" style={{ height: '200px', marginTop: '-20px' }}/>
+                <img src="/static/images/logo-5.png" style={{ height: '200px' }}/>
               </div>
             </div>
 
             <div id="header" className="category">
-              <h1>
-                University of Calgary - Interactions Lab
+              <img src="/static/images/logo-4.png" style={{ height: '100px', marginTop: '0px' }}/>
+              <h1 style={{ fontSize: '2em' }}>
+                Interactions Lab
               </h1>
               <p>
                 Human-Computer Interaction and Information Visualization Group
@@ -50,9 +48,10 @@ class Index extends React.Component {
             </div>
 
             <Labs />
-            <News short="true" />
+            <People faculty="true" />
             <Publications short="true" />
-            <People short="true" />
+            <People students="true" />
+            <News short="true" />
             <Location short="true" />
           </div>
         </div>
