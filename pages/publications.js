@@ -109,6 +109,15 @@ class Publications extends React.Component {
                       }).reduce((prev, current) => [prev, ' , ', current])
                     }
                   </p>
+                  <p>
+                  { publication.keywords &&
+                  <div className="ui labels">
+                    { publication.keywords.split(', ').map((keyword) => {
+                      return <span className="ui label" key={ keyword }>{ keyword }</span>
+                    }) }
+                  </div>
+                  }
+                  </p>
                 </div>
               </div>
             ) // publications

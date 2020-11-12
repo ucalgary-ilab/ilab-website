@@ -51,7 +51,7 @@ class Index extends React.Component {
             <People faculty="true" />
             <Publications short="true" />
             <People students="true" />
-            <News short="true" />
+            {/* <News short="true" /> */}
             <Location short="true" />
           </div>
         </div>

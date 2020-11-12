@@ -287,8 +287,6 @@ You don't need to do this process, but if you're interested, here is the process
 Clone the web-build repo from https://github.com/ucalgary-ilab/ucalgary-ilab.github.io in the same directory
 
 ```shell
-pwd
-> /[path-to]/ilab-website
 cd ..
 git clone git@github.com:ucalgary-ilab/ucalgary-ilab.github.io.git gh-pages
 ```
