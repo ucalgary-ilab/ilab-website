@@ -387,6 +387,27 @@
           "type": "file"
         },
         {
+          "path": "static/images/logo-4.png",
+          "name": "logo-4.png",
+          "size": 35184,
+          "extension": ".png",
+          "type": "file"
+        },
+        {
+          "path": "static/images/logo-5.png",
+          "name": "logo-5.png",
+          "size": 25573,
+          "extension": ".png",
+          "type": "file"
+        },
+        {
+          "path": "static/images/logo-6.png",
+          "name": "logo-6.png",
+          "size": 40570,
+          "extension": ".png",
+          "type": "file"
+        },
+        {
           "path": "static/images/logo-white.png",
           "name": "logo-white.png",
           "size": 33500,
@@ -1466,7 +1487,7 @@
           "type": "directory"
         }
       ],
-      "size": 39671603,
+      "size": 39772930,
       "type": "directory"
     },
     {
@@ -1484,6 +1505,6 @@
       "type": "directory"
     }
   ],
-  "size": 39671603,
+  "size": 39772930,
   "type": "directory"
 }
