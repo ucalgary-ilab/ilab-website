@@ -1,0 +1,12 @@
+{
+  "name": "Edward Tse",
+  "type": "alumni",
+  "past": "phd",
+  "now": "NUITEQ",
+  "url": "https://ca.linkedin.com/in/edward-tse",
+  "dir": "content/output/people",
+  "base": "edward-tse.json",
+  "ext": ".json",
+  "sourceBase": "edward-tse.yaml",
+  "sourceExt": ".yaml"
+}

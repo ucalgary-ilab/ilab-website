@@ -1,0 +1,10 @@
+{
+  "name": "Jiannan Li",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "jiannan-li.json",
+  "ext": ".json",
+  "sourceBase": "jiannan-li.yaml",
+  "sourceExt": ".yaml"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Kimberly Tee",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "kimberly-tee.json",
+  "ext": ".json",
+  "sourceBase": "kimberly-tee.yaml",
+  "sourceExt": ".yaml"
+}

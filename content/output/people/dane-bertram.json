@@ -1,0 +1,10 @@
+{
+  "name": "Dane Bertram",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "dane-bertram.json",
+  "ext": ".json",
+  "sourceBase": "dane-bertram.yaml",
+  "sourceExt": ".yaml"
+}

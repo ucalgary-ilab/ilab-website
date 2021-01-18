@@ -1,0 +1,10 @@
+{
+  "name": "Matthew Dunlap",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "matthew-dunlap.json",
+  "ext": ".json",
+  "sourceBase": "matthew-dunlap.yaml",
+  "sourceExt": ".yaml"
+}

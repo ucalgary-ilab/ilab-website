@@ -1,0 +1,11 @@
+{
+  "name": "Paul Saulnier",
+  "type": "alumni",
+  "past": "master",
+  "url": "http://paulsaulnier.com/",
+  "dir": "content/output/people",
+  "base": "paul-saulnier.json",
+  "ext": ".json",
+  "sourceBase": "paul-saulnier.yaml",
+  "sourceExt": ".yaml"
+}

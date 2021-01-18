@@ -1,0 +1,10 @@
+{
+  "name": "Donald Cox",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "donald-cox.json",
+  "ext": ".json",
+  "sourceBase": "donald-cox.yaml",
+  "sourceExt": ".yaml"
+}

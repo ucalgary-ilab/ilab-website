@@ -1,0 +1,12 @@
+{
+  "name": "Carman Neustaedter",
+  "type": "alumni",
+  "past": "phd",
+  "now": "Simon Fraser University",
+  "url": "https://carmster.com/",
+  "dir": "content/output/people",
+  "base": "carman-neustaedter.json",
+  "ext": ".json",
+  "sourceBase": "carman-neustaedter.yaml",
+  "sourceExt": ".yaml"
+}

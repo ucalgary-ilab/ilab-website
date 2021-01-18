@@ -1,0 +1,10 @@
+{
+  "name": "Stephanie Smale",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "stephanie-smale.json",
+  "ext": ".json",
+  "sourceBase": "stephanie-smale.yaml",
+  "sourceExt": ".yaml"
+}

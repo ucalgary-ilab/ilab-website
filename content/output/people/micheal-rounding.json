@@ -1,0 +1,10 @@
+{
+  "name": "Micheal Roudning",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "micheal-rounding.json",
+  "ext": ".json",
+  "sourceBase": "micheal-rounding.yaml",
+  "sourceExt": ".yaml"
+}

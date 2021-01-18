@@ -1,0 +1,10 @@
+{
+  "name": "Theodore (Ted) O'Grady",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "theodore-ogrady.json",
+  "ext": ".json",
+  "sourceBase": "theodore-ogrady.yaml",
+  "sourceExt": ".yaml"
+}

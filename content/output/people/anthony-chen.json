@@ -1,0 +1,12 @@
+{
+  "name": "Anthony Chen",
+  "type": "alumni",
+  "past": "master",
+  "now": "UCLA",
+  "url": "https://xac.is/",
+  "dir": "content/output/people",
+  "base": "anthony-chen.json",
+  "ext": ".json",
+  "sourceBase": "anthony-chen.yaml",
+  "sourceExt": ".yaml"
+}
