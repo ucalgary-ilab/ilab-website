@@ -1,0 +1,9 @@
+{
+  "name": "Grace Ferguson",
+  "type": "undergrad",
+  "dir": "content/output/people",
+  "base": "grace-ferguson.json",
+  "ext": ".json",
+  "sourceBase": "grace-ferguson.yaml",
+  "sourceExt": ".yaml"
+}
