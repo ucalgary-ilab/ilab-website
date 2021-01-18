@@ -1,4 +1,5 @@
 import React from 'react'
+import _ from 'lodash'
 import Detail from './detail'
 import summary from '../content/output/summary.json'
 import booktitles from '../content/output/booktitles.json'
@@ -111,9 +112,9 @@ class Publications extends React.Component {
                   </p>
                   <p>
                   { publication.keywords &&
-                  <div className="ui labels">
+                  <div className="ui large basic labels">
                     { publication.keywords.split(', ').map((keyword) => {
-                      return <span className="ui label" key={ keyword }>{ keyword }</span>
+                      return <span className="ui brown basic label" key={ keyword }>{ _.startCase(keyword) }</span>
                     }) }
                   </div>
                   }

@@ -27,16 +27,16 @@ class Courses extends React.Component {
                 <td>Human-Computer Interaction I</td>
               </tr>
               <tr>
+                <td>CPSC 581</td>
+                <td>Human-Computer Interaction II</td>
+              </tr>
+              <tr>
                 <td>CPSC 502</td>
                 <td>Research Project in Human Computer Interaction</td>
               </tr>
               <tr>
                 <td>CPSC 503</td>
                 <td>Research Project in Human Computer Interaction</td>
-              </tr>
-              <tr>
-                <td>CPSC 581</td>
-                <td>Human-Computer Interaction II</td>
               </tr>
               <tr>
                 <td>CPSC 583</td>
