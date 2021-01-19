@@ -45,7 +45,7 @@ class Publication extends React.Component {
         <Meta
           title={ this.publication.title }
           description={ this.publication.abstract }
-          image={ `/static/images/publications/cover/${ this.publication.id }.jpg` }
+          image={ `/static/images/publications/cover/${ this.props.id }.jpg` }
           keywords={ this.publication.keywords }
         />
 
