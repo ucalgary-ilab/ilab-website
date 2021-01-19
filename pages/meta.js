@@ -21,14 +21,14 @@ class Meta extends React.Component {
       this.keywords = this.props.keywords
     }
     if (!this.props.image) {
-      this.image = '/static/images/cover.jpg'
+      this.image = 'https://ilab.ucalgary.ca/static/images/cover.jpg'
     } else {
-      this.image = this.props.image
+      this.image = 'https://ilab.ucalgary.ca' + this.props.image
     }
     if (!this.props.url) {
       this.url= 'https://ilab.ucalgary.ca/'
     } else {
-      this.url = this.props.image
+      this.url = this.props.url
     }
   }
 

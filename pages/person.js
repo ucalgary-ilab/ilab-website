@@ -89,6 +89,7 @@ class Person extends React.Component {
 
         <Meta
           title={ this.person.name }
+          image={ this.getPhoto(this.person.id) }
         />
 
         <Header current="People" />
