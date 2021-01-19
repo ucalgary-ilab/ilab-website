@@ -2,6 +2,7 @@ import React from 'react'
 
 import ReactMarkdown from 'react-markdown'
 
+import Meta from './meta'
 import Header from './header'
 import Labs from './labs'
 import News from './news'
@@ -43,7 +44,9 @@ class Page extends React.Component {
 
     return (
       <div>
-        <title>{ `${this.props.title } - Interactions Lab | University of Calgary HCI Group` }</title>
+        <Meta
+          title={ this.props.title }
+        />
 
         <Header current={ this.props.title } />
 

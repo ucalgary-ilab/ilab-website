@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
+import Meta from './meta'
 import Header from './header'
 import Publications from './publications'
 import Footer from './footer'
+import files from '../content/output/files.json'
 
 class Person extends React.Component {
   static async getInitialProps(req) {
@@ -15,6 +17,8 @@ class Person extends React.Component {
     super(props)
 
     this.person = require(`../content/output/people/${this.props.id}.json`)
+
+    this.getPhotos()
   }
 
   renderLink(person, key) {
@@ -58,10 +62,34 @@ class Person extends React.Component {
     )
   }
 
+  getPhotos() {
+    const pictures =
+    files.children
+    .filter(dir => dir.name === 'images')[0].children
+    .filter(dir => dir.name === 'people')[0].children
+
+    this.pictures = []
+    for (let picture of pictures) {
+      this.pictures.push(picture.name)
+    }
+  }
+
+  getPhoto(id) {
+    let img = `${id}.jpg`
+    if (this.pictures.includes(img)) {
+      return `/static/images/people/${ id }.jpg`
+    } else {
+      return '/static/images/people/no-profile.jpg'
+    }
+  }
+
   render() {
     return (
       <div>
-        <title>{ `${this.person.name} - Interactions Lab | University of Calgary HCI Group` }</title>
+
+        <Meta
+          title={ this.person.name }
+        />
 
         <Header current="People" />
 
@@ -69,7 +97,7 @@ class Person extends React.Component {
           <div className="one wide column"></div>
           <div className="eleven wide column centered">
             <div id="person" className="category" style={{ textAlign: 'center' }}>
-              <img className="ui circular image large-profile" src={ `/static/images/people/${this.props.id}.jpg`} style={{ margin: 'auto' }} />
+              <img className="ui circular image large-profile" src={ this.getPhoto(this.props.id ) } style={{ margin: 'auto' }} />
               <h1>{ this.person.name }</h1>
               <p>{ this.person.title }</p>
               { this.person.url &&

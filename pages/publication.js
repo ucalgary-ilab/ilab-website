@@ -5,6 +5,8 @@ import booktitles from '../content/output/booktitles.json'
 import files from '../content/output/files.json'
 import vimeo from '../content/output/vimeo.json'
 
+import Meta from './meta'
+import Head from 'next/head'
 import Header from './header'
 import Detail from './detail'
 import Footer from './footer'
@@ -40,7 +42,12 @@ class Publication extends React.Component {
   render() {
     return (
       <div>
-        <title>{ `${this.publication.title} | Interactions Lab | University of Calgary` }</title>
+        <Meta
+          title={ this.publication.title }
+          description={ this.publication.abstract }
+          image={ `/static/images/publications/cover/${ this.publication.id }.jpg` }
+          keywords={ this.publication.keywords }
+        />
 
         <Header current="Publications" />
 
