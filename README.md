@@ -269,7 +269,8 @@ You don't need to do this process, but if you're interested, here is the process
 git clone git@github.com:ucalgary-ilab/ilab-website.git
 cd ilab-website
 npm install
-npm run server.js
+npm run build:content
+node server.js
 ```
 
 You can also keep watching the file change by running the following command in the different terminal tab
@@ -278,6 +279,7 @@ You can also keep watching the file change by running the following command in t
 npm run watch
 ```
 
+Watch [https://youtu.be/ympcMWQHm1c](https://youtu.be/ympcMWQHm1c) for the video instruction.
 
 
 # How to Deploy and Reflect the Change in the Website
@@ -287,16 +289,10 @@ You don't need to do this process, but if you're interested, here is the process
 Clone the web-build repo from https://github.com/ucalgary-ilab/ucalgary-ilab.github.io in the same directory
 
 ```shell
-cd ..
-git clone git@github.com:ucalgary-ilab/ucalgary-ilab.github.io.git gh-pages
-```
-
-Go to the `ilab-website` repo and run `npm run deploy`
-
-```shell
-cd ilab-website
+git clone git@github.com:ucalgary-ilab/ucalgary-ilab.github.io.git ../gh-pages
 npm run deploy
 ```
+
 
 That's it.
 
