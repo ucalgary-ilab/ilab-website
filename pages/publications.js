@@ -18,13 +18,14 @@ class Publications extends React.Component {
     this.getPeople()
 
     if (this.props.short) {
-      this.publications = this.publications.slice(0, 20)
+      this.publications = this.publications.slice(0, 30)
     }
     if (this.props.author) {
       this.publications = this.publications.filter((publication) => {
         return publication.authors.includes(this.props.author)
       })
     }
+    this.getPhotos()
   }
 
   getPublications() {
@@ -62,6 +63,27 @@ class Publications extends React.Component {
     }
   }
 
+  getPhotos() {
+    const pictures =
+    files.children
+    .filter(dir => dir.name === 'images')[0].children
+    .filter(dir => dir.name === 'people')[0].children
+
+    this.pictures = []
+    for (let picture of pictures) {
+      this.pictures.push(picture.name)
+    }
+  }
+
+  getPhoto(id) {
+    let img = `${id}.jpg`
+    if (this.pictures.includes(img)) {
+      return `/static/images/people/${ id }.jpg`
+    } else {
+      return '/static/images/people/no-profile-2.jpg'
+    }
+  }
+
   render() {
     return (
       <div id="publications" className="category">
@@ -81,7 +103,7 @@ class Publications extends React.Component {
                   <p>
                     <span className="ui big inverted label label-color">{ publication.series }</span>
                     { publication.award &&
-                      <span className="ui big label">
+                      <span className="ui big basic pink label">
                       { publication.award === 'Honorable Mention' &&
                         <b><i className="fas fa-award"></i> Honorable Mention</b>
                       }
@@ -101,7 +123,7 @@ class Publications extends React.Component {
                         return (
                           this.names.includes(author) ?
                           <a href={ `/people/${ this.namesId[author] }` } key={ author }>
-                            <img src={ `/static/images/people/${ this.namesId[author] }.jpg`} className="ui circular spaced image mini-profile" />
+                            <img src={ this.getPhoto(this.namesId[author]) } className="ui circular spaced image mini-profile" />
                             <span className="author-link">{author}</span>
                           </a>
                           :
@@ -133,10 +155,6 @@ class Publications extends React.Component {
                 <div className="header">
                   <a href={ `/publications/${publication.id}` } target="_blank">
                     <i className="fas fa-link fa-fw"></i>{`${publication.id}`}
-                  </a>
-                  &nbsp;&nbsp;-&nbsp;&nbsp;
-                  <a href={ `/publications/${publication.id}.pdf` } target="_blank">
-                    <i className="far fa-file-pdf fa-fw"></i> pdf
                   </a>
                   <div className="actions" style={{ float: 'right', cursor: 'pointer', color: 'grey' }}>
                     <i className="ui right cancel close icon">

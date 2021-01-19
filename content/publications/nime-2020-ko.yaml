@@ -5,5 +5,6 @@ authors:
   - Lora Oehlberg
 series: NIME 2020
 keywords: violin, touch sensor, FSR, fingerboard, augmented, 3D printing, conductive filament, interactive
+talk: https://www.youtube.com/watch?v=INmDzkcIO14
 pages: 13
 abstract: "We present TRAVIS II, an augmented acoustic violin with touch sensors integrated into its 3D printed fingerboard that track left-hand finger gestures in real time. The fingerboard has four strips of conductive PLA filament which produce an electric signal when fingers press down on each string. While these sensors are physically robust, they are mechanically assembled and thus easy to replace if damaged. The performer can also trigger presets via four FSRs attached to the body of the violin. The instrument is completely wireless, giving the performer the freedom to move throughout the performance space. While the sensing fingerboard is installed in place of the traditional fingerboard, all other electronics can be removed from the augmented instrument, maintaining the aesthetics of a traditional violin. Our design allows violinists to naturally create music for interactive performance and improvisation without requiring new instrumental techniques. In this paper, we describe the design of the instrument, experiments leading to the sensing fingerboard, and performative applications of the instrument."

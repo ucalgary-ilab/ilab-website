@@ -11,6 +11,8 @@
   "doi": "https://doi.org/10.1145/3131277.3132178",
   "keywords": "terrain visualization, geospatial visualization, dynamic viewshed, topographic maps, tangible user interfaces",
   "pages": 9,
+  "video": "https://vimeo.com/275404995",
+  "talk": "https://www.youtube.com/watch?v=aVXUojoQF60",
   "abstract": "We compare the effectiveness of 2D maps and 3D terrain models for visibility tasks and demonstrate how interactive dynamic viewsheds can improve performance for both types of terrain representations. In general, the two-dimensional nature of classic topographic maps limits their legibility and can make complex yet typical cartographic tasks like determining the visibility between locations difficult. Both 3D physical models and interactive techniques like dynamic viewsheds have the potential to improve viewers' understanding of topography, but their impact has not been deeply explored. We evaluate the effectiveness of 2D maps, 3D models, and interactive viewsheds for both simple and complex visibility tasks. Our results demonstrate the benefits of the dynamic viewshed technique and highlight opportunities for additional tactile interactions. Based on these findings we present guidelines for improving the design and usability of future topographic maps and models.",
   "dir": "content/output/publications",
   "base": "sui-2017-li.json",

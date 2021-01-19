@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import summary from '../content/output/summary.json'
 import _ from 'lodash'
+import summary from '../content/output/summary.json'
+import files from '../content/output/files.json'
 
 class People extends React.Component {
   constructor(props) {
@@ -44,6 +45,8 @@ class People extends React.Component {
       this.people.push(person)
     }
     this.people = _.sortBy(this.people, ['order'])
+
+    this.getPhotos()
   }
 
   getTitle(person) {
@@ -87,6 +90,27 @@ class People extends React.Component {
     return person
   }
 
+  getPhotos() {
+    const pictures =
+    files.children
+    .filter(dir => dir.name === 'images')[0].children
+    .filter(dir => dir.name === 'people')[0].children
+
+    this.pictures = []
+    for (let picture of pictures) {
+      this.pictures.push(picture.name)
+    }
+  }
+
+  getPhoto(person) {
+    let img = `${person.id}.jpg`
+    if (this.pictures.includes(img)) {
+      return `/static/images/people/${ person.id }.jpg`
+    } else {
+      return '/static/images/people/no-profile.jpg'
+    }
+  }
+
   render() {
     return (
       <div id="people" className="category">
@@ -107,7 +131,7 @@ class People extends React.Component {
                     person = this.getTitle(person)
                     return (
                       <a className="four wide column person" href={ `/people/${ person.id }` } key={ person.id }>
-                        <img className="ui circular image medium-profile" src={ `/static/images/people/${ person.id }.jpg`}/>
+                        <img className="ui circular image medium-profile" src={ this.getPhoto(person) }/>
                         <p><b>{ person.name }</b></p>
                         <p>
                           { person.title }

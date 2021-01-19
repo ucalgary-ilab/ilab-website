@@ -313,6 +313,13 @@
           "name": "labs",
           "children": [
             {
+              "path": "static/images/labs/c3-lab.png",
+              "name": "c3-lab.png",
+              "size": 69551,
+              "extension": ".png",
+              "type": "file"
+            },
+            {
               "path": "static/images/labs/curiosity.png",
               "name": "curiosity.png",
               "size": 9873,
@@ -362,7 +369,7 @@
               "type": "file"
             }
           ],
-          "size": 141128,
+          "size": 210679,
           "type": "directory"
         },
         {
@@ -469,6 +476,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/april-zhang.jpg",
+              "name": "april-zhang.jpg",
+              "size": 19233,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/ashratuz-zavin-asha.jpg",
               "name": "ashratuz-zavin-asha.jpg",
               "size": 10611,
@@ -504,6 +518,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/colin-auyeung.jpg",
+              "name": "colin-auyeung.jpg",
+              "size": 4198802,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/darcy-norman.jpg",
               "name": "darcy-norman.jpg",
               "size": 9520,
@@ -532,6 +553,27 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/georgina-freeman.jpg",
+              "name": "georgina-freeman.jpg",
+              "size": 270017,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/grace-ferguson.jpg",
+              "name": "grace-ferguson.jpg",
+              "size": 117840,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/helen-ai-he.jpg",
+              "name": "helen-ai-he.jpg",
+              "size": 11430,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/jessi-stark.jpg",
               "name": "jessi-stark.jpg",
               "size": 65755,
@@ -542,6 +584,13 @@
               "path": "static/images/people/karthik-mahadevan.jpg",
               "name": "karthik-mahadevan.jpg",
               "size": 8045,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/kathryn-blair.jpg",
+              "name": "kathryn-blair.jpg",
+              "size": 95099,
               "extension": ".jpg",
               "type": "file"
             },
@@ -612,6 +661,13 @@
               "path": "static/images/people/ryo-suzuki.jpg",
               "name": "ryo-suzuki.jpg",
               "size": 59005,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/sabrina-lakhdhir.jpg",
+              "name": "sabrina-lakhdhir.jpg",
+              "size": 139984,
               "extension": ".jpg",
               "type": "file"
             },
@@ -693,7 +749,7 @@
               "type": "file"
             }
           ],
-          "size": 3248722,
+          "size": 8101127,
           "type": "directory"
         },
         {
@@ -705,6 +761,76 @@
               "name": "cover",
               "children": [
                 {
+                  "path": "static/images/publications/cover/TVCG-2016-lopez.jpg",
+                  "name": "TVCG-2016-lopez.jpg",
+                  "size": 22275,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/assets-2017-suzuki.jpg",
+                  "name": "assets-2017-suzuki.jpg",
+                  "size": 629289,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2015-aseniero.jpg",
+                  "name": "chi-2015-aseniero.jpg",
+                  "size": 70348,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2015-jones.jpg",
+                  "name": "chi-2015-jones.jpg",
+                  "size": 11817,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2015-oehlberg.jpg",
+                  "name": "chi-2015-oehlberg.jpg",
+                  "size": 30020,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2015-willett.jpg",
+                  "name": "chi-2015-willett.jpg",
+                  "size": 21011,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2017-aoki.jpg",
+                  "name": "chi-2017-aoki.jpg",
+                  "size": 24579,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2017-hull.jpg",
+                  "name": "chi-2017-hull.jpg",
+                  "size": 163722,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2017-ledo.jpg",
+                  "name": "chi-2017-ledo.jpg",
+                  "size": 109678,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2017-somanath.jpg",
+                  "name": "chi-2017-somanath.jpg",
+                  "size": 6434,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/chi-2018-dillman.jpg",
                   "name": "chi-2018-dillman.jpg",
                   "size": 46867,
@@ -712,9 +838,23 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/chi-2018-feick-2.jpg",
+                  "name": "chi-2018-feick-2.jpg",
+                  "size": 110058,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/chi-2018-feick.jpg",
                   "name": "chi-2018-feick.jpg",
-                  "size": 110058,
+                  "size": 101834,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2018-heshmat.jpg",
+                  "name": "chi-2018-heshmat.jpg",
+                  "size": 82852,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -729,6 +869,27 @@
                   "path": "static/images/publications/cover/chi-2018-mahadevan.jpg",
                   "name": "chi-2018-mahadevan.jpg",
                   "size": 149679,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2018-oh.jpg",
+                  "name": "chi-2018-oh.jpg",
+                  "size": 39816,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2018-suzuki.jpg",
+                  "name": "chi-2018-suzuki.jpg",
+                  "size": 11827,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2018-wuertz.jpg",
+                  "name": "chi-2018-wuertz.jpg",
+                  "size": 142844,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -761,9 +922,72 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/chi-2020-suzuki.jpg",
+                  "name": "chi-2020-suzuki.jpg",
+                  "size": 84892,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2021-danyluk.jpg",
+                  "name": "chi-2021-danyluk.jpg",
+                  "size": 15877,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2021-ens.jpg",
+                  "name": "chi-2021-ens.jpg",
+                  "size": 61704,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/cnc-2019-hammad.jpg",
                   "name": "cnc-2019-hammad.jpg",
                   "size": 435009,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2016-jones.jpg",
+                  "name": "dis-2016-jones.jpg",
+                  "size": 16683,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2017-mok.jpg",
+                  "name": "dis-2017-mok.jpg",
+                  "size": 160130,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2018-mikalauskas.jpg",
+                  "name": "dis-2018-mikalauskas.jpg",
+                  "size": 163764,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2018-pham.jpg",
+                  "name": "dis-2018-pham.jpg",
+                  "size": 27945,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2018-ta-2.jpg",
+                  "name": "dis-2018-ta-2.jpg",
+                  "size": 77431,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2018-ta.jpg",
+                  "name": "dis-2018-ta.jpg",
+                  "size": 107614,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -789,6 +1013,27 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/dis-2019-nakayama-2.jpg",
+                  "name": "dis-2019-nakayama-2.jpg",
+                  "size": 117709,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2019-nakayama.jpg",
+                  "name": "dis-2019-nakayama.jpg",
+                  "size": 33276,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2019-seyed.jpg",
+                  "name": "dis-2019-seyed.jpg",
+                  "size": 110477,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/hri-2018-feick.jpg",
                   "name": "hri-2018-feick.jpg",
                   "size": 257601,
@@ -796,9 +1041,16 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/imwut-2020-wang-2.jpg",
+                  "name": "imwut-2020-wang-2.jpg",
+                  "size": 100584,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/imwut-2020-wang.jpg",
                   "name": "imwut-2020-wang.jpg",
-                  "size": 100584,
+                  "size": 30393,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -810,9 +1062,37 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/mobilehci-2015-ledo.jpg",
+                  "name": "mobilehci-2015-ledo.jpg",
+                  "size": 27865,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/mobilehci-2019-hung.jpg",
                   "name": "mobilehci-2019-hung.jpg",
-                  "size": 148357,
+                  "size": 19530,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/nime-2020-ko.jpg",
+                  "name": "nime-2020-ko.jpg",
+                  "size": 64497,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/sui-2017-li-2.jpg",
+                  "name": "sui-2017-li-2.jpg",
+                  "size": 62810,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/sui-2017-li.jpg",
+                  "name": "sui-2017-li.jpg",
+                  "size": 47231,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -820,6 +1100,55 @@
                   "path": "static/images/publications/cover/tei-2019-mikalauskas.jpg",
                   "name": "tei-2019-mikalauskas.jpg",
                   "size": 411686,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tei-2019-tolley-2.jpg",
+                  "name": "tei-2019-tolley-2.jpg",
+                  "size": 267136,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tei-2019-tolley.jpg",
+                  "name": "tei-2019-tolley.jpg",
+                  "size": 212698,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tei-2019-wun.jpg",
+                  "name": "tei-2019-wun.jpg",
+                  "size": 327008,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tei-2020-suzuki-2.jpg",
+                  "name": "tei-2020-suzuki-2.jpg",
+                  "size": 118606,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tei-2020-suzuki.jpg",
+                  "name": "tei-2020-suzuki.jpg",
+                  "size": 127496,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tvcg-2017-goffin.jpg",
+                  "name": "tvcg-2017-goffin.jpg",
+                  "size": 78249,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/tvcg-2017-willett.jpg",
+                  "name": "tvcg-2017-willett.jpg",
+                  "size": 64192,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -838,9 +1167,58 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/uist-2018-suzuki-2.jpg",
+                  "name": "uist-2018-suzuki-2.jpg",
+                  "size": 213980,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2018-suzuki.jpg",
+                  "name": "uist-2018-suzuki.jpg",
+                  "size": 755902,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2019-suzuki-1.jpg",
+                  "name": "uist-2019-suzuki-1.jpg",
+                  "size": 380412,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2019-suzuki-2.jpg",
+                  "name": "uist-2019-suzuki-2.jpg",
+                  "size": 104561,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2019-suzuki.jpg",
+                  "name": "uist-2019-suzuki.jpg",
+                  "size": 125986,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/uist-2020-suzuki.jpg",
                   "name": "uist-2020-suzuki.jpg",
                   "size": 326140,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2020-yixian-2.jpg",
+                  "name": "uist-2020-yixian-2.jpg",
+                  "size": 124407,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2020-yixian.jpg",
+                  "name": "uist-2020-yixian.jpg",
+                  "size": 54328,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -852,7 +1230,7 @@
                   "type": "file"
                 }
               ],
-              "size": 4142875,
+              "size": 9647653,
               "type": "directory"
             },
             {
@@ -1139,7 +1517,7 @@
               "type": "directory"
             }
           ],
-          "size": 17503181,
+          "size": 23007959,
           "type": "directory"
         },
         {
@@ -1487,7 +1865,7 @@
           "type": "directory"
         }
       ],
-      "size": 39772930,
+      "size": 50199664,
       "type": "directory"
     },
     {
@@ -1512,6 +1890,6 @@
       "type": "directory"
     }
   ],
-  "size": 39772930,
+  "size": 50199664,
   "type": "directory"
 }

@@ -8,7 +8,9 @@ authors:
   - Yoshihiro Kawahara
   - Yasuaki Kakehi
 series: DIS 2019
+doi: https://doi.org/10.1145/3322276.3322337
 keywords: shape-changing interfaces, programming by demonstration, soft robots, pneumatic actuation, tangible interactions
+award: Best Paper
 video: https://www.youtube.com/watch?v=ZkCcazfFD-M
 pages: 11
 abstract: "We introduce MorphIO, entirely soft sensing and actuation modules for programming by demonstration of soft robots and shape-changing interfaces.MorphIO's hardware consists of a soft pneumatic actuator containing a conductive sponge sensor.This allows both input and output of three-dimensional deformation of a soft material.Leveraging this capability, MorphIO enables a user to record and later playback physical motion of programmable shape-changing materials.In addition, the modular design of MorphIO's unit allows the user to construct various shapes and topologies through magnetic connection.We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects.Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm."
