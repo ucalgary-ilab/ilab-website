@@ -51,6 +51,7 @@ module.exports = withCSS({
       }
     }
 
+    /*
     const speakers = require('./content/output/seminar.json')
     for (let speaker of speakers) {
       let nameId = _.lowerCase(speaker.name).replace(/ /g, '-')
@@ -61,6 +62,7 @@ module.exports = withCSS({
         query: { id: id }
       }
     }
+    */
 
     // console.log(pages)
     return Object.assign({}, pages, {

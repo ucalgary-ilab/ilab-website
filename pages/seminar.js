@@ -5,8 +5,6 @@ import Speaker from './speaker.js'
 
 class Seminar extends React.Component {
   render() {
-    console.log('jogejo')
-    console.log(seminar)
     return (
       <div id="seminar" className="category">
         <h1 className="ui horizontal divider header">

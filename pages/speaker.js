@@ -6,41 +6,36 @@ import Publications from './publications'
 import Footer from './footer'
 
 class Speaker extends React.Component {
-  static async getInitialProps(req) {
-    const id = req.query.id
-    return { id: id }
-  }
 
   constructor(props) {
     super(props)
 
-    this.speaker = this.props.speaker
-    this.speaker.nameId = _.lowerCase(this.speaker.name).replace(/ /g, '-')
-    this.speaker.id = `${this.speaker.date}-${this.speaker.nameId}`
+    this.props.speaker.nameId = _.lowerCase(this.props.speaker.name).replace(/ /g, '-')
+    this.props.speaker.id = `${this.props.speaker.date}-${this.props.speaker.nameId}`
   }
 
   render() {
     return (
       <div style={{ 'margin': '40px 0' }}>
         <p className="ui horizontal divider header">
-          { this.speaker.date }
+          { this.props.speaker.date }
         </p>
-        <div className="publication ui vertical segment grid" data-id={ this.speaker.id } key={ this.speaker.id }>
+        <div className="publication ui vertical segment grid" data-id={ this.props.speaker.id } key={ this.props.speaker.id }>
           <div className="three wide column" style={{ margin: 'auto', 'text-align': 'center' }}>
-            <a href={ this.speaker.url } target="_blank" >
-            <img className="photo" src={ `/static/images/seminar/${this.speaker.nameId}.jpg` } />
-            <h1>{ this.speaker.name }</h1>
+            <a href={ this.props.speaker.url } target="_blank" >
+            <img className="photo" src={ `/static/images/seminar/${this.props.speaker.nameId}.jpg` } />
+            <h1>{ this.props.speaker.name }</h1>
             <h3>
-              { this.speaker.affiliation }
+              { this.props.speaker.affiliation }
             </h3>
             </a>
           </div>
           <div className="twelve wide column">
-            <h1>{ this.speaker.title }</h1>
+            <h1>{ this.props.speaker.title }</h1>
             <h2>Abstract</h2>
-            <p>{ this.speaker.abstract }</p>
+            <p>{ this.props.speaker.abstract }</p>
             <h2>Bio</h2>
-            <p>{ this.speaker.bio }</p>
+            <p>{ this.props.speaker.bio }</p>
           </div>
         </div>
       </div>
