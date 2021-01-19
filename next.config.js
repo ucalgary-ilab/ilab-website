@@ -1,5 +1,6 @@
 const webpack = require('webpack')
 const withCSS = require('@zeit/next-css')
+const _ = require('lodash')
 
 module.exports = withCSS({
   exportPathMap: function () {
@@ -8,6 +9,7 @@ module.exports = withCSS({
       'people',
       'courses',
       'news',
+      'seminar',
       'facility',
       'location',
     ]
@@ -45,6 +47,17 @@ module.exports = withCSS({
       let href = `/people/${id}`
       pages[href] = {
         page: '/person',
+        query: { id: id }
+      }
+    }
+
+    const speakers = require('./content/output/seminar.json')
+    for (let speaker of speakers) {
+      let nameId = _.lowerCase(speaker.name).replace(/ /g, '-')
+      let id = `${speaker.date}-${speaker.nameId}`
+      let href = `/seminar/${id}`
+      pages[href] = {
+        page: '/speaker',
         query: { id: id }
       }
     }

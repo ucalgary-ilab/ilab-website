@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown'
 import Header from './header'
 import Labs from './labs'
 import News from './news'
+import Seminar from './seminar'
 import Publications from './publications'
 import People from './people'
 import Courses from './courses'
@@ -31,6 +32,8 @@ class Page extends React.Component {
         return <Facility />
       case 'news':
         return <News />
+      case 'seminar':
+        return <Seminar />
       case 'location':
         return <Location />
     }

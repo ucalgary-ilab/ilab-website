@@ -644,6 +644,27 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/no-profile-1.jpg",
+              "name": "no-profile-1.jpg",
+              "size": 3265,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/no-profile-2.jpg",
+              "name": "no-profile-2.jpg",
+              "size": 5037,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/no-profile.jpg",
+              "name": "no-profile.jpg",
+              "size": 2740,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/nour-hammad.jpg",
               "name": "nour-hammad.jpg",
               "size": 70047,
@@ -749,7 +770,7 @@
               "type": "file"
             }
           ],
-          "size": 8101127,
+          "size": 8112169,
           "type": "directory"
         },
         {
@@ -869,6 +890,13 @@
                   "path": "static/images/publications/cover/chi-2018-mahadevan.jpg",
                   "name": "chi-2018-mahadevan.jpg",
                   "size": 149679,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2018-neustaedter.jpg",
+                  "name": "chi-2018-neustaedter.jpg",
+                  "size": 80074,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -1097,6 +1125,13 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/tei-2016-somanath.jpg",
+                  "name": "tei-2016-somanath.jpg",
+                  "size": 135052,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/tei-2019-mikalauskas.jpg",
                   "name": "tei-2019-mikalauskas.jpg",
                   "size": 411686,
@@ -1230,7 +1265,7 @@
                   "type": "file"
                 }
               ],
-              "size": 9647653,
+              "size": 9862779,
               "type": "directory"
             },
             {
@@ -1517,7 +1552,29 @@
               "type": "directory"
             }
           ],
-          "size": 23007959,
+          "size": 23223085,
+          "type": "directory"
+        },
+        {
+          "path": "static/images/seminar",
+          "name": "seminar",
+          "children": [
+            {
+              "path": "static/images/seminar/ken-nakagaki.jpg",
+              "name": "ken-nakagaki.jpg",
+              "size": 46038,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/xing-dong-yang.jpg",
+              "name": "xing-dong-yang.jpg",
+              "size": 132975,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 179013,
           "type": "directory"
         },
         {
@@ -1865,12 +1922,12 @@
           "type": "directory"
         }
       ],
-      "size": 50199664,
+      "size": 50604845,
       "type": "directory"
     },
     {
-      "path": "static/pdf",
-      "name": "pdf",
+      "path": "static/publications",
+      "name": "publications",
       "children": [],
       "size": 0,
       "type": "directory"
@@ -1890,6 +1947,6 @@
       "type": "directory"
     }
   ],
-  "size": 50199664,
+  "size": 50604845,
   "type": "directory"
 }
