@@ -42,7 +42,7 @@ class Meta extends React.Component {
 
         <meta property="og:title" content={ this.title } />
         <meta property="og:description" content={ this.description } />
-        <meta property="og:site_name" content="Interactions Lab | University of Calgary HCI Group" />
+        <meta property="og:site_name" content="University of Calgary Interactions Lab" />
         <meta property="og:url" content={ this.url } />
         <meta property="og:image" content={ this.image } />
         <meta property="og:type" content="website" />
