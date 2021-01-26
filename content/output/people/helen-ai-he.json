@@ -3,13 +3,14 @@
   "type": "faculty",
   "title": "Assistant Professor",
   "keywords": [
-    "Cross-Cultural Collaboration"
+    "Inclusive Design",
+    "CSCW"
   ],
   "order": 5,
-  "url": "https://helenaihe.com/about/",
+  "url": "https://helenaihe.com/research",
   "scholar": "https://scholar.google.com/citations?user=FlMKf0gAAAAJ",
   "twitter": "https://twitter.com/helenaihe",
-  "email": "helen.he@ucalgary.ca",
+  "email": "helen.he1@ucalgary.ca",
   "dir": "content/output/people",
   "base": "helen-ai-he.json",
   "ext": ".json",
