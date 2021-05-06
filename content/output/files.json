@@ -1623,9 +1623,72 @@
           "name": "seminar",
           "children": [
             {
+              "path": "static/images/seminar/alberto-de-salvatierra.jpg",
+              "name": "alberto-de-salvatierra.jpg",
+              "size": 156899,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/alicia-nahmad-vazquez.jpg",
+              "name": "alicia-nahmad-vazquez.jpg",
+              "size": 93235,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/benjamin-bach.jpg",
+              "name": "benjamin-bach.jpg",
+              "size": 30684,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/charles-perin.jpg",
+              "name": "charles-perin.jpg",
+              "size": 140391,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/james-young.jpg",
+              "name": "james-young.jpg",
+              "size": 10208,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/jessica-cauchard.jpg",
+              "name": "jessica-cauchard.jpg",
+              "size": 32796,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/seminar/ken-nakagaki.jpg",
               "name": "ken-nakagaki.jpg",
               "size": 46038,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/nicolai-marquardt.jpg",
+              "name": "nicolai-marquardt.jpg",
+              "size": 51550,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/rubaiat-habib.jpg",
+              "name": "rubaiat-habib.jpg",
+              "size": 175051,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/stefanie-mueller.jpg",
+              "name": "stefanie-mueller.jpg",
+              "size": 229864,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1637,7 +1700,7 @@
               "type": "file"
             }
           ],
-          "size": 179013,
+          "size": 1099691,
           "type": "directory"
         },
         {
@@ -1985,7 +2048,7 @@
           "type": "directory"
         }
       ],
-      "size": 54929975,
+      "size": 55850653,
       "type": "directory"
     },
     {
@@ -2010,6 +2073,6 @@
       "type": "directory"
     }
   ],
-  "size": 54929975,
+  "size": 55850653,
   "type": "directory"
 }
