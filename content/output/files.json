@@ -735,6 +735,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/samin-farajian.jpg",
+              "name": "samin-farajian.jpg",
+              "size": 49335,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/sasha-ivanov.jpg",
               "name": "sasha-ivanov.jpg",
               "size": 9585,
@@ -798,6 +805,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/tian-xia.jpg",
+              "name": "tian-xia.jpg",
+              "size": 107076,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/tim-au-yeung.jpg",
               "name": "tim-au-yeung.jpg",
               "size": 63006,
@@ -819,7 +833,7 @@
               "type": "file"
             }
           ],
-          "size": 11942272,
+          "size": 12098683,
           "type": "directory"
         },
         {
@@ -1971,7 +1985,7 @@
           "type": "directory"
         }
       ],
-      "size": 54773564,
+      "size": 54929975,
       "type": "directory"
     },
     {
@@ -1996,6 +2010,6 @@
       "type": "directory"
     }
   ],
-  "size": 54773564,
+  "size": 54929975,
   "type": "directory"
 }
