@@ -1,0 +1,13 @@
+{
+  "name": "Shivesh Jadon",
+  "type": "master",
+  "url": "https://shivesh.dev/",
+  "scholar": "https://scholar.google.com/citations?user=EwqYU2sAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/shiveshjadon/",
+  "twitter": "https://twitter.com/ShiveshJadon",
+  "dir": "content/output/people",
+  "base": "shivesh-jadon.json",
+  "ext": ".json",
+  "sourceBase": "shivesh-jadon.yaml",
+  "sourceExt": ".yaml"
+}

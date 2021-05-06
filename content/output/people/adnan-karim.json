@@ -1,0 +1,12 @@
+{
+  "name": "Adnan Karim",
+  "type": "master",
+  "url": "https://sites.google.com/view/adnankarim/",
+  "email": "adnan.karim@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/adnan-karim-757b98101/",
+  "dir": "content/output/people",
+  "base": "adnan-karim.json",
+  "ext": ".json",
+  "sourceBase": "adnan-karim.yaml",
+  "sourceExt": ".yaml"
+}

@@ -14,6 +14,20 @@
       "name": "images",
       "children": [
         {
+          "path": "static/images/cover-2.jpg",
+          "name": "cover-2.jpg",
+          "size": 146836,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "static/images/cover.jpg",
+          "name": "cover.jpg",
+          "size": 191780,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
           "path": "static/images/facility",
           "name": "facility",
           "children": [
@@ -462,6 +476,13 @@
           "name": "people",
           "children": [
             {
+              "path": "static/images/people/adnan-karim.jpg",
+              "name": "adnan-karim.jpg",
+              "size": 3301317,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/anthony-tang-1.jpg",
               "name": "anthony-tang-1.jpg",
               "size": 64243,
@@ -567,6 +588,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/harrison-chen.jpg",
+              "name": "harrison-chen.jpg",
+              "size": 343007,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/helen-ai-he.jpg",
               "name": "helen-ai-he.jpg",
               "size": 11430,
@@ -616,6 +644,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/marcus-friedel.jpg",
+              "name": "marcus-friedel.jpg",
+              "size": 28755,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/martin-feick.jpg",
               "name": "martin-feick.jpg",
               "size": 55078,
@@ -633,6 +668,13 @@
               "path": "static/images/people/nathalie-bressa.jpg",
               "name": "nathalie-bressa.jpg",
               "size": 436534,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/people/neil-chulpongsatorn.jpg",
+              "name": "neil-chulpongsatorn.jpg",
+              "size": 92054,
               "extension": ".jpg",
               "type": "file"
             },
@@ -714,6 +756,13 @@
               "type": "file"
             },
             {
+              "path": "static/images/people/shivesh-jadon.jpg",
+              "name": "shivesh-jadon.jpg",
+              "size": 64970,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/people/soren-knudsen.jpg",
               "name": "soren-knudsen.jpg",
               "size": 37313,
@@ -770,7 +819,7 @@
               "type": "file"
             }
           ],
-          "size": 8112169,
+          "size": 11942272,
           "type": "directory"
         },
         {
@@ -1922,7 +1971,7 @@
           "type": "directory"
         }
       ],
-      "size": 50604845,
+      "size": 54773564,
       "type": "directory"
     },
     {
@@ -1947,6 +1996,6 @@
       "type": "directory"
     }
   ],
-  "size": 50604845,
+  "size": 54773564,
   "type": "directory"
 }

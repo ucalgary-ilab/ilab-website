@@ -1,0 +1,12 @@
+{
+  "name": "Marcus Friedel",
+  "type": "master",
+  "facebook": "https://www.facebook.com/marcus.friedel.3",
+  "email": "marcus.friedel@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/marcusfriedel/",
+  "dir": "content/output/people",
+  "base": "marcus-friedel.json",
+  "ext": ".json",
+  "sourceBase": "marcus-friedel.yaml",
+  "sourceExt": ".yaml"
+}
