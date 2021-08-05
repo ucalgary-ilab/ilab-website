@@ -1034,9 +1034,23 @@
                   "type": "file"
                 },
                 {
+                  "path": "static/images/publications/cover/chi-2021-hammad.jpg",
+                  "name": "chi-2021-hammad.jpg",
+                  "size": 332049,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
                   "path": "static/images/publications/cover/cnc-2019-hammad.jpg",
                   "name": "cnc-2019-hammad.jpg",
                   "size": 435009,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/cupum-2021-rout.jpg",
+                  "name": "cupum-2021-rout.jpg",
+                  "size": 91936,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -1121,6 +1135,20 @@
                   "path": "static/images/publications/cover/dis-2019-seyed.jpg",
                   "name": "dis-2019-seyed.jpg",
                   "size": 110477,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/dis-2021-wannamaker.jpg",
+                  "name": "dis-2021-wannamaker.jpg",
+                  "size": 30999,
+                  "extension": ".jpg",
+                  "type": "file"
+                },
+                {
+                  "path": "static/images/publications/cover/gi-2021-mactavish.jpg",
+                  "name": "gi-2021-mactavish.jpg",
+                  "size": 58685,
                   "extension": ".jpg",
                   "type": "file"
                 },
@@ -1328,7 +1356,7 @@
                   "type": "file"
                 }
               ],
-              "size": 9862779,
+              "size": 10376448,
               "type": "directory"
             },
             {
@@ -1615,7 +1643,7 @@
               "type": "directory"
             }
           ],
-          "size": 23223085,
+          "size": 23736754,
           "type": "directory"
         },
         {
@@ -2048,7 +2076,7 @@
           "type": "directory"
         }
       ],
-      "size": 55850653,
+      "size": 56364322,
       "type": "directory"
     },
     {
@@ -2073,6 +2101,6 @@
       "type": "directory"
     }
   ],
-  "size": 55850653,
+  "size": 56364322,
   "type": "directory"
 }

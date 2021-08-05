@@ -1,0 +1,21 @@
+{
+  "date": "2021-06",
+  "title": "I/O Bits: User-Driven, Situated, and Dedicated Self-Tracking",
+  "authors": [
+    "Kendra Wannamaker",
+    "Sandeep Kollannur",
+    "Marian Dörk",
+    "Wesley Willett"
+  ],
+  "series": "DIS 2021",
+  "doi": "http://hdl.handle.net/1880/113555",
+  "keywords": "information visualization, personal informatics, situated visualization",
+  "pages": 10,
+  "talk": "https://www.youtube.com/watch?v=yhMKURtgFZ0",
+  "abstract": "We present I/O Bits, a prototype personal informatics system that explores the potential for user-driven and situated self-tracking. With simple tactile inputs and small e-paper visualizations, I/O Bits are dedicated physical devices that allow individuals to track and visualize different kinds of personal activities in-situ. This is in contrast to most self-tracking systems, which automate data collection, centralize information displays, or integrate into multi-purpose devices like smartwatches or mobile phones. We report findings from an e-paper visualization workshop and a prototype deployment where participants constructed their own I/O Bits and used them to track a range of personal data. Based on these experiences, we contribute insights and opportunities for situated and user-driven personal informatics.",
+  "dir": "content/output/publications",
+  "base": "dis-2021-wannamaker.json",
+  "ext": ".json",
+  "sourceBase": "dis-2021-wannamaker.yaml",
+  "sourceExt": ".yaml"
+}
