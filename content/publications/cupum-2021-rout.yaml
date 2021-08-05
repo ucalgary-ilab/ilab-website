@@ -7,6 +7,6 @@ series: Urban Informatics and Future Cities
 publisher: Springer
 pages: 301-318
 doi: http://hdl.handle.net/1880/113114
-video: https://prism.ucalgary.ca/handle/1880/113114
+video: https://www.youtube.com/watch?v=Me8cU6RoCiA
 keywords: information visualization, smartphone data, GPS, data visualization, architecture, urban design, task-based framework, high-level tasks
 abstract: "We present the SmartCampus visualization tool, representing spatiotemporal data of over 200 student pathways and restpoints on a university campus. Based on our experiences with SmartCampus, we also propose a task-based framework that de-scribes how practicing urban designers (specifically, architects) can use human movement data visualizations in their work. Although extensive amounts of location data are produced daily by smartphones, existing geospatial tools are not customized to specifically support high-level urban design tasks. To help identify opportunities in urban design for visualizing human movement data from devices such as smartphones, we used our SmartCampus prototype to facilitate a series of 3 participatory design sessions (3 participants), a targeted online survey (14 participants), and semi-structured interviews (6 participants) with architectural experts. Our findings showcase the need for location analysis tools tailored to concrete urban design practices, and also highlight opportunities for Smart City researchers interested in developing domain specific, visualization tools."
