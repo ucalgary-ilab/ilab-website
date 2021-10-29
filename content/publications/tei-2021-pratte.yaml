@@ -1,0 +1,12 @@
+date: 2021-02
+title: "Evoking Empathy: A Framework for Describing Empathy Tools"
+authors:
+  - Sydney Pratte
+  - Tony Tang
+  - Lora Oehlberg
+series: TEI 2021
+doi: https://dl.acm.org/doi/10.1145/3430524.3440644
+keywords: Empathy, Empathy Tools, Design Strategies
+pages: 13
+video: https://www.youtube.com/watch?v=JBCzPt5ILxo
+abstract: "Empathy tools are experiences designed to evoke empathetic responses by placing the user in another’s lived and felt experience. The problem is that designers do not have a common vocabulary to describe empathy tool experiences; consequently, it is difficult to compare/contrast empathy tool designs or to think about their efficacy. To address this problem, we analyzed 26 publications on empathy tools to develop a descriptive framework for designers of empathy tools. Based on our analysis, we found that empathy tools can be described along three dimensions: (i) the amount of agency the tool allows, (ii) the user’s perspective while using the tool, and (iii) the type of sensations that are experienced. We show that this framework can be used to describe a wide variety of empathy tools and provide recommendations for empathy tool designers, as well as techniques for measuring the efficacy of an empathy tool experience."
