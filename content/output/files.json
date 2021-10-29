@@ -476,13 +476,6 @@
           "name": "people",
           "children": [
             {
-              "path": "static/images/people/adnan-karim.jpg",
-              "name": "adnan-karim.jpg",
-              "size": 3301317,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
               "path": "static/images/people/anthony-tang-1.jpg",
               "name": "anthony-tang-1.jpg",
               "size": 64243,
@@ -542,13 +535,6 @@
               "path": "static/images/people/christopher-smith.jpg",
               "name": "christopher-smith.jpg",
               "size": 23212,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "static/images/people/colin-auyeung.jpg",
-              "name": "colin-auyeung.jpg",
-              "size": 4198802,
               "extension": ".jpg",
               "type": "file"
             },
@@ -868,7 +854,7 @@
               "type": "file"
             }
           ],
-          "size": 12188289,
+          "size": 4688170,
           "type": "directory"
         },
         {
@@ -1452,13 +1438,6 @@
                       "type": "file"
                     },
                     {
-                      "path": "static/images/publications/figures/iros-2020-hedayati/design-space.jpg",
-                      "name": "design-space.jpg",
-                      "size": 2747263,
-                      "extension": ".jpg",
-                      "type": "file"
-                    },
-                    {
                       "path": "static/images/publications/figures/iros-2020-hedayati/drone.jpg",
                       "name": "drone.jpg",
                       "size": 631516,
@@ -1508,7 +1487,7 @@
                       "type": "file"
                     }
                   ],
-                  "size": 8553993,
+                  "size": 5806730,
                   "type": "directory"
                 },
                 {
@@ -1695,11 +1674,11 @@
                   "type": "directory"
                 }
               ],
-              "size": 13360306,
+              "size": 10613043,
               "type": "directory"
             }
           ],
-          "size": 24894277,
+          "size": 22147014,
           "type": "directory"
         },
         {
@@ -1735,6 +1714,27 @@
               "type": "file"
             },
             {
+              "path": "static/images/seminar/elizabeth-stobert.jpg",
+              "name": "elizabeth-stobert.jpg",
+              "size": 133267,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/ge-gao.jpg",
+              "name": "ge-gao.jpg",
+              "size": 118063,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/haijun-xia .jpg",
+              "name": "haijun-xia .jpg",
+              "size": 32596,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/seminar/james-young.jpg",
               "name": "james-young.jpg",
               "size": 10208,
@@ -1756,9 +1756,37 @@
               "type": "file"
             },
             {
+              "path": "static/images/seminar/laura-devendorf.jpg",
+              "name": "laura-devendorf.jpg",
+              "size": 22581,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/liang-he.jpg",
+              "name": "liang-he.jpg",
+              "size": 180179,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/maxime-cordeil.jpg",
+              "name": "maxime-cordeil.jpg",
+              "size": 16515,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/seminar/nicolai-marquardt.jpg",
               "name": "nicolai-marquardt.jpg",
               "size": 51550,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/pedro-lopes.jpg",
+              "name": "pedro-lopes.jpg",
+              "size": 195501,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1777,6 +1805,20 @@
               "type": "file"
             },
             {
+              "path": "static/images/seminar/thijs-roumen.png",
+              "name": "thijs-roumen.png",
+              "size": 422563,
+              "extension": ".png",
+              "type": "file"
+            },
+            {
+              "path": "static/images/seminar/valkyrie-savage.jpg",
+              "name": "valkyrie-savage.jpg",
+              "size": 30675,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "static/images/seminar/xing-dong-yang.jpg",
               "name": "xing-dong-yang.jpg",
               "size": 132975,
@@ -1784,7 +1826,7 @@
               "type": "file"
             }
           ],
-          "size": 1099691,
+          "size": 2251631,
           "type": "directory"
         },
         {
@@ -2132,7 +2174,7 @@
           "type": "directory"
         }
       ],
-      "size": 57611451,
+      "size": 48516009,
       "type": "directory"
     },
     {
@@ -2157,6 +2199,6 @@
       "type": "directory"
     }
   ],
-  "size": 57611451,
+  "size": 48516009,
   "type": "directory"
 }
