@@ -1,0 +1,20 @@
+{
+  "date": "2020-06",
+  "title": "Talk Like Somebody is Watching: Understanding and Supporting Novice Live Streamers",
+  "authors": [
+    "Terrance Mok",
+    "Colin Au Yeung",
+    "Anthony Tang",
+    "Lora Oehlberg"
+  ],
+  "series": "IMX 2020",
+  "doi": "10.1145/3391614.3399392",
+  "keywords": "Live streams, Streamers, Chatbot, Audience, Virtual audience",
+  "pages": 6,
+  "abstract": "We built a chatbot system–Audience Bot–that simulates an audience for novice live streamers to engage with while streaming. New live streamers on platforms like Twitch are expected to perform and talk to themselves, even while no one is watching. We ran an observational lab study on how Audience Bot assists novice live streamers as they acclimate to multitasking–simultaneously playing a video game while performing for a (simulated) audience.",
+  "dir": "content/output/publications",
+  "base": "imx-2020-mok.json",
+  "ext": ".json",
+  "sourceBase": "imx-2020-mok.yaml",
+  "sourceExt": ".yaml"
+}

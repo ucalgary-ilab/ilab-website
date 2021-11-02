@@ -1,0 +1,21 @@
+{
+  "date": "2019-05",
+  "title": "Improving Texture Discrimination in Virtual Tasks by using Stochastic Resonance",
+  "authors": [
+    "Sandeep Zechariah George",
+    "Hooman Khosravi",
+    "Ryan Peters",
+    "Lora Oehlberg",
+    "Sonny Chan"
+  ],
+  "series": "CHI 2019 LBW",
+  "doi": "10.1145/3290607.3312839",
+  "keywords": "Stochastic resonance, virtual tasks, haptics, virtual reality, texture rendering",
+  "pages": 6,
+  "abstract": "We investigate enhancing virtual haptic experiences by applying Stochastic Resonance or SR noise to the user's hands. Specifically, we focus on improving users' ability to discriminate between virtual textures modelled from nine grits of real sandpaper in a virtual texture discrimination task. We applied mechanical SR noise to the participant's skin by attaching five flat actuators to different points on their hand. By fastening a linear voice-coil actuator and a 6-DOF haptic device to participants' index finger, we enabled them to interact and feel virtual sandpapers while inducing different levels of SR noise. We hypothesize that SR will improve their discrimination performance.",
+  "dir": "content/output/publications",
+  "base": "chi-2019-george.json",
+  "ext": ".json",
+  "sourceBase": "chi-2019-george.yaml",
+  "sourceExt": ".yaml"
+}
