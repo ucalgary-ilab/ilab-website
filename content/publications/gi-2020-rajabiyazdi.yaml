@@ -1,0 +1,12 @@
+date: 2020
+title: "Exploring the Design of Patient-Generated Data Visualizations"
+authors:
+  - Fateme Rajabiyazdi
+  - Charles Perin
+  - Lora Oehlberg
+  - Sheelagh Carpendale
+series: GI 2020
+doi: https://hal.archives-ouvertes.fr/hal-02861239
+keywords: visualization, information visualization
+pages: 12
+abstract: "We were approached by a group of healthcare providers who are involved in the care of chronic patients looking for potential technologies to facilitate the process of reviewing patient-generated data during clinical visits. Aiming at understanding the healthcare providers’ attitudes towards reviewing patient-generated data, we (1) conducted a focus group with a mixed group of healthcare providers. Next, to gain the patients’ perspectives, we (2) interviewed eight chronic patients, collected a sample of their data and designed a series of visualizations representing patient data we collected. Last, we (3) sought feedback on the visualization designs from healthcare providers who requested this exploration. We found four factors shaping patient-generated data: data & context, patient’s motivation, patient’s time commitment, and patient’s support circle. Informed by the results of our studies, we discussed the importance of designing patient-generated visualizations for individuals by considering both patient and healthcare provider rather than designing with the purpose of generalization and provided guidelines for designing future patient-generated data visualizations."

@@ -1,0 +1,14 @@
+date: 2020-04
+title: "Views from the Wheelchair: Understanding Interaction between Autonomous Vehicle and Pedestrians with Reduced Mobility"
+authors:
+  - Ashratuz Zavin Asha
+  - Christopher Smith
+  - Lora Oehlberg
+  - Sowmya Somanath
+  - Ehud Sharlin
+series: CHI 2020 LBW
+doi: 10.1145/3334480.3383041
+keywords: Autonomous vehicle, pedestrian with reduced mobility
+pages: 8
+video: http://www.youtube.com/watch?v=JNc49desa44
+abstract: "We are interested in the ways pedestrians will interact with autonomous vehicle (AV) in a future AV transportation ecosystem, when nonverbal cues from the driver such as eye movements, hand gestures, etc. are no longer provided. In this work, we examine a subset of this challenge: interaction between pedestrian with reduced mobility (PRM) and AV. This study explores interface designs between AVs and people in a wheelchair to help them interact with AVs by conducting a preliminary design study. We have assessed the data collected from the study using qualitative analysis and presented different findings on AV-PRM interactions. Our findings reflect on the importance of visual interfaces, changes to the wheelchair and the creative use of the street infrastructure."
