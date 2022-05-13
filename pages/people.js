@@ -143,13 +143,13 @@ class People extends React.Component {
                                                     }
                                                 </p>
                                                 {type.key === 'faculty' &&
-                                                    <p>
+                                                    <div className="ui large basic labels">
                                                         {person.keywords.map((keyword) => {
                                                             return <span
                                                                 className="ui large inverted label label-brown-color">{keyword}</span>
                                                         })
                                                         }
-                                                    </p>
+                                                    </div>
                                                 }
                                             </a>
                                         ) // return
