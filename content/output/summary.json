@@ -342,7 +342,9 @@
       "type": "faculty",
       "title": "Assistant Professor",
       "keywords": [
-        "Epidermal Computing"
+        "Wearable Computing",
+        "Fabrication",
+        "Interaction Techniques"
       ],
       "order": 6,
       "url": "https://sites.google.com/site/adityanittala/",
@@ -691,6 +693,18 @@
       "base": "jessi-stark.json",
       "ext": ".json",
       "sourceBase": "jessi-stark.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/jian-liao.json": {
+      "name": "Jian Liao",
+      "type": "undergrad",
+      "email": "jian.liao1@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/jian-liao/",
+      "github": "https://github.com/jlia0",
+      "dir": "content/output/people",
+      "base": "jian-liao.json",
+      "ext": ".json",
+      "sourceBase": "jian-liao.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/jiannan-li.json": {
@@ -3171,6 +3185,7 @@
     "content/people/helen-ai-he.yaml",
     "content/people/james-tam.yaml",
     "content/people/jessi-stark.yaml",
+    "content/people/jian-liao.yaml",
     "content/people/jiannan-li.yaml",
     "content/people/karthik-mahadevan.yaml",
     "content/people/kathryn-blair.yaml",
