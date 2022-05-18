@@ -1,0 +1,10 @@
+{
+  "name": "Linda Tauscher",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "linda-tauscher.json",
+  "ext": ".json",
+  "sourceBase": "linda-tauscher.yaml",
+  "sourceExt": ".yaml"
+}

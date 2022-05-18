@@ -1,0 +1,10 @@
+{
+  "name": "Yibo Sun",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "yibo-sun.json",
+  "ext": ".json",
+  "sourceBase": "yibo-sun.yaml",
+  "sourceExt": ".yaml"
+}

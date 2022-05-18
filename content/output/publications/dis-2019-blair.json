@@ -1,0 +1,19 @@
+{
+  "date": "2019-06",
+  "title": "Exploring Public Engagement with the Social Impact of Algorithms",
+  "authors": [
+    "Kathryn Blair",
+    "Jean-Rene Leblanc",
+    "Lora Oehlberg"
+  ],
+  "series": "DIS 2019",
+  "doi": "10.1145/3301019.3323897",
+  "keywords": "Fine Arts, Physical Artifact, Education, Social Impact of Technology, Education, Participatory Art Installation",
+  "pages": 5,
+  "abstract": "We discuss Logical Conclusion, an analog interactive installation which presents issues surrounding the social impacts of algorithms used by corporations and governments via logic puzzles with physical elements that visitors manipulate to solve. We present the combination of physicality and participation as promising tools to engage the public with the ways that complex technologies interact with society. We also pose questions regarding how such strategies might be extended by the addition of responsive tangible computing elements.",
+  "dir": "content/output/publications",
+  "base": "dis-2019-blair.json",
+  "ext": ".json",
+  "sourceBase": "dis-2019-blair.yaml",
+  "sourceExt": ".yaml"
+}

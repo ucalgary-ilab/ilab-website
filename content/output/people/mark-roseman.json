@@ -1,0 +1,10 @@
+{
+  "name": "Mark Roseman",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "mark-roseman.json",
+  "ext": ".json",
+  "sourceBase": "mark-roseman.yaml",
+  "sourceExt": ".yaml"
+}

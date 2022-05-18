@@ -1,0 +1,24 @@
+{
+  "date": "2021-09",
+  "title": "Perception! Immersion! Empowerment!: Superpowers as Inspiration for Visualization",
+  "authors": [
+    "Wesley Willett",
+    "Bon Adriel Aseniero",
+    "Sheelagh Carpendale",
+    "Pierre Dragicevic",
+    "Yvonne Jansen",
+    "Lora Oehlberg",
+    "Petra Isenberg"
+  ],
+  "series": "IEEE 2021",
+  "doi": "10.1109/TVCG.2021.3114844",
+  "keywords": "data visualization, visualization, cognition, interactive systems, tools, pragmatics, pattern recognition, superpowers, empowerment, vision, perception, fiction, situated visualization",
+  "award": "Best Paper",
+  "pages": 11,
+  "abstract": "We explore how the lens of fictional superpowers can help characterize how visualizations empower people and provide inspiration for new visualization systems. Researchers and practitioners often tout visualizations' ability to “make the invisible visible” and to “enhance cognitive abilities.” Meanwhile superhero comics and other modern fiction often depict characters with similarly fantastic abilities that allow them to see and interpret the world in ways that transcend traditional human perception. We investigate the intersection of these domains, and show how the language of superpowers can be used to characterize existing visualization systems and suggest opportunities for new and empowering ones. We introduce two frameworks: The first characterizes seven underlying mechanisms that form the basis for a variety of visual superpowers portrayed in fiction. The second identifies seven ways in which visualization tools and interfaces can instill a sense of empowerment in the people who use them. Building on these observations, we illustrate a diverse set of “visualization superpowers” and highlight opportunities for the visualization community to create new systems and interactions that empower new experiences with data. Material and illustrations are available under CC-BY 4.0 at osf.io/8yhfz.",
+  "dir": "content/output/publications",
+  "base": "ieee-2021-willett.json",
+  "ext": ".json",
+  "sourceBase": "ieee-2021-willett.yaml",
+  "sourceExt": ".yaml"
+}

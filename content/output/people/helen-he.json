@@ -1,0 +1,21 @@
+{
+  "name": "Helen Ai He",
+  "type": "faculty",
+  "title": "Assistant Professor",
+  "keywords": [
+    "Cross-Cultural Collaboration"
+  ],
+  "order": 5,
+  "url": "https://ryosuzuki.org",
+  "scholar": "https://scholar.google.com/citations?user=klWjaQIAAAAJ",
+  "twitter": "https://twitter.com/ryosuzk",
+  "facebook": "https://www.facebook.com/ryosuzk",
+  "email": "ryo.suzuki@ucalgary.ca",
+  "github": "https://github.com/ryosuzuki",
+  "linkedin": "https://www.linkedin.com/in/ryosuzuki/",
+  "dir": "content/output/people",
+  "base": "helen-he.json",
+  "ext": ".json",
+  "sourceBase": "helen-he.yaml",
+  "sourceExt": ".yaml"
+}

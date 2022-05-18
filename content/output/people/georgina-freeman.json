@@ -1,0 +1,9 @@
+{
+  "name": "Georgina Freeman",
+  "type": "phd",
+  "dir": "content/output/people",
+  "base": "georgina-freeman.json",
+  "ext": ".json",
+  "sourceBase": "georgina-freeman.yaml",
+  "sourceExt": ".yaml"
+}

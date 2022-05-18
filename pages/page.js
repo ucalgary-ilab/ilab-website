@@ -2,9 +2,11 @@ import React from 'react'
 
 import ReactMarkdown from 'react-markdown'
 
+import Meta from './meta'
 import Header from './header'
 import Labs from './labs'
 import News from './news'
+import Seminar from './seminar'
 import Publications from './publications'
 import People from './people'
 import Courses from './courses'
@@ -31,6 +33,8 @@ class Page extends React.Component {
         return <Facility />
       case 'news':
         return <News />
+      case 'seminar':
+        return <Seminar />
       case 'location':
         return <Location />
     }
@@ -40,7 +44,9 @@ class Page extends React.Component {
 
     return (
       <div>
-        <title>{ `${this.props.title } - Interactions Lab | University of Calgary HCI Group` }</title>
+        <Meta
+          title={ this.props.title }
+        />
 
         <Header current={ this.props.title } />
 

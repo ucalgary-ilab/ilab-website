@@ -1,4 +1,5 @@
 import React from 'react'
+import _ from 'lodash'
 
 class Detail extends React.Component {
   constructor(props) {
@@ -53,6 +54,19 @@ class Detail extends React.Component {
         this.publication.embedThumbnail = this.props.vimeo[this.publication.embedId]
       }
     }
+
+    if (this.publication.talk) {
+      if (this.publication.talk.includes('youtube')) {
+        this.publication.talkEmbedId = this.publication.talk.split('?v=')[1]
+        this.publication.talkEmbed = `https://www.youtube.com/embed/${this.publication.talkEmbedId}`
+        this.publication.talkEmbedThumbnail = `https://img.youtube.com/vi/${this.publication.talkEmbedId}/maxresdefault.jpg`
+      }
+      if (this.publication.talk.includes('vimeo')) {
+        this.publication.talkEmbedId = this.publication.talk.split('/')[3]
+        this.publication.talkEmbed = `https://player.vimeo.com/video/${this.publication.talkEmbedId}`
+        this.publication.talkEmbedThumbnail = this.props.vimeo[this.publication.talkEmbedId]
+      }
+    }
   }
 
   getFigures() {
@@ -83,6 +97,7 @@ class Detail extends React.Component {
             <i className="right angle icon divider"></i>
             <a className="active section">{ this.publication.series }</a>
           </div>
+
           <div className="ui stackable grid" style={{ marginTop: '10px' }}>
             <div className="three wide column" style={{ margin: 'auto' }}>
               <img className="cover" src={ `/static/images/publications/cover/${ this.publication.id }.jpg` } />
@@ -109,6 +124,11 @@ class Detail extends React.Component {
                     )
                   }).reduce((prev, current) => [prev, ' , ', current])
                 }
+              </p>
+              <p>
+                <a href={ `/static/publications/${this.publication.id}.pdf` } target="_blank">
+                  <i className="far fa-file-pdf fa-fw"></i>{ `${this.publication.id}.pdf` }
+                </a>
               </p>
             </div>
           </div>
@@ -138,10 +158,10 @@ class Detail extends React.Component {
           <p>{ this.publication.abstract }</p>
 
           { this.publication.keywords &&
-            <div className="ui labels">
+            <div className="ui large basic labels">
               Keywords: &nbsp;
               { this.publication.keywords.split(', ').map((keyword) => {
-                return <span className="ui large label" key={ keyword }>{ keyword }</span>
+                return <span className="ui brown basic label" key={ keyword }>{ _.startCase(keyword) }</span>
               }) }
             </div>
           }
@@ -159,6 +179,27 @@ class Detail extends React.Component {
             </p>
           </div>
         </div>
+        { this.publication.talkEmbed &&
+          <div className="block">
+            <h1>Talk</h1>
+            <div className="video-container">
+              <iframe
+                className="embed"
+                width="100%"
+                height="315"
+                src={`${this.publication.talkEmbed}`}
+                srcDoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=${this.publication.talkEmbed}?autoplay=1><img src=${this.publication.talkEmbedThumbnail}><span>▶</span></a>`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen={true}
+                mozallowfullscreen="true"
+                msallowfullscreen="true"
+                oallowfullscreen="true"
+                webkitallowfullscreen="true"
+              ></iframe>
+            </div>
+          </div>
+        }
         { this.showFigures &&
           <div className="block">
             <h1>Figures</h1>

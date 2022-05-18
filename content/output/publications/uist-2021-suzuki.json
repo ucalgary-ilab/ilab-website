@@ -1,0 +1,22 @@
+{
+  "date": "2021-10",
+  "title": "HapticBots: Distributed Encountered-type Haptics for VR with Multiple Shape-changing Mobile Robots",
+  "authors": [
+    "Ryo Suzuki",
+    "Eyal Ofek",
+    "Mike Sinclair",
+    "Daniel Leithinger",
+    "Mar Gonzalez-Franco"
+  ],
+  "series": "UIST 2021",
+  "doi": "https://doi.org/10.1145/3472749.3474821",
+  "keywords": "virtual reality, encountered-type haptics, tabletop mobile robots, swarm user interfaces",
+  "video": "https://www.youtube.com/watch?v=HTiZgOESJyQ",
+  "pages": 16,
+  "abstract": "HapticBots introduces a novel encountered-type haptic approach for Virtual Reality (VR) based on multiple tabletop-size shape-changing robots. These robots move on a tabletop and change their height and orientation to haptically render various surfaces and objects on-demand. Compared to previous encountered-type haptic ap- proaches like shape displays or robotic arms, our proposed approach has an advantage in deployability, scalability, and generalizability---these robots can be easily deployed due to their compact form factor. They can support multiple concurrent touch points in a large area thanks to the distributed nature of the robots. We propose and evaluate a novel set of interactions enabled by these robots which include: 1) rendering haptics for VR objects by providing just-in- time touch-points on the user’s hand, 2) simulating continuous surfaces with the concurrent height and position change, and 3) enabling the user to pick up and move VR objects through graspable proxy objects. Finally, we demonstrate HapticBots with various ap- plications, including remote collaboration, education and training, design and 3D modeling, and gaming and entertainment.",
+  "dir": "content/output/publications",
+  "base": "uist-2021-suzuki.json",
+  "ext": ".json",
+  "sourceBase": "uist-2021-suzuki.yaml",
+  "sourceExt": ".yaml"
+}

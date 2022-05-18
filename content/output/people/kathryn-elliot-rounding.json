@@ -1,0 +1,10 @@
+{
+  "name": "Kathryn Elliot-Rounding",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "kathryn-elliot-rounding.json",
+  "ext": ".json",
+  "sourceBase": "kathryn-elliot-rounding.yaml",
+  "sourceExt": ".yaml"
+}

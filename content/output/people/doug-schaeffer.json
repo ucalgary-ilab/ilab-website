@@ -1,0 +1,10 @@
+{
+  "name": "Doug Schaeffer",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "doug-schaeffer.json",
+  "ext": ".json",
+  "sourceBase": "doug-schaeffer.yaml",
+  "sourceExt": ".yaml"
+}

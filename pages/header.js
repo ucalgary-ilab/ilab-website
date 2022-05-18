@@ -10,7 +10,7 @@ class Header extends React.Component {
       'People',
       'Courses',
       'Facility',
-      'News',
+      'Seminar',
       'Location'
     ]
   }

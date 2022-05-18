@@ -1,0 +1,10 @@
+{
+  "name": "Gregor McEwan",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "gregor-mcewan.json",
+  "ext": ".json",
+  "sourceBase": "gregor-mcewan.yaml",
+  "sourceExt": ".yaml"
+}

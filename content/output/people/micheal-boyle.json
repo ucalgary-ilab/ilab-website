@@ -1,0 +1,10 @@
+{
+  "name": "Micheal Boyle",
+  "type": "alumni",
+  "past": "phd",
+  "dir": "content/output/people",
+  "base": "micheal-boyle.json",
+  "ext": ".json",
+  "sourceBase": "micheal-boyle.yaml",
+  "sourceExt": ".yaml"
+}

@@ -14,14 +14,20 @@
   {
     "id": "dataexperience",
     "description": "Visual Data-driven Tools and Experiences",
-    "prof": "Wesley Willet",
+    "prof": "Wesley Willett",
     "url": "https://dataexperience.cpsc.ucalgary.ca/"
   },
   {
     "id": "suzuki",
-    "description": "Tangible and Shape-changing Interfaces",
+    "description": "Programmable Reality Lab - Tangible, AR/VR, and Robotics",
     "prof": "Ryo Suzuki",
-    "url": "https://ryosuzuki.org/"
+    "url": "https://programmable-reality-lab.github.io/"
+  },
+  {
+    "id": "c3-lab",
+    "description": "Tech to Bridge Cultural Barriers, Improve Collaboration, & Build Community",
+    "prof": "Helen Ai He",
+    "url": "https://helenaihe.com/research/"
   },
   {
     "id": "grouplab",

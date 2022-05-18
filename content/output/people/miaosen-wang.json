@@ -1,0 +1,10 @@
+{
+  "name": "Miaosen Wang",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "miaosen-wang.json",
+  "ext": ".json",
+  "sourceBase": "miaosen-wang.yaml",
+  "sourceExt": ".yaml"
+}

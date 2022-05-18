@@ -1,0 +1,10 @@
+{
+  "name": "Colin Au Yeung",
+  "type": "undergrad",
+  "url": "https://colinauyeung.github.io/",
+  "dir": "content/output/people",
+  "base": "colin-auyeung.json",
+  "ext": ".json",
+  "sourceBase": "colin-auyeung.yaml",
+  "sourceExt": ".yaml"
+}

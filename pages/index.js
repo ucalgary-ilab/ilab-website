@@ -2,9 +2,11 @@ import React from 'react'
 
 import ReactMarkdown from 'react-markdown'
 
+import Meta from './meta'
 import Header from './header'
 import Labs from './labs'
 import News from './news'
+import Seminar from './seminar'
 import Publications from './publications'
 import People from './people'
 import Location from './location'
@@ -18,7 +20,7 @@ class Index extends React.Component {
 
     return (
       <div>
-        <title>Interactions Lab | University of Calgary HCI Group</title>
+        <Meta />
 
         <Header />
 
@@ -27,7 +29,6 @@ class Index extends React.Component {
             <source src="/static/videos/top.mp4" type="video/mp4"></source>
           </video>
         </div>
-
 
         <div className="ui stackable grid">
           <div className="eleven wide column centered">

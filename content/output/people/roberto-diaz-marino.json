@@ -1,0 +1,10 @@
+{
+  "name": "Roberto Diaz Marino",
+  "type": "alumni",
+  "past": "master",
+  "dir": "content/output/people",
+  "base": "roberto-diaz-marino.json",
+  "ext": ".json",
+  "sourceBase": "roberto-diaz-marino.yaml",
+  "sourceExt": ".yaml"
+}

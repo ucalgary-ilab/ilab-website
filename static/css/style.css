@@ -86,7 +86,6 @@ a {
   color: brown;
 }
 
-
 .card-color-0, .card-color-1, .card-color-2, .card-color-3{
   background: #dd2725;
 }
@@ -94,6 +93,19 @@ a {
 .card-color-4, .card-color-5, .card-color-6, .card-color-7{
   background: #f1c40b;
 }
+
+.card-color-0 { background: rgb(24, 91, 121); }
+.card-color-1 { background: rgb(32, 149, 186); }
+.card-color-2 { background: rgb(87, 167, 147); }
+.card-color-3 { background: rgb(163, 184, 108); }
+.card-color-4 { background: rgb(223, 198, 61); }
+.card-color-5 { background: rgb(223, 198, 61); }
+.card-color-6 { background: rgb(236, 170, 53); }
+.card-color-7 { background: rgb(237, 137, 37); }
+.card-color-8 { background: rgb(193, 72, 36); }
+
+
+
 
 
 a {
@@ -159,7 +171,7 @@ a:hover {
   max-height: 120px;
   padding: 20px;
   width: 100%;
-  max-width: 490px;
+  max-width: 450px;
   transition: 0.8s;
   object-fit: cover;
 }
@@ -249,6 +261,12 @@ a:hover {
   object-fit: cover;
 }
 
+
+#seminar img.photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 
 #breadcrumb {
   padding: 0;

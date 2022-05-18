@@ -9,6 +9,7 @@
   "series": "MobileHCI 2019",
   "doi": "https://doi.org/10.1145/3338286.3340122",
   "keywords": "smartwatch, cross-device interaction, pen interaction, interaction techniques",
+  "video": "https://www.youtube.com/watch?v=ilyJBzTzQAA",
   "pages": 8,
   "abstract": "Pen-based input is often treated as auxiliary to mobile devices. We posit that cross-device interactions can inspire and extend the design space of pen-based interactions into new, expressive directions. We realize this through WatchPen, a smartwatch mounted on a passive, capacitive stylus that: (1) senses the usage context and leverages it for expression (e.g., changing colour), (2) contains tools and parameters within the display, and (3) acts as an on-demand output. As a result, it provides users with a dynamic relationship between inputs and outputs, awareness of current tool selection and parameters, and increased expressive match (e.g., added ability to mimic physical tools, showing clipboard contents). We discuss and reflect upon a series of interaction techniques that demonstrate WatchPen within a drawing application. We highlight the expressive power of leveraging multiple sensing and output capabilities across both the watch-augmented stylus and the tablet surface.",
   "dir": "content/output/publications",

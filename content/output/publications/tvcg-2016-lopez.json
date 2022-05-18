@@ -11,6 +11,7 @@
   "doi": "https://doi.org/10.1109/TVCG.2015.2440233",
   "keywords": "visualization of 3D data, human-computer interaction, expert interaction, direct-touch input, mobile displays, stereoscopic environments, VR, AR, conceptual model of interaction, interaction reference frame mapping, observational study",
   "video": "https://www.youtube.com/watch?v=jBtHgTYpJl0",
+  "talk": "https://vimeo.com/245846750",
   "pages": 13,
   "abstract": "We discuss touch-based navigation of 3D visualizations in a combined monoscopic and stereoscopic viewing environment. We identify a set of interaction modes, and a workflow that helps users transition between these modes to improve their interaction experience. In our discussion we analyze, in particular, the control-display space mapping between the different reference frames of the stereoscopic and monoscopic displays. We show how this mapping supports interactive data exploration, but may also lead to conflicts between the stereoscopic and monoscopic views due to users' movement in space; we resolve these problems through synchronization. To support our discussion, we present results from an exploratory observational evaluation with domain experts in fluid mechanics and structural biology. These experts explored domain-specific datasets using variations of a system that embodies the interaction modes and workflows; we report on their interactions and qualitative feedback on the system and its workflow.",
   "dir": "content/output/publications",
