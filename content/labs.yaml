@@ -23,10 +23,10 @@
   prof: Helen Ai He
   url: https://helenaihe.com/research/
 
-- id: aditya
-  description: Enable the seamless integration of interactive computing devices into our daily environment
-  prof: Aditya Shekhar Nittala
-  url: https://sites.google.com/site/adityanittala/
+#- id: aditya
+#  description: Enable the seamless integration of interactive computing devices into our daily environment
+#  prof: Aditya Shekhar Nittala
+#  url: https://sites.google.com/site/adityanittala/
 
 - id: grouplab
   description: Research in HCI, CSCW, and UbiComp

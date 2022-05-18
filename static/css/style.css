@@ -168,10 +168,10 @@ a:hover {
 #labs .img {
   /*opacity: 0.6;*/
   display: block;
-  max-height: 145px;
+  max-height: 120px;
   padding: 20px;
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   transition: 0.8s;
   object-fit: cover;
 }

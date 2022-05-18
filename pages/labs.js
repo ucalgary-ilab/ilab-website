@@ -10,7 +10,7 @@ class Labs extends React.Component {
         <h1 className="ui horizontal divider header">
           Research Labs
         </h1>
-        <div id="labs" className="ui three cards" style={{ textAlign: 'center', marginTop: '15px' }}>
+        <div id="labs" className="ui four cards" style={{ textAlign: 'center', marginTop: '15px' }}>
           { labs.map((lab, i) => {
             return (
               <div className="card" key={ lab.id } style={{ padding: '15px' }}>
