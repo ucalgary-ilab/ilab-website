@@ -99,9 +99,10 @@ a {
 .card-color-2 { background: rgb(87, 167, 147); }
 .card-color-3 { background: rgb(163, 184, 108); }
 .card-color-4 { background: rgb(223, 198, 61); }
-.card-color-5 { background: rgb(236, 170, 53); }
-.card-color-6 { background: rgb(237, 137, 37); }
-.card-color-7 { background: rgb(193, 72, 36); }
+.card-color-5 { background: rgb(223, 198, 61); }
+.card-color-6 { background: rgb(236, 170, 53); }
+.card-color-7 { background: rgb(237, 137, 37); }
+.card-color-8 { background: rgb(193, 72, 36); }
 
 
 
@@ -167,10 +168,10 @@ a:hover {
 #labs .img {
   /*opacity: 0.6;*/
   display: block;
-  max-height: 120px;
+  max-height: 145px;
   padding: 20px;
   width: 100%;
-  max-width: 490px;
+  max-width: 500px;
   transition: 0.8s;
   object-fit: cover;
 }
