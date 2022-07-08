@@ -474,6 +474,10 @@
               "name": "paul-lapides.jpg"
             },
             {
+              "path": "static/images/people/priya-dhawka.jpg",
+              "name": "priya-dhawka.jpg"
+            },
+            {
               "path": "static/images/people/ritik-vatsal.jpg",
               "name": "ritik-vatsal.jpg"
             },
@@ -578,6 +582,14 @@
                 {
                   "path": "static/images/publications/cover/assets-2017-suzuki.jpg",
                   "name": "assets-2017-suzuki.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/cga-2019-ivanov.jpg",
+                  "name": "cga-2019-ivanov.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/cgi-2019-danyluk.png",
+                  "name": "cgi-2019-danyluk.png"
                 },
                 {
                   "path": "static/images/publications/cover/chi-2015-aseniero.jpg",
@@ -886,6 +898,10 @@
                 {
                   "path": "static/images/publications/cover/tvcg-2019-walny.jpg",
                   "name": "tvcg-2019-walny.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/tvcg-2020-danyluk.png",
+                  "name": "tvcg-2020-danyluk.png"
                 },
                 {
                   "path": "static/images/publications/cover/uist-2018-suzuki-2.jpg",

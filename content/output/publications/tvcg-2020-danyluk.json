@@ -1,0 +1,21 @@
+{
+  "date": "2020-09",
+  "title": "Touch and Beyond: Comparing Physical and Virtual Reality Visualizations",
+  "authors": [
+    "Kurtis Thorvald Danyluk",
+    "Teoman Tomo Ulusoy",
+    "Wei Wei",
+    "Wesley J. Willett"
+  ],
+  "series": "TVCG 2020",
+  "doi": "http://dx.doi.org/10.1109/TVCG.2020.3023336",
+  "keywords": "Human-Computer Interaction, Visualization, Data Visualization, Virtual Reality, Physicalization.",
+  "pages": 12,
+  "video": "https://prism.ucalgary.ca/streamview/bitstream/handle/1880/112684/2020-Danyluk-TouchAndBeyond-Video.mp4?sequence=3",
+  "abstract": "We compare physical and virtual reality (VR) versions of simple data visualizations and explore how the addition of virtual annotation and filtering tools affects how viewers solve basic data analysis tasks. We report on two studies, inspired by previous examinations of data physicalizations. The first study examines differences in how viewers interact with physical hand-scale, virtual hand-scale, and virtual table-scale visualizations and the impact that the different forms had on viewer’s problem solving behavior. A second study examines how interactive annotation and filtering tools might support new modes of use that transcend the limitations of physical representations. Our results highlight challenges associated with virtual reality representations and hint at the potential of interactive annotation and filtering tools in VR visualizations.",
+  "dir": "content/output/publications",
+  "base": "tvcg-2020-danyluk.json",
+  "ext": ".json",
+  "sourceBase": "tvcg-2020-danyluk.yaml",
+  "sourceExt": ".yaml"
+}

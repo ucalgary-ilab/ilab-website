@@ -1504,6 +1504,46 @@
       "sourceBase": "assets-2017-suzuki.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/cga-2019-ivanov.json": {
+      "date": "2019-02",
+      "title": "A Walk Among the Data",
+      "authors": [
+        "Alexander Ivanov",
+        "Kurtis Danyluk",
+        "Christian Jacob",
+        "Wesley Willett"
+      ],
+      "series": "IEEE CG&A 2019",
+      "doi": "http://dx.doi.org/10.1109/MCG.2019.2898941",
+      "keywords": "Data visualization, Visualization, Art, Tools, Virtual environments, Two dimensional displays, Anthropomorphism",
+      "pages": 9,
+      "video": null,
+      "abstract": "We examine the potential for immersive unit visualizations—interactive virtual environments populated with objects representing individual items in a dataset. Our virtual reality prototype highlights how immersive unit visualizations can allow viewers to examine data at multiple scales, support immersive exploration, and create affective personal experiences with data.",
+      "dir": "content/output/publications",
+      "base": "cga-2019-ivanov.json",
+      "ext": ".json",
+      "sourceBase": "cga-2019-ivanov.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/cgi-2019-danyluk.json": {
+      "date": "2019-06",
+      "title": "Evaluating the Performance of Virtual Reality Navigation Techniques for Large Environments",
+      "authors": [
+        "Kurtis Thorvald Danyluk",
+        "Wesley J. Willett"
+      ],
+      "series": "CGI 2019",
+      "doi": "http://dx.doi.org/10.1007/978-3-030-22514-8_17",
+      "keywords": "Human computer interaction (HCI), Virtual reality, Digital maps, Navigation",
+      "pages": 13,
+      "video": null,
+      "abstract": "We present results from two studies comparing the performance of four different navigation techniques (flight, teleportation, world-in-miniature, and 3D cone-drag) and their combinations in large virtual reality map environments. While prior work has individually examined each of these techniques in other settings, our study presents the first direct comparison between them in large open environments, as well as one of the first comparisons in the context of current-generation virtual reality hardware. Our first study compared common techniques (flight, teleportation, and world-in-miniature) for search and navigation tasks. A follow-up study compared these techniques against 3D cone drag, a direct-manipulation navigation technique used in contemporary tools like Google Earth VR. Our results show the strength of flight as a stand-alone navigation technique, but also highlight five specific ways in which viewers can combine teleportation, world-in-miniature, and 3D cone drag with flight, drawing on the relative strengths of each technique to compensate for the weaknesses of others.",
+      "dir": "content/output/publications",
+      "base": "cgi-2019-danyluk.json",
+      "ext": ".json",
+      "sourceBase": "cgi-2019-danyluk.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/chi-2015-aseniero.json": {
       "date": "2015-04",
       "title": "Stratos: Using Visualization to Support Decisions in Strategic Software Release Planning",
@@ -3069,6 +3109,27 @@
       "sourceBase": "tvcg-2019-walny.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/tvcg-2020-danyluk.json": {
+      "date": "2020-09",
+      "title": "Touch and Beyond: Comparing Physical and Virtual Reality Visualizations",
+      "authors": [
+        "Kurtis Thorvald Danyluk",
+        "Teoman Tomo Ulusoy",
+        "Wei Wei",
+        "Wesley J. Willett"
+      ],
+      "series": "TVCG 2020",
+      "doi": "http://dx.doi.org/10.1109/TVCG.2020.3023336",
+      "keywords": "Human-Computer Interaction, Visualization, Data Visualization, Virtual Reality, Physicalization.",
+      "pages": 12,
+      "video": "https://prism.ucalgary.ca/streamview/bitstream/handle/1880/112684/2020-Danyluk-TouchAndBeyond-Video.mp4?sequence=3",
+      "abstract": "We compare physical and virtual reality (VR) versions of simple data visualizations and explore how the addition of virtual annotation and filtering tools affects how viewers solve basic data analysis tasks. We report on two studies, inspired by previous examinations of data physicalizations. The first study examines differences in how viewers interact with physical hand-scale, virtual hand-scale, and virtual table-scale visualizations and the impact that the different forms had on viewer’s problem solving behavior. A second study examines how interactive annotation and filtering tools might support new modes of use that transcend the limitations of physical representations. Our results highlight challenges associated with virtual reality representations and hint at the potential of interactive annotation and filtering tools in VR visualizations.",
+      "dir": "content/output/publications",
+      "base": "tvcg-2020-danyluk.json",
+      "ext": ".json",
+      "sourceBase": "tvcg-2020-danyluk.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/uist-2018-suzuki.json": {
       "date": "2018-10",
       "title": "Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
@@ -3602,6 +3663,8 @@
     "content/people/zachary-mckendrick.yaml",
     "content/people/zhijie-xia.yaml",
     "content/publications/assets-2017-suzuki.yaml",
+    "content/publications/cga-2019-ivanov.yaml",
+    "content/publications/cgi-2019-danyluk.yaml",
     "content/publications/chi-2015-aseniero.yaml",
     "content/publications/chi-2015-jones.yaml",
     "content/publications/chi-2015-oehlberg.yaml",
@@ -3674,6 +3737,7 @@
     "content/publications/tvcg-2017-willett.yaml",
     "content/publications/tvcg-2019-blascheck.yaml",
     "content/publications/tvcg-2019-walny.yaml",
+    "content/publications/tvcg-2020-danyluk.yaml",
     "content/publications/uist-2018-suzuki.yaml",
     "content/publications/uist-2019-suzuki.yaml",
     "content/publications/uist-2020-suzuki.yaml",

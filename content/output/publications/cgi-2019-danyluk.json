@@ -1,0 +1,19 @@
+{
+  "date": "2019-06",
+  "title": "Evaluating the Performance of Virtual Reality Navigation Techniques for Large Environments",
+  "authors": [
+    "Kurtis Thorvald Danyluk",
+    "Wesley J. Willett"
+  ],
+  "series": "CGI 2019",
+  "doi": "http://dx.doi.org/10.1007/978-3-030-22514-8_17",
+  "keywords": "Human computer interaction (HCI), Virtual reality, Digital maps, Navigation",
+  "pages": 13,
+  "video": null,
+  "abstract": "We present results from two studies comparing the performance of four different navigation techniques (flight, teleportation, world-in-miniature, and 3D cone-drag) and their combinations in large virtual reality map environments. While prior work has individually examined each of these techniques in other settings, our study presents the first direct comparison between them in large open environments, as well as one of the first comparisons in the context of current-generation virtual reality hardware. Our first study compared common techniques (flight, teleportation, and world-in-miniature) for search and navigation tasks. A follow-up study compared these techniques against 3D cone drag, a direct-manipulation navigation technique used in contemporary tools like Google Earth VR. Our results show the strength of flight as a stand-alone navigation technique, but also highlight five specific ways in which viewers can combine teleportation, world-in-miniature, and 3D cone drag with flight, drawing on the relative strengths of each technique to compensate for the weaknesses of others.",
+  "dir": "content/output/publications",
+  "base": "cgi-2019-danyluk.json",
+  "ext": ".json",
+  "sourceBase": "cgi-2019-danyluk.yaml",
+  "sourceExt": ".yaml"
+}
