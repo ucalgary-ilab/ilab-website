@@ -1,6 +1,8 @@
 {
   "name": "Sasha Ivanov",
-  "type": "master",
+  "type": "alumni",
+  "past": "master",
+  "now": "Meta Reality Labs",
   "dir": "content/output/people",
   "base": "sasha-ivanov.json",
   "ext": ".json",

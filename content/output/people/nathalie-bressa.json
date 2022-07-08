@@ -1,6 +1,8 @@
 {
   "name": "Nathalie Bressa",
-  "type": "visiting",
+  "type": "alumni",
+  "past": "visiting",
+  "now": "Aarhus University",
   "dir": "content/output/people",
   "base": "nathalie-bressa.json",
   "ext": ".json",

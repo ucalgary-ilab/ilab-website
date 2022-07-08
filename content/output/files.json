@@ -286,6 +286,10 @@
               "name": "aditya-shekhar-nittala.jpg"
             },
             {
+              "path": "static/images/people/adnan-karim.jpg",
+              "name": "adnan-karim.jpg"
+            },
+            {
               "path": "static/images/people/anthony-tang-1.jpg",
               "name": "anthony-tang-1.jpg"
             },
@@ -314,12 +318,20 @@
               "name": "carmen-hull.jpg"
             },
             {
+              "path": "static/images/people/christian-frisson.jpg",
+              "name": "christian-frisson.jpg"
+            },
+            {
               "path": "static/images/people/christopher-rodriguez.jpg",
               "name": "christopher-rodriguez.jpg"
             },
             {
               "path": "static/images/people/christopher-smith.jpg",
               "name": "christopher-smith.jpg"
+            },
+            {
+              "path": "static/images/people/colin-auyeung.jpg",
+              "name": "colin-auyeung.jpg"
             },
             {
               "path": "static/images/people/darcy-norman.jpg",
@@ -334,6 +346,10 @@
               "name": "david-ledo.jpg"
             },
             {
+              "path": "static/images/people/desmond-larsen-rosner.jpg",
+              "name": "desmond-larsen-rosner.jpg"
+            },
+            {
               "path": "static/images/people/ehud-sharlin.jpg",
               "name": "ehud-sharlin.jpg"
             },
@@ -342,8 +358,8 @@
               "name": "georgina-freeman.jpg"
             },
             {
-              "path": "static/images/people/grace-ferguson.jpg",
-              "name": "grace-ferguson.jpg"
+              "path": "static/images/people/grace-ferguson.JPG",
+              "name": "grace-ferguson.JPG"
             },
             {
               "path": "static/images/people/harrison-chen.jpg",
@@ -352,6 +368,10 @@
             {
               "path": "static/images/people/helen-ai-he.jpg",
               "name": "helen-ai-he.jpg"
+            },
+            {
+              "path": "static/images/people/iryna-luchak.jpg",
+              "name": "iryna-luchak.jpg"
             },
             {
               "path": "static/images/people/jessi-stark.jpg",
@@ -364,6 +384,10 @@
             {
               "path": "static/images/people/karthik-mahadevan.jpg",
               "name": "karthik-mahadevan.jpg"
+            },
+            {
+              "path": "static/images/people/katherine-currier.jpg",
+              "name": "katherine-currier.jpg"
             },
             {
               "path": "static/images/people/kathryn-blair.jpg",
@@ -382,8 +406,16 @@
               "name": "kurtis-danyluk.jpg"
             },
             {
+              "path": "static/images/people/kyzyl-monteiro.jpg",
+              "name": "kyzyl-monteiro.jpg"
+            },
+            {
               "path": "static/images/people/lora-oehlberg.jpg",
               "name": "lora-oehlberg.jpg"
+            },
+            {
+              "path": "static/images/people/mackenzie-bowal.jpg",
+              "name": "mackenzie-bowal.jpg"
             },
             {
               "path": "static/images/people/manjot-khangura.jpg",
@@ -400,6 +432,10 @@
             {
               "path": "static/images/people/martin-feick.jpg",
               "name": "martin-feick.jpg"
+            },
+            {
+              "path": "static/images/people/mehrad-faridan.jpg",
+              "name": "mehrad-faridan.jpg"
             },
             {
               "path": "static/images/people/michael-hung.jpg",
@@ -432,6 +468,14 @@
             {
               "path": "static/images/people/nour-hammad.jpg",
               "name": "nour-hammad.jpg"
+            },
+            {
+              "path": "static/images/people/paul-lapides.jpg",
+              "name": "paul-lapides.jpg"
+            },
+            {
+              "path": "static/images/people/ritik-vatsal.jpg",
+              "name": "ritik-vatsal.jpg"
             },
             {
               "path": "static/images/people/roberta-cabral-mota.jpg",
@@ -470,6 +514,10 @@
               "name": "shivesh-jadon.jpg"
             },
             {
+              "path": "static/images/people/shrivatsa-mishra.jpg",
+              "name": "shrivatsa-mishra.jpg"
+            },
+            {
               "path": "static/images/people/soren-knudsen.jpg",
               "name": "soren-knudsen.jpg"
             },
@@ -498,12 +546,20 @@
               "name": "tim-au-yeung.jpg"
             },
             {
+              "path": "static/images/people/wei-wei.jpg",
+              "name": "wei-wei.jpg"
+            },
+            {
               "path": "static/images/people/wesley-willett.jpg",
               "name": "wesley-willett.jpg"
             },
             {
               "path": "static/images/people/zachary-mckendrick.jpg",
               "name": "zachary-mckendrick.jpg"
+            },
+            {
+              "path": "static/images/people/zhijie-xia.jpg",
+              "name": "zhijie-xia.jpg"
             }
           ]
         },
@@ -906,6 +962,10 @@
                       "name": "cover-5.jpg"
                     },
                     {
+                      "path": "static/images/publications/figures/iros-2020-hedayati/design-space.jpg",
+                      "name": "design-space.jpg"
+                    },
+                    {
                       "path": "static/images/publications/figures/iros-2020-hedayati/drone.jpg",
                       "name": "drone.jpg"
                     },
@@ -1058,6 +1118,14 @@
               "name": "alicia-nahmad-vazquez.jpg"
             },
             {
+              "path": "static/images/seminar/andrea-bianchi.jpg",
+              "name": "andrea-bianchi.jpg"
+            },
+            {
+              "path": "static/images/seminar/antonio-baia-reis.jpg",
+              "name": "antonio-baia-reis.jpg"
+            },
+            {
               "path": "static/images/seminar/benjamin-bach.jpg",
               "name": "benjamin-bach.jpg"
             },
@@ -1076,6 +1144,10 @@
             {
               "path": "static/images/seminar/haijun-xia.jpg",
               "name": "haijun-xia.jpg"
+            },
+            {
+              "path": "static/images/seminar/ignacio-avellino.jpg",
+              "name": "ignacio-avellino.jpg"
             },
             {
               "path": "static/images/seminar/james-young.jpg",
@@ -1098,6 +1170,10 @@
               "name": "liang-he.jpg"
             },
             {
+              "path": "static/images/seminar/luiz-morais.jpg",
+              "name": "luiz-morais.jpg"
+            },
+            {
               "path": "static/images/seminar/maxime-cordeil.jpg",
               "name": "maxime-cordeil.jpg"
             },
@@ -1108,6 +1184,10 @@
             {
               "path": "static/images/seminar/pedro-lopes.jpg",
               "name": "pedro-lopes.jpg"
+            },
+            {
+              "path": "static/images/seminar/rong-hao-liang.jpg",
+              "name": "rong-hao-liang.jpg"
             },
             {
               "path": "static/images/seminar/rubaiat-habib.jpg",

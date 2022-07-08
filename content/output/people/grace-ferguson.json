@@ -1,6 +1,7 @@
 {
   "name": "Grace Ferguson",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "dir": "content/output/people",
   "base": "grace-ferguson.json",
   "ext": ".json",

@@ -1,6 +1,8 @@
 {
   "name": "Carmen Hull",
-  "type": "phd",
+  "type": "alumni",
+  "past": "phd",
+  "now": "Northeastern University",
   "url": "https://www.carmenhull.com/",
   "dir": "content/output/people",
   "base": "carmen-hull.json",

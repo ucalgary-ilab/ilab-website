@@ -1,6 +1,7 @@
 {
   "name": "Manjot Khangura",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "email": "manjot.khangura@ucalgary.ca",
   "linkedin": "https://www.linkedin.com/in/manjot-khangura/",
   "dir": "content/output/people",

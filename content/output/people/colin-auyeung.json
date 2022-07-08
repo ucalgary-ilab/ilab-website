@@ -1,7 +1,8 @@
 {
   "name": "Colin Au Yeung",
-  "type": "undergrad",
+  "type": "master",
   "url": "https://colinauyeung.github.io/",
+  "email": "colinauyeung@ucalgary.ca",
   "dir": "content/output/people",
   "base": "colin-auyeung.json",
   "ext": ".json",

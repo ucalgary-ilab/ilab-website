@@ -1,6 +1,8 @@
 {
   "name": "Sabrina Lakhdhir",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
+  "now": "University of Victoria",
   "dir": "content/output/people",
   "base": "sabrina-lakhdhir.json",
   "ext": ".json",

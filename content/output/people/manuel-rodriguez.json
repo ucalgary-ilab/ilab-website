@@ -1,6 +1,7 @@
 {
   "name": "Manuel Rodriguez",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "email": "manuel.rodriguez@ucalgary.ca",
   "linkedin": "https://www.linkedin.com/in/manuel-rodriguez/",
   "dir": "content/output/people",

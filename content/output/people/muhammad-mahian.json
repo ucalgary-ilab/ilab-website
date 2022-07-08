@@ -1,0 +1,10 @@
+{
+  "name": "Muhammad Mahian",
+  "type": "undergrad",
+  "email": "muhammad.mahian@ucalgary.ca",
+  "dir": "content/output/people",
+  "base": "muhammad-mahian.json",
+  "ext": ".json",
+  "sourceBase": "muhammad-mahian.yaml",
+  "sourceExt": ".yaml"
+}

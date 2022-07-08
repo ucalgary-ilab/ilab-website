@@ -1,6 +1,7 @@
 {
   "name": "Nour Hammad",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "dir": "content/output/people",
   "base": "nour-hammad.json",
   "ext": ".json",

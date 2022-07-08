@@ -1,6 +1,7 @@
 {
   "name": "Christopher Rodriguez",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "email": "christopher.rodrigue@ucalgary.ca",
   "linkedin": "https://www.linkedin.com/in/christopher-rodriguez-74259217a/",
   "dir": "content/output/people",
