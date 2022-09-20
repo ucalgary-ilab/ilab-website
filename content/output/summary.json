@@ -835,6 +835,17 @@
       "sourceBase": "kendra-wannamaker.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/kevin-van.json": {
+      "name": "Kevin Van",
+      "type": "undergrad",
+      "email": "kevin.van@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/kevin-van-a66130204/",
+      "dir": "content/output/people",
+      "base": "kevin-van.json",
+      "ext": ".json",
+      "sourceBase": "kevin-van.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/kimberly-tee.json": {
       "name": "Kimberly Tee",
       "type": "alumni",
@@ -1205,7 +1216,7 @@
     "content/output/people/samin-farajian.json": {
       "name": "Samin Farajian",
       "type": "master",
-      "url": "https://farajiansamin.github.io/work.html",
+      "url": "https://farajiansamin.github.io",
       "linkedin": "https://www.linkedin.com/in/samin-farajian-736018140/",
       "dir": "content/output/people",
       "base": "samin-farajian.json",
@@ -3608,6 +3619,7 @@
     "content/people/kathryn-elliot-rounding.yaml",
     "content/people/kaynen-mitchell.yaml",
     "content/people/kendra-wannamaker.yaml",
+    "content/people/kevin-van.yaml",
     "content/people/kimberly-tee.yaml",
     "content/people/kurtis-danyluk.yaml",
     "content/people/kyzyl-monteiro.yaml",
