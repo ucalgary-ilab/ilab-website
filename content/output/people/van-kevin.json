@@ -1,0 +1,11 @@
+{
+  "name": "Kevin Van",
+  "type": "undergrad",
+  "email": "kevin.van@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/kevin-van-a66130204/",
+  "dir": "content/output/people",
+  "base": "van-kevin.json",
+  "ext": ".json",
+  "sourceBase": "van-kevin.yaml",
+  "sourceExt": ".yaml"
+}
