@@ -1,0 +1,9 @@
+{
+  "name": "Nelson Wong",
+  "type": "alumni",
+  "dir": "content/output/people",
+  "base": "nelson-wong.json",
+  "ext": ".json",
+  "sourceBase": "nelson-wong.yaml",
+  "sourceExt": ".yaml"
+}

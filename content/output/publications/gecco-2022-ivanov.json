@@ -1,0 +1,19 @@
+{
+  "date": "2022-07",
+  "title": "EvoIsland: Interactive Evolution via an Island-Inspired Spatial User Interface Framework",
+  "authors": [
+    "Sasha Ivanov",
+    "Wesley Willett",
+    "Christian Jacob"
+  ],
+  "series": "GECCO 2022",
+  "doi": "https://doi.org/10.1145/3512290.3528722",
+  "keywords": "Interactive Evolutionary Systems, User Interfaces, Visualization",
+  "pages": 8,
+  "abstract": "We present EvoIsland, a scalable interactive evolutionary user interface framework inspired by the spatially isolated land masses seen on Earth. Our generalizable interaction system encourages creators to spatially explore a wide range of design possibilities through the combination, separation, and rearrangement of hexagonal tiles on a grid. As these tiles are grouped into islandlike clusters, localized populations of designs form through an underlying evolutionary system. The interactions that take place within EvoIsland provide content creators with new ways to shape, display and assess populations in evolutionary systems that produce a wide range of solutions with visual phenotype outputs.",
+  "dir": "content/output/publications",
+  "base": "gecco-2022-ivanov.json",
+  "ext": ".json",
+  "sourceBase": "gecco-2022-ivanov.yaml",
+  "sourceExt": ".yaml"
+}

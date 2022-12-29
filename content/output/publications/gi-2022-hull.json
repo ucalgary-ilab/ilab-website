@@ -1,0 +1,20 @@
+{
+  "date": "2022-05",
+  "title": "Simultaneous Worlds: Supporting Fluid Exploration of Multiple Data Sets via Physical Models",
+  "authors": [
+    "Carmen Hull",
+    "Søren Knudsen",
+    "Sheelagh Carpendale",
+    "Wesley Willett"
+  ],
+  "series": "GI 2022",
+  "doi": "http://hdl.handle.net/1880/114742",
+  "keywords": "Information visualization, interactive surfaces, data physicalization, architectural models",
+  "pages": 10,
+  "abstract": "We take the well-established use of physical scale models in architecture and identify new opportunities for using them to interactively visualize and examine multiple streams of geospatial data. Overlaying, comparing, or integrating visualizations of complementary data sets in the same physical space is often challenging given the constraints of various data types and the limited design space of possible visual encodings. Our vision of “simultaneous worlds” uses physical models as a substrate upon which visualizations of multiple data streams can be dynamically and concurrently integrated. To explore the potential of this concept, we created three design explorations that use an illuminated campus model to integrate visualizations about building energy use, climate, and movement paths on a university campus. We use a research through design approach, documenting how our interdisciplinary collaborations with domain experts, students, and architects informed our designs. Based on our observations, we characterize the benefits of models for 1) situating visualizations, 2) composing visualizations, and 3) manipulating and authoring visualizations. Our work highlights the potential of physical models to support embodied exploration of spatial and non-spatial visualizations through fluid interactions.",
+  "dir": "content/output/publications",
+  "base": "gi-2022-hull.json",
+  "ext": ".json",
+  "sourceBase": "gi-2022-hull.yaml",
+  "sourceExt": ".yaml"
+}

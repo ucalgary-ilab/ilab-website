@@ -1,0 +1,11 @@
+{
+  "name": "Shanna Hollingworth",
+  "type": "undergrad",
+  "email": "shanna.hollingwor1@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/shanna-hollingworth/",
+  "dir": "content/output/people",
+  "base": "shanna-hollingworth.json",
+  "ext": ".json",
+  "sourceBase": "shanna-hollingworth.yaml",
+  "sourceExt": ".yaml"
+}
