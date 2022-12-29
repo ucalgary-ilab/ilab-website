@@ -765,6 +765,16 @@
       "sourceBase": "jiannan-li.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/karly-ross.json": {
+      "name": "Karly Ross",
+      "type": "master",
+      "linkedin": "https://www.linkedin.com/in/karly-j-ross/",
+      "dir": "content/output/people",
+      "base": "karly-ross.json",
+      "ext": ".json",
+      "sourceBase": "karly-ross.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/karthik-mahadevan.json": {
       "name": "Karthik Mahadevan",
       "type": "alumni",
@@ -868,7 +878,8 @@
     },
     "content/output/people/kyzyl-monteiro.json": {
       "name": "Kyzyl Monteiro",
-      "type": "visiting",
+      "type": "alumni",
+      "past": "visiting",
       "url": "https://kyzyl.me",
       "scholar": "https://scholar.google.ca/citations?user=A9IqYNoAAAAJ",
       "twitter": "https://twitter.com/kyzylmonteiro",
@@ -918,6 +929,16 @@
       "base": "mackenzie-bowal.json",
       "ext": ".json",
       "sourceBase": "mackenzie-bowal.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/mackenzie-hisako-dalton.json": {
+      "name": "Mackenzie Hisako Dalton",
+      "type": "undergrad",
+      "url": "https://hisak00.weebly.com/",
+      "dir": "content/output/people",
+      "base": "mackenzie-hisako-dalton.json",
+      "ext": ".json",
+      "sourceBase": "mackenzie-hisako-dalton.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/manjot-khangura.json": {
@@ -1058,7 +1079,8 @@
     },
     "content/output/people/muhammad-mahian.json": {
       "name": "Muhammad Mahian",
-      "type": "undergrad",
+      "type": "alumni",
+      "past": "undergrad",
       "email": "muhammad.mahian@ucalgary.ca",
       "dir": "content/output/people",
       "base": "muhammad-mahian.json",
@@ -1088,6 +1110,15 @@
       "base": "neil-chulpongsatorn.json",
       "ext": ".json",
       "sourceBase": "neil-chulpongsatorn.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/nelson-wong.json": {
+      "name": "Nelson Wong",
+      "type": "alumni",
+      "dir": "content/output/people",
+      "base": "nelson-wong.json",
+      "ext": ".json",
+      "sourceBase": "nelson-wong.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/nicolai-marquardt.json": {
@@ -1149,7 +1180,8 @@
     },
     "content/output/people/ritik-vatsal.json": {
       "name": "Ritik Vatsal",
-      "type": "visiting",
+      "type": "alumni",
+      "past": "visiting",
       "email": "vatrit@gmail.com",
       "github": "https://github.com/RitikVatsal-2019321",
       "linkedin": "https://www.linkedin.com/in/ritik-vatsal/",
@@ -1262,6 +1294,17 @@
       "sourceBase": "setareh-manesh.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/shanna-hollingworth.json": {
+      "name": "Shanna Hollingworth",
+      "type": "undergrad",
+      "email": "shanna.hollingwor1@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/shanna-hollingworth/",
+      "dir": "content/output/people",
+      "base": "shanna-hollingworth.json",
+      "ext": ".json",
+      "sourceBase": "shanna-hollingworth.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/shaun-kaasten.json": {
       "name": "Shaun Kaasten",
       "type": "alumni",
@@ -1304,7 +1347,8 @@
     },
     "content/output/people/shrivatsa-mishra.json": {
       "name": "Shrivatsa Mishra",
-      "type": "visiting",
+      "type": "alumni",
+      "past": "visiting",
       "email": "shrivatsamishra@gmail.com",
       "github": "https://github.com/ShrivatsaMishra",
       "linkedin": "https://www.linkedin.com/in/shrivatsa-mishra/",
@@ -1312,6 +1356,16 @@
       "base": "shrivatsa-mishra.json",
       "ext": ".json",
       "sourceBase": "shrivatsa-mishra.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/simon-kluber.json": {
+      "name": "Simon Klüber",
+      "type": "alumni",
+      "past": "visiting",
+      "dir": "content/output/people",
+      "base": "simon-kluber.json",
+      "ext": ".json",
+      "sourceBase": "simon-kluber.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/soren-knudsen.json": {
@@ -2631,6 +2685,46 @@
       "sourceBase": "dis-2021-wannamaker.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/frobt-2022-suzuki.json": {
+      "date": "2022-04",
+      "title": "Designing Expandable-Structure Robots for Human-Robot Interaction",
+      "authors": [
+        "Hooman Hedayati",
+        "Ryo Suzuki",
+        "Wyatt Rees1",
+        "Daniel Leithinger",
+        "Daniel Szafir"
+      ],
+      "series": "Frontiers 2022",
+      "doi": "https://doi.org/10.3389/frobt.2022.719639",
+      "keywords": "deployable robot, human-robot interaction, modular robot, origami robotics, deployable structures, shape-changing robots",
+      "pages": 22,
+      "abstract": "In this paper, we survey the emerging design space of expandable structures in robotics, with a focus on how such structures may improve human-robot interactions. We detail various implementation considerations for researchers seeking to integrate such structures in their own work and describe how expandable structures may lead to novel forms of interaction for a variety of different robots and applications, including structures that enable robots to alter their form to augment or gain entirely new capabilities, such as enhancing manipulation or navigation, structures that improve robot safety, structures that enable new forms of communication, and structures for robot swarms that enable the swarm to change shape both individually and collectively. To illustrate how these considerations may be operationalized, we also present three case studies from our own research in expandable structure robots, sharing our design process and our findings regarding how such structures enable robots to produce novel behaviors that may capture human attention, convey information, mimic emotion, and provide new types of dynamic affordances.",
+      "dir": "content/output/publications",
+      "base": "frobt-2022-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "frobt-2022-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/gecco-2022-ivanov.json": {
+      "date": "2022-07",
+      "title": "EvoIsland: Interactive Evolution via an Island-Inspired Spatial User Interface Framework",
+      "authors": [
+        "Sasha Ivanov",
+        "Wesley Willett",
+        "Christian Jacob"
+      ],
+      "series": "GECCO 2022",
+      "doi": "https://doi.org/10.1145/3512290.3528722",
+      "keywords": "Interactive Evolutionary Systems, User Interfaces, Visualization",
+      "pages": 8,
+      "abstract": "We present EvoIsland, a scalable interactive evolutionary user interface framework inspired by the spatially isolated land masses seen on Earth. Our generalizable interaction system encourages creators to spatially explore a wide range of design possibilities through the combination, separation, and rearrangement of hexagonal tiles on a grid. As these tiles are grouped into islandlike clusters, localized populations of designs form through an underlying evolutionary system. The interactions that take place within EvoIsland provide content creators with new ways to shape, display and assess populations in evolutionary systems that produce a wide range of solutions with visual phenotype outputs.",
+      "dir": "content/output/publications",
+      "base": "gecco-2022-ivanov.json",
+      "ext": ".json",
+      "sourceBase": "gecco-2022-ivanov.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/gi-2020-rajabiyazdi.json": {
       "date": 2020,
       "title": "Exploring the Design of Patient-Generated Data Visualizations",
@@ -2670,6 +2764,26 @@
       "base": "gi-2021-mactavish.json",
       "ext": ".json",
       "sourceBase": "gi-2021-mactavish.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/gi-2022-hull.json": {
+      "date": "2022-05",
+      "title": "Simultaneous Worlds: Supporting Fluid Exploration of Multiple Data Sets via Physical Models",
+      "authors": [
+        "Carmen Hull",
+        "Søren Knudsen",
+        "Sheelagh Carpendale",
+        "Wesley Willett"
+      ],
+      "series": "GI 2022",
+      "doi": "http://hdl.handle.net/1880/114742",
+      "keywords": "Information visualization, interactive surfaces, data physicalization, architectural models",
+      "pages": 10,
+      "abstract": "We take the well-established use of physical scale models in architecture and identify new opportunities for using them to interactively visualize and examine multiple streams of geospatial data. Overlaying, comparing, or integrating visualizations of complementary data sets in the same physical space is often challenging given the constraints of various data types and the limited design space of possible visual encodings. Our vision of “simultaneous worlds” uses physical models as a substrate upon which visualizations of multiple data streams can be dynamically and concurrently integrated. To explore the potential of this concept, we created three design explorations that use an illuminated campus model to integrate visualizations about building energy use, climate, and movement paths on a university campus. We use a research through design approach, documenting how our interdisciplinary collaborations with domain experts, students, and architects informed our designs. Based on our observations, we characterize the benefits of models for 1) situating visualizations, 2) composing visualizations, and 3) manipulating and authoring visualizations. Our work highlights the potential of physical models to support embodied exploration of spatial and non-spatial visualizations through fluid interactions.",
+      "dir": "content/output/publications",
+      "base": "gi-2022-hull.json",
+      "ext": ".json",
+      "sourceBase": "gi-2022-hull.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/hri-2018-feick.json": {
@@ -2797,6 +2911,26 @@
       "base": "iros-2020-hedayati.json",
       "ext": ".json",
       "sourceBase": "iros-2020-hedayati.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/iros-2022-suzuki.json": {
+      "date": "2022-09",
+      "title": "Selective Self-Assembly using Re-Programmable Magnetic Pixels",
+      "authors": [
+        "Martin Nisser",
+        "Yashaswini Makaram",
+        "Faraz Faruqi",
+        "Ryo Suzuki",
+        "Stefanie Mueller"
+      ],
+      "series": "IROS 2022",
+      "video": "https://www.youtube.com/watch?v=HK9_ynH6A6w",
+      "pages": 8,
+      "abstract": "This paper introduces a method to generate highly selective encodings that can be magnetically programmed onto physical modules to enable them to self-assemble in chosen configurations. We generate these encodings based on Hadamard matrices, and show how to design the faces of modules to be maximally attractive to their intended mate, while remaining maximally agnostic to other faces. We derive guarantees on these bounds, and verify their attraction and agnosticism experimentally. Using cubic modules whose faces have been covered in soft magnetic material, we show how inexpensive, passive modules with planar faces can be used to selectively self-assemble into target shapes without geometric guides. We show that these modules can be easily re-programmed for new target shapes using a CNC-based magnetic plotter, and demonstrate self-assembly of 8 cubes in a water tank.",
+      "dir": "content/output/publications",
+      "base": "iros-2022-suzuki.json",
+      "ext": ".json",
+      "sourceBase": "iros-2022-suzuki.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/mobilehci-2015-ledo.json": {
@@ -3004,6 +3138,30 @@
       "base": "tei-2021-pratte.json",
       "ext": ".json",
       "sourceBase": "tei-2021-pratte.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/tochi-2022-nittala.json": {
+      "date": "2022-10",
+      "title": "SparseIMU: Computational Design of Sparse IMU Layouts for Sensing Fine-Grained Finger Microgestures",
+      "authors": [
+        "Adwait Sharma",
+        "Christina Salchow-Hömmen",
+        "Vimal Suresh Mollyn",
+        "Aditya Shekhar Nittala",
+        "Michael A. Hedderich",
+        "Marion Koelle",
+        "Thomas Seel",
+        "Jürgen Steimle"
+      ],
+      "series": "TOCHI 2022",
+      "doi": "https://doi.org/10.1145/3569894",
+      "keywords": "Gesture Recognition, Hand Gestures, Sensor Placement, IMU, Objects, Design Tool",
+      "pages": 40,
+      "abstract": "Gestural interaction with freehands and while grasping an everyday object enables always-available input. To sense such gestures, minimal instrumentation of the user’s hand is desirable. However, the choice of an effective but minimal IMU layout remains challenging, due to the complexity of the multi-factorial space that comprises diverse finger gestures, objects and grasps. We present SparseIMU, a rapid method for selecting minimal inertial sensor-based layouts for effective gesture recognition. Furthermore, we contribute a computational tool to guide designers with optimal sensor placement. Our approach builds on an extensive microgestures dataset that we collected with a dense network of 17 inertial measurement units (IMUs). We performed a series of analyses, including an evaluation of the entire combinatorial space for freehand and grasping microgestures (393K layouts), and quantified the performance across different layout choices, revealing new gesture detection opportunities with IMUs. Finally, we demonstrate the versatility of our method with four scenarios.",
+      "dir": "content/output/publications",
+      "base": "tochi-2022-nittala.json",
+      "ext": ".json",
+      "sourceBase": "tochi-2022-nittala.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/tvcg-2016-lopez.json": {
@@ -3258,6 +3416,120 @@
       "base": "uist-2021-suzuki.json",
       "ext": ".json",
       "sourceBase": "uist-2021-suzuki.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2022-kaimoto.json": {
+      "date": "2022-10",
+      "title": "Sketched Reality: Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI",
+      "authors": [
+        "Hiroki Kaimoto",
+        "Kyzyl Monteiro",
+        "Mehrad Faridan",
+        "Jiatong Li",
+        "Samin Farajian",
+        "Yasuaki Kakehi",
+        "Ken Nakagaki",
+        "Ryo Suzuki"
+      ],
+      "series": "UIST 2022",
+      "doi": "https://doi.org/10.1145/3526113.3545626",
+      "keywords": "augmented reality, mixed reality, actuated tangible interfaces, swarm user interfaces",
+      "video": "https://www.youtube.com/watch?v=xy-IeVgoEpY",
+      "pages": 12,
+      "abstract": "This paper introduces Sketched Reality, an approach that com- bines AR sketching and actuated tangible user interfaces (TUI) for bi-directional sketching interaction. Bi-directional sketching enables virtual sketches and physical objects to affect each other through physical actuation and digital computation. In the existing AR sketching, the relationship between virtual and physical worlds is only one-directional --- while physical interaction can affect virtual sketches, virtual sketches have no return effect on the physical objects or environment. In contrast, bi-directional sketching interaction allows the seamless coupling between sketches and actuated TUIs. In this paper, we employ tabletop-size small robots (Sony Toio) and an iPad-based AR sketching tool to demonstrate the concept. In our system, virtual sketches drawn and simulated on an iPad (e.g., lines, walls, pendulums, and springs) can move, actuate, collide, and constrain physical Toio robots, as if virtual sketches and the physical objects exist in the same space through seamless coupling between AR and robot motion. This paper contributes a set of novel interactions and a design space of bi-directional AR sketching. We demonstrate a series of potential applications, such as tangible physics education, explorable mechanism, tangible gaming for children, and in-situ robot programming via sketching.",
+      "dir": "content/output/publications",
+      "base": "uist-2022-kaimoto.json",
+      "ext": ".json",
+      "sourceBase": "uist-2022-kaimoto.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2022-liao.json": {
+      "date": "2022-10",
+      "title": "RealityTalk: Real-time Speech-driven Augmented Presentation for AR Live Storytelling",
+      "authors": [
+        "Jian Liao",
+        "Adnan Karim",
+        "Shivesh Jadon",
+        "Rubaiat Habib Kazi",
+        "Ryo Suzuki"
+      ],
+      "series": "UIST 2022",
+      "doi": "https://doi.org/10.1145/3526113.3545702",
+      "keywords": "Augmented Reality, Mixed Reality, Augmented Presentation, Natural Language Processing, Gestural and Speech Input, Video",
+      "video": "https://www.youtube.com/watch?v=vfIMeICV-7c",
+      "pages": 12,
+      "abstract": "We present RealityTalk, a system that augments real-time live presentations with speech-driven interactive virtual elements. Augmented presentations leverage embedded visuals and animation for engaging and expressive storytelling. However, existing tools for live presentations often lack interactivity and improvisation, while creating such effects in video editing tools require significant time and expertise. RealityTalk enables users to create live augmented presentations with real-time speech-driven interactions. The user can interactively prompt, move, and manipulate graphical elements through real-time speech and supporting modalities. Based on our analysis of 177 existing video-edited augmented presentations, we propose a novel set of interaction techniques and then incorporated them into RealityTalk. We evaluate our tool from a presenter’s perspective to demonstrate the effectiveness of our system.",
+      "dir": "content/output/publications",
+      "base": "uist-2022-liao.json",
+      "ext": ".json",
+      "sourceBase": "uist-2022-liao.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2022-nisser.json": {
+      "date": "2022-10",
+      "title": "Mixels: Fabricating Interfaces using Programmable Magnetic Pixels",
+      "authors": [
+        "Martin Nisser",
+        "Yashaswini Makaram",
+        "Lucian Covarrubias",
+        "Amadou Bah",
+        "Faraz Faruqi",
+        "Ryo Suzuki",
+        "Stefanie Mueller"
+      ],
+      "series": "UIST 2022",
+      "doi": "https://doi.org/10.1145/3526113.3545698",
+      "keywords": "programmable materials, magnetic interfaces, fabrication",
+      "video": "https://www.youtube.com/watch?v=6SvFCQkVFtw",
+      "pages": 12,
+      "abstract": "In this paper, we present Mixels, programmable magnetic pixels that can be rapidly fabricated using an electromagnetic printhead mounted on an off-the-shelve 3-axis CNC machine. The ability to program magnetic material pixel-wise with varying magnetic force enables Mixels to create new tangible, tactile, and haptic interfaces. To facilitate the creation of interactive objects with Mixels, we provide a user interface that lets users specify the high-level magnetic behavior and that then computes the underlying magnetic pixel assignments and fabrication instructions to program the magnetic surface. Our custom hardware add-on based on an electromagnetic printhead and hall effect sensor clips onto a standard 3-axis CNC machine and can both write and read magnetic pixel values from magnetic material. Our evaluation shows that our system can reliably program and read magnetic pixels of various strengths, that we can predict the behavior of two interacting magnetic surfaces before programming them, that our electromagnet is strong enough to create pixels that utilize the maximum magnetic strength of the material being programmed, and that this material remains magnetized when removed from the magnetic plotter.",
+      "dir": "content/output/publications",
+      "base": "uist-2022-nisser.json",
+      "ext": ".json",
+      "sourceBase": "uist-2022-nisser.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2022-nittala.json": {
+      "date": "2022-10",
+      "title": "Prototyping Soft Devices with Interactive Bioplastics",
+      "authors": [
+        "Marion Koelle",
+        "Madalina Nicolae",
+        "Aditya Shekhar Nittala",
+        "Marc Teyssier",
+        "Jürgen Steimle"
+      ],
+      "series": "UIST 2022",
+      "doi": "https://doi.org/10.1145/3526113.3545623",
+      "keywords": "bioplastics, biomaterials, do-it-yourself, DIY, sustainability",
+      "award": "Best Paper",
+      "video": "https://www.youtube.com/watch?v=8Paq3P3EsKQ",
+      "pages": 16,
+      "abstract": "Designers and makers are increasingly interested in leveraging bio-based and bio-degradable ‘do-it-yourself’ (DIY) materials for sustainable prototyping. Their self-produced bioplastics possess compelling properties such as self-adhesion but have so far not been functionalized to create soft interactive devices, due to a lack of DIY techniques for the fabrication of functional electronic circuits and sensors. In this paper, we contribute a DIY approach for creating Interactive Bioplastics that is accessible to a wide audience, making use of easy-to-obtain bio-based raw materials and familiar tools. We present three types of conductive bioplastic materials and their formulation: sheets, pastes and foams. Our materials enable additive and subtractive fabrication of soft circuits and sensors. Furthermore, we demonstrate how these materials can substitute conventional prototyping materials, be combined with off-the-shelf electronics, and be fed into a sustainable material ‘life-cycle’ including disassembly, re-use, and re-melting of materials. A formal characterization of our conductors highlights that they are even on-par with commercially available carbon-based conductive pastes.",
+      "dir": "content/output/publications",
+      "base": "uist-2022-nittala.json",
+      "ext": ".json",
+      "sourceBase": "uist-2022-nittala.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-sic-2022-faridan.json": {
+      "date": "2022-10",
+      "title": "UltraBots: Large-Area Mid-Air Haptics for VR with Robotically Actuated Ultrasound Transducers",
+      "authors": [
+        "Mehrad Faridan",
+        "Marcus Friedel",
+        "Ryo Suzuki"
+      ],
+      "series": "UIST SIC 2022",
+      "doi": "https://doi.org/10.1145/3526114.3561350",
+      "keywords": "Virtual Reality, Haptics, Ultrasound Transducers, Robotics",
+      "award": "Honorable Mention",
+      "pages": 3,
+      "abstract": "We introduce UltraBots, a system that combines ultrasound haptic feedback and robotic actuation for large-area mid-air haptics for VR. Ultrasound haptics can provide precise mid-air haptic feedback and versatile shape rendering, but the interaction area is often limited by the small size of the ultrasound devices, restricting the possible interactions for VR. To address this problem, this paper introduces a novel approach that combines robotic actuation with ultrasound haptics. More specifically, we will attach ultrasound transducer arrays to tabletop mobile robots or robotic arms for scalable, extendable, and translatable interaction areas. We plan to use Sony Toio robots for 2D translation and/or commercially available robotic arms for 3D translation. Using robotic actuation and hand tracking measured by a VR HMD (ex: Oculus Quest), our system can keep the ultrasound transducers underneath the user’s hands to provide on-demand haptics. We demonstrate applications with workspace environments, medical training, education and entertainment.",
+      "dir": "content/output/publications",
+      "base": "uist-sic-2022-faridan.json",
+      "ext": ".json",
+      "sourceBase": "uist-sic-2022-faridan.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/vr-2019-satriadi.json": {
@@ -3613,6 +3885,7 @@
     "content/people/jessi-stark.yaml",
     "content/people/jian-liao.yaml",
     "content/people/jiannan-li.yaml",
+    "content/people/karly-ross.yaml",
     "content/people/karthik-mahadevan.yaml",
     "content/people/katherine-currier.yaml",
     "content/people/kathryn-blair.yaml",
@@ -3626,6 +3899,7 @@
     "content/people/linda-tauscher.yaml",
     "content/people/lora-oehlberg.yaml",
     "content/people/mackenzie-bowal.yaml",
+    "content/people/mackenzie-hisako-dalton.yaml",
     "content/people/manjot-khangura.yaml",
     "content/people/manuel-rodriguez.yaml",
     "content/people/marcus-friedel.yaml",
@@ -3641,6 +3915,7 @@
     "content/people/muhammad-mahian.yaml",
     "content/people/nathalie-bressa.yaml",
     "content/people/neil-chulpongsatorn.yaml",
+    "content/people/nelson-wong.yaml",
     "content/people/nicolai-marquardt.yaml",
     "content/people/nour-hammad.yaml",
     "content/people/paul-lapides.yaml",
@@ -3655,10 +3930,12 @@
     "content/people/sasha-ivanov.yaml",
     "content/people/saul-greenberg.yaml",
     "content/people/setareh-manesh.yaml",
+    "content/people/shanna-hollingworth.yaml",
     "content/people/shaun-kaasten.yaml",
     "content/people/sheelagh-carpendale.yaml",
     "content/people/shivesh-jadon.yaml",
     "content/people/shrivatsa-mishra.yaml",
+    "content/people/simon-kluber.yaml",
     "content/people/soren-knudsen.yaml",
     "content/people/sowmya-somanath.yaml",
     "content/people/stephanie-smale.yaml",
@@ -3726,14 +4003,18 @@
     "content/publications/dis-2021-asha.yaml",
     "content/publications/dis-2021-blair.yaml",
     "content/publications/dis-2021-wannamaker.yaml",
+    "content/publications/frobt-2022-suzuki.yaml",
+    "content/publications/gecco-2022-ivanov.yaml",
     "content/publications/gi-2020-rajabiyazdi.yaml",
     "content/publications/gi-2021-mactavish.yaml",
+    "content/publications/gi-2022-hull.yaml",
     "content/publications/hri-2018-feick.yaml",
     "content/publications/ieee-2021-willett.yaml",
     "content/publications/ijac-2021-hosseini.yaml",
     "content/publications/imwut-2020-wang.yaml",
     "content/publications/imx-2020-mok.yaml",
     "content/publications/iros-2020-hedayati.yaml",
+    "content/publications/iros-2022-suzuki.yaml",
     "content/publications/mobilehci-2015-ledo.yaml",
     "content/publications/mobilehci-2019-hung.yaml",
     "content/publications/nime-2020-ko.yaml",
@@ -3744,6 +4025,7 @@
     "content/publications/tei-2019-wun.yaml",
     "content/publications/tei-2020-suzuki.yaml",
     "content/publications/tei-2021-pratte.yaml",
+    "content/publications/tochi-2022-nittala.yaml",
     "content/publications/tvcg-2016-lopez.yaml",
     "content/publications/tvcg-2017-goffin.yaml",
     "content/publications/tvcg-2017-willett.yaml",
@@ -3755,6 +4037,11 @@
     "content/publications/uist-2020-suzuki.yaml",
     "content/publications/uist-2020-yixian.yaml",
     "content/publications/uist-2021-suzuki.yaml",
+    "content/publications/uist-2022-kaimoto.yaml",
+    "content/publications/uist-2022-liao.yaml",
+    "content/publications/uist-2022-nisser.yaml",
+    "content/publications/uist-2022-nittala.yaml",
+    "content/publications/uist-sic-2022-faridan.yaml",
     "content/publications/vr-2019-satriadi.yaml",
     "content/seminar.yaml",
     "content/vimeo.yaml",

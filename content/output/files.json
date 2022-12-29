@@ -358,8 +358,8 @@
               "name": "georgina-freeman.jpg"
             },
             {
-              "path": "static/images/people/grace-ferguson.JPG",
-              "name": "grace-ferguson.JPG"
+              "path": "static/images/people/grace-ferguson.jpg",
+              "name": "grace-ferguson.jpg"
             },
             {
               "path": "static/images/people/harrison-chen.jpg",
@@ -380,6 +380,10 @@
             {
               "path": "static/images/people/jian-liao.jpg",
               "name": "jian-liao.jpg"
+            },
+            {
+              "path": "static/images/people/karly-ross.jpg",
+              "name": "karly-ross.jpg"
             },
             {
               "path": "static/images/people/karthik-mahadevan.jpg",
@@ -422,6 +426,10 @@
               "name": "mackenzie-bowal.jpg"
             },
             {
+              "path": "static/images/people/mackenzie-hisako-dalton.jpg",
+              "name": "mackenzie-hisako-dalton.jpg"
+            },
+            {
               "path": "static/images/people/manjot-khangura.jpg",
               "name": "manjot-khangura.jpg"
             },
@@ -452,6 +460,10 @@
             {
               "path": "static/images/people/neil-chulpongsatorn.jpg",
               "name": "neil-chulpongsatorn.jpg"
+            },
+            {
+              "path": "static/images/people/nelson-wong.jpg",
+              "name": "nelson-wong.jpg"
             },
             {
               "path": "static/images/people/nicolai-marquardt.jpg",
@@ -512,6 +524,10 @@
             {
               "path": "static/images/people/saul-greenberg.jpg",
               "name": "saul-greenberg.jpg"
+            },
+            {
+              "path": "static/images/people/shanna-hollingworth.jpg",
+              "name": "shanna-hollingworth.jpg"
             },
             {
               "path": "static/images/people/sheelagh-carpendale.jpg",
@@ -804,12 +820,24 @@
                   "name": "dis-2021-wannamaker.jpg"
                 },
                 {
+                  "path": "static/images/publications/cover/frobt-2022-suzuki.jpg",
+                  "name": "frobt-2022-suzuki.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/gecco-2022-ivanov.jpg",
+                  "name": "gecco-2022-ivanov.jpg"
+                },
+                {
                   "path": "static/images/publications/cover/gi-2020-rajabiyazdi.jpg",
                   "name": "gi-2020-rajabiyazdi.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/gi-2021-mactavish.jpg",
                   "name": "gi-2021-mactavish.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/gi-2022-hull.jpg",
+                  "name": "gi-2022-hull.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/hri-2018-feick.jpg",
@@ -834,6 +862,10 @@
                 {
                   "path": "static/images/publications/cover/iros-2020-hedayati.jpg",
                   "name": "iros-2020-hedayati.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/iros-2022-suzuki.jpg",
+                  "name": "iros-2022-suzuki.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/mobilehci-2015-ledo.jpg",
@@ -886,6 +918,10 @@
                 {
                   "path": "static/images/publications/cover/tei-2021-pratte.jpg",
                   "name": "tei-2021-pratte.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/tochi-2022-nittala.jpg",
+                  "name": "tochi-2022-nittala.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/tvcg-2017-goffin.jpg",
@@ -950,6 +986,26 @@
                 {
                   "path": "static/images/publications/cover/uist-2021-suzuki.jpg",
                   "name": "uist-2021-suzuki.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2022-kaimoto.jpg",
+                  "name": "uist-2022-kaimoto.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2022-liao.jpg",
+                  "name": "uist-2022-liao.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2022-nisser.jpg",
+                  "name": "uist-2022-nisser.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-2022-nittala.jpg",
+                  "name": "uist-2022-nittala.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/uist-sic-2022-faridan.jpg",
+                  "name": "uist-sic-2022-faridan.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/vr-2019-satriadi.jpg",

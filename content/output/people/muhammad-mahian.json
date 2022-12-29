@@ -1,6 +1,7 @@
 {
   "name": "Muhammad Mahian",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "email": "muhammad.mahian@ucalgary.ca",
   "dir": "content/output/people",
   "base": "muhammad-mahian.json",
