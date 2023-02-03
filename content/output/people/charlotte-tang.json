@@ -1,7 +1,11 @@
 {
   "name": "Charlotte Tang",
   "type": "alumni",
-  "past": "master",
+  "past": "phd",
+  "now": "University of Michigan",
+  "url": "https://charlottetang.ca/",
+  "scholar": "https://scholar.google.com/citations?user=RYkK_owAAAAJ",
+  "linkedin": "https://www.linkedin.com/in/charlottetang/",
   "dir": "content/output/people",
   "base": "charlotte-tang.json",
   "ext": ".json",

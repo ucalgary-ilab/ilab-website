@@ -1,6 +1,7 @@
 {
   "name": "Nelson Wong",
   "type": "alumni",
+  "past": "master",
   "dir": "content/output/people",
   "base": "nelson-wong.json",
   "ext": ".json",

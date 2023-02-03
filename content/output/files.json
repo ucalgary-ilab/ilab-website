@@ -326,8 +326,20 @@
               "name": "brennan-jones.jpg"
             },
             {
+              "path": "static/images/people/carl-gutwin.jpg",
+              "name": "carl-gutwin.jpg"
+            },
+            {
+              "path": "static/images/people/carman-neustaedter.jpg",
+              "name": "carman-neustaedter.jpg"
+            },
+            {
               "path": "static/images/people/carmen-hull.jpg",
               "name": "carmen-hull.jpg"
+            },
+            {
+              "path": "static/images/people/charlotte-tang.jpg",
+              "name": "charlotte-tang.jpg"
             },
             {
               "path": "static/images/people/christian-frisson.jpg",
@@ -344,6 +356,10 @@
             {
               "path": "static/images/people/colin-auyeung.jpg",
               "name": "colin-auyeung.jpg"
+            },
+            {
+              "path": "static/images/people/dane-bertram.jpg",
+              "name": "dane-bertram.jpg"
             },
             {
               "path": "static/images/people/darcy-norman.jpg",
@@ -366,6 +382,18 @@
               "name": "dinmukhammed-mukashev.jpg"
             },
             {
+              "path": "static/images/people/donald-cox.jpg",
+              "name": "donald-cox.jpg"
+            },
+            {
+              "path": "static/images/people/doug-schaeffer.jpg",
+              "name": "doug-schaeffer.jpg"
+            },
+            {
+              "path": "static/images/people/edward-tse.jpg",
+              "name": "edward-tse.jpg"
+            },
+            {
               "path": "static/images/people/ehud-sharlin.jpg",
               "name": "ehud-sharlin.jpg"
             },
@@ -376,6 +404,10 @@
             {
               "path": "static/images/people/grace-ferguson.jpg",
               "name": "grace-ferguson.jpg"
+            },
+            {
+              "path": "static/images/people/gregor-mcewan.jpg",
+              "name": "gregor-mcewan.jpg"
             },
             {
               "path": "static/images/people/harrison-chen.jpg",
@@ -442,6 +474,10 @@
               "name": "kevin-van.jpg"
             },
             {
+              "path": "static/images/people/kimberly-tee.jpg",
+              "name": "kimberly-tee.jpg"
+            },
+            {
               "path": "static/images/people/kurtis-danyluk.jpg",
               "name": "kurtis-danyluk.jpg"
             },
@@ -474,8 +510,16 @@
               "name": "marcus-friedel.jpg"
             },
             {
+              "path": "static/images/people/mark-roseman.jpg",
+              "name": "mark-roseman.jpg"
+            },
+            {
               "path": "static/images/people/martin-feick.jpg",
               "name": "martin-feick.jpg"
+            },
+            {
+              "path": "static/images/people/matthew-dunlap.jpg",
+              "name": "matthew-dunlap.jpg"
             },
             {
               "path": "static/images/people/mehrad-faridan.jpg",
@@ -528,6 +572,10 @@
             {
               "path": "static/images/people/paul-lapides.jpg",
               "name": "paul-lapides.jpg"
+            },
+            {
+              "path": "static/images/people/paul-saulnier.jpg",
+              "name": "paul-saulnier.jpg"
             },
             {
               "path": "static/images/people/priya-dhawka.jpg",

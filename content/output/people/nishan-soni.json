@@ -1,8 +1,10 @@
 {
   "name": "Nishan Soni",
   "type": "undergrad",
+  "url": "https://nishan.web.app",
   "email": "nishan.soni@ucalgary.ca",
   "linkedin": "https://www.linkedin.com/in/nishan-soni/",
+  "github": "https://github.com/nishan-soni",
   "dir": "content/output/people",
   "base": "nishan-soni.json",
   "ext": ".json",
