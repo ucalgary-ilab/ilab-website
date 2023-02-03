@@ -282,6 +282,14 @@
           "name": "people",
           "children": [
             {
+              "path": "static/images/people/abhinav-pillai.jpg",
+              "name": "abhinav-pillai.jpg"
+            },
+            {
+              "path": "static/images/people/aditya-gunturu.jpg",
+              "name": "aditya-gunturu.jpg"
+            },
+            {
               "path": "static/images/people/aditya-shekhar-nittala.jpg",
               "name": "aditya-shekhar-nittala.jpg"
             },
@@ -304,6 +312,10 @@
             {
               "path": "static/images/people/ashratuz-zavin-asha.jpg",
               "name": "ashratuz-zavin-asha.jpg"
+            },
+            {
+              "path": "static/images/people/bheesha-kumari.jpg",
+              "name": "bheesha-kumari.jpg"
             },
             {
               "path": "static/images/people/bon-adriel-aseniero.jpg",
@@ -350,6 +362,10 @@
               "name": "desmond-larsen-rosner.jpg"
             },
             {
+              "path": "static/images/people/dinmukhammed-mukashev.jpg",
+              "name": "dinmukhammed-mukashev.jpg"
+            },
+            {
               "path": "static/images/people/ehud-sharlin.jpg",
               "name": "ehud-sharlin.jpg"
             },
@@ -370,8 +386,16 @@
               "name": "helen-ai-he.jpg"
             },
             {
+              "path": "static/images/people/hiroki-kaimoto.jpg",
+              "name": "hiroki-kaimoto.jpg"
+            },
+            {
               "path": "static/images/people/iryna-luchak.jpg",
               "name": "iryna-luchak.jpg"
+            },
+            {
+              "path": "static/images/people/jarin-thundathil.jpg",
+              "name": "jarin-thundathil.jpg"
             },
             {
               "path": "static/images/people/jessi-stark.jpg",
@@ -380,6 +404,10 @@
             {
               "path": "static/images/people/jian-liao.jpg",
               "name": "jian-liao.jpg"
+            },
+            {
+              "path": "static/images/people/jiannan-li.jpg",
+              "name": "jiannan-li.jpg"
             },
             {
               "path": "static/images/people/karly-ross.jpg",
@@ -400,6 +428,10 @@
             {
               "path": "static/images/people/kaynen-mitchell.jpg",
               "name": "kaynen-mitchell.jpg"
+            },
+            {
+              "path": "static/images/people/keiichi-ihara.jpg",
+              "name": "keiichi-ihara.jpg"
             },
             {
               "path": "static/images/people/kendra-wannamaker.jpg",
@@ -450,8 +482,16 @@
               "name": "mehrad-faridan.jpg"
             },
             {
+              "path": "static/images/people/melissa-hoang.jpg",
+              "name": "melissa-hoang.jpg"
+            },
+            {
               "path": "static/images/people/michael-hung.jpg",
               "name": "michael-hung.jpg"
+            },
+            {
+              "path": "static/images/people/mille-skovhus-lunding.jpg",
+              "name": "mille-skovhus-lunding.jpg"
             },
             {
               "path": "static/images/people/nathalie-bressa.jpg",
@@ -494,6 +534,10 @@
               "name": "priya-dhawka.jpg"
             },
             {
+              "path": "static/images/people/rasmus-lunding.jpg",
+              "name": "rasmus-lunding.jpg"
+            },
+            {
               "path": "static/images/people/ritik-vatsal.jpg",
               "name": "ritik-vatsal.jpg"
             },
@@ -506,8 +550,16 @@
               "name": "ryo-suzuki.jpg"
             },
             {
+              "path": "static/images/people/ryota-gomi.jpg",
+              "name": "ryota-gomi.jpg"
+            },
+            {
               "path": "static/images/people/sabrina-lakhdhir.jpg",
               "name": "sabrina-lakhdhir.jpg"
+            },
+            {
+              "path": "static/images/people/saja-abufarha.jpg",
+              "name": "saja-abufarha.jpg"
             },
             {
               "path": "static/images/people/samin-farajian-2.jpg",
@@ -576,6 +628,10 @@
             {
               "path": "static/images/people/wesley-willett.jpg",
               "name": "wesley-willett.jpg"
+            },
+            {
+              "path": "static/images/people/xiang-anthony-chen.jpg",
+              "name": "xiang-anthony-chen.jpg"
             },
             {
               "path": "static/images/people/zachary-mckendrick.jpg",
@@ -740,6 +796,14 @@
                   "name": "chi-2022-suzuki.jpg"
                 },
                 {
+                  "path": "static/images/publications/cover/chi-2023-faridan.jpg",
+                  "name": "chi-2023-faridan.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-2023-monteiro.jpg",
+                  "name": "chi-2023-monteiro.jpg"
+                },
+                {
                   "path": "static/images/publications/cover/chi-ea-2022-blair.jpg",
                   "name": "chi-ea-2022-blair.jpg"
                 },
@@ -858,6 +922,10 @@
                 {
                   "path": "static/images/publications/cover/imwut-2020-wang.jpg",
                   "name": "imwut-2020-wang.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/imx-2020-mok.jpg",
+                  "name": "imx-2020-mok.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/iros-2020-hedayati.jpg",

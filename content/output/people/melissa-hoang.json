@@ -1,0 +1,11 @@
+{
+  "name": "Melissa Hoang",
+  "type": "undergrad",
+  "email": "melissa.hoang@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/melissa-e-hoang/",
+  "dir": "content/output/people",
+  "base": "melissa-hoang.json",
+  "ext": ".json",
+  "sourceBase": "melissa-hoang.yaml",
+  "sourceExt": ".yaml"
+}

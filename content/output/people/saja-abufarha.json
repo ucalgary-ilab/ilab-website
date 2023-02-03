@@ -1,0 +1,11 @@
+{
+  "name": "Saja Abufarha",
+  "type": "undergrad",
+  "email": "saja.abufarha@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/saja-abufarha/",
+  "dir": "content/output/people",
+  "base": "saja-abufarha.json",
+  "ext": ".json",
+  "sourceBase": "saja-abufarha.yaml",
+  "sourceExt": ".yaml"
+}

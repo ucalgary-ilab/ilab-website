@@ -337,6 +337,30 @@
         "image": "chi-2020.jpg"
       }
     ],
+    "content/output/people/abhinav-pillai.json": {
+      "name": "Abhinav Pillai",
+      "type": "undergrad",
+      "email": "abhinav.arunpillai@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/abhinav-pillai/",
+      "dir": "content/output/people",
+      "base": "abhinav-pillai.json",
+      "ext": ".json",
+      "sourceBase": "abhinav-pillai.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/aditya-gunturu.json": {
+      "name": "Aditya Gunturu",
+      "type": "master",
+      "url": "https://adigunturu.com/",
+      "email": "aditya.gunturu@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/adigunturu/",
+      "github": "https://github.com/adigunturu",
+      "dir": "content/output/people",
+      "base": "aditya-gunturu.json",
+      "ext": ".json",
+      "sourceBase": "aditya-gunturu.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/aditya-shekhar-nittala.json": {
       "name": "Aditya Shekhar Nittala",
       "type": "faculty",
@@ -367,18 +391,6 @@
       "base": "adnan-karim.json",
       "ext": ".json",
       "sourceBase": "adnan-karim.yaml",
-      "sourceExt": ".yaml"
-    },
-    "content/output/people/anthony-chen.json": {
-      "name": "Anthony Chen",
-      "type": "alumni",
-      "past": "master",
-      "now": "UCLA",
-      "url": "https://xac.is/",
-      "dir": "content/output/people",
-      "base": "anthony-chen.json",
-      "ext": ".json",
-      "sourceBase": "anthony-chen.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/anthony-tang.json": {
@@ -419,6 +431,17 @@
       "base": "ashratuz-zavin-asha.json",
       "ext": ".json",
       "sourceBase": "ashratuz-zavin-asha.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/bheesha-kumari.json": {
+      "name": "Bheesha Kumari",
+      "type": "undergrad",
+      "email": "bheesha.kumari@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/bheesha-kumari-/",
+      "dir": "content/output/people",
+      "base": "bheesha-kumari.json",
+      "ext": ".json",
+      "sourceBase": "bheesha-kumari.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/bon-adriel-aseniero.json": {
@@ -594,6 +617,18 @@
       "sourceBase": "desmond-larsen-rosner.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/dinmukhammed-mukashev.json": {
+      "name": "Dinmukhammed Mukashev",
+      "type": "master",
+      "email": "dimash.mukashev@ucalgary.ca",
+      "scholar": "https://scholar.google.com/citations?user=rUEDTOsAAAAJ",
+      "linkedin": "https://www.linkedin.com/in/dinmukhammed-mukashev-120053129",
+      "dir": "content/output/people",
+      "base": "dinmukhammed-mukashev.json",
+      "ext": ".json",
+      "sourceBase": "dinmukhammed-mukashev.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/donald-cox.json": {
       "name": "Donald Cox",
       "type": "alumni",
@@ -642,6 +677,16 @@
       "base": "ehud-sharlin.json",
       "ext": ".json",
       "sourceBase": "ehud-sharlin.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/faiz-marsad.json": {
+      "name": "Faiz Marsad",
+      "type": "undergrad",
+      "email": "faiz.marsad@ucalgary.ca",
+      "dir": "content/output/people",
+      "base": "faiz-marsad.json",
+      "ext": ".json",
+      "sourceBase": "faiz-marsad.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/georgina-freeman.json": {
@@ -706,6 +751,21 @@
       "sourceBase": "helen-ai-he.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/hiroki-kaimoto.json": {
+      "name": "Hiroki Kaimoto",
+      "type": "alumni",
+      "past": "visiting",
+      "now": "University of Tokyo",
+      "url": "https://hirokikaimoto.com",
+      "scholar": "https://scholar.google.co.jp/citations?user=BPL36T0AAAAJ",
+      "twitter": "https://twitter.com/open_origin",
+      "email": "hkaimoto@xlab.iii.u-tokyo.ac.jp",
+      "dir": "content/output/people",
+      "base": "hiroki-kaimoto.json",
+      "ext": ".json",
+      "sourceBase": "hiroki-kaimoto.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/iryna-luchak.json": {
       "name": "Iryna Luchak",
       "type": "master",
@@ -729,6 +789,17 @@
       "sourceBase": "james-tam.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/jarin-thundathil.json": {
+      "name": "Jarin Thundathil",
+      "type": "undergrad",
+      "email": "jarin.thundathil@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/jarin-thundathil-170616150/",
+      "dir": "content/output/people",
+      "base": "jarin-thundathil.json",
+      "ext": ".json",
+      "sourceBase": "jarin-thundathil.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/jessi-stark.json": {
       "name": "Jessi Stark",
       "type": "alumni",
@@ -747,6 +818,7 @@
       "name": "Jian Liao",
       "type": "undergrad",
       "email": "jian.liao1@ucalgary.ca",
+      "twitter": "https://twitter.com/imjliao",
       "linkedin": "https://www.linkedin.com/in/jian-liao/",
       "github": "https://github.com/jlia0",
       "dir": "content/output/people",
@@ -759,6 +831,9 @@
       "name": "Jiannan Li",
       "type": "alumni",
       "past": "master",
+      "now": "University of Toronto",
+      "url": "https://www.dgp.toronto.edu/~jiannanli/",
+      "scholar": "https://scholar.google.com/citations?user=wyW0rJQAAAAJ",
       "dir": "content/output/people",
       "base": "jiannan-li.json",
       "ext": ".json",
@@ -834,6 +909,17 @@
       "sourceBase": "kaynen-mitchell.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/keiichi-ihara.json": {
+      "name": "Keiichi Ihara",
+      "type": "visiting",
+      "url": "https://www.iplab.cs.tsukuba.ac.jp/~kihara/",
+      "email": "kihara@iplab.cs.tsukuba.ac.jp",
+      "dir": "content/output/people",
+      "base": "keiichi-ihara.json",
+      "ext": ".json",
+      "sourceBase": "keiichi-ihara.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/kendra-wannamaker.json": {
       "name": "Kendra Wannamaker",
       "type": "alumni",
@@ -849,6 +935,8 @@
       "name": "Kevin Van",
       "type": "undergrad",
       "email": "kevin.van@ucalgary.ca",
+      "url": "https://kevin-van.github.io/Website/",
+      "github": "https://github.com/kevin-van",
       "linkedin": "https://www.linkedin.com/in/kevin-van-a66130204/",
       "dir": "content/output/people",
       "base": "kevin-van.json",
@@ -1013,14 +1101,27 @@
     "content/output/people/mehrad-faridan.json": {
       "name": "Mehrad Faridan",
       "type": "undergrad",
-      "url": "https://faridan3838.wixsite.com/portfolio",
+      "url": "https://www.mehradfaridan.com/",
       "email": "mehrad.faridan1@ucalgary.ca",
+      "scholar": "https://scholar.google.com/citations?user=amh7v2EAAAAJ",
+      "twitter": "https://twitter.com/MehradFaridan",
       "github": "https://github.com/mehradFaridan",
       "linkedin": "https://www.linkedin.com/in/mehrad-faridan-a34462164/",
       "dir": "content/output/people",
       "base": "mehrad-faridan.json",
       "ext": ".json",
       "sourceBase": "mehrad-faridan.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/melissa-hoang.json": {
+      "name": "Melissa Hoang",
+      "type": "undergrad",
+      "email": "melissa.hoang@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/melissa-e-hoang/",
+      "dir": "content/output/people",
+      "base": "melissa-hoang.json",
+      "ext": ".json",
+      "sourceBase": "melissa-hoang.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/miaosen-wang.json": {
@@ -1075,6 +1176,19 @@
       "base": "micheal-rounding.json",
       "ext": ".json",
       "sourceBase": "micheal-rounding.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/mille-skovhus-lunding.json": {
+      "name": "Mille Skovhus Lunding",
+      "type": "visiting",
+      "url": "https://pure.au.dk/portal/en/persons/mille-skovhus-lunding(806b2f20-b7ae-4ebc-a32f-98ee39a53380).html",
+      "email": "milledsk@cs.au.dk",
+      "scholar": "https://scholar.google.com/citations?user=kt6cN_UAAAAJ",
+      "linkedin": "https://www.linkedin.com/in/mille-skovhus-lunding-1b419583/",
+      "dir": "content/output/people",
+      "base": "mille-skovhus-lunding.json",
+      "ext": ".json",
+      "sourceBase": "mille-skovhus-lunding.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/muhammad-mahian.json": {
@@ -1134,6 +1248,17 @@
       "sourceBase": "nicolai-marquardt.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/nishan-soni.json": {
+      "name": "Nishan Soni",
+      "type": "undergrad",
+      "email": "nishan.soni@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/nishan-soni/",
+      "dir": "content/output/people",
+      "base": "nishan-soni.json",
+      "ext": ".json",
+      "sourceBase": "nishan-soni.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/nour-hammad.json": {
       "name": "Nour Hammad",
       "type": "alumni",
@@ -1176,6 +1301,17 @@
       "base": "priya-dhawka.json",
       "ext": ".json",
       "sourceBase": "priya-dhawka.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/rasmus-lunding.json": {
+      "name": "Rasmus Lunding",
+      "type": "visiting",
+      "url": "https://pure.au.dk/portal/en/persons/rasmus-lunding(d8880518-a1ca-4ed3-aabd-744988b3d08f).html",
+      "email": "rsl@cs.au.dk",
+      "dir": "content/output/people",
+      "base": "rasmus-lunding.json",
+      "ext": ".json",
+      "sourceBase": "rasmus-lunding.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/ritik-vatsal.json": {
@@ -1234,6 +1370,18 @@
       "sourceBase": "ryo-suzuki.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/ryota-gomi.json": {
+      "name": "Ryota Gomi",
+      "type": "visiting",
+      "url": "https://www.icd.riec.tohoku.ac.jp/en/about/member/",
+      "email": "ryota.gomi.s7@dc.tohoku.ac.jp",
+      "linkedin": "https://www.linkedin.com/in/ryota-gomi-6a6029203/",
+      "dir": "content/output/people",
+      "base": "ryota-gomi.json",
+      "ext": ".json",
+      "sourceBase": "ryota-gomi.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/sabrina-lakhdhir.json": {
       "name": "Sabrina Lakhdhir",
       "type": "alumni",
@@ -1243,6 +1391,17 @@
       "base": "sabrina-lakhdhir.json",
       "ext": ".json",
       "sourceBase": "sabrina-lakhdhir.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/saja-abufarha.json": {
+      "name": "Saja Abufarha",
+      "type": "undergrad",
+      "email": "saja.abufarha@ucalgary.ca",
+      "linkedin": "https://www.linkedin.com/in/saja-abufarha/",
+      "dir": "content/output/people",
+      "base": "saja-abufarha.json",
+      "ext": ".json",
+      "sourceBase": "saja-abufarha.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/samin-farajian.json": {
@@ -1514,6 +1673,20 @@
       "base": "william-wright.json",
       "ext": ".json",
       "sourceBase": "william-wright.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/xiang-anthony-chen.json": {
+      "name": "Xiang 'Anthony' Chen",
+      "type": "alumni",
+      "past": "master",
+      "now": "UCLA",
+      "url": "https://xac.is/",
+      "scholar": "https://scholar.google.com/citations?user=I2W13z0AAAAJ",
+      "twitter": "https://twitter.com/_xiang_chen_",
+      "dir": "content/output/people",
+      "base": "xiang-anthony-chen.json",
+      "ext": ".json",
+      "sourceBase": "xiang-anthony-chen.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/yibo-sun.json": {
@@ -2311,6 +2484,44 @@
       "sourceBase": "chi-2022-suzuki.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/chi-2023-faridan.json": {
+      "date": "2023-04",
+      "title": "ChameleonControl: Teleoperating Real Human Surrogates through Mixed Reality Gestural Guidance for Remote Hands-on Classrooms",
+      "authors": [
+        "Mehrad Faridan",
+        "Bheesha Kumari",
+        "Ryo Suzuki"
+      ],
+      "series": "CHI 2023",
+      "doi": "https://doi.org/10.1145/3544548.3581381",
+      "keywords": "mixed reality, visual cue, remote collaboration, telepresence, remote guidance, human surrogates, hands-on training",
+      "abstract": "We present ChameleonControl, a real-human teleoperation system for scalable remote instruction in hands-on classrooms. In contrast to the existing video or AR/VR-based remote hands-on education, ChameleonControl uses a real human as a surrogate of a remote instructor. Building on existing human-based telepresence approaches (e.g. ChameleonMask), we contribute a novel method to teleoperate a human surrogate through synchronized mixed reality (MR) hand gestural navigation and verbal communication. By overlaying the remote instructor's virtual hands in the local user's MR view, the remote instructor can guide and control the local user as if they were physically present. This allows the local user/surrogate to synchronize their hand movements and gestures with the remote instructor, effectively ``teleoperating'' a real human. We evaluate our system through the in-the-wild deployment for physiotherapy classrooms, as well as lab-based experiments for other application domains such as mechanical assembly, sign language, and cooking lessons. The study results confirm that our approach can increase engagement and the sense of co-presence, showing potential for the future of remote hands-on classrooms.",
+      "dir": "content/output/publications",
+      "base": "chi-2023-faridan.json",
+      "ext": ".json",
+      "sourceBase": "chi-2023-faridan.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/chi-2023-monteiro.json": {
+      "date": "2023-04",
+      "title": "Teachable Reality: Prototyping Tangible Augmented Reality with Everyday Objects by Leveraging Interactive Machine Teaching",
+      "authors": [
+        "Kyzyl Monteiro",
+        "Ritik Vatsal",
+        "Neil Chulpongsatorn",
+        "Aman Parnami",
+        "Ryo Suzuki"
+      ],
+      "series": "CHI 2023",
+      "doi": "https://doi.org/10.1145/3544548.3581449",
+      "keywords": "augmented reality; mixed reality; prototyping tools; tangible interactions; everyday objects; interactive machine teaching; human-centered machine learning",
+      "abstract": "This paper introduces Teachable Reality, an augmented reality (AR) prototyping tool for creating interactive tangible AR applications with arbitrary everyday objects. Teachable Reality leverages vision-based interactive machine teaching (e.g., Teachable Machine), which captures real-world interactions for AR prototyping. It identifies the user-defined tangible and gestural interactions using an on-demand computer vision model. Based on this, the user can easily create functional AR prototypes without programming, enabled by a trigger-action authoring interface. Therefore, our approach allows the flexibility, customizability, and generalizability of tangible AR applications that can address the limitation of current marker-based approaches. We explore the design space and demonstrate various AR prototypes, which include tangible and deformable interfaces, context-aware assistants, and body-driven AR applications. The results of our user study and expert interviews confirm that our approach can lower the barrier to creating functional AR prototypes while also allowing flexible and general-purpose prototyping experiences.",
+      "dir": "content/output/publications",
+      "base": "chi-2023-monteiro.json",
+      "ext": ".json",
+      "sourceBase": "chi-2023-monteiro.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/chi-ea-2022-blair.json": {
       "date": "2022-04",
       "title": "Art is Not Research. Research is not Art",
@@ -2333,14 +2544,14 @@
       "sourceExt": ".yaml"
     },
     "content/output/publications/cmj-2020-ko.json": {
-      "date": 2020,
+      "date": "2020-01",
       "title": "Construction and Performance Applications of an Augmented Violin: TRAVIS II",
       "authors": [
         "Chantelle Ko",
         "Lora Oehlberg"
       ],
       "series": "CMJ 2020",
-      "doi": "10.1162/comj_a_00563",
+      "doi": "https://doi.org/10.1162/comj_a_00563",
       "pages": 14,
       "abstract": "We present the second iteration of a Touch-Responsive Augmented Violin Interface System, called TRAVIS II, and two compositions that demonstrate its expressivity. TRAVIS II is an augmented acoustic violin with touch sensors integrated into its 3-D printed fingerboard that track left-hand finger gestures in real time. The fingerboard has four strips of conductive PLA filament that produce an electric signal when fingers press down on each string. Although these sensors are physically robust, they are mechanically assembled and thus easy to replace if damaged. The performer can also trigger presets via four sensors attached to the body of the violin. The instrument is completely wireless, giving the performer the freedom to move throughout the performance space. Although the sensing fingerboard is installed in place of the traditional fingerboard, all other electronics can be removed from the augmented instrument, maintaining the aesthetics of a traditional violin. Our design allows violinists to naturally create music for interactive performance and improvisation without requiring new instrumental techniques. The first author composed two compositions to highlight TRAVIS II: “Dream State” and “Kindred Dichotomy.” Both of these compositions involve improvisation in their creative process and include interactive visuals. In this article we describe the design of the instrument, experiments leading to the sensing fingerboard, performative applications of the instrument, and compositional considerations for the resultant pieces.",
       "dir": "content/output/publications",
@@ -2726,7 +2937,7 @@
       "sourceExt": ".yaml"
     },
     "content/output/publications/gi-2020-rajabiyazdi.json": {
-      "date": 2020,
+      "date": "2020-05",
       "title": "Exploring the Design of Patient-Generated Data Visualizations",
       "authors": [
         "Fateme Rajabiyazdi",
@@ -3851,12 +4062,14 @@
     "content/facility.yaml",
     "content/labs.yaml",
     "content/news.yaml",
+    "content/people/abhinav-pillai.yaml",
+    "content/people/aditya-gunturu.yaml",
     "content/people/aditya-shekhar-nittala.yaml",
     "content/people/adnan-karim.yaml",
-    "content/people/anthony-chen.yaml",
     "content/people/anthony-tang.yaml",
     "content/people/april-zhang.yaml",
     "content/people/ashratuz-zavin-asha.yaml",
+    "content/people/bheesha-kumari.yaml",
     "content/people/bon-adriel-aseniero.yaml",
     "content/people/brennan-jones.yaml",
     "content/people/carl-gutwin.yaml",
@@ -3871,17 +4084,21 @@
     "content/people/darcy-norman.yaml",
     "content/people/david-ledo.yaml",
     "content/people/desmond-larsen-rosner.yaml",
+    "content/people/dinmukhammed-mukashev.yaml",
     "content/people/donald-cox.yaml",
     "content/people/doug-schaeffer.yaml",
     "content/people/edward-tse.yaml",
     "content/people/ehud-sharlin.yaml",
+    "content/people/faiz-marsad.yaml",
     "content/people/georgina-freeman.yaml",
     "content/people/grace-ferguson.yaml",
     "content/people/gregor-mcewan.yaml",
     "content/people/harrison-chen.yaml",
     "content/people/helen-ai-he.yaml",
+    "content/people/hiroki-kaimoto.yaml",
     "content/people/iryna-luchak.yaml",
     "content/people/james-tam.yaml",
+    "content/people/jarin-thundathil.yaml",
     "content/people/jessi-stark.yaml",
     "content/people/jian-liao.yaml",
     "content/people/jiannan-li.yaml",
@@ -3891,6 +4108,7 @@
     "content/people/kathryn-blair.yaml",
     "content/people/kathryn-elliot-rounding.yaml",
     "content/people/kaynen-mitchell.yaml",
+    "content/people/keiichi-ihara.yaml",
     "content/people/kendra-wannamaker.yaml",
     "content/people/kevin-van.yaml",
     "content/people/kimberly-tee.yaml",
@@ -3907,25 +4125,31 @@
     "content/people/martin-feick.yaml",
     "content/people/matthew-dunlap.yaml",
     "content/people/mehrad-faridan.yaml",
+    "content/people/melissa-hoang.yaml",
     "content/people/miaosen-wang.yaml",
     "content/people/michael-hung.yaml",
     "content/people/micheal-boyle.yaml",
     "content/people/micheal-nunes.yaml",
     "content/people/micheal-rounding.yaml",
+    "content/people/mille-skovhus-lunding.yaml",
     "content/people/muhammad-mahian.yaml",
     "content/people/nathalie-bressa.yaml",
     "content/people/neil-chulpongsatorn.yaml",
     "content/people/nelson-wong.yaml",
     "content/people/nicolai-marquardt.yaml",
+    "content/people/nishan-soni.yaml",
     "content/people/nour-hammad.yaml",
     "content/people/paul-lapides.yaml",
     "content/people/paul-saulnier.yaml",
     "content/people/priya-dhawka.yaml",
+    "content/people/rasmus-lunding.yaml",
     "content/people/ritik-vatsal.yaml",
     "content/people/roberta-cabral-mota.yaml",
     "content/people/roberto-diaz-marino.yaml",
     "content/people/ryo-suzuki.yaml",
+    "content/people/ryota-gomi.yaml",
     "content/people/sabrina-lakhdhir.yaml",
+    "content/people/saja-abufarha.yaml",
     "content/people/samin-farajian.yaml",
     "content/people/sasha-ivanov.yaml",
     "content/people/saul-greenberg.yaml",
@@ -3948,6 +4172,7 @@
     "content/people/wei-wei.yaml",
     "content/people/wesley-willett.yaml",
     "content/people/william-wright.yaml",
+    "content/people/xiang-anthony-chen.yaml",
     "content/people/yibo-sun.yaml",
     "content/people/zachary-mckendrick.yaml",
     "content/people/zhijie-xia.yaml",
@@ -3985,6 +4210,8 @@
     "content/publications/chi-2022-ivanov.yaml",
     "content/publications/chi-2022-nittala.yaml",
     "content/publications/chi-2022-suzuki.yaml",
+    "content/publications/chi-2023-faridan.yaml",
+    "content/publications/chi-2023-monteiro.yaml",
     "content/publications/chi-ea-2022-blair.yaml",
     "content/publications/cmj-2020-ko.yaml",
     "content/publications/cnc-2019-hammad.yaml",

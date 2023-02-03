@@ -265,6 +265,8 @@ git push origin master
 
 You don't need to do this process, but if you're interested, here is the process.
 
+Note: worked with Node v16, but got error with Node v18. (should be fixed in the future)
+
 ```shell
 git clone git@github.com:ucalgary-ilab/ilab-website.git
 cd ilab-website

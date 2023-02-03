@@ -1,0 +1,11 @@
+{
+  "name": "Bheesha Kumari",
+  "type": "undergrad",
+  "email": "bheesha.kumari@ucalgary.ca",
+  "linkedin": "https://www.linkedin.com/in/bheesha-kumari-/",
+  "dir": "content/output/people",
+  "base": "bheesha-kumari.json",
+  "ext": ".json",
+  "sourceBase": "bheesha-kumari.yaml",
+  "sourceExt": ".yaml"
+}

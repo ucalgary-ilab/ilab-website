@@ -1,0 +1,11 @@
+{
+  "name": "Rasmus Lunding",
+  "type": "visiting",
+  "url": "https://pure.au.dk/portal/en/persons/rasmus-lunding(d8880518-a1ca-4ed3-aabd-744988b3d08f).html",
+  "email": "rsl@cs.au.dk",
+  "dir": "content/output/people",
+  "base": "rasmus-lunding.json",
+  "ext": ".json",
+  "sourceBase": "rasmus-lunding.yaml",
+  "sourceExt": ".yaml"
+}

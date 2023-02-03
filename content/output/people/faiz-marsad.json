@@ -1,0 +1,10 @@
+{
+  "name": "Faiz Marsad",
+  "type": "undergrad",
+  "email": "faiz.marsad@ucalgary.ca",
+  "dir": "content/output/people",
+  "base": "faiz-marsad.json",
+  "ext": ".json",
+  "sourceBase": "faiz-marsad.yaml",
+  "sourceExt": ".yaml"
+}
