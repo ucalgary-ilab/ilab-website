@@ -1,0 +1,12 @@
+date: 2023-04
+title: "HoloTouch: Interacting with Mixed Reality Visualizations Through Smartphone Proxies"
+authors:
+  - Neil Chulpongsatorn
+  - Wesley Willett
+  - Ryo Suzuki
+series: CHI EA 2023
+doi: https://doi.org/10.1145/3544549.3585738
+keywords: mixed reality, embedded data visualization, tangible interaction, cross-device interaction
+pages: 8
+abstract: "We contribute interaction techniques for augmenting mixed reality (MR) visualizations with smartphone proxies. By combining head-mounted displays (HMDs) with mobile touchscreens, we can augment low-resolution holographic 3D charts with precise touch input, haptics feedback, high-resolution 2D graphics, and physical manipulation. Our approach aims to complement both MR and physical visualizations. Most current MR visualizations suffer from unreliable tracking, low visual resolution, and imprecise input. Data physicalizations on the other hand, although allowing for natural physical manipulation, are limited in dynamic and interactive modification. We demonstrate how mobile devices such as smartphones or tablets can serve as physical proxies for MR data interactions, creating dynamic visualizations that support precise manipulation and rich input and output. We describe 6 interaction techniques that leverage the combined physicality, sensing, and output capabilities of HMDs and smartphones, and demonstrate those interactions via a prototype system. Based on an evaluation, we outline opportunities for combining the advantages of both MR and physical charts."
+
