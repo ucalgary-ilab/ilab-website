@@ -1,6 +1,7 @@
 {
   "name": "Faiz Marsad",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "email": "faiz.marsad@ucalgary.ca",
   "dir": "content/output/people",
   "base": "faiz-marsad.json",

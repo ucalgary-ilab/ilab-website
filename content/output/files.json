@@ -206,6 +206,10 @@
               "name": "dataexperience.png"
             },
             {
+              "path": "static/images/labs/diff_lab.png",
+              "name": "diff_lab.png"
+            },
+            {
               "path": "static/images/labs/grouplab.png",
               "name": "grouplab.png"
             },
@@ -538,6 +542,10 @@
               "name": "mille-skovhus-lunding.jpg"
             },
             {
+              "path": "static/images/people/nandi-zhang.jpg",
+              "name": "nandi-zhang.jpg"
+            },
+            {
               "path": "static/images/people/nathalie-bressa.jpg",
               "name": "nathalie-bressa.jpg"
             },
@@ -852,6 +860,10 @@
                   "name": "chi-2022-suzuki.jpg"
                 },
                 {
+                  "path": "static/images/publications/cover/chi-2023-dhawka.jpg",
+                  "name": "chi-2023-dhawka.jpg"
+                },
+                {
                   "path": "static/images/publications/cover/chi-2023-faridan.jpg",
                   "name": "chi-2023-faridan.jpg"
                 },
@@ -862,6 +874,14 @@
                 {
                   "path": "static/images/publications/cover/chi-ea-2022-blair.jpg",
                   "name": "chi-ea-2022-blair.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-ea-2023-chulpongsatorn.jpg",
+                  "name": "chi-ea-2023-chulpongsatorn.jpg"
+                },
+                {
+                  "path": "static/images/publications/cover/chi-ea-2023-fang.jpg",
+                  "name": "chi-ea-2023-fang.jpg"
                 },
                 {
                   "path": "static/images/publications/cover/cmj-2020-ko.jpg",

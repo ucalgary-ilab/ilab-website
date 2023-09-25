@@ -292,6 +292,12 @@
         "url": "https://helenaihe.com/research/"
       },
       {
+        "id": "diff_lab",
+        "description": "Integrating of Interactive Computing into Everyday Environments",
+        "prof": "Aditya Shekhar Nittala",
+        "url": "https://sites.google.com/site/adityanittala/"
+      },
+      {
         "id": "grouplab",
         "description": "Research in HCI, CSCW, and UbiComp",
         "prof": "Saul Greenberg (Emeritus)",
@@ -300,7 +306,7 @@
       {
         "id": "ricelab",
         "description": "Rethinking Interaction, Collaboration, & Engagement",
-        "prof": "Anthony Tang (Adjunct - University of Toronto)",
+        "prof": "Anthony Tang (Adjunct - Singapore Management University)",
         "url": "https://ricelab.github.io/"
       },
       {
@@ -383,7 +389,9 @@
     },
     "content/output/people/adnan-karim.json": {
       "name": "Adnan Karim",
-      "type": "master",
+      "type": "alumni",
+      "past": "master",
+      "now": "Attabotics",
       "url": "https://sites.google.com/view/adnankarim/",
       "email": "adnan.karim@ucalgary.ca",
       "linkedin": "https://www.linkedin.com/in/adnan-karim-757b98101/",
@@ -435,7 +443,8 @@
     },
     "content/output/people/bheesha-kumari.json": {
       "name": "Bheesha Kumari",
-      "type": "undergrad",
+      "type": "alumni",
+      "past": "undergrad",
       "email": "bheesha.kumari@ucalgary.ca",
       "linkedin": "https://www.linkedin.com/in/bheesha-kumari-/",
       "dir": "content/output/people",
@@ -699,7 +708,8 @@
     },
     "content/output/people/faiz-marsad.json": {
       "name": "Faiz Marsad",
-      "type": "undergrad",
+      "type": "alumni",
+      "past": "undergrad",
       "email": "faiz.marsad@ucalgary.ca",
       "dir": "content/output/people",
       "base": "faiz-marsad.json",
@@ -838,7 +848,8 @@
     },
     "content/output/people/jian-liao.json": {
       "name": "Jian Liao",
-      "type": "undergrad",
+      "type": "alumni",
+      "past": "undergrad",
       "email": "jian.liao1@ucalgary.ca",
       "twitter": "https://twitter.com/imjliao",
       "linkedin": "https://www.linkedin.com/in/jian-liao/",
@@ -993,6 +1004,7 @@
       "name": "Kyzyl Monteiro",
       "type": "alumni",
       "past": "visiting",
+      "now": "CMU",
       "url": "https://kyzyl.me",
       "scholar": "https://scholar.google.ca/citations?user=A9IqYNoAAAAJ",
       "twitter": "https://twitter.com/kyzylmonteiro",
@@ -1148,7 +1160,8 @@
     },
     "content/output/people/melissa-hoang.json": {
       "name": "Melissa Hoang",
-      "type": "undergrad",
+      "type": "alumni",
+      "past": "undergrad",
       "email": "melissa.hoang@ucalgary.ca",
       "linkedin": "https://www.linkedin.com/in/melissa-e-hoang/",
       "dir": "content/output/people",
@@ -1233,6 +1246,19 @@
       "base": "muhammad-mahian.json",
       "ext": ".json",
       "sourceBase": "muhammad-mahian.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/people/nandi-zhang.json": {
+      "name": "Nandi Zhang",
+      "type": "master",
+      "email": "nandi.zhang@ucalgary.ca",
+      "url": "https://nandi-zhang.github.io/",
+      "linkedin": "https://www.linkedin.com/in/nandi-zhang-022ab8184/",
+      "github": "https://github.com/nandi-zhang",
+      "dir": "content/output/people",
+      "base": "nandi-zhang.json",
+      "ext": ".json",
+      "sourceBase": "nandi-zhang.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/people/nathalie-bressa.json": {
@@ -1449,7 +1475,8 @@
     },
     "content/output/people/saja-abufarha.json": {
       "name": "Saja Abufarha",
-      "type": "undergrad",
+      "type": "alumni",
+      "past": "undergrad",
       "email": "saja.abufarha@ucalgary.ca",
       "linkedin": "https://www.linkedin.com/in/saja-abufarha/",
       "dir": "content/output/people",
@@ -1460,7 +1487,8 @@
     },
     "content/output/people/samin-farajian.json": {
       "name": "Samin Farajian",
-      "type": "master",
+      "type": "alumni",
+      "past": "master",
       "url": "https://farajiansamin.github.io",
       "linkedin": "https://www.linkedin.com/in/samin-farajian-736018140/",
       "dir": "content/output/people",
@@ -1547,7 +1575,9 @@
     },
     "content/output/people/shivesh-jadon.json": {
       "name": "Shivesh Jadon",
-      "type": "master",
+      "type": "alumni",
+      "past": "master",
+      "now": "Apple",
       "url": "https://shivesh.dev/",
       "scholar": "https://scholar.google.com/citations?user=EwqYU2sAAAAJ&hl=en",
       "linkedin": "https://www.linkedin.com/in/shiveshjadon/",
@@ -1687,7 +1717,8 @@
     },
     "content/output/people/wei-wei.json": {
       "name": "Wei Wei",
-      "type": "master",
+      "type": "alumni",
+      "past": "master",
       "url": "http://www.weiweiff.com/",
       "email": "wei.wei2@ucalgary.ca",
       "linkedin": "https://www.linkedin.com/in/wei-wei-961a211ba/",
@@ -2538,6 +2569,26 @@
       "sourceBase": "chi-2022-suzuki.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/chi-2023-dhawka.json": {
+      "date": "2023-04",
+      "title": "We are the Data: Challenges and Opportunities for Creating Demographically Diverse Anthropographics",
+      "authors": [
+        "Priya Dhawka",
+        "Helen Ai He",
+        "Wesley Willett"
+      ],
+      "series": "CHI 2023",
+      "doi": "https://doi.org/10.1145/3544548.3581086",
+      "keywords": "anthropographics, demographic data, diversity, marginalized populations",
+      "video": "https://www.youtube.com/watch?v=iBzv2jS3ECM",
+      "pages": 14,
+      "abstract": "Anthropographics are human-shaped visualizations that aim to emphasize the human importance of datasets and the people behind them. However, current anthropographics tend to employ homogeneous human shapes to encode data about diverse demographic groups. Such anthropographics can obscure important differences between groups and contemporary designs exemplify the lack of inclusive approaches for representing human diversity in visualizations. In response, we explore the creation of demographically diverse anthropographics that communicate the visible diversity of demographically distinct populations. Building on previous anthropographics research, we explore strategies for visualizing datasets about people in ways that explicitly encode diversity—illustrating these approaches with examples in a variety of visual styles. We also critically reflect on strategies for creating diverse anthropographics, identifying social and technical challenges that can result in harmful representations. Finally, we highlight a set of forward-looking research opportunities for advancing the design and understanding of diverse anthropographics.",
+      "dir": "content/output/publications",
+      "base": "chi-2023-dhawka.json",
+      "ext": ".json",
+      "sourceBase": "chi-2023-dhawka.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/chi-2023-faridan.json": {
       "date": "2023-04",
       "title": "ChameleonControl: Teleoperating Real Human Surrogates through Mixed Reality Gestural Guidance for Remote Hands-on Classrooms",
@@ -2990,6 +3041,26 @@
       "base": "dis-2021-wannamaker.json",
       "ext": ".json",
       "sourceBase": "dis-2021-wannamaker.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/dis-2023-li.json": {
+      "date": "2023-07",
+      "title": "Physica: Interactive Tangible Physics Simulation based on Tabletop Mobile Robots Towards Explorable Physics Education",
+      "authors": [
+        "Jiatong Li",
+        "Ryo Suzuki",
+        "Ken Nakagaki"
+      ],
+      "series": "DIS 2023",
+      "doi": "https://doi.org/10.1145/3526113.3545626",
+      "keywords": "physics simulation, actuated tangible ui, swarm ui",
+      "video": "https://www.youtube.com/watch?v=7DKpq52282g",
+      "pages": 15,
+      "abstract": "In this paper, we introduce Physica, a tangible physics simulation system and approach based on tabletop mobile robots. In Physica, each tabletop robot can physically represent distinct simulated objects that are controlled through an underlying physics simulation, such as gravitational force, molecular movement, and spring force. It aims to bring the benefits of tangible and haptic interaction into explorable physics learning, which was traditionally only available on screen-based interfaces. The system utilizes off-the-shelf mobile robots (Sony Toio) and an open-source physics simulation tool (Teilchen). Built on top of them, we implement the interaction software pipeline that consists of 1) an event detector to reflect tangible interaction by users, and 2) target speed control to minimize the gap between the robot motion and simulated moving objects. To present the potential for physics education, we demonstrate various application scenarios that illustrate different forms of learning using Physica. In our user study, we investigate the effect and the potential of our approach through a perception study and interviews with physics educators.",
+      "dir": "content/output/publications",
+      "base": "dis-2023-li.json",
+      "ext": ".json",
+      "sourceBase": "dis-2023-li.yaml",
       "sourceExt": ".yaml"
     },
     "content/output/publications/frobt-2022-suzuki.json": {
@@ -3819,6 +3890,70 @@
       "sourceBase": "uist-2022-nittala.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/publications/uist-2023-chulpongsatorn.json": {
+      "date": "2023-11",
+      "title": "Augmented Math: Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks",
+      "authors": [
+        "Neil Chulpongsatorn",
+        "Mille Skovhus Lunding",
+        "Nishan Soni",
+        "Ryo Suzuki"
+      ],
+      "series": "UIST 2023",
+      "doi": "https://doi.org/10.1145/3586183.3606827",
+      "keywords": "augmented reality, explorable explanations, interactive paper, augmented textbook, authoring interfaces",
+      "video": "https://www.youtube.com/watch?v=Zv6JQ5T-qn0",
+      "pages": 16,
+      "abstract": "We introduce Augmented Math, a machine learning-based approach to authoring AR explorable explanations by augmenting static math textbooks without programming. To augment a static document, our system first extracts mathematical formulas and figures from a given document using optical character recognition (OCR) and computer vision. By binding and manipulating these extracted contents, the user can see the interactive animation overlaid onto the document through mobile AR interfaces. This empowers non-technical users, such as teachers or students, to transform existing math textbooks and handouts into on-demand and personalized explorable explanations. To design our system, we first analyzed existing explorable math explanations to identify common design strategies. Based on the findings, we developed a set of augmentation techniques that can be automatically generated based on the extracted content, which are 1) dynamic values, 2) interactive figures, 3) relationship highlights, 4) concrete examples, and 5) step-by-step hints. To evaluate our system, we conduct two user studies: preliminary user testing and expert interviews. The study results confirm that our system allows more engaging experiences for learning math concepts.",
+      "dir": "content/output/publications",
+      "base": "uist-2023-chulpongsatorn.json",
+      "ext": ".json",
+      "sourceBase": "uist-2023-chulpongsatorn.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2023-ihara.json": {
+      "date": "2023-10",
+      "title": "HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
+      "authors": [
+        "Keiichi Ihara",
+        "Mehrad Faridan",
+        "Ayumi Ichikawa",
+        "Ikkaku Kawaguchi",
+        "Ryo Suzuki"
+      ],
+      "series": "UIST 2023",
+      "doi": "https://doi.org/10.1145/3586183.3606727",
+      "keywords": "mixed reality, remote collaboration, physical telepresence, mobile robots, actuated tangible ui",
+      "video": "https://www.youtube.com/watch?v=KSBPtiXy8Hg",
+      "pages": 12,
+      "abstract": "This paper introduces HoloBots, a mixed reality remote collaboration system that augments holographic telepresence with synchronized mobile robots. Beyond existing mixed reality telepresence, HoloBots lets remote users not only be visually and spatially present, but also physically engage with local users and their environment. HoloBots allows the users to touch, grasp, manipulate, and interact with the remote physical environment as if they were co-located in the same shared space. We achieve this by synchronizing holographic user motion (Hololens 2 and Azure Kinect) with tabletop mobile robots (Sony Toio). Beyond the existing physical telepresence, HoloBots contributes to an exploration of broader design space, such as object actuation, virtual hand physicalization, world-in-miniature exploration, shared tangible interfaces, embodied guidance, and haptic communication. We evaluate our system with twelve participants by comparing it with hologram-only and robot-only conditions. Both quantitative and qualitative results confirm that our system significantly enhances the level of co-presence and shared experience, compared to the other conditions.",
+      "dir": "content/output/publications",
+      "base": "uist-2023-ihara.json",
+      "ext": ".json",
+      "sourceBase": "uist-2023-ihara.yaml",
+      "sourceExt": ".yaml"
+    },
+    "content/output/publications/uist-2023-xia.json": {
+      "date": "2023-10",
+      "title": "RealityCanvas: Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects",
+      "authors": [
+        "Zhijie Xia",
+        "Kyzyl Monteiro",
+        "Kevin Van",
+        "Ryo Suzuki"
+      ],
+      "series": "UIST 2023",
+      "doi": "https://doi.org/10.1145/3586183.3606716",
+      "keywords": "sketching interfaces, scribble animation, augmented reality, mixed reality, real-time authoring",
+      "video": "https://www.youtube.com/watch?v=HVOgH1quDsc",
+      "pages": 14,
+      "abstract": "We introduce RealityCanvas, a mobile AR sketching tool that can easily augment real-world physical motion with responsive hand-drawn animation. Recent research in AR sketching tools has enabled users to not only embed static drawings into the real world but also dynamically animate them with physical motion. However, existing tools often lack the flexibility and expressiveness of possible animations, as they primarily support simple line-based geometry. To address this limitation, we explore both expressive and improvisational AR sketched animation by introducing a set of responsive scribble animation techniques that can be directly embedded through sketching interactions: 1) object binding, 2) flip-book animation, 3) action trigger, 4) particle effects, 5) motion trajectory, and 6) contour highlight. These six animation effects were derived from the analysis of 172 existing video-edited scribble animations. We showcase these techniques through various applications, such as video creation, augmented education, storytelling, and AR prototyping. The results of our user study and expert interviews confirm that our tool can lower the barrier to creating AR-based sketched animation, while allowing creative, expressive, and improvisational AR sketching experiences.",
+      "dir": "content/output/publications",
+      "base": "uist-2023-xia.json",
+      "ext": ".json",
+      "sourceBase": "uist-2023-xia.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/publications/uist-sic-2022-faridan.json": {
       "date": "2022-10",
       "title": "UltraBots: Large-Area Mid-Air Haptics for VR with Robotically Actuated Ultrasound Transducers",
@@ -4229,6 +4364,7 @@
     "content/people/micheal-rounding.yaml",
     "content/people/mille-skovhus-lunding.yaml",
     "content/people/muhammad-mahian.yaml",
+    "content/people/nandi-zhang.yaml",
     "content/people/nathalie-bressa.yaml",
     "content/people/neil-chulpongsatorn.yaml",
     "content/people/nelson-wong.yaml",
@@ -4307,6 +4443,7 @@
     "content/publications/chi-2022-ivanov.yaml",
     "content/publications/chi-2022-nittala.yaml",
     "content/publications/chi-2022-suzuki.yaml",
+    "content/publications/chi-2023-dhawka.yaml",
     "content/publications/chi-2023-faridan.yaml",
     "content/publications/chi-2023-monteiro.yaml",
     "content/publications/chi-ea-2022-blair.yaml",
@@ -4329,6 +4466,7 @@
     "content/publications/dis-2021-asha.yaml",
     "content/publications/dis-2021-blair.yaml",
     "content/publications/dis-2021-wannamaker.yaml",
+    "content/publications/dis-2023-li.yaml",
     "content/publications/frobt-2022-suzuki.yaml",
     "content/publications/gecco-2022-ivanov.yaml",
     "content/publications/gi-2020-rajabiyazdi.yaml",
@@ -4367,6 +4505,9 @@
     "content/publications/uist-2022-liao.yaml",
     "content/publications/uist-2022-nisser.yaml",
     "content/publications/uist-2022-nittala.yaml",
+    "content/publications/uist-2023-chulpongsatorn.yaml",
+    "content/publications/uist-2023-ihara.yaml",
+    "content/publications/uist-2023-xia.yaml",
     "content/publications/uist-sic-2022-faridan.yaml",
     "content/publications/vr-2019-satriadi.yaml",
     "content/seminar.yaml",

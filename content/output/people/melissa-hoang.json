@@ -1,6 +1,7 @@
 {
   "name": "Melissa Hoang",
-  "type": "undergrad",
+  "type": "alumni",
+  "past": "undergrad",
   "email": "melissa.hoang@ucalgary.ca",
   "linkedin": "https://www.linkedin.com/in/melissa-e-hoang/",
   "dir": "content/output/people",

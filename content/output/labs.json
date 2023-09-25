@@ -30,6 +30,12 @@
     "url": "https://helenaihe.com/research/"
   },
   {
+    "id": "diff_lab",
+    "description": "Integrating of Interactive Computing into Everyday Environments",
+    "prof": "Aditya Shekhar Nittala",
+    "url": "https://sites.google.com/site/adityanittala/"
+  },
+  {
     "id": "grouplab",
     "description": "Research in HCI, CSCW, and UbiComp",
     "prof": "Saul Greenberg (Emeritus)",
@@ -38,7 +44,7 @@
   {
     "id": "ricelab",
     "description": "Rethinking Interaction, Collaboration, & Engagement",
-    "prof": "Anthony Tang (Adjunct - University of Toronto)",
+    "prof": "Anthony Tang (Adjunct - Singapore Management University)",
     "url": "https://ricelab.github.io/"
   },
   {

@@ -1,0 +1,20 @@
+{
+  "date": "2023-04",
+  "title": "We are the Data: Challenges and Opportunities for Creating Demographically Diverse Anthropographics",
+  "authors": [
+    "Priya Dhawka",
+    "Helen Ai He",
+    "Wesley Willett"
+  ],
+  "series": "CHI 2023",
+  "doi": "https://doi.org/10.1145/3544548.3581086",
+  "keywords": "anthropographics, demographic data, diversity, marginalized populations",
+  "video": "https://www.youtube.com/watch?v=iBzv2jS3ECM",
+  "pages": 14,
+  "abstract": "Anthropographics are human-shaped visualizations that aim to emphasize the human importance of datasets and the people behind them. However, current anthropographics tend to employ homogeneous human shapes to encode data about diverse demographic groups. Such anthropographics can obscure important differences between groups and contemporary designs exemplify the lack of inclusive approaches for representing human diversity in visualizations. In response, we explore the creation of demographically diverse anthropographics that communicate the visible diversity of demographically distinct populations. Building on previous anthropographics research, we explore strategies for visualizing datasets about people in ways that explicitly encode diversity—illustrating these approaches with examples in a variety of visual styles. We also critically reflect on strategies for creating diverse anthropographics, identifying social and technical challenges that can result in harmful representations. Finally, we highlight a set of forward-looking research opportunities for advancing the design and understanding of diverse anthropographics.",
+  "dir": "content/output/publications",
+  "base": "chi-2023-dhawka.json",
+  "ext": ".json",
+  "sourceBase": "chi-2023-dhawka.yaml",
+  "sourceExt": ".yaml"
+}
