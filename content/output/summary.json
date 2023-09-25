@@ -566,8 +566,7 @@
     },
     "content/output/people/christopher-smith.json": {
       "name": "Christopher Smith",
-      "type": "master",
-      "url": "https://sites.google.com/cse.uiu.ac.bd/ashratuzzavinasha",
+      "type": "phd",
       "linkedin": "https://www.linkedin.com/in/christopher-smith-uofc/",
       "dir": "content/output/people",
       "base": "christopher-smith.json",
@@ -1433,8 +1432,8 @@
       "title": "Assistant Professor",
       "keywords": [
         "Tangible",
-        "Robots",
-        "AR/VR"
+        "AR x AI",
+        "Robots"
       ],
       "order": 4,
       "url": "https://ryosuzuki.org",
@@ -3912,7 +3911,7 @@
       "sourceExt": ".yaml"
     },
     "content/output/publications/uist-2023-ihara.json": {
-      "date": "2023-10",
+      "date": "2023-11",
       "title": "HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
       "authors": [
         "Keiichi Ihara",
@@ -3934,7 +3933,7 @@
       "sourceExt": ".yaml"
     },
     "content/output/publications/uist-2023-xia.json": {
-      "date": "2023-10",
+      "date": "2023-11",
       "title": "RealityCanvas: Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects",
       "authors": [
         "Zhijie Xia",
@@ -3966,6 +3965,7 @@
       "doi": "https://doi.org/10.1145/3526114.3561350",
       "keywords": "Virtual Reality, Haptics, Ultrasound Transducers, Robotics",
       "award": "Honorable Mention",
+      "video": "https://www.youtube.com/watch?v=jMYAQzzQ_PI",
       "pages": 3,
       "abstract": "We introduce UltraBots, a system that combines ultrasound haptic feedback and robotic actuation for large-area mid-air haptics for VR. Ultrasound haptics can provide precise mid-air haptic feedback and versatile shape rendering, but the interaction area is often limited by the small size of the ultrasound devices, restricting the possible interactions for VR. To address this problem, this paper introduces a novel approach that combines robotic actuation with ultrasound haptics. More specifically, we will attach ultrasound transducer arrays to tabletop mobile robots or robotic arms for scalable, extendable, and translatable interaction areas. We plan to use Sony Toio robots for 2D translation and/or commercially available robotic arms for 3D translation. Using robotic actuation and hand tracking measured by a VR HMD (ex: Oculus Quest), our system can keep the ultrasound transducers underneath the user’s hands to provide on-demand haptics. We demonstrate applications with workspace environments, medical training, education and entertainment.",
       "dir": "content/output/publications",
