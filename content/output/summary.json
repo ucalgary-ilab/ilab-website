@@ -574,6 +574,16 @@
       "sourceBase": "christopher-smith.yaml",
       "sourceExt": ".yaml"
     },
+    "content/output/people/clara-xi.json": {
+      "name": "Clara Xi",
+      "type": "master",
+      "email": "clara.xi@ucalgary.ca",
+      "dir": "content/output/people",
+      "base": "clara-xi.json",
+      "ext": ".json",
+      "sourceBase": "clara-xi.yaml",
+      "sourceExt": ".yaml"
+    },
     "content/output/people/colin-auyeung.json": {
       "name": "Colin Au Yeung",
       "type": "master",
@@ -4310,6 +4320,7 @@
     "content/people/christian-frisson.yaml",
     "content/people/christopher-rodriguez.yaml",
     "content/people/christopher-smith.yaml",
+    "content/people/clara-xi.yaml",
     "content/people/colin-auyeung.yaml",
     "content/people/dane-bertram.yaml",
     "content/people/darcy-norman.yaml",
