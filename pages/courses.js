@@ -50,6 +50,12 @@ class Courses extends React.Component {
                 <td>CPSC 599</td>
                 <td>Special Topics in Computer Science (Physical & Tangible HCI)</td>
               </tr>
+
+              <tr>
+                <td>CPSC 599</td>
+                <td>Special Topics in Computer Science (Werables & Haptics)</td>
+              </tr>
+
               <tr>
                 <td>CPSC 599</td>
                 <td>Special Topics in Computer Science (Design of Mixed Reality App)</td>
