@@ -53,7 +53,7 @@ class Courses extends React.Component {
 
               <tr>
                 <td>CPSC 599</td>
-                <td>Special Topics in Computer Science (Werables & Haptics)</td>
+                <td>Special Topics in Computer Science (Wearables & Haptics)</td>
               </tr>
 
               <tr>
@@ -62,7 +62,7 @@ class Courses extends React.Component {
               </tr>
               <tr>
                 <td>CPSC 601</td>
-                <td>Special Topics in Computer Science (Tangible and Physical HCI)</td>
+                <td>Special Topics in Computer Science (Epidermal Computing)</td>
               </tr>
               <tr>
                 <td>DATA 601</td>
