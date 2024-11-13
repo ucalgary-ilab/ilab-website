@@ -1,0 +1,11 @@
+date: 2024-07
+title: "Understanding Gesture and Microgesture Inputs for Augmented Reality Maps"
+authors:
+  - Kurtis Danyluk
+  - Simon Klueber
+  - Aditya Shekhar Nittala
+  - Wesley Willett
+series: DIS 2024
+doi: https://doi.org/10.1145/3643834.3661630
+keywords: gestural input, microgestures, AR, maps
+abstract: "We explore the potential for subtle on-hand gesture and microgesture interactions for map navigation with augmented reality (AR) devices. We describe a design exercise and follow-up elicitation study in which we identified on-hand gestures for cartographic interaction primitives. Microgestures and on-hand interactions are a promising space for AR map navigation as they offers always-available, tactile, and memorable spaces for interaction. Our findings show a clear set of microgesture interaction patterns that are well suited for supporting map navigation and manipulation. In particular, we highlight how the properties of various microgestures align with particular cartographic interaction tasks. We also describe our experience creating an exploratory proof-of-concept AR map prototype which helped us identify new opportunities and practical challenges for microgesture control. Finally, we discuss how future AR map systems could benefit from on-hand and microgesture input schemes."
