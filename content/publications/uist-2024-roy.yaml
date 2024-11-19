@@ -1,0 +1,14 @@
+date: 2024-10
+title: "HoloChemie - Sustainable Fabrication of Soft Biochemical Holographic Devices for Ubiquitous Sensing"
+Authors: 
+  - Sutirtha Roy
+  - Moshfiq-Us-Saleheen Chowdhury
+  - Jurjaan Onayza Noim
+  - Richa Pandey
+  - Aditya Shekhar Nittala
+Series: UIST 2024
+doi: https://doi.org/10.1145/3654777.3676448
+keywords: Epidermal Devices, Wearables, Physiological Sensing, Biochemical devices Sensing
+Pages: 19
+video: https://www.youtube.com/watch?v=0FrYD1xInNs
+abstract: "Sustainable fabrication approaches and biomaterials are increasingly being used in HCI to fabricate interactive devices. However, the majority of the work has focused on integrating electronics. This paper takes a sustainable approach to exploring the fabrication of biochemical sensing devices. Firstly, we contribute a set of biochemical formulations for biological and environmental sensing with bio-sourced and environment-friendly substrate materials. Our formulations are based on a combination of enzymes derived from bacteria and fungi, plant extracts and commercially available chemicals to sense both liquid and gaseous analytes: glucose, lactic acid, pH levels and carbon dioxide. Our novel holographic sensing scheme allows for detecting the presence of analytes and enables quantitative estimation of the analyte levels. We present a set of application scenarios that demonstrate the versatility of our approach and discuss the sustainability aspects, its limitations, and the implications for bio-chemical systems in HCI."
