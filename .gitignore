@@ -2,6 +2,8 @@
 **/.DS_Store
 **/**/.DS_Store
 
+.vs
+
 out
 log
 
@@ -66,3 +68,15 @@ typings/
 
 # next.js build output
 .next
+_next
+
+# Generated files
+content/output/
+courses/
+facility/
+location/
+news/
+people/
+publications/
+seminar/
+index.html
