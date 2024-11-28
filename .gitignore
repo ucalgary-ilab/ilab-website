@@ -71,12 +71,12 @@ typings/
 _next
 
 # Generated files
-content/output/
-courses/
-facility/
-location/
-news/
-people/
-publications/
-seminar/
-index.html
+/content/output/
+/courses/
+/facility/
+/location/
+/news/
+/people/
+/publications/
+/seminar/
+/index.html
